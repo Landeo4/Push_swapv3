@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 14:17:46 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/03 09:20:12 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/04 20:00:14 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_algo_manager(t_struct *data, int len)
 	if (len > 4 && len <= 10)
 		ft_algo_10_manager(data);
 	if (len > 10 && len <= 100)
-		ft_algo_100_manager(data);
+		ft_algo_100_manager(data, len);
 }
 
 void	ft_algo_4_manager(t_struct *data)

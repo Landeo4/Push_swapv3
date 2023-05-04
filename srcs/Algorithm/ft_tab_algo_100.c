@@ -6,11 +6,32 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/02 09:01:47 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/04 20:11:31 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+//voir idee sur cailler
+// la somme est good
+int ft_somme_algo_100(t_struct *data, int argc)
+{
+	t_list_a	*la;
+	int			somme;
+
+	argc--;
+	la = data->la->next;
+	somme = 0;
+	while (la)
+	{
+		somme += la->num;
+		la = la->next;
+	}
+	somme = somme / argc;
+	ft_printf("\nsomme egale %d\n", somme);
+	return (somme);
+}
+
 /*
 ce que je pense faire c'est cree un tableau 
 qui sera exactement comme ma liste
