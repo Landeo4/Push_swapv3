@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/04 20:06:41 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/05 14:44:23 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@
 
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
-	int	moyen;
+	int	moyenne;
 
-	moyen = ft_somme_algo_100(data, argc);
-	ft_take_25_algo100(data, moyen);
+	moyenne = ft_somme_algo_100(data, argc);
+	ft_take_25_algo100(data, moyenne);
 }
 
 //Créer une nouvelle liste chaînée vide, qui sera la liste triée.
@@ -38,21 +38,23 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
 
 // recup plusieurs chiffre a mettre dans le b
-void	ft_take_25_algo100(t_struct *data, int moyen)
+void	ft_take_25_algo100(t_struct *data, int moyenne)
 {
-	int	len;
-	t_list_a *la;
+	int			len;
+	t_list_a	*la;
 
 	la = data->la->next;
+	ft_printf("\nla = %d", la->next->num);
 	len = ft_len_lista(data);
 	len = len / 4;
-	ft_printf("len = %d", len);
-	moyen = moyen / 2;
+	moyenne = moyenne / 2;
+	ft_printf("moyenne = %d", moyenne);
 	while (la && len > 0)
 	{
-		if (la->next->num < moyen)
+		if (la->num < moyenne)
 			pb(data);
 		la = la->next;
+		ft_printf("\nlen = %d", len);
 		len--;
 	}
 }

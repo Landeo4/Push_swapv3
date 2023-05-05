@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/04 20:06:00 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/05 14:37:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -201,7 +201,7 @@ int			*ft_tri_100(int	*tmp, t_struct *data);
 void		push_swap(t_list_a *data);
 void		ft_error(void);
 int			*ft_essaie(int *tmp, t_struct *data, int *tab);
-void		ft_take_25_algo100(t_struct *data, int moyen);
+void		ft_take_25_algo100(t_struct *data, int moyenne);
 int			ft_get_100_25(t_struct *data);
 int			ft_get_cpt_100(t_struct *data);
 bool		ft_100_check(t_struct *data, int len);

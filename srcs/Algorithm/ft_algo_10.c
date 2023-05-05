@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 12:16:43 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/27 14:55:40 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/05 14:36:32 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ void	ft_algo_10(t_struct *data)
 	i = 0;
 	pos = ft_found_pos_little(data);
 	num = ft_found_little(data);
+	la = data->la->next;
 	while (i < pos)
 	{
 		i++;
