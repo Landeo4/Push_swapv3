@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/05/05 14:38:26 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/05 16:50:44 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -256,7 +256,6 @@ int main(int argc, char **argv)
 	ft_printf("\nla position vaut bien a la fin %d", pos);*/
 	//ft_algo_100_manager(&data);
 	//ft_printf("ypo");
-	(void)argc;
 	ft_printf("\nliste a =");
 	ft_print_lista(&data);
 	ft_printf("\nliste b =");
