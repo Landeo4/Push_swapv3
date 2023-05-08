@@ -6,13 +6,13 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 18:20:00 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 18:06:10 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/08 16:20:26 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_addata(t_struct *data, int nb, int pos)
+t_list_a	*ft_addata(t_struct *data, int nb, int pos)
 {
 	t_list_a	*prec;
 	t_list_a	*cur;
@@ -23,15 +23,11 @@ void	ft_addata(t_struct *data, int nb, int pos)
 	prec = data->la;
 	cur = data->la;
 	if (data->la == NULL)
-	{
-		data->la = cell;
-		free(cell);
-	}
+		return (cell);
 	if (pos == 0)
 	{
 		cell->next = data->la;
-		data->la = cell;
-		free(cell);
+		return (cell);
 	}
 	i = 0;
 	while (i < pos)
@@ -42,9 +38,10 @@ void	ft_addata(t_struct *data, int nb, int pos)
 	}
 	prec->next = cell;
 	cell->next = cur;
+	return (data->la);
 }
 
-void	ft_addatb(t_struct *data, int nb, int pos)
+t_list_b	*ft_addatb(t_struct *data, int nb, int pos)
 {
 	t_list_b	*prec;
 	t_list_b	*cur;
@@ -55,15 +52,11 @@ void	ft_addatb(t_struct *data, int nb, int pos)
 	prec = data->lb;
 	cur = data->lb;
 	if (data->lb == NULL)
-	{
-		data->lb = cell;
-		free(cell);
-	}
+		return (cell);
 	if (pos == 0)
 	{
 		cell->next = data->lb;
-		data->lb = cell;
-		free(cell);
+		return (cell);
 	}
 	i = 0;
 	while (i < pos)
@@ -74,4 +67,5 @@ void	ft_addatb(t_struct *data, int nb, int pos)
 	}
 	prec->next = cell;
 	cell->next = cur;
+	return (data->lb);
 }

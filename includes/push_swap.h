@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/05 16:48:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/08 22:39:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ typedef struct s_struct
 
 t_list_a	*ft_createcell_a(int nb);
 t_list_a	*ft_first_la(t_struct *data);
-void		ft_addata(t_struct *data, int nb, int pos);
+t_list_a	*ft_addata(t_struct *data, int nb, int pos);
 int			ft_print_lista(t_struct *data);
 void		ft_free_lista(t_struct *data);
 int			ft_len_lista(t_struct *data);
@@ -82,7 +82,7 @@ t_struct	*ft_init_struct(t_struct *data);
 
 t_list_b	*ft_createcell_b(int nb);
 t_list_b	*ft_first_lb(t_struct *data);
-void		ft_addatb(t_struct *data, int nb, int pos);
+t_list_b	*ft_addatb(t_struct *data, int nb, int pos);
 int			ft_print_listb(t_struct *data);
 void		ft_free_listb(t_struct *data);
 int			ft_len_listb(t_struct *data);
@@ -141,16 +141,16 @@ int			ft_parsing_manager_sup(char **argv);
 //								actions
 // =======================================================================
 
-t_list_a	*sa(t_list_a *la);
-t_list_b	*sb(t_list_b *lb);
-void		ss(t_struct *data);
-void		pa(t_struct *data);
-void		pb(t_struct *data);
-t_list_a	*ft_change_pos_a(t_list_a *la);
-void		ra(t_struct *data);
-void		rb(t_struct *data);
-void		rra(t_struct *data);
-void		rrb(t_struct *data);
+t_list_a		*sa(t_list_a *la);
+t_list_b		*sb(t_list_b *lb);
+t_struct		*ss(t_struct *data);
+t_list_a		*pb(t_struct *data);
+t_list_b		*pa(t_struct *data);
+t_list_a		*ft_change_pos_a(t_list_a *la);
+t_list_a		*ra(t_struct *data);
+t_list_b		*rb(t_struct *data);
+t_list_a		*rra(t_struct *data);
+t_list_b		*rrb(t_struct *data);
 
 // =======================================================================
 //								algo
@@ -197,7 +197,6 @@ int			*ft_100_tab(t_list_a *la, t_struct *data);
 int			*ft_100_tab_manager(t_struct *data);
 int			*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data);
 bool		ft_tab_checker(int *tmp, t_struct *data);
-int			*ft_tri_100(int	*tmp, t_struct *data);
 void		push_swap(t_list_a *data);
 void		ft_error(void);
 int			*ft_essaie(int *tmp, t_struct *data, int *tab);
@@ -205,10 +204,16 @@ void		ft_take_25_algo100(t_struct *data, int moyenne);
 int			ft_get_100_25(t_struct *data);
 int			ft_get_cpt_100(t_struct *data);
 bool		ft_100_check(t_struct *data, int len);
-void		ft_trie_25_algo_100(t_struct *data, t_list_b *lb);
 void		ft_trie_50_algo_100(t_struct *data, t_list_a *la);
 int			ft_search_min25_100(t_struct *data, t_list_b *lb);
 int			ft_get_min_100_25(t_struct *data, int len);
 int 		ft_somme_algo_100(t_struct *data, int argc);
+void		ft_tri_25_algo100(t_struct *data);
+bool		ft_verif_25(t_struct *data, int len);
+void		ft_algo_100_helper(t_struct *data);
+void		ft_tri_100(t_list_b *lb, t_struct *data);
+void		ft_100_action(t_list_b *tmp, t_struct *data);
+int			ft_found_pos_little_100(t_struct *data);
+int			ft_found_little_100(t_struct *data);
 
 #endif

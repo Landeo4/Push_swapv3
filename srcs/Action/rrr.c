@@ -6,15 +6,16 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 16:00:20 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/24 09:39:38 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/07 19:28:07 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	rrr(t_struct *data)
+t_struct	*rrr(t_struct *data)
 {
 	rra(data);
 	rrb(data);
 	ft_printf("\nrrr");
+	return (data);
 }

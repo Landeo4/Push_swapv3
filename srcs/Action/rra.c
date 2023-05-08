@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 13:03:36 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 18:08:43 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/08 15:56:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 ** the first become the last
 */
 
-void	rra(t_struct *data)
+t_list_a	*rra(t_struct *data)
 {
 	t_list_a	*tmp;
 	int			i;
@@ -40,7 +40,8 @@ void	rra(t_struct *data)
 	}
 	recup = tmp->num;
 	tmp = data->la;
-	ft_freeata(data, i);
+	data->la = ft_freeata(data, i);
 	ft_addata(data, recup, 1);
 	ft_printf("\nrra");
+	return (tmp);
 }

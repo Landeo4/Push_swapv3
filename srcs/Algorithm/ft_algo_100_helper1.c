@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tab_algo_100.c                                  :+:      :+:    :+:   */
+/*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/04 20:11:31 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/08 22:17:23 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int ft_somme_algo_100(t_struct *data, int argc)
 		la = la->next;
 	}
 	somme = somme / argc;
-	ft_printf("\nsomme egale %d\n", somme);
 	return (somme);
 }
 
@@ -77,15 +76,15 @@ int	*ft_100_tab(t_list_a *la, t_struct *data)
 	tab = malloc(sizeof(int) * ft_len_lista(data));
 	if (tab == NULL)
 		return (0);
-	ft_printf("\n----debut des valeurs du tableau----");
+	("\n----debut des valeurs du tableau----");
 	while (la)
 	{
 		tab[i] = la->num;
-		ft_printf("\n%i", tab[i]);
+		("\n%i", tab[i]);
 		i++;
 		la = la->next;
 	}
-	ft_printf("\n----fin des valeurs du tableau----");
+	("\n----fin des valeurs du tableau----");
 	return (tab);
 }
 
@@ -102,7 +101,7 @@ int	*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data)
 	{
 		if (tab[i] >= 10)
 			tmp[i] %= 10;
-		//ft_printf("\nle nouveau modulo est de (%d)%d", tab[i], tmp[i]);
+		//("\nle nouveau modulo est de (%d)%d", tab[i], tmp[i]);
 		len--;
 		i++;
 	}
@@ -111,7 +110,7 @@ int	*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data)
 	len = ft_len_lista(data);
 	while (i < len)
 	{
-		ft_printf("\nle tableau au complet = (%d)%d",tab[i], tmp[i]);
+		("\nle tableau au complet = (%d)%d",tab[i], tmp[i]);
 		i++;
 	}
 	//tmp = ft_essaie(tmp, data, tab);
@@ -142,7 +141,7 @@ int	*ft_tri_100(int	*tmp, t_struct *data)
 			}
 			i++;
 			j++;
-			//ft_printf("\nla valeur est %d et i = %d", tmp[i], i);
+			//("\nla valeur est %d et i = %d", tmp[i], i);
 		}
 		size = ft_len_lista(data);
 		i = 0;
@@ -200,10 +199,10 @@ int		*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data)
 	i = 0;
 	while (len != 0)
 	{
-		//ft_printf("\navant le modulo = %d", tmp[i]);
+		//("\navant le modulo = %d", tmp[i]);
 		if (tab[i] >= 10)
 			tmp[i] %= 10;
-		//ft_printf(" ->  %d", tmp[i]);
+		//(" ->  %d", tmp[i]);
 		i++;
 		len--;
 	}
@@ -215,7 +214,7 @@ int		*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data)
 		{
 			tmp = ft_swap(tmp, i, (i + 1));
 			i++;
-			ft_printf("\napres le swap %d", tmp[i]);
+			("\napres le swap %d", tmp[i]);
 			i++;
 		}
 		i = 0;
@@ -223,7 +222,7 @@ int		*ft_get_first_unit(int *tab, t_list_a *la, t_struct *data)
 	i = 0;
 	while (len)
 	{
-		ft_printf("\nle tableau au complet = %d", tmp[i]);
+		("\nle tableau au complet = %d", tmp[i]);
 		len--;
 		i++;
 	}

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/05 17:09:29 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/08 22:31:00 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,9 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyenne;
 
-	//ft_printf("la est egale a %d", la->num);
 	moyenne = ft_somme_algo_100(data, argc);
 	ft_take_25_algo100(data, moyenne);
+	ft_algo_100_helper(data);
 }
 
 //Créer une nouvelle liste chaînée vide, qui sera la liste triée.
@@ -39,29 +39,100 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
 
 // recup plusieurs chiffre a mettre dans le b
+/*
 void	ft_take_25_algo100(t_struct *data, int moyenne)
 {
 	int			len;
 	t_list_a	*tmp;
 
 	tmp = data->la->next;
-	ft_printf("la est egale a %d", tmp->num);
-	//ft_printf("\nla = %d", la);
 	len = ft_len_lista(data);
 	len = len / 4;
+	len += 4;
+	ft_printf("len = %d\n", len);
 	moyenne = moyenne / 2;
-	ft_printf("moyenne = %d", moyenne);
-	tmp = tmp->next;
-	while (tmp && len > 0)
+	if (tmp->num < moyenne)
+		tmp = pb(data);
+	while (len > 0)
 	{
-		if (tmp->num < moyenne)
-			pb(data);
-		ft_printf("\n avant le prochain maillon la est egale a %d", tmp->num);
-		tmp = tmp->next;
-		ft_printf("\napres le maillon la est egale a %d", tmp->num);
-		ft_printf("\nlen = %d", len);
+		tmp = ra(data);
+		tmp = data->la->next;
+		while (tmp->num < moyenne)
+		{
+			ft_printf("debut de la boucle pb");
+			ft_print_listb(data);
+			len--;
+			tmp = pb(data);
+			tmp = data->la->next;
+		}
 		len--;
 	}
+}
+*/
+
+void	ft_take_25_algo100(t_struct *data, int moyenne)
+{
+	int			len;
+	t_list_a	*tmp;
+
+	tmp = data->la->next;
+	len = ft_len_lista(data);
+	len = len / 4;
+	len += 3;
+	ft_printf("len = %d\n", len);
+	moyenne = moyenne / 2;
+	if (tmp->num < moyenne)
+		tmp = pb(data);
+	while (len > 0)
+	{
+		tmp = ra(data);
+		tmp = data->la->next;
+		while (tmp->num < moyenne)
+		{
+			len--;
+			tmp = pb(data);
+			tmp = data->la->next;
+		}
+		len--;
+	}
+}
+
+void	ft_tri_25_algo100(t_struct *data)
+{
+	t_list_b	*lb;
+	int			len;
+
+	len = ft_len_listb(data);
+	lb = data->lb->next;
+	ft_printf("helllllllllo");
+	while (ft_verif_25(data, len) == 0)
+	{
+		ft_printf("hry");
+		while (lb)
+		{
+			if (lb->num > lb->next->num)
+			{
+				sb(data->lb);
+				rra(data);
+			}
+		}
+		lb = data->lb->next;
+	}
+}
+
+bool	ft_verif_25(t_struct *data, int len)
+{
+	t_list_b	*lb;
+
+	lb = data->lb->next;
+	while (lb && len > 0)
+	{
+		if (lb->num > 25)
+			return (0);
+		lb = lb->next;
+		len--;
+	}
+	return (1);
 }
 
 // cette fonction check si il y a bien des nb plus
@@ -94,7 +165,7 @@ void	ft_trie_25_algo_100(t_struct *data, t_list_b *lb)
 	while (lb)
 	{
 		ft_search_min25_100(data, lb);
-		ft_printf("YOOOOOOOOOOOOOOO");
+		("YOOOOOOOOOOOOOOO");
 		if (lb->num > lb->next->num)
 		{
 			ft_freeatb(data, )
@@ -110,14 +181,14 @@ int		ft_search_min25_100(t_struct *data, t_list_b *lb)
 	int			cpt;
 
 	nb = ft_get_min_100_25(data);
-	ft_printf("YOOOOOOOOOOOOOOO");
+	("YOOOOOOOOOOOOOOO");
 	cpt = 1;
 	while (lb->num != nb)
 	{
 		lb = lb->next;
 		cpt++;
 	}
-	ft_printf("\n cpt = %d", cpt);
+	("\n cpt = %d", cpt);
 	return (cpt);
 }
 
@@ -134,8 +205,8 @@ int	ft_get_min_100_25(t_struct *data)
 			nb = lb->num;
 		lb = lb->next;
 	}
-	ft_printf("\nnb = %d", nb);
-	ft_printf("YOOOOOOOOOOOOOOO");
+	("\nnb = %d", nb);
+	("YOOOOOOOOOOOOOOO");
 	return (nb);
 }
 
@@ -332,7 +403,7 @@ void	ft_take_25_algo100(t_struct *data)
 	{
 		while (nb != data->la->next->num)
 		{
-			ft_printf("cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
+			("cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
 			rra(data);
 		}
 		pb(data);
@@ -435,14 +506,14 @@ void	ft_take_25_algo100(t_struct *data)
 	len = len / 4;
 	cpt = ft_get_cpt_100(data);
 	nb = ft_get_min_100(data);
-	//ft_printf("\ndans ra cpt = %d et nb = %d et data = %d et len = %d la len max est %d", cpt, nb,  data->la->next->num, len, ft_len_lista(data));
+	//("\ndans ra cpt = %d et nb = %d et data = %d et len = %d la len max est %d", cpt, nb,  data->la->next->num, len, ft_len_lista(data));
 	if ((nb >= 0 && nb <= 25) || (nb > 75 && nb <= 99))
 	{
 		if (cpt < len)
 		{
 			while (nb != data->la->next->num)
 			{
-				//ft_printf("dans ra cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
+				//("dans ra cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
 				ra(data);
 			}
 			pb(data);
@@ -450,10 +521,10 @@ void	ft_take_25_algo100(t_struct *data)
 		}
 		else if (cpt > 3 * len)
 		{
-				//ft_printf("dans la deuxieme boucle %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
+				//("dans la deuxieme boucle %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
 			while (nb != data->la->next->num)
 			{
-				//ft_printf("dans rra cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
+				//("dans rra cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
 				rra(data);
 			}
 			pb(data);
@@ -554,7 +625,7 @@ void	ft_take_25_algo100(t_struct *data)
 	{
 		while (nb != data->la->next->num)
 		{
-			ft_printf("cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
+			("cpt = %d et nb = %d et data = %d", cpt, nb,  data->la->next->num);
 			rra(data);
 		}
 		pb(data);

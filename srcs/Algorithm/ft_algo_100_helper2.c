@@ -1,32 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_10.c                                       :+:      :+:    :+:   */
+/*   ft_algo_100_helper2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/18 12:16:43 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/08 16:39:52 by tpotilli         ###   ########.fr       */
+/*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
+/*   Updated: 2023/05/08 22:40:01 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-/*
-**	This function takes as parameter: 
-**
-**	data
-**	len
-**
-** =====================================================
-** =====================================================
-**
-** ft_algo_10 will sort all input under 10 except 3
-*/
-
-void	ft_algo_10(t_struct *data)
+void	ft_algo_100_helper(t_struct *data)
 {
-	t_list_a	*la;
+	t_list_b	*lb;
 	int			num;
 	int			i;
 	int			pos;
@@ -34,35 +22,28 @@ void	ft_algo_10(t_struct *data)
 	i = 0;
 	pos = ft_found_pos_little(data);
 	num = ft_found_little(data);
-	la = data->la->next;
+	lb = data->lb->next;
 	while (i < pos)
 	{
 		i++;
-		if (la->num == num)
+		if (lb->num == num)
 			break ;
-		la = la->next;
+		lb = lb->next;
 	}
-	la = data->la->next;
-	ft_tri_10(la, data);
+	lb = data->lb->next;
+	ft_tri_100(lb, data);
 }
 
-void	ft_tri_10(t_list_a *la, t_struct *data)
+void	ft_tri_100(t_list_b *lb, t_struct *data)
 {
-	while (la)
+	while (lb)
 	{
-		if (ft_len_lista(data) == 3)
-		{
-			ft_algo_3(data);
-			break ;
-		}
-		ft_10_action(la, data);
-		la = data->la->next;
+		ft_100_action(lb, data);
+		lb = data->lb->next;
 	}
-	while (ft_len_listb(data))
-		pa(data);
 }
 
-void	ft_10_action(t_list_a *tmp, t_struct *data)
+void	ft_100_action(t_list_b *tmp, t_struct *data)
 {
 	int	len;
 	int	pos;
@@ -70,7 +51,7 @@ void	ft_10_action(t_list_a *tmp, t_struct *data)
 
 	pos = ft_found_pos_little(data);
 	num = ft_found_little(data);
-	len = ft_len_lista(data);
+	len = ft_len_listb(data);
 	len = len / 2;
 	if (pos < len)
 	{
@@ -78,10 +59,9 @@ void	ft_10_action(t_list_a *tmp, t_struct *data)
 		{
 			if (tmp->num == num)
 				break ;
-			data->la = ra(data);
-			tmp = data->la->next;
+			data->lb = rb(data);
+			tmp = data->lb->next;
 		}
-		data->la = pb(data);
 	}
 	else
 	{
@@ -89,21 +69,20 @@ void	ft_10_action(t_list_a *tmp, t_struct *data)
 		{
 			if (tmp->num == num)
 				break ;
-			data->la = rra(data);
-			tmp = data->la->next;
+			data->lb = rrb(data);
+			tmp = data->lb->next;
 		}
-		data->la = pb(data);
 	}
 }
 
-int	ft_found_pos_little(t_struct *data)
+int	ft_found_pos_little_100(t_struct *data)
 {
 	int			i;
-	t_list_a	*tab;
+	t_list_b	*tab;
 	int			nb;
 
 	i = 1;
-	tab = data->la->next;
+	tab = data->lb->next;
 	nb = ft_found_little(data);
 	while (tab)
 	{
@@ -116,15 +95,15 @@ int	ft_found_pos_little(t_struct *data)
 	return (i);
 }
 
-int	ft_found_little(t_struct *data)
+int	ft_found_little_100(t_struct *data)
 {
 	int			i;
 	int			nb;
-	t_list_a	*tab;
+	t_list_b	*tab;
 
 	i = 1;
-	tab = data->la->next;
-	nb = data->la->next->num;
+	tab = data->lb->next;
+	nb = data->lb->next->num;
 	while (tab)
 	{
 		if (nb > tab->num)
