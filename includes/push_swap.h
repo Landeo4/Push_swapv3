@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/08 22:39:49 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/09 17:38:45 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,6 @@ void		ft_free_listb(t_struct *data);
 int			ft_len_listb(t_struct *data);
 int			ft_getatb(t_struct *data, int pos);
 void		ft_free_both(t_list_a *la, t_list_b *lb);
-//void		ft_freeAtb(t_struct *data, int pos);
 t_list_b	*ft_freeatb(t_struct *data, int pos);
 
 // =======================================================================
@@ -215,5 +214,6 @@ void		ft_tri_100(t_list_b *lb, t_struct *data);
 void		ft_100_action(t_list_b *tmp, t_struct *data);
 int			ft_found_pos_little_100(t_struct *data);
 int			ft_found_little_100(t_struct *data);
+bool		ft_tri_100_done(t_struct *data);
 
 #endif

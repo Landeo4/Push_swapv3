@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/08 22:17:23 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/09 17:58:21 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,23 @@ int ft_somme_algo_100(t_struct *data, int argc)
 	}
 	somme = somme / argc;
 	return (somme);
+}
+
+bool	ft_tri_100_done(t_struct *data)
+{
+	t_list_b	*lb;
+	int			len;
+
+	len = ft_len_listb(data);
+	lb = data->lb->next;
+	while (lb->next && len > 0)
+	{
+		if (lb->num < lb->next->num)
+			return (0);
+		lb = lb->next;
+		len--;
+	}
+	return (1);
 }
 
 /*

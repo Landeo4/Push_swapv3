@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/27 19:47:30 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/07 19:32:29 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/09 15:06:27 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,19 +33,17 @@ t_list_b	*rb(t_struct *data)
 	int			recup;
 	t_list_b	*tmp;
 
-	i = 0;
-	tmp = data->lb;
-	recup = data->lb->num;
+	i = 1;
+	tmp = data->lb->next;
+	recup = data->lb->next->num;
 	while (tmp->next)
 	{
-		tmp = tmp->next;
 		i++;
+		tmp = tmp->next;
 	}
-	i++;
 	tmp = data->lb;
-	ft_freeatb(data, 1);
-	ft_addatb(data, recup, i);
-	data->lb = tmp;
+	data->lb = ft_freeatb(data, 1);
+	data->lb = ft_addatb(data, recup, i);
 	ft_printf("\nrb");
-	return (tmp);
+	return (data->lb);
 }

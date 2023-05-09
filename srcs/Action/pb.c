@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 19:07:26 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/08 16:22:11 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/09 15:24:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 ** =====================================================
 ** =====================================================
 **
-** take the first element on the top of a and put it in top b
+** take the first element on the top of A and put it in top B
 ** prend le premier element au sommet de a et le met sur b.
 */
 
