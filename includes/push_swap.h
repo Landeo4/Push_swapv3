@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/09 17:38:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/10 19:43:07 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -199,7 +199,7 @@ bool		ft_tab_checker(int *tmp, t_struct *data);
 void		push_swap(t_list_a *data);
 void		ft_error(void);
 int			*ft_essaie(int *tmp, t_struct *data, int *tab);
-void		ft_take_25_algo100(t_struct *data, int moyenne);
+void		ft_take_25_algo100(t_struct *data, int compare, int little);
 int			ft_get_100_25(t_struct *data);
 int			ft_get_cpt_100(t_struct *data);
 bool		ft_100_check(t_struct *data, int len);
@@ -215,5 +215,10 @@ void		ft_100_action(t_list_b *tmp, t_struct *data);
 int			ft_found_pos_little_100(t_struct *data);
 int			ft_found_little_100(t_struct *data);
 bool		ft_tri_100_done(t_struct *data);
+int			ft_scan_chunk1_100(t_struct *data);
+int			ft_found_little_chunk5_100(t_struct *data);
+int			ft_found_pos_little_chunk1(t_struct *data);
+int			ft_found_pos_little_chunk5(t_struct *data);
+bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 
 #endif

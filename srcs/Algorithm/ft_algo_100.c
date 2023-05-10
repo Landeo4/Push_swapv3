@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/09 17:52:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/10 19:43:38 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,11 @@
 ** ft_algo_50 will sort all input under 100 except 10 and less
 */
 
-void	ft_algo_100_manager(t_struct *data, int argc)
-{
-	int			moyenne;
-
-	moyenne = ft_somme_algo_100(data, argc);
-	ft_take_25_algo100(data, moyenne);
-	ft_algo_100_helper(data);
-}
+//divise la len total par 2
+//cherche a quel endroit est le chiffre le plus petit
+// ce nb je dois ensuite check dans tous b si 
+//il est grand ou petit
+// donc on utilise rb et pb
 
 //Créer une nouvelle liste chaînée vide, qui sera la liste triée.
 //Prendre le premier élément de la liste d'origine.
@@ -38,65 +35,30 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 //dans la liste triée et en déplaçant les éléments existants pour faire de la place si nécessaire.
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
 
-// recup plusieurs chiffre a mettre dans le b
+void	ft_algo_100_manager(t_struct *data, int argc)
+{
+	//int			moyenne;
+	int			littlech1;
+	int			littlech2;
+	int			compare;
+	int			little;
+	(void)argc;
+
+	littlech1 = 0;
+	littlech2 = 0;
+	//moyenne = ft_somme_algo_100(data, argc);
+	littlech1 = ft_found_pos_little_chunk1(data);
+	littlech2 = ft_found_pos_little_chunk5(data);
+	compare = ft_compare_little(data, littlech1, littlech2);
+	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
+	little = ft_found_little_100(data);
+	ft_take_25_algo100(data, compare, little);
+	//ft_take_25_algo100(data, moyenne);
+}
+//compare le nb de coups pour les petits
+
+
 /*
-void	ft_take_25_algo100(t_struct *data, int moyenne)
-{
-	int			len;
-	t_list_a	*tmp;
-
-	tmp = data->la->next;
-	len = ft_len_lista(data);
-	len = len / 4;
-	len += 4;
-	ft_printf("len = %d\n", len);
-	moyenne = moyenne / 2;
-	if (tmp->num < moyenne)
-		tmp = pb(data);
-	while (len > 0)
-	{
-		tmp = ra(data);
-		tmp = data->la->next;
-		while (tmp->num < moyenne)
-		{
-			ft_printf("debut de la boucle pb");
-			ft_print_listb(data);
-			len--;
-			tmp = pb(data);
-			tmp = data->la->next;
-		}
-		len--;
-	}
-}
-*/
-
-void	ft_take_25_algo100(t_struct *data, int moyenne)
-{
-	int			len;
-	t_list_a	*tmp;
-
-	tmp = data->la->next;
-	len = ft_len_lista(data);
-	len = len / 4;
-	len += 3;
-	ft_printf("len = %d\n", len);
-	moyenne = moyenne / 2;
-	if (tmp->num < moyenne)
-		tmp = pb(data);
-	while (len > 0)
-	{
-		tmp = ra(data);
-		tmp = data->la->next;
-		while (tmp->num < moyenne)
-		{
-			len--;
-			tmp = pb(data);
-			tmp = data->la->next;
-		}
-		len--;
-	}
-}
-
 void	ft_tri_25_algo100(t_struct *data)
 {
 	t_list_b	*lb;
@@ -134,7 +96,7 @@ bool	ft_verif_25(t_struct *data, int len)
 	}
 	return (1);
 }
-
+*/
 // cette fonction check si il y a bien des nb plus
 // petit que 25 a partir de la len
 

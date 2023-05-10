@@ -6,26 +6,142 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/09 17:57:30 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/10 19:56:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_algo_100_helper(t_struct *data)
+void	ft_take_25_algo100(t_struct *data, int compare, int little)
 {
-	t_list_b	*lb;
-
-	lb = data->lb->next;
-	while (ft_tri_100_done(data) == 0)
+	if (compare == 1)
 	{
-		if (lb->num > lb->next->num)
-			sb(data->lb);
-		rra(data);
-		lb = data->lb->next;
+		while (data->la->next->num != little)
+			rra(data);
+		pb(data);
+	}
+	else if (compare == 0)
+	{
+		while (data->la->next->num != little)
+			ra(data);
+		pb(data);
 	}
 }
 
+bool	ft_compare_little(t_struct *data, int littlech1, int littlech2)
+{
+	int		len;
+
+	len = ft_len_lista(data);
+	while (42)
+	{
+		if (littlech2 == len)
+		{
+			littlech2++;
+			return 1;
+		}
+		else if (littlech1 == 0)
+			return (0);
+		littlech2++;
+		littlech1--;
+	}
+	return (0);
+}
+
+//found the little number in chunk1
+int	ft_found_little_chunk1_100(t_struct *data)
+{
+	int			i;
+	int			nb;
+	t_list_a	*tab;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 1;
+	tab = data->la->next;
+	nb = data->la->next->num;
+	while (tab)
+	{
+		if (nb > tab->num)
+			nb = tab->num;
+		tab = tab->next;
+		i++;
+		if (len < 0)
+			break ;
+		len--;
+	}
+	return (nb);
+}
+
+//found the little number in chunk5
+int	ft_found_little_chunk5_100(t_struct *data)
+{
+	int			i;
+	int			nb;
+	t_list_a	*tab;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = 1;
+	tab = data->la->next;
+	nb = data->la->next->num;
+	while (i != len)
+		i++;
+	while (tab)
+	{
+		if (nb > tab->num)
+			nb = tab->num;
+		tab = tab->next;
+		i++;
+	}
+	return (i);
+}
+
+int	ft_found_little_100(t_struct *data)
+{
+	int			i;
+	int			nb;
+	t_list_a	*tab;
+
+	i = 1;
+	tab = data->la->next;
+	nb = data->la->next->num;
+	while (tab)
+	{
+		if (nb > tab->num)
+			nb = tab->num;
+		tab = tab->next;
+		i++;
+	}
+	return (nb);
+}
+
+/*
+void		ft_take_75_algo100(t_struct *data, int little)
+{
+	int			len;
+	t_list_a	*tmp;
+
+	tmp = data->la->next;
+	len = ft_len_lista(data);
+	if (tmp->num < moyenne)
+		tmp = pb(data);
+	while (len > 0)
+	{
+		tmp = ra(data);
+		tmp = data->la->next;
+		while (tmp->num < moyenne)
+		{
+			len--;
+			tmp = pb(data);
+			tmp = data->la->next;
+		}
+		len--;
+	}
+}
+*/
 /*
 void	ft_algo_100_helper(t_struct *data)
 {
@@ -115,4 +231,3 @@ int	ft_found_little_100(t_struct *data)
 	return (nb);
 }
 */
-
