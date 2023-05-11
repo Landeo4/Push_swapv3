@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 11:16:53 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 12:04:35 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,42 @@
 //dans la liste triée et en déplaçant les éléments existants pour faire de la place si nécessaire.
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
 
+
+
+void	ft_algo_100_manager(t_struct *data, int argc)
+{
+	int moyenne;
+
+	moyenne = ft_somme_algo_100(data, argc);
+	ft_take_first_chunk(data, moyenne);
+}
+
+//trouver le premier petit chiffre dans chunk1
+//pour le ramener avec sois rra ou ra
+
+void	ft_take_first_chunk(t_struct *data, int moyenne)
+{
+	int			littlech1;
+	int			littlech2;
+	int			compare;
+	int			little;
+
+	littlech1 = 0;
+	littlech2 = 0;
+	littlech1 = ft_found_pos_little_chunk1(data, moyenne);
+	littlech2 = ft_found_pos_little_chunk5(data);
+	compare = ft_compare_little(data, littlech1, littlech2);
+	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
+	if (compare == 1)
+		little = ft_found_little_100_75(data);
+	else if (compare == 0)
+		little = ft_found_little_100_25(data);
+	ft_printf("little = %d\n", little);
+	ft_take_25_algo100(data, compare, little);
+}
+
+
+/*
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	//int			moyenne;
@@ -46,17 +82,20 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 
 	littlech1 = 0;
 	littlech2 = 0;
-	moyenne = ft_somme_algo_100(data, argc);
+	//moyenne = ft_somme_algo_100(data, argc);
 	littlech1 = ft_found_pos_little_chunk1(data);
 	littlech2 = ft_found_pos_little_chunk5(data);
 	compare = ft_compare_little(data, littlech1, littlech2);
 	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
-	little = ft_found_little_100(data);
+	if (compare == 1)
+		little = ft_found_little_100_75(data);
+	else if (compare == 0)
+		little = ft_found_little_100_25(data);
+	ft_printf("little = %d\n", little);
 	ft_take_25_algo100(data, compare, little);
 	//ft_take_25_algo100(data, moyenne);
 }
-//compare le nb de coups pour les petits
-
+*/
 
 /*
 void	ft_tri_25_algo100(t_struct *data)
@@ -96,9 +135,10 @@ bool	ft_verif_25(t_struct *data, int len)
 	}
 	return (1);
 }
-*/
+
 // cette fonction check si il y a bien des nb plus
 // petit que 25 a partir de la len
+*/
 
 /*
 void	ft_algo_100_manager(t_struct *data)

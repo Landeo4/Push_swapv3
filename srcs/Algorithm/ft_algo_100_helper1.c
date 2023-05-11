@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/10 19:33:05 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 12:05:25 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,117 @@
 //voir idee sur cailler
 // la somme est good
 
+int	ft_found_pos_little_chunk1(t_struct *data, int chunk)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 0;
+	tab = data->la->next;
+	nb = data->la->next->num;
+	ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+	while (tab && len > 0)
+	{
+		if (nb < chunk)
+			break ;
+		i++;
+		len--;
+		tab = tab->next;
+		nb = tab->num;
+	}
+	return (i);
+}
+
+int	ft_found_pos_little_chunk5(t_struct *data)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+	int			len2;
+
+	len2 = 1;
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = 100;
+	tab = data->la->next;
+	nb = tab->num;
+	while (len2 != len)
+	{
+		tab = tab->next;
+		len2++;
+	}
+	len = ft_len_lista(data);
+	while (tab && len2 < len)
+	{
+		if (nb != tab->num)
+			tab = tab->next;
+		else
+			break ;
+		i--;
+		len++;
+	}
+	return (i);
+}
+
+int	ft_found_little_100_25(t_struct *data)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 1;
+	tab = data->la->next;
+	nb = ft_found_little(data);
+	while (tab && len > 0)
+	{
+		if (nb != tab->num)
+			tab = tab->next;
+		i++;
+		len--;
+	}
+	return (nb);
+}
+
+int	ft_found_little_100_75(t_struct *data)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+	int			len2;
+
+	len2 = 1;
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = 100;
+	tab = data->la->next;
+	nb = tab->num;
+	while (len2 != len)
+	{
+		tab = tab->next;
+		len2++;
+	}
+	len = ft_len_lista(data);
+	while (tab && len2 < len)
+	{
+		if (nb > tab->num)
+			nb = tab->num;
+		tab = tab->next;
+		i--;
+		len++;
+	}
+	return (nb);
+}
+
+/*
 int	ft_found_pos_little_chunk1(t_struct *data)
 {
 	int			i;
@@ -68,6 +179,61 @@ int	ft_found_pos_little_chunk5(t_struct *data)
 	}
 	return (i);
 }
+
+int	ft_found_little_100_25(t_struct *data)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 1;
+	tab = data->la->next;
+	nb = ft_found_little(data);
+	while (tab && len > 0)
+	{
+		if (nb != tab->num)
+			tab = tab->next;
+		i++;
+		len--;
+	}
+	return (nb);
+}
+
+int	ft_found_little_100_75(t_struct *data)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+	int			len2;
+
+	len2 = 1;
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = 100;
+	tab = data->la->next;
+	nb = tab->num;
+	while (len2 != len)
+	{
+		tab = tab->next;
+		len2++;
+	}
+	len = ft_len_lista(data);
+	while (tab && len2 < len)
+	{
+		if (nb > tab->num)
+			nb = tab->num;
+		tab = tab->next;
+		i--;
+		len++;
+	}
+	return (nb);
+}
+*/
+
 
 /*
 int ft_somme_algo_100(t_struct *data, int argc)
