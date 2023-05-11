@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 14:43:50 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 16:25:57 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,16 +40,24 @@
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int moyennech1;
+	int i = 0;
+	t_list_a	*la;
 
 	moyennech1 = ft_somme_algo_100(data, argc);
-	ft_printf("du coup moyennech1 est de %d\n", moyennech1);
-	ft_take_first_chunk(data, moyennech1);
+	ft_printf("du coup moyenne ch1 est de %d\n", moyennech1);
+	while (i < 19)
+	{
+		la = data->la->next;
+		ft_printf("================NOUVELLE BOUCLE================\n");
+		i++;
+		ft_take_first_chunk(data, moyennech1, la);
+	}
 }
 
 //trouver le premier petit chiffre dans chunk1
 //pour le ramener avec sois rra ou ra
 
-void	ft_take_first_chunk(t_struct *data, int moyenne)
+void	ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la)
 {
 	int			littlech1;
 	int			littlech2;
@@ -58,13 +66,15 @@ void	ft_take_first_chunk(t_struct *data, int moyenne)
 
 	littlech1 = 0;
 	littlech2 = 0;
-	littlech1 = ft_found_pos_little_chunk1(data, moyenne);
-	littlech2 = ft_found_pos_little_chunk5(data, moyenne);
+	ft_printf("=========\n les deux fonction found\n");
+	littlech1 = ft_found_pos_little_chunk1(data, moyenne, la);
+	littlech2 = ft_found_pos_little_chunk5(data, moyenne, la);
+	ft_printf("=========\n");
 	//compare = ft_compare_little(data, littlech1, littlech2);
-	if (littlech1 < littlech2)
-		compare = 0;
-	else
+	if (littlech1 > littlech2)
 		compare = 1;
+	else
+		compare = 0;
 	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
 	if (compare == 1)
 		little = ft_found_little_100_75(data, littlech2);
