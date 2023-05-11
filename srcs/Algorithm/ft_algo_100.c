@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/10 19:43:38 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 11:16:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 
 	littlech1 = 0;
 	littlech2 = 0;
-	//moyenne = ft_somme_algo_100(data, argc);
+	moyenne = ft_somme_algo_100(data, argc);
 	littlech1 = ft_found_pos_little_chunk1(data);
 	littlech2 = ft_found_pos_little_chunk5(data);
 	compare = ft_compare_little(data, littlech1, littlech2);
