@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 12:05:25 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:50:14 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_found_pos_little_chunk1(t_struct *data, int chunk)
 
 	len = ft_len_lista(data);
 	len = len / 5;
-	i = 0;
+	i = 1;
 	tab = data->la->next;
 	nb = data->la->next->num;
 	ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
@@ -40,88 +40,74 @@ int	ft_found_pos_little_chunk1(t_struct *data, int chunk)
 	return (i);
 }
 
-int	ft_found_pos_little_chunk5(t_struct *data)
+int	ft_found_pos_little_chunk5(t_struct *data, int chunk)
 {
 	int			i;
 	t_list_a	*tab;
-	int			nb;
 	int			len;
 	int			len2;
 
 	len2 = 1;
 	len = ft_len_lista(data);
 	len = len * 0.75;
-	i = 100;
+	i = 25;
 	tab = data->la->next;
-	nb = tab->num;
-	while (len2 != len)
+	while (len2 < len)
 	{
 		tab = tab->next;
 		len2++;
 	}
 	len = ft_len_lista(data);
-	while (tab && len2 < len)
+	while (len2 < len)
 	{
-		if (nb != tab->num)
-			tab = tab->next;
-		else
-			break ;
-		i--;
-		len++;
+		if (tab->num < chunk)
+		{
+			i = 1;
+		}
+		tab = tab->next;
+		len2++;
+		i++;
+		
 	}
+	ft_printf("ma position pour la fin de la liste est a %d\n", i);
 	return (i);
 }
 
-int	ft_found_little_100_25(t_struct *data)
+int	ft_found_little_100_25(t_struct *data, int pos)
 {
-	int			i;
 	t_list_a	*tab;
 	int			nb;
-	int			len;
 
-	len = ft_len_lista(data);
-	len = len / 5;
-	i = 1;
 	tab = data->la->next;
 	nb = ft_found_little(data);
-	while (tab && len > 0)
+	ft_printf("ma pos est de %d", pos);
+	while (pos != 0)
 	{
-		if (nb != tab->num)
-			tab = tab->next;
-		i++;
-		len--;
+		nb = tab->num;
+		tab = tab->next;
+		pos--;
 	}
+	ft_printf("du coup mon premier chiffre est de %d\n", nb);
 	return (nb);
 }
 
-int	ft_found_little_100_75(t_struct *data)
+int	ft_found_little_100_75(t_struct *data, int pos)
 {
-	int			i;
 	t_list_a	*tab;
 	int			nb;
+	int			ch;
 	int			len;
-	int			len2;
 
-	len2 = 1;
-	len = ft_len_lista(data);
-	len = len * 0.75;
-	i = 100;
+	ch = 100;
+	ch = ch - pos;
+	len = 0;
 	tab = data->la->next;
-	nb = tab->num;
-	while (len2 != len)
+	while (len != ch)
 	{
 		tab = tab->next;
-		len2++;
-	}
-	len = ft_len_lista(data);
-	while (tab && len2 < len)
-	{
-		if (nb > tab->num)
-			nb = tab->num;
-		tab = tab->next;
-		i--;
 		len++;
 	}
+	nb = tab->num;
 	return (nb);
 }
 

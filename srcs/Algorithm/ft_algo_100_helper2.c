@@ -6,12 +6,33 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 12:06:46 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:38:26 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
+int	ft_somme_algo_100(t_struct *data, int argc)
+{
+	int			chiffre;
+	int			len;
+	t_list_a	*la;
+
+	la = data->la->next;
+	chiffre = 0;
+	len = ft_len_lista(data);
+	ft_printf("la len est de %d\n", len);
+	while (len > 0)
+	{
+		chiffre = chiffre + la->num;
+		la = la->next;
+		len--;
+	}
+	chiffre = chiffre / argc - 1;
+	chiffre = chiffre * 0.40 ;
+	ft_printf("le chunk1 est de %d\n", chiffre);
+	return (chiffre);
+}
 
 void	ft_take_25_algo100(t_struct *data, int compare, int little)
 {
@@ -31,19 +52,19 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little)
 
 bool	ft_compare_little(t_struct *data, int littlech1, int littlech2)
 {
-	int		len;
-
-	len = ft_len_lista(data);
+	(void)data;
+	ft_printf("===============================\nen arrivant \nlittle1 = %d et little2 = %d\n", littlech1, littlech2);
 	while (42)
 	{
-		if (littlech2 == len)
+		if (littlech2 == 1)
 		{
 			littlech2++;
 			return 1;
 		}
 		else if (littlech1 == 0)
 			return (0);
-		littlech2++;
+		ft_printf("===============================\nlittle1 = %d et little2 = %d\n", littlech1, littlech2);
+		littlech2--;
 		littlech1--;
 	}
 	return (0);

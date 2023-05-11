@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 12:04:35 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:43:50 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,10 +39,11 @@
 
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
-	int moyenne;
+	int moyennech1;
 
-	moyenne = ft_somme_algo_100(data, argc);
-	ft_take_first_chunk(data, moyenne);
+	moyennech1 = ft_somme_algo_100(data, argc);
+	ft_printf("du coup moyennech1 est de %d\n", moyennech1);
+	ft_take_first_chunk(data, moyennech1);
 }
 
 //trouver le premier petit chiffre dans chunk1
@@ -58,13 +59,17 @@ void	ft_take_first_chunk(t_struct *data, int moyenne)
 	littlech1 = 0;
 	littlech2 = 0;
 	littlech1 = ft_found_pos_little_chunk1(data, moyenne);
-	littlech2 = ft_found_pos_little_chunk5(data);
-	compare = ft_compare_little(data, littlech1, littlech2);
+	littlech2 = ft_found_pos_little_chunk5(data, moyenne);
+	//compare = ft_compare_little(data, littlech1, littlech2);
+	if (littlech1 < littlech2)
+		compare = 0;
+	else
+		compare = 1;
 	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
 	if (compare == 1)
-		little = ft_found_little_100_75(data);
+		little = ft_found_little_100_75(data, littlech2);
 	else if (compare == 0)
-		little = ft_found_little_100_25(data);
+		little = ft_found_little_100_25(data, littlech1);
 	ft_printf("little = %d\n", little);
 	ft_take_25_algo100(data, compare, little);
 }

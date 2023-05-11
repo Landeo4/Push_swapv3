@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 12:04:24 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:05:10 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -213,14 +213,15 @@ void		ft_algo_100_helper(t_struct *data);
 void		ft_tri_100(t_list_b *lb, t_struct *data);
 void		ft_100_action(t_list_b *tmp, t_struct *data);
 int			ft_found_pos_little_100(t_struct *data);
-int			ft_found_little_100_25(t_struct *data);
-int			ft_found_little_100_75(t_struct *data);
+int			ft_found_little_100_25(t_struct *data, int pos);
+int			ft_found_little_100_75(t_struct *data, int pos);
 bool		ft_tri_100_done(t_struct *data);
 int			ft_scan_chunk1_100(t_struct *data);
 int			ft_found_pos_little_chunk1(t_struct *data, int chunk);
-int			ft_found_pos_little_chunk5(t_struct *data);
+int			ft_found_pos_little_chunk5(t_struct *data, int chunk);
 bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 void		ft_take_first_chunk(t_struct *data, int moyenne);
+int			ft_somme_algo_100(t_struct *data, int argc);
 
 
 #endif
