@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 16:24:14 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 16:55:52 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -220,7 +220,7 @@ int			ft_scan_chunk1_100(t_struct *data);
 int			ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la);
 int			ft_found_pos_little_chunk5(t_struct *data, int chunk, t_list_a *la);
 bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
-void		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la);
+int			ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la);
 int			ft_somme_algo_100(t_struct *data, int argc);
 
 

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 16:24:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/11 16:50:38 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,14 @@ int	ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la)
 		{
 			ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
 			ft_printf("nb est inferieur car nb est egal a %d\n", nb);
-			break ;
+			return (i);
 		}
 		i++;
 		len--;
 		tab = tab->next;
 		nb = tab->num;
 	}
-	return (i);
+	return (-1);
 }
 
 int	ft_found_pos_little_chunk5(t_struct *data, int chunk, t_list_a *la)
@@ -74,7 +74,7 @@ int	ft_found_pos_little_chunk5(t_struct *data, int chunk, t_list_a *la)
 		i++;
 	}
 	ft_printf("ma position pour la fin de la liste est a %d\n", i);
-	return (i);
+	return (-1);
 }
 
 int	ft_found_little_100_25(t_struct *data, int pos)
