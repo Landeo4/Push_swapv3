@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 16:50:38 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/12 01:59:45 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,135 @@
 //voir idee sur cailler
 // la somme est good
 
+int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 1;
+	tab = la;
+	nb = la->num;
+	ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+	while (tab && len > 0)
+	{
+		ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+		if (nb <= chunk)
+		{
+			ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+			ft_printf("nb est inferieur car nb est egal a %d\n", nb);
+			return (i);
+		}
+		i++;
+		len--;
+		tab = tab->next;
+		nb = tab->num;
+	}
+	return (-1);
+}
+
+int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
+{
+	int			i;
+	t_list_a	*tab;
+	int			len;
+	int			len2;
+	int			nb;
+
+	nb = 20;
+	len2 = 1;
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = len / 5;
+	tab = la->next;
+	while (len2 < len)
+	{
+		tab = tab->next;
+		len2++;
+	}
+	len = ft_len_lista(data);
+	while (len2 < len)
+	{
+		if (tab->num < chunk)
+		{
+			nb = tab->num;
+			i = 0;
+		}
+		tab = tab->next;
+		len2++;
+		i++;
+	}
+	ft_printf("ma position pour la fin de la liste est a %d\n", i);
+	if (nb == 20)
+		return (-1);
+	return (i);
+}
+
+int	ft_found_little_100_25(t_struct *data, int pos)
+{
+	t_list_a	*tab;
+	int			nb;
+
+	tab = data->la->next;
+	nb = ft_found_little(data);
+	ft_printf("ma pos est de %d", pos);
+	while (pos != 0)
+	{
+		nb = tab->num;
+		tab = tab->next;
+		pos--;
+	}
+	ft_printf("du coup mon premier chiffre est de %d\n", nb);
+	return (nb);
+}
+
+int	ft_found_little_100_75(t_struct *data, int pos, t_list_a *la)
+{
+	t_list_a	*tab;
+	int			nb;
+	int			ch;
+	int			len;
+
+	ch = ft_len_lista(data);
+	ch = ch - pos;
+	len = 0;
+	tab = la;
+	while (len != ch)
+	{
+		tab = tab->next;
+		nb = tab->num;
+		len++;
+	}
+	return (nb);
+}
+
+void	ft_trie_100(t_struct *data, int little)
+{
+	t_list_b	*lb;
+	int			i;
+	int			nb;
+
+	i = 0;
+	lb = data->lb->next;
+	nb = lb->num;
+	ft_printf("data->lb->next = %d", lb->num);
+	while (lb)
+	{
+		lb = lb->next;
+		i++;
+		if ()
+	}
+}
+
+
+
+
+
+
+/*
 int	ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la)
 {
 	int			i;
@@ -76,44 +205,8 @@ int	ft_found_pos_little_chunk5(t_struct *data, int chunk, t_list_a *la)
 	ft_printf("ma position pour la fin de la liste est a %d\n", i);
 	return (-1);
 }
+*/
 
-int	ft_found_little_100_25(t_struct *data, int pos)
-{
-	t_list_a	*tab;
-	int			nb;
-
-	tab = data->la->next;
-	nb = ft_found_little(data);
-	ft_printf("ma pos est de %d", pos);
-	while (pos != 0)
-	{
-		nb = tab->num;
-		tab = tab->next;
-		pos--;
-	}
-	ft_printf("du coup mon premier chiffre est de %d\n", nb);
-	return (nb);
-}
-
-int	ft_found_little_100_75(t_struct *data, int pos)
-{
-	t_list_a	*tab;
-	int			nb;
-	int			ch;
-	int			len;
-
-	ch = ft_len_lista(data);
-	ch = ch - pos;
-	len = 0;
-	tab = data->la->next;
-	while (len != ch)
-	{
-		tab = tab->next;
-		nb = tab->num;
-		len++;
-	}
-	return (nb);
-}
 
 /*
 int	ft_found_pos_little_chunk1(t_struct *data)
@@ -223,7 +316,6 @@ int	ft_found_little_100_75(t_struct *data)
 	return (nb);
 }
 */
-
 
 /*
 int ft_somme_algo_100(t_struct *data, int argc)

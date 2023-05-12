@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 16:55:52 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/12 01:54:28 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -210,15 +210,14 @@ int 		ft_somme_algo_100(t_struct *data, int argc);
 void		ft_tri_25_algo100(t_struct *data);
 bool		ft_verif_25(t_struct *data, int len);
 void		ft_algo_100_helper(t_struct *data);
-void		ft_tri_100(t_list_b *lb, t_struct *data);
-void		ft_100_action(t_list_b *tmp, t_struct *data);
+void		ft_trie_100(t_struct *data, int little);
 int			ft_found_pos_little_100(t_struct *data);
 int			ft_found_little_100_25(t_struct *data, int pos);
-int			ft_found_little_100_75(t_struct *data, int pos);
+int			ft_found_little_100_75(t_struct *data, int pos, t_list_a *la);
 bool		ft_tri_100_done(t_struct *data);
 int			ft_scan_chunk1_100(t_struct *data);
-int			ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la);
-int			ft_found_pos_little_chunk5(t_struct *data, int chunk, t_list_a *la);
+int			ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la);
+int			ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la);
 bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 int			ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la);
 int			ft_somme_algo_100(t_struct *data, int argc);

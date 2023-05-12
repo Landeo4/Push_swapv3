@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/11 16:55:00 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/12 01:32:37 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,11 @@
 //dans la liste triée et en déplaçant les éléments existants pour faire de la place si nécessaire.
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
 
-
-
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int moyennech1;
 	int i = 0;
 	t_list_a	*la;
-	int verif;
 
 	moyennech1 = ft_somme_algo_100(data, argc);
 	ft_printf("du coup moyenne ch1 est de %d\n", moyennech1);
@@ -51,18 +48,14 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		la = data->la->next;
 		ft_printf("================NOUVELLE BOUCLE================\n");
 		i++;
-		verif = ft_take_first_chunk(data, moyennech1, la);
-		if (verif == 0)
+		if (ft_take_first_chunk(data, moyennech1, la) == -1)
 			break ;
 	}
+	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1");
 }
-
 
 //a faire : l'insersion trier dans la liste b
 //et la limite a prendre
-//
-
-
 
 //trouver le premier petit chiffre dans chunk1
 //pour le ramener avec sois rra ou ra
@@ -77,26 +70,25 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la)
 	littlech1 = 0;
 	littlech2 = 0;
 	ft_printf("=========\n les deux fonction found\n");
-	littlech1 = ft_found_pos_little_chunk1(data, moyenne, la);
-	littlech2 = ft_found_pos_little_chunk5(data, moyenne, la);
+	littlech1 = ft_found_pos_little_first_part(data, moyenne, la);
+	littlech2 = ft_found_pos_little_last_part(data, moyenne, la);
 	ft_printf("=========\n");
 	//compare = ft_compare_little(data, littlech1, littlech2);
-	if (littlech1 == -1 || littlech2 == -1)
-		return (0);
-	if (littlech1 > littlech2)
+	/*if (littlech1 == -1 || littlech2 == -1)
+		return (-1);*/
+	if (littlech1 <= littlech2)
 		compare = 1;
 	else
 		compare = 0;
 	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
 	if (compare == 1)
-		little = ft_found_little_100_75(data, littlech2);
+		little = ft_found_little_100_75(data, littlech2, la);
 	else if (compare == 0)
 		little = ft_found_little_100_25(data, littlech1);
 	ft_printf("little = %d\n", little);
 	ft_take_25_algo100(data, compare, little);
-	return (1);
+	return (0);
 }
-
 
 /*
 void	ft_algo_100_manager(t_struct *data, int argc)
