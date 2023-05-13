@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/12 01:59:45 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/13 15:29:51 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,24 +118,6 @@ int	ft_found_little_100_75(t_struct *data, int pos, t_list_a *la)
 		len++;
 	}
 	return (nb);
-}
-
-void	ft_trie_100(t_struct *data, int little)
-{
-	t_list_b	*lb;
-	int			i;
-	int			nb;
-
-	i = 0;
-	lb = data->lb->next;
-	nb = lb->num;
-	ft_printf("data->lb->next = %d", lb->num);
-	while (lb)
-	{
-		lb = lb->next;
-		i++;
-		if ()
-	}
 }
 
 

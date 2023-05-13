@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/12 01:32:37 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/13 16:04:35 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,9 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	int moyennech1;
 	int i = 0;
 	t_list_a	*la;
+	int			token;
 
+	token = 0;
 	moyennech1 = ft_somme_algo_100(data, argc);
 	ft_printf("du coup moyenne ch1 est de %d\n", moyennech1);
 	while (i < 19)
@@ -48,8 +50,9 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		la = data->la->next;
 		ft_printf("================NOUVELLE BOUCLE================\n");
 		i++;
-		if (ft_take_first_chunk(data, moyennech1, la) == -1)
+		if (ft_take_first_chunk(data, moyennech1, la, token) == -1)
 			break ;
+		token++;
 	}
 	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1");
 }
@@ -60,7 +63,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 //trouver le premier petit chiffre dans chunk1
 //pour le ramener avec sois rra ou ra
 
-int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la)
+int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 {
 	int			littlech1;
 	int			littlech2;
@@ -86,6 +89,11 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la)
 	else if (compare == 0)
 		little = ft_found_little_100_25(data, littlech1);
 	ft_printf("little = %d\n", little);
+	if (token < 1)
+	{
+		pb(data);
+		return (0);
+	}
 	ft_take_25_algo100(data, compare, little);
 	return (0);
 }
