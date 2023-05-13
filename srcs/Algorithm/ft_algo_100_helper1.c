@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/13 15:29:51 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 00:28:43 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,11 @@ int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la)
 	i = 1;
 	tab = la;
 	nb = la->num;
-	ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
 	while (tab && len > 0)
 	{
 		ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
 		if (nb <= chunk)
 		{
-			ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
 			ft_printf("nb est inferieur car nb est egal a %d\n", nb);
 			return (i);
 		}

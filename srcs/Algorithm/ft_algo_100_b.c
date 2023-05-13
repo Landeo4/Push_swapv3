@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/13 16:06:26 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 00:18:04 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,15 @@ void	ft_trie_100(t_struct *data, int little)
 	ft_printf("================on passe a l'algo dans B================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, little);
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
-	if (lit1 == -1 || lit2 == -1)
-		ft_printf("c'est pas bon");
-	//ft_take_b_100(data, little);
+	/*if (lit1 == -1 && lit2 == -1)
+		ft_found_best_place100(data, little);*/
+	if (lit1 == -1)
+		ft_take_b_100(data, lit2, 1);
+	else if (lit2 == -1)
+		ft_take_b_100(data, lit1, 0);
 }
 
+//trouver si il y a des chiffres superieur
 int		ft_trie_100_b_little(t_struct *data, int little)
 {
 	t_list_b	*lb;
@@ -49,6 +53,7 @@ int		ft_trie_100_b_little(t_struct *data, int little)
 	return (-1);
 }
 
+//trouver si il y a des chiffres superieur
 int		ft_trie_100_b_biggest(t_struct *data, int little)
 {
 	t_list_b	*lb;
@@ -62,9 +67,34 @@ int		ft_trie_100_b_biggest(t_struct *data, int little)
 	while (lb)
 	{
 		if (nb > lb->num)
-			return (-1);
+			return (i);
 		i++;
 		lb = lb->next;
 	}
-	return (i);
+	return (-1);
+}
+
+int		ft_take_b_100(t_struct *data, int lit, int token)
+{
+	t_list_b	*lb;
+	(void)lb;
+
+	lb = data->lb->next;
+	if (token == 1)
+	{
+		while (lit > 0)
+		{
+			rrb(data);
+			lit--;
+		}
+	}
+	else if (token == 0)
+	{
+		while (lit > 0)
+		{
+			rb(data);
+			lit--;
+		}
+	}
+	return (0);
 }
