@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 14:11:47 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 17:08:37 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,14 +39,14 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little)
 	if (compare == 1)
 	{
 		while (data->la->next->num != little)
-			data->la =rra(data);
+			data->la = rra(data);
 		ft_trie_100(data, little);
 		data->la = pb(data);
 	}
 	else if (compare == 0)
 	{
 		while (data->la->next->num != little)
-			data->la =ra(data);
+			data->la = ra(data);
 		ft_trie_100(data, little);
 		data->la = pb(data);
 	}

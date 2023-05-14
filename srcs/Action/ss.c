@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 18:29:56 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/07 19:28:17 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 16:57:16 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ t_struct	*ss(t_struct *data)
 
 	sa(a);
 	sb(b);
-	ft_printf("\nss");
+	ft_printf("ss\n");
 	return (data);
 }

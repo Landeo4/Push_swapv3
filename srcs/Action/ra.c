@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/27 17:12:31 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/08 16:39:43 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 16:56:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,6 @@ t_list_a	*ra(t_struct *data)
 	tmp = data->la;
 	data->la = ft_freeata(data, 1);
 	data->la = ft_addata(data, recup, i);
-	ft_printf("\nra");
+	ft_printf("ra\n");
 	return (data->la);
 }

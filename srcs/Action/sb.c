@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:29:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/24 09:39:13 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 16:57:12 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ t_list_b	*sb(t_list_b *lb)
 	tmp1 = first->num;
 	first->num = first->next->num;
 	first->next->num = tmp1;
-	ft_printf("\nsb");
+	ft_printf("sb\n");
 	return (first);
 }

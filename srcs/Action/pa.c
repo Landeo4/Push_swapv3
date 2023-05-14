@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 18:34:29 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/09 15:06:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 16:56:39 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,6 @@ t_list_b	*pa(t_struct *data)
 	tmp = lb->num;
 	data->lb = ft_freeatb(data, 1);
 	data->la = ft_addata(data, tmp, 1);
-	ft_printf("\npa");
+	ft_printf("pa\n");
 	return (data->lb);
 }

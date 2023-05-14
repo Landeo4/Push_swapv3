@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 19:26:04 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/04/24 09:39:49 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 16:57:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ t_list_a	*sa(t_list_a *la)
 	tmp1 = first->num;
 	first->num = first->next->num;
 	first->next->num = tmp1;
-	ft_printf("\nsa");
+	ft_printf("sa\n");
 	return (first);
 }
