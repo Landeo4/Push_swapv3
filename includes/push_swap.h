@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 00:02:48 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 14:44:47 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -225,5 +225,6 @@ int			ft_trie_100_b_little(t_struct *data, int little);
 int			ft_trie_100_b_biggest(t_struct *data, int little);
 void		ft_found_best_place100(t_struct *data, int little);
 int			ft_take_b_100(t_struct *data, int lit, int token);
+int			ft_take_best_place100(t_struct *data, int lit, int big, int little);
 
 #endif

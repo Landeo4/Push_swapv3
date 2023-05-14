@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 00:26:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/14 14:12:28 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,9 +80,9 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	/*if (littlech1 == -1 || littlech2 == -1)
 		return (-1);*/
 	if (littlech1 >= littlech2)
-		compare = 1;
-	else
 		compare = 0;
+	else
+		compare = 1;
 	ft_printf("littlech1 est egale a %d et l'autre littlech2 %d et compare = %d\n", littlech1, littlech2, compare);
 	if (compare == 1)
 		little = ft_found_little_100_75(data, littlech2, la);
@@ -91,7 +91,7 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	ft_printf("little = %d\n", little);
 	if (token < 1)
 	{
-		pb(data);
+		data->la =pb(data);
 		return (0);
 	}
 	ft_take_25_algo100(data, compare, little);
