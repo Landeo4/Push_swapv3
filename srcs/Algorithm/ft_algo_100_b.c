@@ -6,13 +6,12 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 23:19:11 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/15 15:25:35 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-//This fonction will test where the num of A would be place
 void	ft_trie_100(t_struct *data, int little)
 {
 	t_list_b	*lb;
@@ -25,31 +24,28 @@ void	ft_trie_100(t_struct *data, int little)
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
 	ft_printf("================les deux tries donne================\nlittle =  %d et mon little little2 = %d\n", lit1, lit2);
-	if (lit1 > 0 && lit2 > 0)
+	if (lit1 != -1 && lit2 != -1)
 	{
-		ft_printf("SALUT LES AMIS JE PASSE PAR LA\n");
-		i = ft_found_best_place100(data, little);
+		i = ft_found_best_place100(data, lb);
 		ft_sort_b100(data, i);
 	}
-	if (lit1 == -1)
+	else if (lit1 == -1)
 		ft_take_b_100(data, lit2, 1);
 	else if (lit2 == -1)
 		ft_take_b_100(data, lit1, 0);
 }
 
-int		ft_found_best_place100(t_struct *data, int little)
+int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 {
-	t_list_b	*lb;
 	int			big;
 	int			lit;
 	int			i;
-	(void)little;
 
-	lb = data->lb->next;
 	big = lb->num;
 	lit = lb->num;
 	while (lb)
 	{
+		ft_printf("je passe\n");
 		if (lb->num < lb->next->num)
 			big = lb->next->num;
 		else if (lb->num > lb->next->num)
@@ -57,6 +53,7 @@ int		ft_found_best_place100(t_struct *data, int little)
 		lb = lb->next;
 		i++;
 	}
+	lb = data->lb->next;
 	i = ft_take_best_place100(data, i, big, lit);
 	return (i);
 }
@@ -116,10 +113,14 @@ int		ft_trie_100_b_little(t_struct *data, int little)
 	while (lb)
 	{
 		if (nb < lb->num)
+		{
+			ft_printf("le little fonctionne donc il y a un chiffre superieur mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
 			return (i);
+		}
 		i++;
 		lb = lb->next;
 	}
+	ft_printf("aucun chiffre superieur trouver\n");
 	return (-1);
 }
 
@@ -137,10 +138,14 @@ int		ft_trie_100_b_biggest(t_struct *data, int little)
 	while (lb)
 	{
 		if (nb > lb->num)
+		{
+			ft_printf("le little fonctionne donc il y a un chiffre inferieur mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
 			return (i);
+		}
 		i++;
 		lb = lb->next;
 	}
+	ft_printf("aucun chiffre inferieur trouver\n");
 	return (-1);
 }
 
@@ -151,11 +156,14 @@ int		ft_take_b_100(t_struct *data, int lit, int token)
 	(void)lb;
 
 	lb = data->lb->next;
+	ft_printf("VOICI LA LISTE AVANT L'AJOUT\n");
+	ft_print_listb(data);
+	ft_printf("il faut donc faire %d d'action dans b\n", lit);
 	if (token == 1)
 	{
 		while (lit > 0)
 		{
-			data->lb = rrb(data);
+			data->lb = rb(data);
 			lit--;
 		}
 	}
@@ -163,7 +171,7 @@ int		ft_take_b_100(t_struct *data, int lit, int token)
 	{
 		while (lit > 0)
 		{
-			data->lb = rb(data);
+			data->lb = rrb(data);
 			lit--;
 		}
 	}
@@ -179,7 +187,9 @@ int		ft_take_b_100(t_struct *data, int lit, int token)
 
 
 
+
 /*
+//This fonction will test where the num of A would be place
 void	ft_trie_100(t_struct *data, int little)
 {
 	t_list_b	*lb;
@@ -192,8 +202,9 @@ void	ft_trie_100(t_struct *data, int little)
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
 	ft_printf("================les deux tries donne================\nlittle =  %d et mon little little2 = %d\n", lit1, lit2);
-	if (lit1 == -1 && lit2 == -1)
+	if (lit1 > 0 && lit2 > 0)
 	{
+		ft_printf("SALUT LES AMIS JE PASSE PAR LA\n");
 		i = ft_found_best_place100(data, little);
 		ft_sort_b100(data, i);
 	}
@@ -223,7 +234,6 @@ int		ft_found_best_place100(t_struct *data, int little)
 		lb = lb->next;
 		i++;
 	}
-	lb = data->lb->next;
 	i = ft_take_best_place100(data, i, big, lit);
 	return (i);
 }

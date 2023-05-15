@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 23:37:01 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/15 15:23:22 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -223,7 +223,7 @@ int			ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token);
 int			ft_somme_algo_100(t_struct *data, int argc);
 int			ft_trie_100_b_little(t_struct *data, int little);
 int			ft_trie_100_b_biggest(t_struct *data, int little);
-int			ft_found_best_place100(t_struct *data, int little);
+int			ft_found_best_place100(t_struct *data, t_list_b *lb);
 int			ft_take_b_100(t_struct *data, int lit, int token);
 int			ft_take_best_place100(t_struct *data, int i, int big, int little);
 void		ft_sort_b100(t_struct *data, int i);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/05/11 16:20:32 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/15 14:25:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -262,8 +262,8 @@ int main(int argc, char **argv)
 	ft_printf("\nliste a =\n");
 	ft_print_lista(&data);
 	data.la = ra(&data);*/
-	ft_printf("\nliste a =\n");
-	ft_print_lista(&data);
+	//ft_printf("\nliste a =\n");
+	//ft_print_lista(&data);
 	ft_printf("\nliste b =\n");
 	ft_print_listb(&data);
 	ft_free_lista(&data);
