@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/05/16 13:32:42 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 13:55:31 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -237,17 +237,16 @@ int main(int argc, char **argv)
 	t_struct data;
 	int	i;
 	//int pos;
-	(void)argc;
-	
-	i = 1;
+
+	i = argc - 1;
 	/*if (ft_parsing_manager(argc, argv) == 0)
 		return (0);
 	ft_printf("c'est bon pour les guillemet");*/
 	ft_init_struct(&data);
-	while (argv[i])
+	while (i > 0)
 	{
 		ft_addata(&data, ft_atoi(argv[i]), 1);
-		i++;
+		i--;
 	}
 	//ft_print_lista(&data);
 	//ft_algo_manager(&data, argc - 1);
