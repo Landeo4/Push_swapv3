@@ -6,7 +6,7 @@
 /*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 13:28:08 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 15:11:31 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,7 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 	t_list_a	*tab;
 	int			len;
 	int			len2;
-	int			nb;
-
-	nb = 20;
+	
 	len2 = 1;
 	len = ft_len_lista(data);
 	len = len * 0.75;
@@ -65,17 +63,13 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 	while (len2 < ft_len_lista(data))
 	{
 		if (tab->num < chunk)
-			i = 1;
+			i = 0;
 		tab = tab->next;
 		len2++;
 		i++;
 	}
-	printf("%i - %i + %i\n", ft_len_lista(data), len, i);
-	i = (ft_len_lista(data) - len) + i;
 	printf(" mon i a la sortie de last part est egale a %i\n", i);
-	if (nb == 20)
-		return (-1);
-	return ((int)i);
+	return (i);
 }
 
 int	ft_found_little_100_25(t_struct *data, int pos)

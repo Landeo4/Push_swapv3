@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 14:36:23 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/16 15:43:35 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,11 @@ void	ft_trie_100(t_struct *data, int little)
 int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 {
 	int			big;
-	int			lit;
-	int			i;
+	int			lit; 
 
 	big = lb->num;
 	lit = lb->num;
 	i = 0;
-
 	while (lb->next && lb)
 	{
 		if (lb->num < lb->next->num)
@@ -52,7 +50,6 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 		else if (lb->num > lb->next->num)
 			lit = lb->next->num;
 		lb = lb->next;
-		i++;
 	}
 	lb = data->lb->next;
 	i = ft_take_best_place100(data, i, big, lit);
@@ -86,11 +83,13 @@ void	ft_sort_b100(t_struct *data, int i)
 int		ft_take_best_place100(t_struct *data, int i, int big, int little)
 {
 	t_list_b	*lb;
+	(void)little;
+	(void)big;
 
 	lb = data->lb->next;
-	while (lb)
+	while (lb && lb->next)
 	{
-		if (data->la->next->num > little && data->la->next->num < big)
+		if (data->la->next->num > lb->num && data->la->next->num < lb->next->num)
 			break ;
 		i++;
 		lb = lb->next;
@@ -104,23 +103,24 @@ int		ft_trie_100_b_little(t_struct *data, int little)
 	t_list_b	*lb;
 	int			i;
 	int			nb;
+	(void)little;
 
 	i = 1;
 	lb = data->lb->next;
 	nb = data->la->next->num;
-	ft_printf("================on passe a la partie des chiffre inferieur================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, little);
+	ft_printf("================on passe a la partie des chiffre inferieur================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, nb);
 	while (lb)
 	{
 		if (nb < lb->num)
 		{
-			ft_printf("le little fonctionne donc il y a un chiffre superieur mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
-			return (i);
+			ft_printf("le little fonctionne donc il y a un chiffre superieur au chiffre de ma liste a, mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
+			return (-1);
 		}
 		i++;
 		lb = lb->next;
 	}
 	ft_printf("aucun chiffre superieur trouver\n");
-	return (-1);
+	return (i);
 }
 
 //trouver si il y a des chiffres superieur
@@ -138,14 +138,14 @@ int		ft_trie_100_b_biggest(t_struct *data, int little)
 	{
 		if (nb > lb->num)
 		{
-			ft_printf("le little fonctionne donc il y a un chiffre inferieur mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
-			return (i);
+			ft_printf("le little fonctionne donc il y a un chiffre inferieur a ma liste a, mon nb est egal a %d et mon num %d et le i %d\n", nb, lb->num, i);
+			return (-1);
 		}
 		i++;
 		lb = lb->next;
 	}
 	ft_printf("aucun chiffre inferieur trouver\n");
-	return (-1);
+	return (i);
 }
 
 //mettre a la bonne place le lit dans lb

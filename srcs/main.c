@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/05/16 13:55:31 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/16 14:48:36 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -249,7 +249,7 @@ int main(int argc, char **argv)
 		i--;
 	}
 	//ft_print_lista(&data);
-	//ft_algo_manager(&data, argc - 1);
+	ft_algo_manager(&data, argc - 1);
 	/*nb = ft_get_min_100(&data);
 	ft_printf("\nle cpt vaut a la fin%d", nb);
 	pos = ft_get_cpt_100(&data);
@@ -264,7 +264,7 @@ int main(int argc, char **argv)
 	//ft_printf("\nliste a =\n");
 	ft_print_lista(&data);
 	ft_printf("\nliste b =\n");
-	//ft_print_listb(&data);
+	ft_print_listb(&data);
 	ft_free_lista(&data);
 	ft_free_listb(&data);
 }

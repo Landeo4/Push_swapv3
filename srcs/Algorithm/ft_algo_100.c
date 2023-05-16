@@ -6,7 +6,7 @@
 /*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 12:57:06 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 15:29:48 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			break ;
 		token++;
 	}
-	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1");
+	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1\n");
 }
 
 //a faire : l'insersion trier dans la liste b
@@ -75,11 +75,12 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	ft_printf("=========\n les deux fonction found\n");
 	littlech1 = ft_found_pos_little_first_part(data, moyenne, la);
 	littlech2 = ft_found_pos_little_last_part(data, moyenne, la);
+	
 	ft_printf("=========\n");
 	//compare = ft_compare_little(data, littlech1, littlech2);
 	/*if (littlech1 == -1 || littlech2 == -1)
 		return (-1);*/
-	if (littlech1 >= littlech2)
+	if (littlech1 <= littlech2)
 		compare = 0;
 	else
 		compare = 1;
