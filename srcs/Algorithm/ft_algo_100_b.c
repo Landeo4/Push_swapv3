@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/15 15:25:35 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/16 12:48:33 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,10 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 
 	big = lb->num;
 	lit = lb->num;
-	while (lb)
+	i = 0;
+
+	while (lb->next && lb)
 	{
-		ft_printf("je passe\n");
 		if (lb->num < lb->next->num)
 			big = lb->next->num;
 		else if (lb->num > lb->next->num)
@@ -64,13 +65,12 @@ void	ft_sort_b100(t_struct *data, int i)
 
 	len = ft_len_listb(data);
 	len = len / 2;
-	ft_printf("SALUT LES AMIS JE PASSE PAR LA\n");
 	if (i > len)
 	{
 		while (i > len)
 		{
 			rrb(data);
-			i++;
+			i--;
 		}
 	}
 	else if (i < len)

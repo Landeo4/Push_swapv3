@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/05/15 14:25:56 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/16 13:32:42 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -250,7 +250,7 @@ int main(int argc, char **argv)
 		i++;
 	}
 	//ft_print_lista(&data);
-	ft_algo_manager(&data, argc - 1);
+	//ft_algo_manager(&data, argc - 1);
 	/*nb = ft_get_min_100(&data);
 	ft_printf("\nle cpt vaut a la fin%d", nb);
 	pos = ft_get_cpt_100(&data);
@@ -263,16 +263,13 @@ int main(int argc, char **argv)
 	ft_print_lista(&data);
 	data.la = ra(&data);*/
 	//ft_printf("\nliste a =\n");
-	//ft_print_lista(&data);
+	ft_print_lista(&data);
 	ft_printf("\nliste b =\n");
-	ft_print_listb(&data);
+	//ft_print_listb(&data);
 	ft_free_lista(&data);
 	ft_free_listb(&data);
 }
 
 /*
-valgrind ./Push_Swap 7 86 20 78 61 30 18 50 15 70 39 54 63 3 90 92 71 25 77 43 
-29 14 54 67 33 27 55 42 91 44 11 16 31 2 48 68 19 76 87 97 75 59 9 23 98 85 22 
-89 72 84 64 58 52 66 36 62 94 69 46 37 53 40 10 96 60 21 24 6 57 35 83 73 45 
-95 12 47 49 81 32 65 5 99 89 8 56 80 34 41 28 93 1 74 17 38 88 0 82 13 26 4
+valgrind ./Push_Swap 7 86 20 78 61 30 18 50 15 70 39 54 63 3 90 92 71 25 77 43 29 14 54 67 33 27 55 42 91 44 11 16 31 2 48 68 19 76 87 97 75 59 9 23 98 85 22 89 72 84 64 58 52 66 36 62 94 69 46 37 53 40 10 96 60 21 24 6 57 35 83 73 45 95 12 47 49 81 32 65 5 99 89 8 56 80 34 41 28 93 1 74 17 38 88 0 82 13 26 4
 */

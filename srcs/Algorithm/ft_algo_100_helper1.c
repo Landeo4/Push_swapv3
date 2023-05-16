@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/14 14:09:09 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/16 13:28:08 by hook             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,22 +62,20 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 		tab = tab->next;
 		len2++;
 	}
-	len = ft_len_lista(data);
-	while (len2 < len)
+	while (len2 < ft_len_lista(data))
 	{
 		if (tab->num < chunk)
-		{
-			nb = tab->num;
-			i = 0;
-		}
+			i = 1;
 		tab = tab->next;
 		len2++;
 		i++;
 	}
-	ft_printf("ma position pour la fin de la liste est a %d\n", i);
+	printf("%i - %i + %i\n", ft_len_lista(data), len, i);
+	i = (ft_len_lista(data) - len) + i;
+	printf(" mon i a la sortie de last part est egale a %i\n", i);
 	if (nb == 20)
 		return (-1);
-	return (i);
+	return ((int)i);
 }
 
 int	ft_found_little_100_25(t_struct *data, int pos)
@@ -127,16 +125,7 @@ int	ft_found_little_100_75(t_struct *data, int pos, t_list_a *la)
 int	ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la)
 {
 	int			i;
-	t_list_a	*tab;
-	int			nb;
-	int			len;
-
-	len = ft_len_lista(data);
-	len = len / 5;
-	i = 1;
-	tab = la;
-	nb = la->num;
-	ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+	t_list_a	*tab;(double)yenne est de %d\n", nb, chunk);
 	while (tab && len > 0)
 	{
 		ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
