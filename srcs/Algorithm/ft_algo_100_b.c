@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 12:48:33 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 14:36:23 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,6 @@ void	ft_sort_b100(t_struct *data, int i)
 	}
 }
 
-// trouve l'endroit ou mettre le nb s'il est ni trop grand ni trop grand
 int		ft_take_best_place100(t_struct *data, int i, int big, int little)
 {
 	t_list_b	*lb;
