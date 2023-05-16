@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 15:29:48 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 16:05:26 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 		data->la = pb(data);
 		return (0);
 	}
-	ft_take_25_algo100(data, compare, little);
+	ft_take_25_algo100(data, compare, little, token);
 	return (0);
 }
 

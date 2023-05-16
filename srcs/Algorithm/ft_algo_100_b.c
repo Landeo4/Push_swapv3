@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 15:43:35 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 16:00:26 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,8 @@ void	ft_trie_100(t_struct *data, int little)
 int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 {
 	int			big;
-	int			lit; 
+	int			lit;
+	int			i;
 
 	big = lb->num;
 	lit = lb->num;
@@ -105,7 +106,7 @@ int		ft_trie_100_b_little(t_struct *data, int little)
 	int			nb;
 	(void)little;
 
-	i = 1;
+	i = 0;
 	lb = data->lb->next;
 	nb = data->la->next->num;
 	ft_printf("================on passe a la partie des chiffre inferieur================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, nb);
@@ -130,7 +131,7 @@ int		ft_trie_100_b_biggest(t_struct *data, int little)
 	int			i;
 	int			nb;
 
-	i = 1;
+	i = 0;
 	lb = data->lb->next;
 	nb = data->la->next->num;
 	ft_printf("================on passe a la partie des chiffre superieur================\ndata->lb->next = %d et mon little est de superieur-> %d\n", lb->num, little);

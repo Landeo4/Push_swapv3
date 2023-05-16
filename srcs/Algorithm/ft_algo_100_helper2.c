@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 15:13:31 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/16 16:04:38 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,20 +34,22 @@ int	ft_somme_algo_100(t_struct *data, int argc)
 	return (chiffre);
 }
 
-void	ft_take_25_algo100(t_struct *data, int compare, int little)
+void	ft_take_25_algo100(t_struct *data, int compare, int little, int token)
 {
 	if (compare == 1)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
-		ft_trie_100(data, little);
+		if (token != 2)
+			ft_trie_100(data, little);
 		data->la = pb(data);
 	}
 	else if (compare == 0)
 	{
 		while (data->la->next->num != little)
 			data->la = ra(data);
-		ft_trie_100(data, little);
+		if (token != 2)
+			ft_trie_100(data, little);
 		data->la = pb(data);
 	}
 }
