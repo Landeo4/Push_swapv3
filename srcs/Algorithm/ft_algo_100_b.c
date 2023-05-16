@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 16:00:26 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/16 19:46:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ void	ft_trie_100(t_struct *data, int little)
 
 	lb = data->lb->next;
 	ft_printf("================on passe a l'algo dans B================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, little);
-	lit1 = ft_trie_100_b_little(data, little);
-	lit2 = ft_trie_100_b_biggest(data, little);
+	lit1 = ft_trie_100_b_little(data, little); // trouver un chiffre superieur
+	lit2 = ft_trie_100_b_biggest(data, little);// trouver un chiffre inferieur
 	ft_printf("================les deux tries donne================\nlittle =  %d et mon little little2 = %d\n", lit1, lit2);
 	if (lit1 != -1 && lit2 != -1)
 	{

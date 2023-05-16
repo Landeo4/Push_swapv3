@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 16:04:38 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/16 19:35:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int token)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
-		if (token != 2)
+		if (token != 1)
 			ft_trie_100(data, little);
 		data->la = pb(data);
 	}
