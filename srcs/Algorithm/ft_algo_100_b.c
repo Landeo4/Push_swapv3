@@ -6,12 +6,160 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 19:46:54 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/17 15:12:58 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
+void	ft_trie_100(t_struct *data, int little)
+{
+	t_list_b	*lb;
+	int			lit1;
+	int			lit2;
+	int			i;
+
+	lb = data->lb->next;
+	ft_printf("================on passe a l'algo dans B================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, little);
+	lit1 = ft_trie_100_b_little(data, little); // trouver s'il y a un chiffre sup
+	lit2 = ft_trie_100_b_biggest(data, little);// trouver s'il y a un chiffre inf
+	ft_printf("================les deux tries donne================\nlittle =  %d et mon little little2 = %d\n", lit1, lit2);
+	if (lit1 != -1 && lit2 != -1)
+	{
+		i = ft_found_best_place100(data, lb);
+		ft_printf("le i de ma pos est %d\n", i);
+		ft_sort_b100(data, i);
+	}
+	else if (lit1 == -1) //donc s'il n'y a aucun nombre superieur a mon nb
+		return ;
+	else if (lit2 == -1) //donc s'il n'y a aucun nombre inferieur a mon nb
+		rrb(data);
+}
+
+int		ft_found_best_place100(t_struct *data, t_list_b *lb)
+{
+	int			i;
+	int			nb;
+
+	nb = data->la->next->num;
+	while (lb && lb->next)
+	{
+		if (lb->num > nb && nb > lb->next->num)
+			return (i);
+		i++;
+		lb = lb->next;
+	}
+	return (-1);
+}
+
+void	ft_sort_b100(t_struct *data, int i)
+{
+	int		len;
+
+	len = ft_len_listb(data);
+	len = len / 2;
+	if (i > len)
+	{
+		while (i >= len)
+		{
+			rrb(data);
+			i--;
+		}
+	}
+	else if (i < len)
+	{
+		while (i <= len)
+		{
+			rb(data);
+			i++;
+		}
+	}
+}
+
+int		ft_take_best_place100(t_struct *data, int i)
+{
+	t_list_b	*lb;
+
+	lb = data->lb->next;
+	while (lb && lb->next)
+	{
+		if (data->la->next->num > lb->num && data->la->next->num < lb->next->num)
+			break ;
+		i++;
+		lb = lb->next;
+	}
+	return (0);
+}
+
+//trouver s'il y a des chiffres inferieur
+int		ft_trie_100_b_little(t_struct *data, int little)
+{
+	t_list_b	*lb;
+	int			nb;
+	(void)little;
+
+	lb = data->lb->next;
+	nb = data->la->next->num;
+	while (lb)
+	{
+		if (lb->num < nb)
+			return (-1);
+		lb = lb->next;
+	}
+	return (-1);
+}
+
+//trouver si il y a des chiffres superieur
+int		ft_trie_100_b_biggest(t_struct *data, int little)
+{
+	t_list_b	*lb;
+	int			nb;
+	(void)little;
+
+	lb = data->lb->next;
+	nb = data->la->next->num;
+	while (lb)
+	{
+		if (lb->num > nb)
+			return (-1);
+		lb = lb->next;
+	}
+	return (-1);
+}
+
+//mettre a la bonne place le lit dans lb
+int		ft_take_b_100(t_struct *data, int lit, int token)
+{
+	ft_printf("VOICI LA LISTE AVANT L'AJOUT\n");
+	ft_print_listb(data);
+	ft_printf("il faut donc faire %d d'action dans b\n", lit);
+	if (token == 1)
+	{
+		while (lit > 0)
+		{
+			data->lb = rb(data);
+			lit--;
+		}
+	}
+	else if (token == 0)
+	{
+		while (lit > 0)
+		{
+			data->lb = rrb(data);
+			lit--;
+		}
+	}
+	return (0);
+}
+
+
+
+
+
+
+
+
+/*
 void	ft_trie_100(t_struct *data, int little)
 {
 	t_list_b	*lb;
@@ -177,16 +325,7 @@ int		ft_take_b_100(t_struct *data, int lit, int token)
 	}
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
+*/
 
 /*
 //This fonction will test where the num of A would be place
