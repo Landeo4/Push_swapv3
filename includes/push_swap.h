@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/17 14:40:58 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/26 17:53:31 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -199,7 +199,7 @@ bool		ft_tab_checker(int *tmp, t_struct *data);
 void		push_swap(t_list_a *data);
 void		ft_error(void);
 int			*ft_essaie(int *tmp, t_struct *data, int *tab);
-void		ft_take_25_algo100(t_struct *data, int compare, int little, int token);
+void		ft_take_25_algo100(t_struct *data, int compare, int little);
 int			ft_get_100_25(t_struct *data);
 int			ft_get_cpt_100(t_struct *data);
 bool		ft_100_check(t_struct *data, int len);
@@ -227,5 +227,6 @@ int			ft_found_best_place100(t_struct *data, t_list_b *lb);
 int			ft_take_b_100(t_struct *data, int lit, int token);
 int			ft_take_best_place100(t_struct *data, int i);
 void		ft_sort_b100(t_struct *data, int i);
+void		ft_take_first_second_algo100(t_struct *data, int compare, int little);
 
 #endif

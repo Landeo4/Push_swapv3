@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/17 15:02:54 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/26 17:56:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,14 @@ int	ft_somme_algo_100(t_struct *data, int argc)
 	return (chiffre);
 }
 
-void	ft_take_25_algo100(t_struct *data, int compare, int little, int token)
+void	ft_take_25_algo100(t_struct *data, int compare, int little)
 {
 	if (compare == 1)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
 		ft_print_listb(data);
-		if (token < 1)
-			ft_trie_100(data, little);
+		ft_trie_100(data, little);
 		data->la = pb(data);
 	}
 	else if (compare == 0)
@@ -50,8 +49,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int token)
 		while (data->la->next->num != little)
 			data->la = ra(data);
 		ft_print_listb(data);
-		if (token < 1)
-			ft_trie_100(data, little);
+		ft_trie_100(data, little);
 		data->la = pb(data);
 	}
 }

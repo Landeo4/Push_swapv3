@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/17 14:56:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/26 18:05:55 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		la = data->la->next;
 		ft_printf("================NOUVELLE BOUCLE================\n");
 		i++;
-		if (ft_take_first_chunk(data, moyennech1, la, token) == -1)
-			break ;
+		ft_take_first_chunk(data, moyennech1, la, token);
 		token++;
 	}
 	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1\n");
@@ -90,13 +89,32 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	else if (compare == 0)
 		little = ft_found_little_100_25(data, littlech1);
 	ft_printf("little = %d\n", little);
-	if (token < 1)
+	if (token < 2)
 	{
-		data->la = pb(data);
+		ft_take_first_second_algo100(data, compare, little);
+		if (ft_len_listb(data) == 2)
+			if (data->lb->next->num < data->lb->next->next->num)
+				rrb(data);
 		return (0);
 	}
-	ft_take_25_algo100(data, compare, little, token);
+	ft_take_25_algo100(data, compare, little);
 	return (0);
+}
+
+void	ft_take_first_second_algo100(t_struct *data, int compare, int little)
+{
+	if (compare == 1)
+	{
+		while (data->la->next->num != little)
+			data->la = rra(data);
+		data->la = pb(data);
+	}
+	else if (compare == 0)
+	{
+		while (data->la->next->num != little)
+			data->la = ra(data);
+		data->la = pb(data);
+	}
 }
 
 /*
