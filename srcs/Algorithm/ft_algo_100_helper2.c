@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/28 16:07:09 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/28 17:16:18 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,14 +43,18 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
+		ft_printf("ma liste ressemble a ca\n");
 		ft_print_listb(data);
 	}
 	else if (compare == 0)
 	{
 		while (data->la->next->num != little)
 			data->la = ra(data);
+		ft_printf("ma liste ressemble a ca\n");
 		ft_print_listb(data);
 	}
+	lit1 = ft_trie_100_b_little(data, little); // trouver s'il y a un chiffre inferieur
+	lit2 = ft_trie_100_b_biggest(data, little);// trouver s'il y a un chiffre superieur
 	ft_100_swap_manager(data, lit1, lit2);
 }
 
