@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/26 17:56:54 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/28 16:07:09 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,22 +36,22 @@ int	ft_somme_algo_100(t_struct *data, int argc)
 
 void	ft_take_25_algo100(t_struct *data, int compare, int little)
 {
+	int		lit1;
+	int		lit2;
+
 	if (compare == 1)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
 		ft_print_listb(data);
-		ft_trie_100(data, little);
-		data->la = pb(data);
 	}
 	else if (compare == 0)
 	{
 		while (data->la->next->num != little)
 			data->la = ra(data);
 		ft_print_listb(data);
-		ft_trie_100(data, little);
-		data->la = pb(data);
 	}
+	ft_100_swap_manager(data, lit1, lit2);
 }
 
 bool	ft_compare_little(t_struct *data, int littlech1, int littlech2)
@@ -125,6 +125,30 @@ int	ft_found_little_chunk5_100(t_struct *data)
 	return (i);
 }
 
+
+/*
+void	ft_take_25_algo100(t_struct *data, int compare, int little)
+{
+	int		lit1;
+	int		lit2;
+
+	if (compare == 1)
+	{
+		while (data->la->next->num != little)
+			data->la = rra(data);
+		ft_print_listb(data);
+	}
+	else if (compare == 0)
+	{
+		while (data->la->next->num != little)
+			data->la = ra(data);
+		ft_print_listb(data);
+	}
+	lit1 = ft_trie_100_b_little(data, little);
+	lit2 = ft_trie_100_b_biggest(data, little);
+	ft_100_swap_manager(data, lit1, lit2);
+}
+*/
 
 /*
 void	ft_take_25_algo100(t_struct *data, int compare, int little)

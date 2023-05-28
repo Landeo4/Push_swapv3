@@ -48,6 +48,8 @@ SRCS	=	srcs/main.c\
 			srcs/Algorithm/ft_algo_100_helper1.c\
 			srcs/Algorithm/ft_algo_100_helper2.c\
 			srcs/Algorithm/ft_algo_100_b.c\
+			srcs/Algorithm/ft_algo_100_b2.c\
+
 
 OBJS= $(SRCS:.c=.o)
 

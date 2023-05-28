@@ -6,34 +6,24 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/26 18:07:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/28 16:00:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_trie_100(t_struct *data, int little)
+int		ft_trie_100(t_struct *data, int little)
 {
 	t_list_b	*lb;
 	int			lit1;
 	int			lit2;
-	int			i;
 
 	lb = data->lb->next;
 	ft_printf("================on passe a l'algo dans B================\ndata->lb->next = %d et mon little est de -> %d\n", lb->num, little);
-	lit1 = ft_trie_100_b_little(data, little); // trouver s'il y a un chiffre sup
-	lit2 = ft_trie_100_b_biggest(data, little);// trouver s'il y a un chiffre inf
+	lit1 = ft_trie_100_b_little(data, little); // trouver s'il y a un chiffre inferieur
+	lit2 = ft_trie_100_b_biggest(data, little);// trouver s'il y a un chiffre superieur
 	ft_printf("================les deux tries donne================\nlittle =  %d et mon little little2 = %d\n", lit1, lit2);
-	if (lit1 != -1 && lit2 != -1)
-	{
-		i = ft_found_best_place100(data, lb);
-		ft_printf("le i de ma pos est %d\n", i);
-		ft_sort_b100(data, i);
-	}
-	else if (lit1 == -1) //donc s'il n'y a aucun nombre superieur a mon nb
-		return ;
-	else if (lit2 == -1) //donc s'il n'y a aucun nombre inferieur a mon nb
-		rrb(data);
+	return (0);
 }
 
 int		ft_found_best_place100(t_struct *data, t_list_b *lb)
@@ -91,38 +81,38 @@ int		ft_take_best_place100(t_struct *data, int i)
 	return (0);
 }
 
-//trouver s'il y a des chiffres inferieur
-int		ft_trie_100_b_little(t_struct *data, int little)
+//trouver s'il y a des chiffres superieur
+int		ft_trie_100_b_biggest(t_struct *data, int little)
 {
 	t_list_b	*lb;
-	int			nb;
-	(void)little;
+	int			i;
 
+	i = 0;
 	lb = data->lb->next;
-	nb = data->la->next->num;
 	while (lb)
 	{
-		if (lb->num < nb)
-			return (-1);
+		if (little < lb->num)
+			return (i);
 		lb = lb->next;
+		i++;
 	}
 	return (-1);
 }
 
-//trouver si il y a des chiffres superieur
-int		ft_trie_100_b_biggest(t_struct *data, int little)
+//trouver si il y a des chiffres inferieur
+int		ft_trie_100_b_little(t_struct *data, int little)
 {
 	t_list_b	*lb;
-	int			nb;
-	(void)little;
+	int			i;
 
+	i = 0;
 	lb = data->lb->next;
-	nb = data->la->next->num;
 	while (lb)
 	{
-		if (lb->num > nb)
-			return (-1);
+		if (little > lb->num)
+			return (i);
 		lb = lb->next;
+		i++;
 	}
 	return (-1);
 }
