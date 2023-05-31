@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/28 17:53:43 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/31 12:16:34 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,15 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		ft_take_best_place100(data, i);
 		data->la = pb(data);
 	}
-	if (lit1 == -1) // s'il y aucune occurence inferieur
+	if (lit2 == -1) // s'il y aucune occurence inferieur
 		data->la = pb(data);
-	else if (lit2 == -1) // s'il y aucune occurence superieur
+	else if (lit1 == -1) // s'il y aucune occurence superieur
 	{
-		data->lb = rrb(data);
 		data->la = pb(data);
+		data->lb = rb(data);
 	}
+	ft_printf("ma liste ressemble maintenant a ca\n");
+	ft_print_listb(data);
 }
 // je suis en train d'essayer de regler le probleme de rb
 void	ft_make_list_right(t_struct *data, int i)
@@ -43,7 +45,7 @@ void	ft_make_list_right(t_struct *data, int i)
 
 	len = ft_len_listb(data);
 	len = len / 2;
-	if (ft_verif_lb = -1)
+	if (ft_verif_lb(data) == -1)
 		return ;
 	if (i > len)
 	{
@@ -64,6 +66,24 @@ void	ft_make_list_right(t_struct *data, int i)
 		}
 		return ;
 	}
+}
+// peut etre que plus tard cette fonction fera bug mon programme car ca echangera des nb qui viennent d'etre push dans b
+int		ft_verif_lb(t_struct *data)
+{
+	t_list_b	*lb;
+	int			nb;
+
+	if (data->lb->next->num < data->lb->next->next->num)
+		data->lb = sb(data->lb);
+	lb = data->lb->next->next;
+	nb = data->lb->next->num;
+	while (lb)
+	{
+		if (nb < lb->num)
+			return (0);
+		lb = lb->next;
+	}
+	return (-1);
 }
 
 int		ft_found_pos_lb_big(t_struct *data)
