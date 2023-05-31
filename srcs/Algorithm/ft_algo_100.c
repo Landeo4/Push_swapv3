@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 14:22:22 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/31 18:24:50 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	//compare = ft_compare_little(data, littlech1, littlech2);
 	/*if (littlech1 == -1 || littlech2 == -1)
 		return (-1);*/
-	if (littlech1 <= littlech2)
+	if (littlech1 >= littlech2)
 		compare = 0;
 	else
 		compare = 1;

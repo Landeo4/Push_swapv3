@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hook <hook@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/16 15:11:31 by hook             ###   ########.fr       */
+/*   Updated: 2023/05/31 18:16:29 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,7 @@ int	ft_found_little_100_25(t_struct *data, int pos)
 	while (pos != 0)
 	{
 		nb = tab->num;
+		ft_printf(" mon nb est de %d", data->la->next->num);
 		tab = tab->next;
 		pos--;
 	}

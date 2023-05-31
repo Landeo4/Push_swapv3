@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 14:58:33 by landeo           ###   ########.fr       */
+/*   Updated: 2023/05/31 18:04:27 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 
 	i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
-	ft_printf("salut je passe par le swap manager et mes lit sont lit1 %d, lit2 %d\n", lit1, lit2);
+	ft_printf("salut je passe par le swap manager et mes lit1 et lit2 sont lit1 %d, lit2 %d\n", lit1, lit2);
 	ft_make_list_right(data, i);
 	ft_print_listb(data);
 	if (lit1 == -1 && lit2 == -1)
@@ -34,6 +34,16 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	{
 		data->la = pb(data);
 		data->lb = rb(data);
+	}
+	else
+	{
+		lit2 = lit1;
+		while (lit1 != ft_len_listb(data))
+		{
+			lit1++;
+			rrb(data);
+		}
+		pb(data);
 	}
 	ft_printf("ma liste ressemble maintenant a ca\n");
 	ft_print_listb(data);
