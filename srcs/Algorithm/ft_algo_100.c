@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 12:20:53 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/31 14:22:22 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		i++;
 		ft_take_first_chunk(data, moyennech1, la, token);
 		token++;
+		ft_printf("mon i est de %i\n", i);
 	}
 	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1\n");
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 12:16:34 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/05/31 14:58:33 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		ft_take_best_place100(data, i);
 		data->la = pb(data);
 	}
-	if (lit2 == -1) // s'il y aucune occurence inferieur
+	else if (lit2 == -1) // s'il y aucune occurence inferieur
 		data->la = pb(data);
 	else if (lit1 == -1) // s'il y aucune occurence superieur
 	{
