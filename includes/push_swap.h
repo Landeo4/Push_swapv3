@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 11:03:41 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/01 15:39:00 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -140,8 +140,8 @@ int			ft_parsing_manager_sup(char **argv);
 //								actions
 // =======================================================================
 
-t_list_a		*sa(t_list_a *la);
-t_list_b		*sb(t_list_b *lb);
+t_list_a		*sa(t_list_a *la, t_struct *data);
+t_list_b		*sb(t_list_b *lb, t_struct *data);
 t_struct		*ss(t_struct *data);
 t_list_a		*pb(t_struct *data);
 t_list_b		*pa(t_struct *data);

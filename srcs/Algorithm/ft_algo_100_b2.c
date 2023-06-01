@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 18:04:27 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/01 16:02:09 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,9 @@ int		ft_verif_lb(t_struct *data)
 	int			nb;
 
 	if (data->lb->next->num < data->lb->next->next->num)
-		data->lb = sb(data->lb);
+	{
+		data->lb = sb(data->lb, data);
+	}
 	lb = data->lb->next->next;
 	nb = data->lb->next->num;
 	while (lb)

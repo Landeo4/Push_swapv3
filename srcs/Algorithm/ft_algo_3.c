@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 17:22:38 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/18 10:08:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/01 15:41:03 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,11 @@ void	ft_algo_3(t_struct *data)
 	else if (num1 < num2 && num2 > num3 && num1 < num3)
 	{	
 		rra(data);
-		sa(data->la);
+		sa(data->la, data);
 	}
 	else if (num1 > num2 && num2 < num1 && num1 > num3)
 	{
-		sa(data->la);
+		sa(data->la, data);
 		rra(data);
 	}
 	else
@@ -46,10 +46,10 @@ void	ft_algo_3sup(t_struct *data, int num1, int num2, int num3)
 	if (num1 > num2 && num2 > num3 && num1 > num3)
 	{
 		rra(data);
-		sa(data->la);
+		sa(data->la, data);
 	}
 	else if (num1 < num2 && num2 > num3 && num3 < num1)
 		rra(data);
 	else if (num1 > num2 && num2 < num3 && num3 > num1)
-		sa(data->la);
+		sa(data->la, data);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/31 18:24:50 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/01 15:27:43 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	token = 0;
 	moyennech1 = ft_somme_algo_100(data, argc);
 	ft_printf("du coup moyenne ch1 est de %d\n", moyennech1);
-	while (i < 19)
+	while (i < 6)
 	{
 		la = data->la->next;
 		ft_printf("================NOUVELLE BOUCLE================\n");
