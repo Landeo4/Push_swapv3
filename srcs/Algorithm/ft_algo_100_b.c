@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/28 17:14:27 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/03 15:44:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ int		ft_trie_100_b_biggest(t_struct *data, int little)
 	lb = data->lb->next;
 	while (lb)
 	{
-		if (little < lb->num)
+		if (little <= lb->num)
 			return (i);
 		lb = lb->next;
 		i++;
@@ -109,7 +109,7 @@ int		ft_trie_100_b_little(t_struct *data, int little)
 	lb = data->lb->next;
 	while (lb)
 	{
-		if (little > lb->num)
+		if (little >= lb->num) //mon lit est supeiruer a une position
 			return (i);
 		lb = lb->next;
 		i++;

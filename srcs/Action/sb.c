@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:29:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/01 16:06:49 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/03 15:28:28 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,12 @@ t_list_b	*sb(t_list_b *lb, t_struct *data)
 	t_list_b	*first;
 	int			tmp2;
 	(void)data;
-	(void)tmp1;
 
 	first = lb;
 	tmp2 = first->next->num;
 	tmp1 = first->num;
-	data->lb = ft_freeatb(data, 1);
-	data->lb = ft_addatb(data, tmp2, 1);
-	data->lb = ft_freeatb(data, 2);
-	data->lb = ft_addatb(data, tmp1, 2);
+	first->next->num = tmp1;
+	first->num = tmp2;
 	ft_printf("sb\n");
 	ft_printf("voici a quoi ressemble mes valeurs %i %i\n", first->num, first->next->num);
 	return (first);
