@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/03 15:44:19 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/04 14:35:11 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 // mon probleme viens de mon if (lit1 == -1 && lit2 == -1)
 void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 {
-	int			i;
+	int			cpt;
 	t_list_b	*lb;
+	int			i;
 
 	i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
@@ -24,8 +25,8 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	ft_print_listb(data);
 	if (lit1 != -1 && lit2 != -1)
 	{
-		i = ft_found_best_place100(data, lb);
-		ft_take_best_place100(data, i);
+		cpt = ft_found_best_place100(data, lb);
+		ft_take_best_place100(data, cpt);
 		data->la = pb(data);
 	}
 	else if (lit2 == -1) // s'il y aucune occurence inferieur

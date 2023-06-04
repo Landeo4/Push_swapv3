@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/03 15:44:05 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/04 14:37:18 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,17 @@ int		ft_trie_100(t_struct *data, int little)
 
 int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 {
-	int			i;
 	int			nb;
+	int			cpt;
 
 	nb = data->la->next->num;
 	while (lb && lb->next)
 	{
 		if (lb->num > nb && nb > lb->next->num)
-			return (i);
-		i++;
+			cpt++;
 		lb = lb->next;
 	}
-	return (-1);
+	return (cpt);
 }
 
 void	ft_sort_b100(t_struct *data, int i)
@@ -66,17 +65,27 @@ void	ft_sort_b100(t_struct *data, int i)
 	}
 }
 
-int		ft_take_best_place100(t_struct *data, int i)
+int		ft_take_best_place100(t_struct *data, int cpt)
 {
 	t_list_b	*lb;
+	int			nb;
+	int			len;
 
+	len = ft_len_listb(data);
+	nb = data->la->next->num;
 	lb = data->lb->next;
-	while (lb && lb->next)
+	while (cpt > 1)
+	{
+		if (lb->num > nb && nb > lb->next->num)
+			cpt--;
+		lb = lb->next;
+	}
+	while (len > 0)
 	{
 		if (data->la->next->num > lb->num && data->la->next->num < lb->next->num)
 			break ;
-		i++;
-		lb = lb->next;
+		lb = rb(data);
+		len--;
 	}
 	return (0);
 }
