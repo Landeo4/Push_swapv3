@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/04 14:37:18 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/06 17:01:50 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,14 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 	int			cpt;
 
 	nb = data->la->next->num;
+	cpt = 0;
 	while (lb && lb->next)
 	{
 		if (lb->num > nb && nb > lb->next->num)
 			cpt++;
 		lb = lb->next;
 	}
+	ft_printf("mon cpt dans best place est de %d \n", cpt);
 	return (cpt);
 }
 
@@ -74,19 +76,15 @@ int		ft_take_best_place100(t_struct *data, int cpt)
 	len = ft_len_listb(data);
 	nb = data->la->next->num;
 	lb = data->lb->next;
-	while (cpt > 1)
+	ft_printf("dans ma fonction take best place mon cpt est de %d et mon nb est de %d\n", cpt, nb);
+	while (len > 2)
 	{
-		if (lb->num > nb && nb > lb->next->num)
-			cpt--;
-		lb = lb->next;
-	}
-	while (len > 0)
-	{
-		if (data->la->next->num > lb->num && data->la->next->num < lb->next->num)
-			break ;
+		if (lb->num > nb)
+			return (1);
 		lb = rb(data);
 		len--;
 	}
+	ft_printf("AUCUNE BONNE PLACE TROUVER\n");
 	return (0);
 }
 

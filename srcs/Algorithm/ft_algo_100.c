@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/03 15:33:51 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/05 17:04:33 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	token = 0;
 	moyennech1 = ft_somme_algo_100(data, argc);
 	ft_printf("du coup moyenne ch1 est de %d\n", moyennech1);
-	while (i < 7)
+	while (i < 5)
 	{
 		la = data->la->next;
 		ft_printf("================NOUVELLE BOUCLE================\n");

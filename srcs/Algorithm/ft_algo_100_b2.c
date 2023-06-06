@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/04 14:35:11 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/06 17:03:18 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	if (lit1 != -1 && lit2 != -1)
 	{
 		cpt = ft_found_best_place100(data, lb);
+		ft_printf("mon cpt est de %d \n", cpt);
 		ft_take_best_place100(data, cpt);
 		data->la = pb(data);
 	}
@@ -46,6 +47,8 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		}
 		pb(data);
 	}
+	if (data->lb->next->num < data->lb->next->next->num)
+		data->lb = sb(lb, data);
 	ft_printf("ma liste ressemble maintenant a ca\n");
 	ft_print_listb(data);
 }
