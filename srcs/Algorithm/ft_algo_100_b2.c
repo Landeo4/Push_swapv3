@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/06 17:03:18 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/06 17:29:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,13 +43,13 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		while (lit1 != ft_len_listb(data))
 		{
 			lit1++;
-			rrb(data);
+			data->lb = rrb(data);
 		}
-		pb(data);
+		data->la = pb(data);
 	}
 	if (data->lb->next->num < data->lb->next->next->num)
 		data->lb = sb(lb, data);
-	ft_printf("ma liste ressemble maintenant a ca\n");
+	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
 	ft_print_listb(data);
 }
 // je suis en train d'essayer de regler le probleme de rb

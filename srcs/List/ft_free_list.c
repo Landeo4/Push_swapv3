@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 17:53:32 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 18:01:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/06 17:41:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	ft_free_lista(t_struct *data)
 		free(data->la);
 		data->la = tmp;
 	}
+	free(data->la);
 }
 
 void	ft_free_listb(t_struct *data)
@@ -36,4 +37,5 @@ void	ft_free_listb(t_struct *data)
 		free(data->lb);
 		data->lb = tmp;
 	}
+	free(data->lb);
 }

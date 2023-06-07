@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 12:16:43 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/09 17:52:10 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/06 17:27:42 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,10 @@ void	ft_tri_10(t_list_a *la, t_struct *data)
 		la = data->la->next;
 	}
 	while (ft_len_listb(data))
-		pa(data);
+	{
+		data->lb = sb(data->lb, data);
+		data->lb = pa(data);
+	}
 }
 
 void	ft_10_action(t_list_a *tmp, t_struct *data)
