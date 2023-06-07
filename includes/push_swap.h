@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/04 14:30:07 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 17:13:17 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -233,6 +233,7 @@ int			ft_found_big_lb_100(t_struct *data);
 void		ft_make_list_right(t_struct *data, int i);
 int			ft_found_pos_lb_big(t_struct *data);
 int			ft_verif_lb(t_struct *data);
+void		ft_helper_100(t_struct *data, int nb, int i);
 
 
 

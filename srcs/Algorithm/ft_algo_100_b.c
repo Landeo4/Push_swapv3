@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/06 17:01:50 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 17:50:44 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,13 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 
 	nb = data->la->next->num;
 	cpt = 0;
+	lb = data->lb->next;
+	ft_printf("mon nb est de %d dans le found best place\n", nb);
 	while (lb && lb->next)
 	{
 		if (lb->num > nb && nb > lb->next->num)
-			cpt++;
+			return (cpt);
+		cpt++;
 		lb = lb->next;
 	}
 	ft_printf("mon cpt dans best place est de %d \n", cpt);
@@ -69,22 +72,30 @@ void	ft_sort_b100(t_struct *data, int i)
 
 int		ft_take_best_place100(t_struct *data, int cpt)
 {
-	t_list_b	*lb;
 	int			nb;
 	int			len;
 
-	len = ft_len_listb(data);
 	nb = data->la->next->num;
-	lb = data->lb->next;
+	len = ft_len_listb(data);
+	len = len / 2;
 	ft_printf("dans ma fonction take best place mon cpt est de %d et mon nb est de %d\n", cpt, nb);
-	while (len > 2)
+	if (cpt > len)
 	{
-		if (lb->num > nb)
-			return (1);
-		lb = rb(data);
-		len--;
+		len = ft_len_listb(data);
+		while (len > cpt)
+		{
+			data->lb = rrb(data);
+			cpt++;
+		}
 	}
-	ft_printf("AUCUNE BONNE PLACE TROUVER\n");
+	else if (cpt < len)
+	{
+		while (cpt > 0)
+		{
+			data->lb = rb(data);
+			cpt--;
+		}
+	}
 	return (0);
 }
 

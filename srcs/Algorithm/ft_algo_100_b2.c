@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/07 15:34:35 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/07 17:41:54 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,23 +21,30 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
 	ft_printf("salut je passe par le swap manager et mes lit1 et lit2 sont lit1 %d, lit2 %d\n", lit1, lit2);
+	ft_printf("avant mon make list right\n");
+	ft_print_listb(data);
 	ft_make_list_right(data, i);
 	ft_print_listb(data);
 	if (lit1 != -1 && lit2 != -1)
 	{
+		ft_printf("je passe le premier if de swap manager\n");
 		cpt = ft_found_best_place100(data, lb);
 		ft_printf("mon cpt est de %d \n", cpt);
 		ft_take_best_place100(data, cpt);
 		data->la = pb(data);
 	}
 	else if (lit2 == -1) // s'il y aucune occurence inferieur
+	{
 		data->la = pb(data);
+		ft_printf("je passe par le lit2 == -1\n");
+	}
 	else if (lit1 == -1) // s'il y aucune occurence superieur
 	{
 		data->la = pb(data);
 		data->lb = rb(data);
+		ft_printf("je passe par le lit1 == -1\n");
 	}
-	else
+	/*else
 	{
 		lit2 = lit1;
 		while (lit1 != ft_len_listb(data))
@@ -46,17 +53,67 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 			data->lb = rrb(data);
 		}
 		data->la = pb(data);
-	}
+	}*/
 	if (data->lb->next->num < data->lb->next->next->num)
 		data->lb = sb(data->lb, data);
 	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
 	ft_print_listb(data);
 }
 // je suis en train d'essayer de regler le probleme de rb
+/*
+void	ft_make_list_right(t_struct *data, int i)
+{
+	t_list_b	*lb;
+	int			nb;
+	int			j;
+	(void)j;
+
+	ft_printf("le i dans make list right est de %d\n", i);
+	j = 0;
+	lb = data->lb->next;
+	nb = lb->num;
+	while (lb && lb->next)
+	{
+		if (nb < lb->num)
+			nb = lb->num;
+		lb = lb->next;
+		i++;
+	}
+	lb = data->lb->next;
+	//ft_helper_100(data, nb, j);
+}
+
+void	ft_helper_100(t_struct *data, int nb, int i)
+{
+	int		len;
+
+	len = ft_len_listb(data);
+	len = len / 2;
+	if (i > len)
+	{
+		len = ft_len_listb(data);
+		while (i < len && nb != data->lb->next->num)
+		{
+			data->lb = rrb(data);
+			i++;
+		}
+	}
+	else if (i < len)
+	{
+		while (i < len && nb != data->lb->next->num)
+		{
+			data->lb = rb(data);
+			i++;
+		}
+	}
+}
+*/
+
 void	ft_make_list_right(t_struct *data, int i)
 {
 	int		len;
 
+	ft_printf("le i dans make list right est de %d\n", i);
 	len = ft_len_listb(data);
 	len = len / 2;
 	if (ft_verif_lb(data) == -1)
@@ -66,7 +123,7 @@ void	ft_make_list_right(t_struct *data, int i)
 		len = ft_len_listb(data);
 		while (i > len)
 		{
-			data->lb = rrb(data);
+			data->lb = rb(data);
 			i++;
 		}
 		return ;
@@ -75,12 +132,13 @@ void	ft_make_list_right(t_struct *data, int i)
 	{
 		while (i < len)
 		{
-			data->lb = rb(data);
+			data->lb = rrb(data);
 			i++;
 		}
 		return ;
 	}
 }
+
 // peut etre que plus tard cette fonction fera bug mon programme car ca echangera des nb qui viennent d'etre push dans b
 int		ft_verif_lb(t_struct *data)
 {
@@ -120,11 +178,14 @@ int		ft_found_pos_lb_big(t_struct *data)
 			nb = lb->num;
 		lb = lb->next;
 	}
+	lb = data->lb->next;
 	while (lb)
 	{
 		if (nb == nb2)
 			return (i);
+		nb = lb->num;
 		lb = lb->next;
+		i++;
 	}
 	ft_printf("MON i EST %d \n", i);
 	return (i);
