@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/07 17:50:44 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/08 00:46:33 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 		lb = lb->next;
 	}
 	ft_printf("mon cpt dans best place est de %d \n", cpt);
-	return (cpt);
+	return (-1);
 }
 
 void	ft_sort_b100(t_struct *data, int i)
@@ -90,10 +90,53 @@ int		ft_take_best_place100(t_struct *data, int cpt)
 	}
 	else if (cpt < len)
 	{
-		while (cpt > 0)
+		if (cpt == 0)
 		{
 			data->lb = rb(data);
-			cpt--;
+			return (0);
+		}
+		while (cpt > len)
+		{
+			data->lb = rb(data);
+			len++;
+		}
+	}
+	return (0);
+}
+
+int		ft_take_best_place102(t_struct *data, int nb)
+{
+	int			len;
+	t_list_b	*lb;
+	int			i;
+
+	i = 0;
+	lb = data->lb->next;
+	len = ft_len_listb(data);
+	len = len / 2;
+	while (lb)
+	{
+		if (lb->num == nb)
+			break ;
+		i++;
+		lb = lb->next;
+	}
+	lb = data->lb->next;
+	if (i > len)
+	{
+		len = ft_len_listb(data);
+		while (i < len)
+		{
+			data->lb = rb(data);
+			i++;
+		}
+	}
+	else if (i < len)
+	{
+		while (i < len)
+		{
+			data->lb = rrb(data);
+			i++;
 		}
 	}
 	return (0);
