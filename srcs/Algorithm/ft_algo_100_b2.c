@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/06 17:29:53 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 15:34:35 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		data->la = pb(data);
 	}
 	if (data->lb->next->num < data->lb->next->next->num)
-		data->lb = sb(lb, data);
+		data->lb = sb(data->lb, data);
 	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
 	ft_print_listb(data);
 }
@@ -87,12 +87,13 @@ int		ft_verif_lb(t_struct *data)
 	t_list_b	*lb;
 	int			nb;
 
-	lb = data->lb->next;
+	lb = data->lb;
 	if (data->lb->next->num < data->lb->next->next->num)
 	{
 		lb = sb(lb, data);
 	}
 	nb = data->lb->next->num;
+	lb = data->lb->next;
 	while (lb)
 	{
 		if (nb < lb->num)

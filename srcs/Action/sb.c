@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sb.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:29:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/03 15:28:28 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 15:08:40 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,19 +24,22 @@
 ** It will swap the first and the second number in the list b
 */
 
-t_list_b	*sb(t_list_b *lb, t_struct *data)
+t_list_b	*sb(t_list_b *lb,  t_struct *data)
 {
 	int			tmp1;
 	t_list_b	*first;
 	int			tmp2;
-	(void)data;
 
-	first = lb;
-	tmp2 = first->next->num;
+	first = lb->next;
 	tmp1 = first->num;
-	first->next->num = tmp1;
-	first->num = tmp2;
+	tmp2 = first->next->num;
+	if (lb && lb->next)
+	{
+		lb = ft_freeatb(data, 2);
+		lb = ft_addatb(data, tmp1, 2);
+		lb = ft_freeatb(data, 1);
+		lb = ft_addatb(data, tmp2, 1);
+	}
 	ft_printf("sb\n");
-	ft_printf("voici a quoi ressemble mes valeurs %i %i\n", first->num, first->next->num);
-	return (first);
+	return (lb);
 }

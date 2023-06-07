@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sa.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 19:26:04 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/01 15:40:01 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 15:05:31 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,13 @@ t_list_a	*sa(t_list_a *la,  t_struct *data)
 	first = la->next;
 	tmp1 = first->num;
 	tmp2 = first->next->num;
-	la = ft_freeata(data, 2);
-	la = ft_addata(data, tmp1, 2);
-	la = ft_freeata(data, 1);
-	la = ft_addata(data, tmp2, 1);
+	if (la && la->next)
+	{
+		la = ft_freeata(data, 2);
+		la = ft_addata(data, tmp1, 2);
+		la = ft_freeata(data, 1);
+		la = ft_addata(data, tmp2, 1);
+	}
 	ft_printf("sa\n");
-	return (first);
+	return (la);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_freeAt.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 18:09:21 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/06 18:02:36 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/07 15:24:15 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ t_list_b	*ft_freeatb(t_struct *data, int pos)
 	{
 		tete = tete->next;
 		free(cur);
-		return (tete);
+		return (data->lb);
 	}
 	i = 0;
 	while (i < pos)
@@ -67,5 +67,5 @@ t_list_b	*ft_freeatb(t_struct *data, int pos)
 	}
 	prec->next = cur->next;
 	free(cur);
-	return (tete);
+	return (data->lb);
 }
