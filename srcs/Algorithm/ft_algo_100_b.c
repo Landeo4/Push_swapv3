@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/08 00:46:33 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/09 13:46:00 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,20 +122,33 @@ int		ft_take_best_place102(t_struct *data, int nb)
 		lb = lb->next;
 	}
 	lb = data->lb->next;
-	if (i > len)
+	ft_printf("mon i dans take best place est de %i et ma len de %d\n", i, len);
+	if (i == 0)
+		data->lb = rb(data);
+	else if (i == len)
 	{
+		while (i > 0)
+		{
+			data->lb = rb(data);
+			i--;
+		}
+	}
+	else if (i > len)
+	{
+		ft_printf("salut je suis dans la boucle des rrb\n", i);
 		len = ft_len_listb(data);
 		while (i < len)
 		{
-			data->lb = rb(data);
+			data->lb = rrb(data);
 			i++;
 		}
 	}
 	else if (i < len)
 	{
+		ft_printf("salut je suis dans la boucle des rb\n", i);
 		while (i < len)
 		{
-			data->lb = rrb(data);
+			data->lb = rb(data);
 			i++;
 		}
 	}

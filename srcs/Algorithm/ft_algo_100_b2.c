@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/08 00:47:50 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/09 13:24:57 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -169,13 +169,13 @@ int			ft_found_lower_b(t_struct *data)
 	nb = data->lb->next->num;
 	while (lb && lb->next)
 	{
-		if (nb < lb->num)
+		if (nb > lb->num)
 			nb = lb->num;
 		lb = lb->next;
 	}
+	ft_printf("mon nb dans le lit1 -1 est de %d\n", nb);
 	return (nb);
 }
-
 
 void	ft_make_list_right(t_struct *data, int i)
 {
