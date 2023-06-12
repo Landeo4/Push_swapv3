@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/09 13:46:00 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/12 15:24:48 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -145,7 +145,7 @@ int		ft_take_best_place102(t_struct *data, int nb)
 	}
 	else if (i < len)
 	{
-		ft_printf("salut je suis dans la boucle des rb\n", i);
+		ft_printf("salut je suis dans la boucle des rb ^^\n", i);
 		while (i < len)
 		{
 			data->lb = rb(data);

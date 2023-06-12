@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/09 13:24:57 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/12 15:40:33 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,8 +55,17 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		}
 		data->la = pb(data);
 	}*/
+	lb = data->lb->next;
 	if (data->lb->next->num < data->lb->next->next->num)
-		data->lb = sb(data->lb, data);
+	{
+		while (lb && lb->next)
+			lb = lb->next;
+		ft_printf("lb->num = ^ %d", lb->num);
+		if (lb->num > data->lb->next->num)
+			data->lb = sb(data->lb, data);
+		else
+			rrb(data);
+	}
 	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
 	ft_print_listb(data);
 }
