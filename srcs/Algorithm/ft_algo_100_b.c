@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 08:56:04 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 09:20:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 	int			cpt;
 
 	nb = data->la->next->num;
-	cpt = 1;
+	cpt = 0;
 	lb = data->lb->next;
 	ft_printf("mon nb est de %d dans le found best place\n", nb);
 	while (lb && lb->next)
@@ -70,6 +70,7 @@ void	ft_sort_b100(t_struct *data, int i)
 	}
 }
 
+/*
 int		ft_take_best_place100(t_struct *data, int cpt)
 {
 	int			nb;
@@ -79,6 +80,7 @@ int		ft_take_best_place100(t_struct *data, int cpt)
 	len = ft_len_listb(data);
 	len = len / 2;
 	ft_printf("dans ma fonction take best place mon cpt est de %d et mon nb est de %d\n", cpt, nb);
+	ft_printf("et ma len est de %d\n", len);
 	if (cpt > len)
 	{
 		len = ft_len_listb(data);
@@ -99,6 +101,43 @@ int		ft_take_best_place100(t_struct *data, int cpt)
 		{
 			data->lb = rb(data);
 			len++;
+		}
+	}
+	return (0);
+}
+*/
+
+int		ft_take_best_place100(t_struct *data, int cpt)
+{
+	int			nb;
+	int			len;
+
+	nb = data->la->next->num;
+	len = ft_len_listb(data);
+	len = len / 2;
+	ft_printf("dans ma fonction take best place mon cpt est de %d et mon nb est de %d\n", cpt, nb);
+	ft_printf("et ma len est de %d\n", len);
+	if (cpt > len)
+	{
+		len = ft_len_listb(data);
+		while (len > cpt)
+		{
+			data->lb = rrb(data);
+			cpt++;
+		}
+	}
+	else if (cpt < len)
+	{
+		if (cpt == 0)
+		{
+			data->lb = rb(data);
+			return (0);
+		}
+		cpt++;
+		while (cpt > 0)
+		{
+			data->lb = rb(data);
+			cpt--;
 		}
 	}
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 08:40:47 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 09:27:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,9 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		ft_printf("mon cpt est de %d \n", cpt);
 		ft_take_best_place100(data, cpt);
 		data->la = pb(data);
+		if (data->lb->next->num < data->lb->next->next->num)
+			data->lb = sb(data->lb, data);
+		return ;
 	}
 	else if (lit2 == -1) // s'il y aucune occurence inferieur
 	{
@@ -58,7 +61,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	}*/
 	ft_print_listb(data);
 	lb = data->lb->next;
-	if (len > 3)
+	if (len > 4)
 	{
 		if (data->lb->next->num < data->lb->next->next->num)
 		{
@@ -69,13 +72,14 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 				data->lb = rrb(data);
 			else
 				data->lb = sb(data->lb, data);
+			if (data->lb->next->num < data->lb->next->next->num && data->lb->next->next->num > data->lb->next->next->next->num)
+				data->lb = sb(data->lb, data);
 		}
 	}
 	else
 		if (data->lb->next->num < data->lb->next->next->num)
 			data->lb = sb(data->lb, data);
 	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
-	ft_print_listb(data);
 }
 
 /*
