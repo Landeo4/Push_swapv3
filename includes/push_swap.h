@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 09:45:09 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:40:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -206,7 +206,7 @@ bool		ft_100_check(t_struct *data, int len);
 void		ft_trie_50_algo_100(t_struct *data, t_list_a *la);
 int			ft_search_min25_100(t_struct *data, t_list_b *lb);
 int			ft_get_min_100_25(t_struct *data, int len);
-int 		ft_somme_algo_100(t_struct *data, int argc);
+int 		ft_somme_algo_100(t_struct *data, int argc, int token);
 void		ft_tri_25_algo100(t_struct *data);
 bool		ft_verif_25(t_struct *data, int len);
 void		ft_algo_100_helper(t_struct *data);
@@ -220,7 +220,6 @@ int			ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la);
 int			ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la);
 bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 int			ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token);
-int			ft_somme_algo_100(t_struct *data, int argc);
 int			ft_trie_100_b_little(t_struct *data, int little);
 int			ft_trie_100_b_biggest(t_struct *data, int little);
 int			ft_found_best_place100(t_struct *data, t_list_b *lb);

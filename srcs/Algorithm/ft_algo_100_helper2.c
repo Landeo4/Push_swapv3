@@ -6,18 +6,21 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/05/28 17:16:18 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 16:49:40 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_somme_algo_100(t_struct *data, int argc)
+int	ft_somme_algo_100(t_struct *data, int argc, int token)
 {
 	int			chiffre;
 	int			len;
 	t_list_a	*la;
+	static int	last;
 
+	if (token == 0)
+		last = 0.40;
 	la = data->la->next;
 	chiffre = 0;
 	len = ft_len_lista(data);
@@ -28,9 +31,18 @@ int	ft_somme_algo_100(t_struct *data, int argc)
 		la = la->next;
 		len--;
 	}
-	chiffre = chiffre / argc - 1;
-	chiffre = chiffre * 0.40 ;
-	ft_printf("le chunk1 est de %d\n", chiffre);
+	if (token == 0)
+	{
+		chiffre = chiffre / argc - 1;
+		chiffre = chiffre * 0.40 ;
+	}
+	else
+	{
+		chiffre = chiffre / argc - 1;
+		chiffre = chiffre * last ;
+	}
+	last = last * 1.40;
+	ft_printf("le chunk1 est de %d et last vaut %d\n", chiffre, last);
 	return (chiffre);
 }
 
