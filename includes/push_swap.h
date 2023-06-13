@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/08 00:33:59 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/13 09:45:09 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -236,6 +236,7 @@ int			ft_verif_lb(t_struct *data);
 void		ft_helper_100(t_struct *data, int nb, int i);
 int			ft_found_lower_b(t_struct *data);
 int			ft_take_best_place102(t_struct *data, int nb);
+int			 ft_make_best_place_alg100(t_struct *data, t_list_b *lb);
 
 
 #endif

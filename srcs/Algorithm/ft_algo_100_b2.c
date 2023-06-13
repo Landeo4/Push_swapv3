@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 09:27:56 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 09:53:46 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	//i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
 	ft_printf("salut je passe par le swap manager et mes lit1 et lit2 sont lit1 %d, lit2 %d\n", lit1, lit2);
-	ft_printf("avant mon make list right\n");
 	ft_print_listb(data);
 	//ft_make_list_right(data, i);
 	if (lit1 != -1 && lit2 != -1)
@@ -39,8 +38,10 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	}
 	else if (lit2 == -1) // s'il y aucune occurence inferieur
 	{
-		data->la = pb(data);
 		ft_printf("je passe par le lit2 == -1\n");
+		cpt = ft_make_best_place_alg100(data, lb);
+		data->la = pb(data);
+		return ;
 	}
 	else if (lit1 == -1) // s'il y aucune occurence superieur
 	{
@@ -180,6 +181,30 @@ void	ft_helper_100(t_struct *data, int nb, int i)
 	}
 }
 */
+
+int		ft_make_best_place_alg100(t_struct *data, t_list_b *lb)
+{
+	int			nb;
+	int			len;
+
+	len = ft_len_listb(data);
+	nb = data->lb->next->num;
+	while (lb)
+	{
+		if (nb < lb->num)
+			nb = lb->num;
+		lb = lb->next;
+	}
+	ft_printf("mon nb vaut %d\n", nb);
+	while (len > 0)
+	{
+		if (data->lb->next->num == nb)
+			return (0);
+		data->lb = rb(data);
+		len--;
+	}
+	return (-1);
+}
 
 int			ft_found_lower_b(t_struct *data)
 {
