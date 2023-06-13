@@ -6,25 +6,21 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 09:53:46 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 10:47:09 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-// mon probleme viens de mon if (lit1 == -1 && lit2 == -1)
+
 void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 {
 	int			cpt;
 	t_list_b	*lb;
-	//int			i;
 	int			len;
 
 	len = ft_len_listb(data);
-	//i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
-	ft_printf("salut je passe par le swap manager et mes lit1 et lit2 sont lit1 %d, lit2 %d\n", lit1, lit2);
 	ft_print_listb(data);
-	//ft_make_list_right(data, i);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		ft_printf("je passe le premier if de swap manager\n");
@@ -36,30 +32,20 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 			data->lb = sb(data->lb, data);
 		return ;
 	}
-	else if (lit2 == -1) // s'il y aucune occurence inferieur
+	else if (lit2 == -1)
 	{
 		ft_printf("je passe par le lit2 == -1\n");
 		cpt = ft_make_best_place_alg100(data, lb);
 		data->la = pb(data);
 		return ;
 	}
-	else if (lit1 == -1) // s'il y aucune occurence superieur
+	else if (lit1 == -1)
 	{
 		ft_printf("je passe par le lit1 == -1\n");
 		cpt = ft_found_lower_b(data);
 		ft_take_best_place102(data, cpt);
 		data->la = pb(data);
 	}
-	/*else
-	{
-		lit2 = lit1;
-		while (lit1 != ft_len_listb(data))
-		{
-			lit1++;
-			data->lb = rrb(data);
-		}
-		data->la = pb(data);
-	}*/
 	ft_print_listb(data);
 	lb = data->lb->next;
 	if (len > 4)
@@ -73,7 +59,8 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 				data->lb = rrb(data);
 			else
 				data->lb = sb(data->lb, data);
-			if (data->lb->next->num < data->lb->next->next->num && data->lb->next->next->num > data->lb->next->next->next->num)
+			if (data->lb->next->num < data->lb->next->next->num 
+				&& data->lb->next->next->num > data->lb->next->next->next->num)
 				data->lb = sb(data->lb, data);
 		}
 	}
@@ -253,7 +240,6 @@ void	ft_make_list_right(t_struct *data, int i)
 	}
 }
 
-// peut etre que plus tard cette fonction fera bug mon programme car ca echangera des nb qui viennent d'etre push dans b
 int		ft_verif_lb(t_struct *data)
 {
 	t_list_b	*lb;

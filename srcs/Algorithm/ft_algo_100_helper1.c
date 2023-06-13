@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/03 15:41:57 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 10:50:24 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,11 +108,6 @@ int	ft_found_little_100_75(t_struct *data, int pos, t_list_a *la)
 	}
 	return (nb);
 }
-
-
-
-
-
 
 /*
 int	ft_found_pos_little_chunk1(t_struct *data, int chunk, t_list_a *la)
