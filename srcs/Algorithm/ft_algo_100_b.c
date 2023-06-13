@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/12 15:24:48 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 08:56:04 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 	int			cpt;
 
 	nb = data->la->next->num;
-	cpt = 0;
+	cpt = 1;
 	lb = data->lb->next;
 	ft_printf("mon nb est de %d dans le found best place\n", nb);
 	while (lb && lb->next)
@@ -114,12 +114,11 @@ int		ft_take_best_place102(t_struct *data, int nb)
 	lb = data->lb->next;
 	len = ft_len_listb(data);
 	len = len / 2;
-	while (lb)
+	while (lb->num != nb)
 	{
-		if (lb->num == nb)
-			break ;
 		i++;
 		lb = lb->next;
+		ft_printf("mon i est de %d et mon lb est de %d\n", i, lb->num);
 	}
 	lb = data->lb->next;
 	ft_printf("mon i dans take best place est de %i et ma len de %d\n", i, len);
@@ -127,10 +126,11 @@ int		ft_take_best_place102(t_struct *data, int nb)
 		data->lb = rb(data);
 	else if (i == len)
 	{
-		while (i > 0)
+		len = ft_len_listb(data);
+		while (i < len)
 		{
 			data->lb = rb(data);
-			i--;
+			i++;
 		}
 	}
 	else if (i > len)

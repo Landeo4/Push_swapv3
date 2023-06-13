@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/12 15:40:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/13 08:40:47 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 	int			cpt;
 	t_list_b	*lb;
 	//int			i;
+	int			len;
 
+	len = ft_len_listb(data);
 	//i = ft_found_pos_lb_big(data);
 	lb = data->lb->next;
 	ft_printf("salut je passe par le swap manager et mes lit1 et lit2 sont lit1 %d, lit2 %d\n", lit1, lit2);
@@ -31,7 +33,6 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		ft_printf("mon cpt est de %d \n", cpt);
 		ft_take_best_place100(data, cpt);
 		data->la = pb(data);
-		return ;
 	}
 	else if (lit2 == -1) // s'il y aucune occurence inferieur
 	{
@@ -55,17 +56,24 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		}
 		data->la = pb(data);
 	}*/
+	ft_print_listb(data);
 	lb = data->lb->next;
-	if (data->lb->next->num < data->lb->next->next->num)
+	if (len > 3)
 	{
-		while (lb && lb->next)
-			lb = lb->next;
-		ft_printf("lb->num = ^ %d", lb->num);
-		if (lb->num > data->lb->next->num)
-			data->lb = sb(data->lb, data);
-		else
-			rrb(data);
+		if (data->lb->next->num < data->lb->next->next->num)
+		{
+			while (lb->next)
+				lb = lb->next;
+			ft_printf("lb->num =  %d\n", lb->num);
+			if (lb->num > data->lb->next->num)
+				data->lb = rrb(data);
+			else
+				data->lb = sb(data->lb, data);
+		}
 	}
+	else
+		if (data->lb->next->num < data->lb->next->next->num)
+			data->lb = sb(data->lb, data);
 	ft_printf("ma liste ressemble maintenant a ca apres ma fonction manager\n");
 	ft_print_listb(data);
 }
