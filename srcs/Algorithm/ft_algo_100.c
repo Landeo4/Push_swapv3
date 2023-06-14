@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 19:15:56 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 23:28:59 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@
 //Insérer cet élément dans la nouvelle liste triée, en cherchant sa position fait 
 //dans la liste triée et en déplaçant les éléments existants pour faire de la place si nécessaire.
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
-
+aa
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyennech1;
