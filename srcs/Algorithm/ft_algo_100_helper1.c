@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 10:50:24 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 17:18:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,65 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 	t_list_a	*tab;
 	int			len;
 	int			len2;
-	
+
+	len2 = 1;
+	len = ft_len_lista(data);
+	len = len * 0.75;
+	i = len / 5;
+	tab = la->next;
+	while (len2 < len)
+	{
+		tab = tab->next;
+		len2++;
+	}
+	while (len2 < ft_len_lista(data))
+	{
+		if (tab->num < chunk)
+			i = 0;
+		tab = tab->next;
+		len2++;
+		i++;
+	}
+	printf(" mon i a la sortie de last part est egale a %i et mon chunk est de %d\n", i, chunk);
+	return (i);
+}
+
+/*
+int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la, int token)
+{
+	int			i;
+	t_list_a	*tab;
+	int			nb;
+	int			len;
+
+	len = ft_len_lista(data);
+	len = len / 5;
+	i = 1;
+	tab = la;
+	nb = la->num;
+	while (tab && len > 0)
+	{
+		ft_printf("data->la->num = %d et la moyenne est de %d\n", nb, chunk);
+		if (nb <= chunk)
+		{
+			ft_printf("nb est inferieur car nb est egal a %d\n", nb);
+			return (i);
+		}
+		i++;
+		len--;
+		tab = tab->next;
+		nb = tab->num;
+	}
+	return (-1);
+}
+
+int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la, int token)
+{
+	int			i;
+	t_list_a	*tab;
+	int			len;
+	int			len2;
+
 	len2 = 1;
 	len = ft_len_lista(data);
 	len = len * 0.75;
@@ -71,6 +129,7 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 	printf(" mon i a la sortie de last part est egale a %i\n", i);
 	return (i);
 }
+*/
 
 int	ft_found_little_100_25(t_struct *data, int pos)
 {

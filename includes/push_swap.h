@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 16:40:05 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 18:57:42 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -236,6 +236,7 @@ void		ft_helper_100(t_struct *data, int nb, int i);
 int			ft_found_lower_b(t_struct *data);
 int			ft_take_best_place102(t_struct *data, int nb);
 int			 ft_make_best_place_alg100(t_struct *data, t_list_b *lb);
+void		ft_make_list_right100(t_struct *data);
 
 
 #endif

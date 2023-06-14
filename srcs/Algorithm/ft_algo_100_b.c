@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 10:49:40 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 18:08:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int		ft_found_best_place100(t_struct *data, t_list_b *lb)
 	int			cpt;
 
 	nb = data->la->next->num;
-	cpt = 0;
+	cpt = 1;
 	lb = data->lb->next;
 	ft_printf("mon nb est de %d dans le found best place\n", nb);
 	while (lb && lb->next)
@@ -117,6 +117,16 @@ int	ft_take_best_place100(t_struct *data, int cpt)
 	len = len / 2;
 	ft_printf("dans ma fonction take best place mon cpt est de %d et mon nb est de %d\n", cpt, nb);
 	ft_printf("et ma len est de %d\n", len);
+	if (cpt == len)
+	{
+		ft_printf("ma len est donc de %d et mon cpt %d\n", len,cpt);
+		while (len > 0)
+		{
+			len--;
+			data->lb = rb(data);
+		}
+		return (0);
+	}
 	if (cpt > len)
 	{
 		len = ft_len_listb(data);
@@ -128,12 +138,6 @@ int	ft_take_best_place100(t_struct *data, int cpt)
 	}
 	else if (cpt < len)
 	{
-		if (cpt == 0)
-		{
-			data->lb = rb(data);
-			return (0);
-		}
-		cpt++;
 		while (cpt > 0)
 		{
 			data->lb = rb(data);
@@ -148,19 +152,23 @@ int	ft_take_best_place102(t_struct *data, int nb)
 	int			len;
 	t_list_b	*lb;
 	int			i;
+	int			len2;
 
-	i = 0;
+	i = 1;
 	lb = data->lb->next;
+	len2 = ft_len_listb(data);
 	len = ft_len_listb(data);
 	len = len / 2;
+	if (len * 2 != len2)
+		len++;
 	while (lb->num != nb)
 	{
 		i++;
 		lb = lb->next;
-		ft_printf("mon i est de %d et mon lb est de %d\n", i, lb->num);
+		ft_printf("mon i est de %d et mon lb est de %d et mon nb est %d\n", i, lb->num, nb);
 	}
 	lb = data->lb->next;
-	ft_printf("mon i dans take best place est de %i et ma len de %d\n", i, len);
+	ft_printf("mon i dans take best place est de %i et ma len de %d\n", i, len, len2);
 	if (i == 0)
 		data->lb = rb(data);
 	else if (i == len)
@@ -176,6 +184,11 @@ int	ft_take_best_place102(t_struct *data, int nb)
 	{
 		ft_printf("salut je suis dans la boucle des rrb\n", i);
 		len = ft_len_listb(data);
+		if (i == len)
+		{
+			data->lb = rrb(data);
+			return (0);
+		}
 		while (i < len)
 		{
 			data->lb = rrb(data);
