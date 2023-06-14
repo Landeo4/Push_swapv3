@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 16:49:40 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 12:01:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,17 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	int			chiffre;
 	int			len;
 	t_list_a	*la;
-	static int	last;
+	double		last;
 
-	if (token == 0)
-		last = 0.40;
+	ft_printf("mon token est de %d\n", token);
+	last = 1.5;
+	ft_printf("last %d\n", last);
+	while (token != 0)
+	{
+		last = last * 1.5;
+		ft_printf("mon last est de %d\n", last);
+		token--;
+	}
 	la = data->la->next;
 	chiffre = 0;
 	len = ft_len_lista(data);
@@ -31,18 +38,13 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 		la = la->next;
 		len--;
 	}
+	ft_printf("last %d\n", last);
+	chiffre = chiffre / argc - 1;
 	if (token == 0)
-	{
-		chiffre = chiffre / argc - 1;
-		chiffre = chiffre * 0.40 ;
-	}
+		chiffre = chiffre * last;
 	else
-	{
-		chiffre = chiffre / argc - 1;
 		chiffre = chiffre * last ;
-	}
-	last = last * 1.40;
-	ft_printf("le chunk1 est de %d et last vaut %d\n", chiffre, last);
+	ft_printf("le chunk1 est de %d et last vaut %d\n\n", chiffre, last);
 	return (chiffre);
 }
 

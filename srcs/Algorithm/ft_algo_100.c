@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/13 16:53:28 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 11:34:27 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,22 +38,26 @@
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyennech1;
-	int 		i;
+	//int 		i;
 	t_list_a	*la;
 	int			token;
 	(void)la;
 	(void)moyennech1;
-	i = 0;
+	//i = 0;
 	token = 0;
-	while (i < 19)
+	while (token != 5)
 	{
-		la = data->la->next;
-		ft_printf("================NOUVELLE BOUCLE================\n");
 		moyennech1 = ft_somme_algo_100(data, argc, token);
-		i++;
-		//ft_take_first_chunk(data, moyennech1, la, token);
+		/*while (i < 19)
+		{
+			la = data->la->next;
+			ft_printf("================NOUVELLE BOUCLE================\n");
+			i++;
+			//ft_take_first_chunk(data, moyennech1, la, token);
+			//ft_printf("mon i est de %i\n", i);
+		}
+		i = 0;*/
 		token++;
-		//ft_printf("mon i est de %i\n", i);
 	}
 	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1\n");
 }
