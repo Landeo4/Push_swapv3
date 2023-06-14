@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/07 15:32:21 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/14 15:04:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -271,6 +271,7 @@ int main(int argc, char **argv)
 	data.lb = rrb(&data);
 	data.lb = sb(data.lb, &data);
 	data.lb = sb(data.lb, &data);*/
+	ft_printf("\n\n\n\n\n voici la liste a\n");
 	ft_print_lista(&data);
 	ft_printf("\nliste b =\n");
 	ft_print_listb(&data);

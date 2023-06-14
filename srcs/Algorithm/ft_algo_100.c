@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 14:51:50 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 15:03:50 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	i = 0;
 	token = 0;
 	first  = 0;
-	while (token != 1)
+	while (token != 5)
 	{
 		moyennech1 = ft_somme_algo_100(data, argc, token);
 		while (i < 19)
