@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 11:34:27 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 14:46:35 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,28 +38,35 @@
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyennech1;
-	//int 		i;
 	t_list_a	*la;
 	int			token;
-	(void)la;
-	(void)moyennech1;
-	//i = 0;
+	//int			len;
+	int			i;
+
+	la = data->la->next;
+	i = 0;
 	token = 0;
-	while (token != 5)
+	while (token != 1)
 	{
 		moyennech1 = ft_somme_algo_100(data, argc, token);
-		/*while (i < 19)
+		while (i < 19)
 		{
 			la = data->la->next;
 			ft_printf("================NOUVELLE BOUCLE================\n");
 			i++;
-			//ft_take_first_chunk(data, moyennech1, la, token);
+			ft_take_first_chunk(data, moyennech1, la, token);
 			//ft_printf("mon i est de %i\n", i);
 		}
-		i = 0;*/
+		i = 0;
 		token++;
 	}
 	ft_printf("PLUS AUCUNE VALEUR DE LA CHUNK1\n");
+	/*len = ft_len_lista(data);
+	while (len != 0)
+	{
+		data->la = pb(data);
+		len--;
+	}*/
 }
 
 //a faire : l'insersion trier dans la liste b

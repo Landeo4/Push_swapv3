@@ -6,11 +6,34 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 12:01:05 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 14:44:14 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+/*
+int	ft_somme_algo_100(t_struct *data, int argc, int token)
+{
+	int			chiffre;
+	int			len;
+	t_list_a	*la;
+	double		last;
+
+	if (token == 0)
+		last = 0.40;
+	else if (token == 1)
+		last = 0.82;
+	else if (token == 2)
+		last = 1.24;
+	else if (token == 3)
+		last = 1.66;
+	else if (token == 4)
+		last =  2.07;
+		
+	ft_printf("")
+	return (chiffre);
+}*/
 
 int	ft_somme_algo_100(t_struct *data, int argc, int token)
 {
@@ -19,15 +42,17 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	t_list_a	*la;
 	double		last;
 
-	ft_printf("mon token est de %d\n", token);
-	last = 1.5;
-	ft_printf("last %d\n", last);
-	while (token != 0)
-	{
-		last = last * 1.5;
-		ft_printf("mon last est de %d\n", last);
-		token--;
-	}
+	if (token == 0)
+		last = 0.40;
+	else if (token == 1)
+		last = 0.82;
+	else if (token == 2)
+		last = 1.24;
+	else if (token == 3)
+		last = 1.66;
+	else if (token == 4)
+		last =  2.07;
+	printf("mon token est de %d et mon last %lf\n", token, last);
 	la = data->la->next;
 	chiffre = 0;
 	len = ft_len_lista(data);
@@ -38,13 +63,9 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 		la = la->next;
 		len--;
 	}
-	ft_printf("last %d\n", last);
 	chiffre = chiffre / argc - 1;
-	if (token == 0)
-		chiffre = chiffre * last;
-	else
-		chiffre = chiffre * last ;
-	ft_printf("le chunk1 est de %d et last vaut %d\n\n", chiffre, last);
+	chiffre = chiffre * last ;
+	ft_printf("le chunk1 est de %d et last vaut %lf\n\n", chiffre, last);
 	return (chiffre);
 }
 
