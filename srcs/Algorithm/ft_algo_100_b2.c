@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 14:57:26 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/14 15:12:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 
 	len = ft_len_listb(data);
 	lb = data->lb->next;
-	ft_print_listb(data);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		ft_printf("je passe le premier if de swap manager\n");
@@ -46,7 +45,6 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		ft_take_best_place102(data, cpt);
 		data->la = pb(data);
 	}
-	ft_print_listb(data);
 	lb = data->lb->next;
 	if (len > 4)
 	{
