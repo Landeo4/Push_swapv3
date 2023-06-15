@@ -5,7 +5,9 @@ le chunk1 est de 19
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 58 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 58 et la moyenne est de 19
+
 data->la->num = 4 et la moyenne est de 19
 nb est inferieur car nb est egal a 4
 =========
@@ -23,13 +25,21 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 34 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 34 et la moyenne est de 19
+
 data->la->num = 48 et la moyenne est de 19
+
 data->la->num = 66 et la moyenne est de 19
+
 data->la->num = 41 et la moyenne est de 19
+
 data->la->num = 39 et la moyenne est de 19
+
 data->la->num = 85 et la moyenne est de 19
+
 data->la->num = 58 et la moyenne est de 19
+
 data->la->num = 4 et la moyenne est de 19
 nb est inferieur car nb est egal a 4
 =========
@@ -48,7 +58,9 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 57 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 57 et la moyenne est de 19
+
 data->la->num = 18 et la moyenne est de 19
 nb est inferieur car nb est egal a 18
 =========
@@ -77,15 +89,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 96 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 96 et la moyenne est de 19
+
 data->la->num = 34 et la moyenne est de 19
+
 data->la->num = 48 et la moyenne est de 19
+
 data->la->num = 66 et la moyenne est de 19
+
 data->la->num = 41 et la moyenne est de 19
+
 data->la->num = 39 et la moyenne est de 19
+
 data->la->num = 85 et la moyenne est de 19
+
 data->la->num = 58 et la moyenne est de 19
+
 data->la->num = 57 et la moyenne est de 19
+
 data->la->num = 18 et la moyenne est de 19
 nb est inferieur car nb est egal a 18
 =========
@@ -117,7 +139,8 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 14 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 14 et la moyenne est de 19
 nb est inferieur car nb est egal a 14
 =========
 littlech1 est egale a 1 et l'autre littlech2 13 et compare = 1
@@ -159,18 +182,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 30 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 30 et la moyenne est de 19
+
 data->la->num = 72 et la moyenne est de 19
+
 data->la->num = 55 et la moyenne est de 19
+
 data->la->num = 96 et la moyenne est de 19
+
 data->la->num = 34 et la moyenne est de 19
+
 data->la->num = 48 et la moyenne est de 19
+
 data->la->num = 66 et la moyenne est de 19
+
 data->la->num = 41 et la moyenne est de 19
+
 data->la->num = 39 et la moyenne est de 19
+
 data->la->num = 85 et la moyenne est de 19
+
 data->la->num = 58 et la moyenne est de 19
+
 data->la->num = 57 et la moyenne est de 19
+
 data->la->num = 14 et la moyenne est de 19
 nb est inferieur car nb est egal a 14
 =========
@@ -213,8 +249,11 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 64 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 64 et la moyenne est de 19
+
 data->la->num = 44 et la moyenne est de 19
+
 data->la->num = 3 et la moyenne est de 19
 nb est inferieur car nb est egal a 3
 =========
@@ -270,23 +309,41 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 52 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 52 et la moyenne est de 19
+
 data->la->num = 69 et la moyenne est de 19
+
 data->la->num = 50 et la moyenne est de 19
+
 data->la->num = 89 et la moyenne est de 19
+
 data->la->num = 62 et la moyenne est de 19
+
 data->la->num = 61 et la moyenne est de 19
+
 data->la->num = 31 et la moyenne est de 19
+
 data->la->num = 53 et la moyenne est de 19
+
 data->la->num = 98 et la moyenne est de 19
+
 data->la->num = 49 et la moyenne est de 19
+
 data->la->num = 30 et la moyenne est de 19
+
 data->la->num = 72 et la moyenne est de 19
+
 data->la->num = 55 et la moyenne est de 19
+
 data->la->num = 96 et la moyenne est de 19
+
 data->la->num = 34 et la moyenne est de 19
+
 data->la->num = 48 et la moyenne est de 19
+
 data->la->num = 66 et la moyenne est de 19
+
 data->la->num = 41 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
@@ -325,23 +382,41 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 23 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 23 et la moyenne est de 19
+
 data->la->num = 27 et la moyenne est de 19
+
 data->la->num = 60 et la moyenne est de 19
+
 data->la->num = 75 et la moyenne est de 19
+
 data->la->num = 52 et la moyenne est de 19
+
 data->la->num = 69 et la moyenne est de 19
+
 data->la->num = 50 et la moyenne est de 19
+
 data->la->num = 89 et la moyenne est de 19
+
 data->la->num = 62 et la moyenne est de 19
+
 data->la->num = 61 et la moyenne est de 19
+
 data->la->num = 31 et la moyenne est de 19
+
 data->la->num = 53 et la moyenne est de 19
+
 data->la->num = 98 et la moyenne est de 19
+
 data->la->num = 49 et la moyenne est de 19
+
 data->la->num = 30 et la moyenne est de 19
+
 data->la->num = 72 et la moyenne est de 19
+
 data->la->num = 55 et la moyenne est de 19
+
 data->la->num = 96 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
@@ -380,23 +455,41 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 80 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 80 et la moyenne est de 19
+
 data->la->num = 67 et la moyenne est de 19
+
 data->la->num = 23 et la moyenne est de 19
+
 data->la->num = 27 et la moyenne est de 19
+
 data->la->num = 60 et la moyenne est de 19
+
 data->la->num = 75 et la moyenne est de 19
+
 data->la->num = 52 et la moyenne est de 19
+
 data->la->num = 69 et la moyenne est de 19
+
 data->la->num = 50 et la moyenne est de 19
+
 data->la->num = 89 et la moyenne est de 19
+
 data->la->num = 62 et la moyenne est de 19
+
 data->la->num = 61 et la moyenne est de 19
+
 data->la->num = 31 et la moyenne est de 19
+
 data->la->num = 53 et la moyenne est de 19
+
 data->la->num = 98 et la moyenne est de 19
+
 data->la->num = 49 et la moyenne est de 19
+
 data->la->num = 30 et la moyenne est de 19
+
 data->la->num = 72 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
@@ -436,23 +529,41 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 80 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 80 et la moyenne est de 19
+
 data->la->num = 67 et la moyenne est de 19
+
 data->la->num = 23 et la moyenne est de 19
+
 data->la->num = 27 et la moyenne est de 19
+
 data->la->num = 60 et la moyenne est de 19
+
 data->la->num = 75 et la moyenne est de 19
+
 data->la->num = 52 et la moyenne est de 19
+
 data->la->num = 69 et la moyenne est de 19
+
 data->la->num = 50 et la moyenne est de 19
+
 data->la->num = 89 et la moyenne est de 19
+
 data->la->num = 62 et la moyenne est de 19
+
 data->la->num = 61 et la moyenne est de 19
+
 data->la->num = 31 et la moyenne est de 19
+
 data->la->num = 53 et la moyenne est de 19
+
 data->la->num = 98 et la moyenne est de 19
+
 data->la->num = 49 et la moyenne est de 19
+
 data->la->num = 30 et la moyenne est de 19
+
 data->la->num = 72 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
@@ -497,22 +608,39 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 47 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 47 et la moyenne est de 19
+
 data->la->num = 42 et la moyenne est de 19
+
 data->la->num = 86 et la moyenne est de 19
+
 data->la->num = 36 et la moyenne est de 19
+
 data->la->num = 21 et la moyenne est de 19
+
 data->la->num = 80 et la moyenne est de 19
+
 data->la->num = 67 et la moyenne est de 19
+
 data->la->num = 23 et la moyenne est de 19
+
 data->la->num = 27 et la moyenne est de 19
+
 data->la->num = 60 et la moyenne est de 19
+
 data->la->num = 75 et la moyenne est de 19
+
 data->la->num = 52 et la moyenne est de 19
+
 data->la->num = 69 et la moyenne est de 19
+
 data->la->num = 50 et la moyenne est de 19
+
 data->la->num = 89 et la moyenne est de 19
+
 data->la->num = 62 et la moyenne est de 19
+
 data->la->num = 61 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 14 et compare = 1
@@ -572,22 +700,39 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 35 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 35 et la moyenne est de 19
+
 data->la->num = 87 et la moyenne est de 19
+
 data->la->num = 93 et la moyenne est de 19
+
 data->la->num = 76 et la moyenne est de 19
+
 data->la->num = 94 et la moyenne est de 19
+
 data->la->num = 24 et la moyenne est de 19
+
 data->la->num = 54 et la moyenne est de 19
+
 data->la->num = 32 et la moyenne est de 19
+
 data->la->num = 65 et la moyenne est de 19
+
 data->la->num = 83 et la moyenne est de 19
+
 data->la->num = 20 et la moyenne est de 19
+
 data->la->num = 71 et la moyenne est de 19
+
 data->la->num = 25 et la moyenne est de 19
+
 data->la->num = 47 et la moyenne est de 19
+
 data->la->num = 42 et la moyenne est de 19
+
 data->la->num = 86 et la moyenne est de 19
+
 data->la->num = 36 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
@@ -634,22 +779,39 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 33 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 33 et la moyenne est de 19
+
 data->la->num = 46 et la moyenne est de 19
+
 data->la->num = 35 et la moyenne est de 19
+
 data->la->num = 87 et la moyenne est de 19
+
 data->la->num = 93 et la moyenne est de 19
+
 data->la->num = 76 et la moyenne est de 19
+
 data->la->num = 94 et la moyenne est de 19
+
 data->la->num = 24 et la moyenne est de 19
+
 data->la->num = 54 et la moyenne est de 19
+
 data->la->num = 32 et la moyenne est de 19
+
 data->la->num = 65 et la moyenne est de 19
+
 data->la->num = 83 et la moyenne est de 19
+
 data->la->num = 20 et la moyenne est de 19
+
 data->la->num = 71 et la moyenne est de 19
+
 data->la->num = 25 et la moyenne est de 19
+
 data->la->num = 47 et la moyenne est de 19
+
 data->la->num = 42 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 22 et compare = 1
@@ -716,22 +878,39 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 81 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 81 et la moyenne est de 19
+
 data->la->num = 68 et la moyenne est de 19
+
 data->la->num = 29 et la moyenne est de 19
+
 data->la->num = 90 et la moyenne est de 19
+
 data->la->num = 38 et la moyenne est de 19
+
 data->la->num = 73 et la moyenne est de 19
+
 data->la->num = 78 et la moyenne est de 19
+
 data->la->num = 43 et la moyenne est de 19
+
 data->la->num = 100 et la moyenne est de 19
+
 data->la->num = 74 et la moyenne est de 19
+
 data->la->num = 70 et la moyenne est de 19
+
 data->la->num = 79 et la moyenne est de 19
+
 data->la->num = 99 et la moyenne est de 19
+
 data->la->num = 51 et la moyenne est de 19
+
 data->la->num = 84 et la moyenne est de 19
+
 data->la->num = 26 et la moyenne est de 19
+
 data->la->num = 63 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 7 et compare = 1
@@ -788,22 +967,39 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 77 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 77 et la moyenne est de 19
+
 data->la->num = 28 et la moyenne est de 19
+
 data->la->num = 22 et la moyenne est de 19
+
 data->la->num = 40 et la moyenne est de 19
+
 data->la->num = 97 et la moyenne est de 19
+
 data->la->num = 56 et la moyenne est de 19
+
 data->la->num = 81 et la moyenne est de 19
+
 data->la->num = 68 et la moyenne est de 19
+
 data->la->num = 29 et la moyenne est de 19
+
 data->la->num = 90 et la moyenne est de 19
+
 data->la->num = 38 et la moyenne est de 19
+
 data->la->num = 73 et la moyenne est de 19
+
 data->la->num = 78 et la moyenne est de 19
+
 data->la->num = 43 et la moyenne est de 19
+
 data->la->num = 100 et la moyenne est de 19
+
 data->la->num = 74 et la moyenne est de 19
+
 data->la->num = 70 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
@@ -862,7 +1058,9 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 88 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 88 et la moyenne est de 19
+
 data->la->num = 19 et la moyenne est de 19
 nb est inferieur car nb est egal a 19
 =========
@@ -927,21 +1125,37 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 45 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 45 et la moyenne est de 19
+
 data->la->num = 77 et la moyenne est de 19
+
 data->la->num = 28 et la moyenne est de 19
+
 data->la->num = 22 et la moyenne est de 19
+
 data->la->num = 40 et la moyenne est de 19
+
 data->la->num = 97 et la moyenne est de 19
+
 data->la->num = 56 et la moyenne est de 19
+
 data->la->num = 81 et la moyenne est de 19
+
 data->la->num = 68 et la moyenne est de 19
+
 data->la->num = 29 et la moyenne est de 19
+
 data->la->num = 90 et la moyenne est de 19
+
 data->la->num = 38 et la moyenne est de 19
+
 data->la->num = 73 et la moyenne est de 19
+
 data->la->num = 78 et la moyenne est de 19
+
 data->la->num = 43 et la moyenne est de 19
+
 data->la->num = 100 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
@@ -1001,21 +1215,37 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 19data->la->num = 92 et la moyenne est de 19
+mon chunk est de 19
+data->la->num = 92 et la moyenne est de 19
+
 data->la->num = 88 et la moyenne est de 19
+
 data->la->num = 45 et la moyenne est de 19
+
 data->la->num = 77 et la moyenne est de 19
+
 data->la->num = 28 et la moyenne est de 19
+
 data->la->num = 22 et la moyenne est de 19
+
 data->la->num = 40 et la moyenne est de 19
+
 data->la->num = 97 et la moyenne est de 19
+
 data->la->num = 56 et la moyenne est de 19
+
 data->la->num = 81 et la moyenne est de 19
+
 data->la->num = 68 et la moyenne est de 19
+
 data->la->num = 29 et la moyenne est de 19
+
 data->la->num = 90 et la moyenne est de 19
+
 data->la->num = 38 et la moyenne est de 19
+
 data->la->num = 73 et la moyenne est de 19
+
 data->la->num = 78 et la moyenne est de 19
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -1078,7 +1308,8 @@ le chunk1 est de 39
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 37 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 37 et la moyenne est de 39
 nb est inferieur car nb est egal a 37
 =========
 littlech1 est egale a 1 et l'autre littlech2 10 et compare = 1
@@ -1144,9 +1375,13 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 48 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 48 et la moyenne est de 39
+
 data->la->num = 66 et la moyenne est de 39
+
 data->la->num = 41 et la moyenne est de 39
+
 data->la->num = 39 et la moyenne est de 39
 nb est inferieur car nb est egal a 39
 =========
@@ -1206,11 +1441,17 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 85 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 85 et la moyenne est de 39
+
 data->la->num = 58 et la moyenne est de 39
+
 data->la->num = 57 et la moyenne est de 39
+
 data->la->num = 64 et la moyenne est de 39
+
 data->la->num = 44 et la moyenne est de 39
+
 data->la->num = 37 et la moyenne est de 39
 nb est inferieur car nb est egal a 37
 =========
@@ -1280,17 +1521,29 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 72 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 72 et la moyenne est de 39
+
 data->la->num = 55 et la moyenne est de 39
+
 data->la->num = 96 et la moyenne est de 39
+
 data->la->num = 48 et la moyenne est de 39
+
 data->la->num = 66 et la moyenne est de 39
+
 data->la->num = 41 et la moyenne est de 39
+
 data->la->num = 85 et la moyenne est de 39
+
 data->la->num = 58 et la moyenne est de 39
+
 data->la->num = 57 et la moyenne est de 39
+
 data->la->num = 64 et la moyenne est de 39
+
 data->la->num = 44 et la moyenne est de 39
+
 data->la->num = 37 et la moyenne est de 39
 nb est inferieur car nb est egal a 37
 =========
@@ -1366,10 +1619,15 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 92 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 92 et la moyenne est de 39
+
 data->la->num = 88 et la moyenne est de 39
+
 data->la->num = 45 et la moyenne est de 39
+
 data->la->num = 77 et la moyenne est de 39
+
 data->la->num = 28 et la moyenne est de 39
 nb est inferieur car nb est egal a 28
 =========
@@ -1451,20 +1709,35 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 53 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 53 et la moyenne est de 39
+
 data->la->num = 98 et la moyenne est de 39
+
 data->la->num = 49 et la moyenne est de 39
+
 data->la->num = 72 et la moyenne est de 39
+
 data->la->num = 55 et la moyenne est de 39
+
 data->la->num = 96 et la moyenne est de 39
+
 data->la->num = 48 et la moyenne est de 39
+
 data->la->num = 66 et la moyenne est de 39
+
 data->la->num = 41 et la moyenne est de 39
+
 data->la->num = 85 et la moyenne est de 39
+
 data->la->num = 58 et la moyenne est de 39
+
 data->la->num = 57 et la moyenne est de 39
+
 data->la->num = 64 et la moyenne est de 39
+
 data->la->num = 44 et la moyenne est de 39
+
 data->la->num = 92 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 9 et compare = 1
@@ -1541,20 +1814,35 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 60 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
+
 data->la->num = 53 et la moyenne est de 39
+
 data->la->num = 98 et la moyenne est de 39
+
 data->la->num = 49 et la moyenne est de 39
+
 data->la->num = 72 et la moyenne est de 39
+
 data->la->num = 55 et la moyenne est de 39
+
 data->la->num = 96 et la moyenne est de 39
+
 data->la->num = 48 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
@@ -1624,19 +1912,33 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 60 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
+
 data->la->num = 53 et la moyenne est de 39
+
 data->la->num = 98 et la moyenne est de 39
+
 data->la->num = 49 et la moyenne est de 39
+
 data->la->num = 72 et la moyenne est de 39
+
 data->la->num = 55 et la moyenne est de 39
+
 data->la->num = 96 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
@@ -1710,19 +2012,33 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 80 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
+
 data->la->num = 53 et la moyenne est de 39
+
 data->la->num = 98 et la moyenne est de 39
+
 data->la->num = 49 et la moyenne est de 39
+
 data->la->num = 72 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
@@ -1800,19 +2116,33 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 80 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
+
 data->la->num = 53 et la moyenne est de 39
+
 data->la->num = 98 et la moyenne est de 39
+
 data->la->num = 49 et la moyenne est de 39
+
 data->la->num = 72 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
@@ -1895,19 +2225,33 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 47 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
+
 data->la->num = 53 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -1988,19 +2332,33 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 71 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 71 et la moyenne est de 39
+
 data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
+
 data->la->num = 89 et la moyenne est de 39
+
 data->la->num = 62 et la moyenne est de 39
+
 data->la->num = 61 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
@@ -2087,18 +2445,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 65 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 65 et la moyenne est de 39
+
 data->la->num = 83 et la moyenne est de 39
+
 data->la->num = 71 et la moyenne est de 39
+
 data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
+
 data->la->num = 50 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -2185,18 +2556,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 54 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 54 et la moyenne est de 39
+
 data->la->num = 65 et la moyenne est de 39
+
 data->la->num = 83 et la moyenne est de 39
+
 data->la->num = 71 et la moyenne est de 39
+
 data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
+
 data->la->num = 60 et la moyenne est de 39
+
 data->la->num = 75 et la moyenne est de 39
+
 data->la->num = 52 et la moyenne est de 39
+
 data->la->num = 69 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
@@ -2289,18 +2673,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 87 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 87 et la moyenne est de 39
+
 data->la->num = 93 et la moyenne est de 39
+
 data->la->num = 76 et la moyenne est de 39
+
 data->la->num = 94 et la moyenne est de 39
+
 data->la->num = 54 et la moyenne est de 39
+
 data->la->num = 65 et la moyenne est de 39
+
 data->la->num = 83 et la moyenne est de 39
+
 data->la->num = 71 et la moyenne est de 39
+
 data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
+
 data->la->num = 67 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -2388,18 +2785,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 46 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 46 et la moyenne est de 39
+
 data->la->num = 87 et la moyenne est de 39
+
 data->la->num = 93 et la moyenne est de 39
+
 data->la->num = 76 et la moyenne est de 39
+
 data->la->num = 94 et la moyenne est de 39
+
 data->la->num = 54 et la moyenne est de 39
+
 data->la->num = 65 et la moyenne est de 39
+
 data->la->num = 83 et la moyenne est de 39
+
 data->la->num = 71 et la moyenne est de 39
+
 data->la->num = 47 et la moyenne est de 39
+
 data->la->num = 42 et la moyenne est de 39
+
 data->la->num = 86 et la moyenne est de 39
+
 data->la->num = 80 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
@@ -2496,18 +2906,31 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 63 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 63 et la moyenne est de 39
+
 data->la->num = 59 et la moyenne est de 39
+
 data->la->num = 95 et la moyenne est de 39
+
 data->la->num = 82 et la moyenne est de 39
+
 data->la->num = 91 et la moyenne est de 39
+
 data->la->num = 46 et la moyenne est de 39
+
 data->la->num = 87 et la moyenne est de 39
+
 data->la->num = 93 et la moyenne est de 39
+
 data->la->num = 76 et la moyenne est de 39
+
 data->la->num = 94 et la moyenne est de 39
+
 data->la->num = 54 et la moyenne est de 39
+
 data->la->num = 65 et la moyenne est de 39
+
 data->la->num = 83 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 11 et compare = 1
@@ -2615,17 +3038,29 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 73 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 73 et la moyenne est de 39
+
 data->la->num = 78 et la moyenne est de 39
+
 data->la->num = 43 et la moyenne est de 39
+
 data->la->num = 100 et la moyenne est de 39
+
 data->la->num = 74 et la moyenne est de 39
+
 data->la->num = 70 et la moyenne est de 39
+
 data->la->num = 79 et la moyenne est de 39
+
 data->la->num = 99 et la moyenne est de 39
+
 data->la->num = 51 et la moyenne est de 39
+
 data->la->num = 84 et la moyenne est de 39
+
 data->la->num = 63 et la moyenne est de 39
+
 data->la->num = 59 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -2726,17 +3161,29 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 90 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 90 et la moyenne est de 39
+
 data->la->num = 73 et la moyenne est de 39
+
 data->la->num = 78 et la moyenne est de 39
+
 data->la->num = 43 et la moyenne est de 39
+
 data->la->num = 100 et la moyenne est de 39
+
 data->la->num = 74 et la moyenne est de 39
+
 data->la->num = 70 et la moyenne est de 39
+
 data->la->num = 79 et la moyenne est de 39
+
 data->la->num = 99 et la moyenne est de 39
+
 data->la->num = 51 et la moyenne est de 39
+
 data->la->num = 84 et la moyenne est de 39
+
 data->la->num = 63 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
@@ -2840,17 +3287,29 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 39data->la->num = 40 et la moyenne est de 39
+mon chunk est de 39
+data->la->num = 40 et la moyenne est de 39
+
 data->la->num = 97 et la moyenne est de 39
+
 data->la->num = 56 et la moyenne est de 39
+
 data->la->num = 81 et la moyenne est de 39
+
 data->la->num = 68 et la moyenne est de 39
+
 data->la->num = 90 et la moyenne est de 39
+
 data->la->num = 73 et la moyenne est de 39
+
 data->la->num = 78 et la moyenne est de 39
+
 data->la->num = 43 et la moyenne est de 39
+
 data->la->num = 100 et la moyenne est de 39
+
 data->la->num = 74 et la moyenne est de 39
+
 data->la->num = 70 et la moyenne est de 39
 =========
 littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
@@ -2953,7 +3412,8 @@ le chunk1 est de 59
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 40 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 40 et la moyenne est de 59
 nb est inferieur car nb est egal a 40
 =========
 littlech1 est egale a 1 et l'autre littlech2 2 et compare = 1
@@ -3076,7 +3536,9 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 77 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 40 et la moyenne est de 59
 nb est inferieur car nb est egal a 40
 =========
@@ -3179,9 +3641,13 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 92 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 40 et la moyenne est de 59
 nb est inferieur car nb est egal a 40
 =========
@@ -3287,7 +3753,9 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 97 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 56 et la moyenne est de 59
 nb est inferieur car nb est egal a 56
 =========
@@ -3432,11 +3900,17 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 64 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 56 et la moyenne est de 59
 nb est inferieur car nb est egal a 56
 =========
@@ -3548,11 +4022,17 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 81 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 81 et la moyenne est de 59
+
 data->la->num = 68 et la moyenne est de 59
+
 data->la->num = 90 et la moyenne est de 59
+
 data->la->num = 73 et la moyenne est de 59
+
 data->la->num = 78 et la moyenne est de 59
+
 data->la->num = 43 et la moyenne est de 59
 nb est inferieur car nb est egal a 43
 =========
@@ -3668,11 +4148,17 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 100 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 100 et la moyenne est de 59
+
 data->la->num = 74 et la moyenne est de 59
+
 data->la->num = 70 et la moyenne est de 59
+
 data->la->num = 79 et la moyenne est de 59
+
 data->la->num = 99 et la moyenne est de 59
+
 data->la->num = 51 et la moyenne est de 59
 nb est inferieur car nb est egal a 51
 =========
@@ -3830,15 +4316,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 64 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 81 et la moyenne est de 59
+
 data->la->num = 68 et la moyenne est de 59
+
 data->la->num = 90 et la moyenne est de 59
+
 data->la->num = 73 et la moyenne est de 59
+
 data->la->num = 78 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -3956,15 +4452,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 85 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 81 et la moyenne est de 59
+
 data->la->num = 68 et la moyenne est de 59
+
 data->la->num = 90 et la moyenne est de 59
+
 data->la->num = 73 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -4081,15 +4587,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 66 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 81 et la moyenne est de 59
+
 data->la->num = 68 et la moyenne est de 59
+
 data->la->num = 90 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -4206,15 +4722,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 96 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 96 et la moyenne est de 59
+
 data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 81 et la moyenne est de 59
+
 data->la->num = 68 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -4333,15 +4859,25 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 72 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 72 et la moyenne est de 59
+
 data->la->num = 96 et la moyenne est de 59
+
 data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
+
 data->la->num = 97 et la moyenne est de 59
+
 data->la->num = 81 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -4462,14 +4998,23 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 98 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 98 et la moyenne est de 59
+
 data->la->num = 72 et la moyenne est de 59
+
 data->la->num = 96 et la moyenne est de 59
+
 data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
+
 data->la->num = 92 et la moyenne est de 59
+
 data->la->num = 88 et la moyenne est de 59
+
 data->la->num = 77 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
@@ -4594,14 +5139,23 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 89 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 89 et la moyenne est de 59
+
 data->la->num = 62 et la moyenne est de 59
+
 data->la->num = 61 et la moyenne est de 59
+
 data->la->num = 98 et la moyenne est de 59
+
 data->la->num = 72 et la moyenne est de 59
+
 data->la->num = 96 et la moyenne est de 59
+
 data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
+
 data->la->num = 64 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
@@ -4726,14 +5280,23 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 69 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 69 et la moyenne est de 59
+
 data->la->num = 89 et la moyenne est de 59
+
 data->la->num = 62 et la moyenne est de 59
+
 data->la->num = 61 et la moyenne est de 59
+
 data->la->num = 98 et la moyenne est de 59
+
 data->la->num = 72 et la moyenne est de 59
+
 data->la->num = 96 et la moyenne est de 59
+
 data->la->num = 66 et la moyenne est de 59
+
 data->la->num = 85 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
@@ -4870,14 +5433,23 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 86 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 86 et la moyenne est de 59
+
 data->la->num = 80 et la moyenne est de 59
+
 data->la->num = 67 et la moyenne est de 59
+
 data->la->num = 60 et la moyenne est de 59
+
 data->la->num = 75 et la moyenne est de 59
+
 data->la->num = 69 et la moyenne est de 59
+
 data->la->num = 89 et la moyenne est de 59
+
 data->la->num = 62 et la moyenne est de 59
+
 data->la->num = 61 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
@@ -5007,14 +5579,23 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 86 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 86 et la moyenne est de 59
+
 data->la->num = 80 et la moyenne est de 59
+
 data->la->num = 67 et la moyenne est de 59
+
 data->la->num = 60 et la moyenne est de 59
+
 data->la->num = 75 et la moyenne est de 59
+
 data->la->num = 69 et la moyenne est de 59
+
 data->la->num = 89 et la moyenne est de 59
+
 data->la->num = 62 et la moyenne est de 59
+
 data->la->num = 61 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
@@ -5151,13 +5732,21 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 65 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 65 et la moyenne est de 59
+
 data->la->num = 83 et la moyenne est de 59
+
 data->la->num = 71 et la moyenne est de 59
+
 data->la->num = 86 et la moyenne est de 59
+
 data->la->num = 80 et la moyenne est de 59
+
 data->la->num = 67 et la moyenne est de 59
+
 data->la->num = 60 et la moyenne est de 59
+
 data->la->num = 75 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
@@ -5299,13 +5888,21 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 87 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 87 et la moyenne est de 59
+
 data->la->num = 93 et la moyenne est de 59
+
 data->la->num = 76 et la moyenne est de 59
+
 data->la->num = 94 et la moyenne est de 59
+
 data->la->num = 65 et la moyenne est de 59
+
 data->la->num = 83 et la moyenne est de 59
+
 data->la->num = 71 et la moyenne est de 59
+
 data->la->num = 86 et la moyenne est de 59
 =========
 littlech1 est egale a -1 et l'autre littlech2 7 et compare = 1
@@ -5448,8 +6045,11 @@ pb
 =========
  les deux fonction found
 =========
-mon chunk est de 59data->la->num = 84 et la moyenne est de 59
+mon chunk est de 59
+data->la->num = 84 et la moyenne est de 59
+
 data->la->num = 63 et la moyenne est de 59
+
 data->la->num = 59 et la moyenne est de 59
 nb est inferieur car nb est egal a 59
 =========
