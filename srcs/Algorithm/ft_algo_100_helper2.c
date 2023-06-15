@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 17:30:29 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/15 09:45:34 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	else if (token == 1)
 		last = 0.85;
 	else if (token == 2)
-		last = 1.49;
+		last = 1.45;
 	else if (token == 3)
 		last = 1.66;
 	else if (token == 4)

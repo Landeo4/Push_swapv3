@@ -1,0 +1,5817 @@
+la len est de 100
+le chunk1 est de 19
+
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 58 et la moyenne est de 19
+data->la->num = 4 et la moyenne est de 19
+nb est inferieur car nb est egal a 4
+=========
+littlech1 est egale a 2 et l'autre littlech2 7 et compare = 1
+little = 1
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pb
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 34 et la moyenne est de 19
+data->la->num = 48 et la moyenne est de 19
+data->la->num = 66 et la moyenne est de 19
+data->la->num = 41 et la moyenne est de 19
+data->la->num = 39 et la moyenne est de 19
+data->la->num = 85 et la moyenne est de 19
+data->la->num = 58 et la moyenne est de 19
+data->la->num = 4 et la moyenne est de 19
+nb est inferieur car nb est egal a 4
+=========
+littlech1 est egale a 8 et l'autre littlech2 2 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 4
+little = 4
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 57 et la moyenne est de 19
+data->la->num = 18 et la moyenne est de 19
+nb est inferieur car nb est egal a 18
+=========
+littlech1 est egale a 2 et l'autre littlech2 9 et compare = 1
+little = 12
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+4
+1
+je passe par le lit2 == -1
+mon nb vaut 4
+pb
+12
+4
+1
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 96 et la moyenne est de 19
+data->la->num = 34 et la moyenne est de 19
+data->la->num = 48 et la moyenne est de 19
+data->la->num = 66 et la moyenne est de 19
+data->la->num = 41 et la moyenne est de 19
+data->la->num = 39 et la moyenne est de 19
+data->la->num = 85 et la moyenne est de 19
+data->la->num = 58 et la moyenne est de 19
+data->la->num = 57 et la moyenne est de 19
+data->la->num = 18 et la moyenne est de 19
+nb est inferieur car nb est egal a 18
+=========
+littlech1 est egale a 10 et l'autre littlech2 4 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 18
+little = 18
+salut je passe par la
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ma liste ressemble a ca
+12
+4
+1
+je passe par le lit2 == -1
+mon nb vaut 12
+pb
+18
+12
+4
+1
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 14 et la moyenne est de 19
+nb est inferieur car nb est egal a 14
+=========
+littlech1 est egale a 1 et l'autre littlech2 13 et compare = 1
+little = 8
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+18
+12
+4
+1
+je passe le premier if de swap manager
+mon nb est de 8 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 8
+et ma len est de 2
+ma len est donc de 2 et mon cpt 2
+rb
+rb
+pb
+8
+4
+1
+18
+12
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 30 et la moyenne est de 19
+data->la->num = 72 et la moyenne est de 19
+data->la->num = 55 et la moyenne est de 19
+data->la->num = 96 et la moyenne est de 19
+data->la->num = 34 et la moyenne est de 19
+data->la->num = 48 et la moyenne est de 19
+data->la->num = 66 et la moyenne est de 19
+data->la->num = 41 et la moyenne est de 19
+data->la->num = 39 et la moyenne est de 19
+data->la->num = 85 et la moyenne est de 19
+data->la->num = 58 et la moyenne est de 19
+data->la->num = 57 et la moyenne est de 19
+data->la->num = 14 et la moyenne est de 19
+nb est inferieur car nb est egal a 14
+=========
+littlech1 est egale a 13 et l'autre littlech2 11 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 14
+little = 14
+salut je passe par la
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ma liste ressemble a ca
+8
+4
+1
+18
+12
+je passe le premier if de swap manager
+mon nb est de 14 dans le found best place
+mon cpt est de 4 
+dans ma fonction take best place mon cpt est de 4 et mon nb est de 14
+et ma len est de 2
+rrb
+pb
+14
+12
+8
+4
+1
+18
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 64 et la moyenne est de 19
+data->la->num = 44 et la moyenne est de 19
+data->la->num = 3 et la moyenne est de 19
+nb est inferieur car nb est egal a 3
+=========
+littlech1 est egale a 3 et l'autre littlech2 23 et compare = 1
+little = 10
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+14
+12
+8
+4
+1
+18
+je passe le premier if de swap manager
+mon nb est de 10 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 10
+et ma len est de 3
+rb
+rb
+pb
+10
+8
+4
+1
+18
+14
+12
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 52 et la moyenne est de 19
+data->la->num = 69 et la moyenne est de 19
+data->la->num = 50 et la moyenne est de 19
+data->la->num = 89 et la moyenne est de 19
+data->la->num = 62 et la moyenne est de 19
+data->la->num = 61 et la moyenne est de 19
+data->la->num = 31 et la moyenne est de 19
+data->la->num = 53 et la moyenne est de 19
+data->la->num = 98 et la moyenne est de 19
+data->la->num = 49 et la moyenne est de 19
+data->la->num = 30 et la moyenne est de 19
+data->la->num = 72 et la moyenne est de 19
+data->la->num = 55 et la moyenne est de 19
+data->la->num = 96 et la moyenne est de 19
+data->la->num = 34 et la moyenne est de 19
+data->la->num = 48 et la moyenne est de 19
+data->la->num = 66 et la moyenne est de 19
+data->la->num = 41 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
+little = 5
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+10
+8
+4
+1
+18
+14
+12
+je passe le premier if de swap manager
+mon nb est de 5 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 5
+et ma len est de 3
+rb
+rb
+pb
+5
+4
+1
+18
+14
+12
+10
+8
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 23 et la moyenne est de 19
+data->la->num = 27 et la moyenne est de 19
+data->la->num = 60 et la moyenne est de 19
+data->la->num = 75 et la moyenne est de 19
+data->la->num = 52 et la moyenne est de 19
+data->la->num = 69 et la moyenne est de 19
+data->la->num = 50 et la moyenne est de 19
+data->la->num = 89 et la moyenne est de 19
+data->la->num = 62 et la moyenne est de 19
+data->la->num = 61 et la moyenne est de 19
+data->la->num = 31 et la moyenne est de 19
+data->la->num = 53 et la moyenne est de 19
+data->la->num = 98 et la moyenne est de 19
+data->la->num = 49 et la moyenne est de 19
+data->la->num = 30 et la moyenne est de 19
+data->la->num = 72 et la moyenne est de 19
+data->la->num = 55 et la moyenne est de 19
+data->la->num = 96 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
+little = 2
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+5
+4
+1
+18
+14
+12
+10
+8
+je passe le premier if de swap manager
+mon nb est de 2 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 2
+et ma len est de 4
+rb
+rb
+pb
+2
+1
+18
+14
+12
+10
+8
+5
+4
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 80 et la moyenne est de 19
+data->la->num = 67 et la moyenne est de 19
+data->la->num = 23 et la moyenne est de 19
+data->la->num = 27 et la moyenne est de 19
+data->la->num = 60 et la moyenne est de 19
+data->la->num = 75 et la moyenne est de 19
+data->la->num = 52 et la moyenne est de 19
+data->la->num = 69 et la moyenne est de 19
+data->la->num = 50 et la moyenne est de 19
+data->la->num = 89 et la moyenne est de 19
+data->la->num = 62 et la moyenne est de 19
+data->la->num = 61 et la moyenne est de 19
+data->la->num = 31 et la moyenne est de 19
+data->la->num = 53 et la moyenne est de 19
+data->la->num = 98 et la moyenne est de 19
+data->la->num = 49 et la moyenne est de 19
+data->la->num = 30 et la moyenne est de 19
+data->la->num = 72 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
+little = 16
+salut je passe par la
+rra
+ma liste ressemble a ca
+2
+1
+18
+14
+12
+10
+8
+5
+4
+je passe le premier if de swap manager
+mon nb est de 16 dans le found best place
+mon cpt est de 3 
+dans ma fonction take best place mon cpt est de 3 et mon nb est de 16
+et ma len est de 4
+rb
+rb
+rb
+pb
+16
+14
+12
+10
+8
+5
+4
+2
+1
+18
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 80 et la moyenne est de 19
+data->la->num = 67 et la moyenne est de 19
+data->la->num = 23 et la moyenne est de 19
+data->la->num = 27 et la moyenne est de 19
+data->la->num = 60 et la moyenne est de 19
+data->la->num = 75 et la moyenne est de 19
+data->la->num = 52 et la moyenne est de 19
+data->la->num = 69 et la moyenne est de 19
+data->la->num = 50 et la moyenne est de 19
+data->la->num = 89 et la moyenne est de 19
+data->la->num = 62 et la moyenne est de 19
+data->la->num = 61 et la moyenne est de 19
+data->la->num = 31 et la moyenne est de 19
+data->la->num = 53 et la moyenne est de 19
+data->la->num = 98 et la moyenne est de 19
+data->la->num = 49 et la moyenne est de 19
+data->la->num = 30 et la moyenne est de 19
+data->la->num = 72 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
+little = 15
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+16
+14
+12
+10
+8
+5
+4
+2
+1
+18
+je passe le premier if de swap manager
+mon nb est de 15 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 15
+et ma len est de 5
+rb
+pb
+15
+14
+12
+10
+8
+5
+4
+2
+1
+18
+16
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 47 et la moyenne est de 19
+data->la->num = 42 et la moyenne est de 19
+data->la->num = 86 et la moyenne est de 19
+data->la->num = 36 et la moyenne est de 19
+data->la->num = 21 et la moyenne est de 19
+data->la->num = 80 et la moyenne est de 19
+data->la->num = 67 et la moyenne est de 19
+data->la->num = 23 et la moyenne est de 19
+data->la->num = 27 et la moyenne est de 19
+data->la->num = 60 et la moyenne est de 19
+data->la->num = 75 et la moyenne est de 19
+data->la->num = 52 et la moyenne est de 19
+data->la->num = 69 et la moyenne est de 19
+data->la->num = 50 et la moyenne est de 19
+data->la->num = 89 et la moyenne est de 19
+data->la->num = 62 et la moyenne est de 19
+data->la->num = 61 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 14 et compare = 1
+little = 6
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+15
+14
+12
+10
+8
+5
+4
+2
+1
+18
+16
+je passe le premier if de swap manager
+mon nb est de 6 dans le found best place
+mon cpt est de 5 
+dans ma fonction take best place mon cpt est de 5 et mon nb est de 6
+et ma len est de 5
+ma len est donc de 5 et mon cpt 5
+rb
+rb
+rb
+rb
+rb
+pb
+6
+5
+4
+2
+1
+18
+16
+15
+14
+12
+10
+8
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 35 et la moyenne est de 19
+data->la->num = 87 et la moyenne est de 19
+data->la->num = 93 et la moyenne est de 19
+data->la->num = 76 et la moyenne est de 19
+data->la->num = 94 et la moyenne est de 19
+data->la->num = 24 et la moyenne est de 19
+data->la->num = 54 et la moyenne est de 19
+data->la->num = 32 et la moyenne est de 19
+data->la->num = 65 et la moyenne est de 19
+data->la->num = 83 et la moyenne est de 19
+data->la->num = 20 et la moyenne est de 19
+data->la->num = 71 et la moyenne est de 19
+data->la->num = 25 et la moyenne est de 19
+data->la->num = 47 et la moyenne est de 19
+data->la->num = 42 et la moyenne est de 19
+data->la->num = 86 et la moyenne est de 19
+data->la->num = 36 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
+little = 11
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+6
+5
+4
+2
+1
+18
+16
+15
+14
+12
+10
+8
+je passe le premier if de swap manager
+mon nb est de 11 dans le found best place
+mon cpt est de 10 
+dans ma fonction take best place mon cpt est de 10 et mon nb est de 11
+et ma len est de 6
+rrb
+rrb
+pb
+11
+10
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+12
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 33 et la moyenne est de 19
+data->la->num = 46 et la moyenne est de 19
+data->la->num = 35 et la moyenne est de 19
+data->la->num = 87 et la moyenne est de 19
+data->la->num = 93 et la moyenne est de 19
+data->la->num = 76 et la moyenne est de 19
+data->la->num = 94 et la moyenne est de 19
+data->la->num = 24 et la moyenne est de 19
+data->la->num = 54 et la moyenne est de 19
+data->la->num = 32 et la moyenne est de 19
+data->la->num = 65 et la moyenne est de 19
+data->la->num = 83 et la moyenne est de 19
+data->la->num = 20 et la moyenne est de 19
+data->la->num = 71 et la moyenne est de 19
+data->la->num = 25 et la moyenne est de 19
+data->la->num = 47 et la moyenne est de 19
+data->la->num = 42 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 22 et compare = 1
+little = 13
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+11
+10
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+12
+je passe le premier if de swap manager
+mon nb est de 13 dans le found best place
+mon cpt est de 12 
+dans ma fonction take best place mon cpt est de 12 et mon nb est de 13
+et ma len est de 6
+rrb
+pb
+13
+12
+11
+10
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 81 et la moyenne est de 19
+data->la->num = 68 et la moyenne est de 19
+data->la->num = 29 et la moyenne est de 19
+data->la->num = 90 et la moyenne est de 19
+data->la->num = 38 et la moyenne est de 19
+data->la->num = 73 et la moyenne est de 19
+data->la->num = 78 et la moyenne est de 19
+data->la->num = 43 et la moyenne est de 19
+data->la->num = 100 et la moyenne est de 19
+data->la->num = 74 et la moyenne est de 19
+data->la->num = 70 et la moyenne est de 19
+data->la->num = 79 et la moyenne est de 19
+data->la->num = 99 et la moyenne est de 19
+data->la->num = 51 et la moyenne est de 19
+data->la->num = 84 et la moyenne est de 19
+data->la->num = 26 et la moyenne est de 19
+data->la->num = 63 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 7 et compare = 1
+little = 9
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+13
+12
+11
+10
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+je passe le premier if de swap manager
+mon nb est de 9 dans le found best place
+mon cpt est de 4 
+dans ma fonction take best place mon cpt est de 4 et mon nb est de 9
+et ma len est de 7
+rb
+rb
+rb
+rb
+pb
+9
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+13
+12
+11
+10
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 77 et la moyenne est de 19
+data->la->num = 28 et la moyenne est de 19
+data->la->num = 22 et la moyenne est de 19
+data->la->num = 40 et la moyenne est de 19
+data->la->num = 97 et la moyenne est de 19
+data->la->num = 56 et la moyenne est de 19
+data->la->num = 81 et la moyenne est de 19
+data->la->num = 68 et la moyenne est de 19
+data->la->num = 29 et la moyenne est de 19
+data->la->num = 90 et la moyenne est de 19
+data->la->num = 38 et la moyenne est de 19
+data->la->num = 73 et la moyenne est de 19
+data->la->num = 78 et la moyenne est de 19
+data->la->num = 43 et la moyenne est de 19
+data->la->num = 100 et la moyenne est de 19
+data->la->num = 74 et la moyenne est de 19
+data->la->num = 70 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
+little = 17
+salut je passe par la
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+9
+8
+6
+5
+4
+2
+1
+18
+16
+15
+14
+13
+12
+11
+10
+je passe le premier if de swap manager
+mon nb est de 17 dans le found best place
+mon cpt est de 8 
+dans ma fonction take best place mon cpt est de 8 et mon nb est de 17
+et ma len est de 7
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+6
+5
+4
+2
+1
+18
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 88 et la moyenne est de 19
+data->la->num = 19 et la moyenne est de 19
+nb est inferieur car nb est egal a 19
+=========
+littlech1 est egale a 2 et l'autre littlech2 2 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 19
+little = 19
+salut je passe par la
+ra
+ma liste ressemble a ca
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+6
+5
+4
+2
+1
+18
+je passe par le lit2 == -1
+mon nb vaut 18
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+6
+5
+4
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 45 et la moyenne est de 19
+data->la->num = 77 et la moyenne est de 19
+data->la->num = 28 et la moyenne est de 19
+data->la->num = 22 et la moyenne est de 19
+data->la->num = 40 et la moyenne est de 19
+data->la->num = 97 et la moyenne est de 19
+data->la->num = 56 et la moyenne est de 19
+data->la->num = 81 et la moyenne est de 19
+data->la->num = 68 et la moyenne est de 19
+data->la->num = 29 et la moyenne est de 19
+data->la->num = 90 et la moyenne est de 19
+data->la->num = 38 et la moyenne est de 19
+data->la->num = 73 et la moyenne est de 19
+data->la->num = 78 et la moyenne est de 19
+data->la->num = 43 et la moyenne est de 19
+data->la->num = 100 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
+little = 7
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+6
+5
+4
+2
+1
+je passe le premier if de swap manager
+mon nb est de 7 dans le found best place
+mon cpt est de 12 
+dans ma fonction take best place mon cpt est de 12 et mon nb est de 7
+et ma len est de 8
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+7
+6
+5
+4
+2
+1
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+================NOUVELLE BOUCLE================ avec un chunk de 19
+=========
+ les deux fonction found
+=========
+mon chunk est de 19data->la->num = 92 et la moyenne est de 19
+data->la->num = 88 et la moyenne est de 19
+data->la->num = 45 et la moyenne est de 19
+data->la->num = 77 et la moyenne est de 19
+data->la->num = 28 et la moyenne est de 19
+data->la->num = 22 et la moyenne est de 19
+data->la->num = 40 et la moyenne est de 19
+data->la->num = 97 et la moyenne est de 19
+data->la->num = 56 et la moyenne est de 19
+data->la->num = 81 et la moyenne est de 19
+data->la->num = 68 et la moyenne est de 19
+data->la->num = 29 et la moyenne est de 19
+data->la->num = 90 et la moyenne est de 19
+data->la->num = 38 et la moyenne est de 19
+data->la->num = 73 et la moyenne est de 19
+data->la->num = 78 et la moyenne est de 19
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 3
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+7
+6
+5
+4
+2
+1
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+je passe le premier if de swap manager
+mon nb est de 3 dans le found best place
+mon cpt est de 4 
+dans ma fonction take best place mon cpt est de 4 et mon nb est de 3
+et ma len est de 9
+rb
+rb
+rb
+rb
+pb
+3
+2
+1
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+la len est de 81
+le chunk1 est de 39
+
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 37 et la moyenne est de 39
+nb est inferieur car nb est egal a 37
+=========
+littlech1 est egale a 1 et l'autre littlech2 10 et compare = 1
+little = 34
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+3
+2
+1
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+je passe par le lit2 == -1
+mon nb vaut 19
+rb
+rb
+rb
+pb
+34
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 48 et la moyenne est de 39
+data->la->num = 66 et la moyenne est de 39
+data->la->num = 41 et la moyenne est de 39
+data->la->num = 39 et la moyenne est de 39
+nb est inferieur car nb est egal a 39
+=========
+littlech1 est egale a 4 et l'autre littlech2 4 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 39
+little = 39
+salut je passe par la
+ra
+ra
+ra
+ma liste ressemble a ca
+34
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+je passe par le lit2 == -1
+mon nb vaut 34
+pb
+39
+34
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 85 et la moyenne est de 39
+data->la->num = 58 et la moyenne est de 39
+data->la->num = 57 et la moyenne est de 39
+data->la->num = 64 et la moyenne est de 39
+data->la->num = 44 et la moyenne est de 39
+data->la->num = 37 et la moyenne est de 39
+nb est inferieur car nb est egal a 37
+=========
+littlech1 est egale a 6 et l'autre littlech2 7 et compare = 1
+little = 30
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+39
+34
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+je passe le premier if de swap manager
+mon nb est de 30 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 30
+et ma len est de 10
+rb
+rb
+pb
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+34
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 72 et la moyenne est de 39
+data->la->num = 55 et la moyenne est de 39
+data->la->num = 96 et la moyenne est de 39
+data->la->num = 48 et la moyenne est de 39
+data->la->num = 66 et la moyenne est de 39
+data->la->num = 41 et la moyenne est de 39
+data->la->num = 85 et la moyenne est de 39
+data->la->num = 58 et la moyenne est de 39
+data->la->num = 57 et la moyenne est de 39
+data->la->num = 64 et la moyenne est de 39
+data->la->num = 44 et la moyenne est de 39
+data->la->num = 37 et la moyenne est de 39
+nb est inferieur car nb est egal a 37
+=========
+littlech1 est egale a 12 et l'autre littlech2 4 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 37
+little = 37
+salut je passe par la
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ma liste ressemble a ca
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+34
+je passe le premier if de swap manager
+mon nb est de 37 dans le found best place
+mon cpt est de 21 
+dans ma fonction take best place mon cpt est de 21 et mon nb est de 37
+et ma len est de 11
+rrb
+pb
+37
+34
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 92 et la moyenne est de 39
+data->la->num = 88 et la moyenne est de 39
+data->la->num = 45 et la moyenne est de 39
+data->la->num = 77 et la moyenne est de 39
+data->la->num = 28 et la moyenne est de 39
+nb est inferieur car nb est egal a 28
+=========
+littlech1 est egale a 5 et l'autre littlech2 15 et compare = 1
+little = 31
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+37
+34
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+je passe le premier if de swap manager
+mon nb est de 31 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 31
+et ma len est de 11
+rb
+rb
+pb
+31
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 53 et la moyenne est de 39
+data->la->num = 98 et la moyenne est de 39
+data->la->num = 49 et la moyenne est de 39
+data->la->num = 72 et la moyenne est de 39
+data->la->num = 55 et la moyenne est de 39
+data->la->num = 96 et la moyenne est de 39
+data->la->num = 48 et la moyenne est de 39
+data->la->num = 66 et la moyenne est de 39
+data->la->num = 41 et la moyenne est de 39
+data->la->num = 85 et la moyenne est de 39
+data->la->num = 58 et la moyenne est de 39
+data->la->num = 57 et la moyenne est de 39
+data->la->num = 64 et la moyenne est de 39
+data->la->num = 44 et la moyenne est de 39
+data->la->num = 92 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 9 et compare = 1
+little = 27
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+31
+30
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+je passe le premier if de swap manager
+mon nb est de 27 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 27
+et ma len est de 12
+rb
+rb
+pb
+27
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+data->la->num = 53 et la moyenne est de 39
+data->la->num = 98 et la moyenne est de 39
+data->la->num = 49 et la moyenne est de 39
+data->la->num = 72 et la moyenne est de 39
+data->la->num = 55 et la moyenne est de 39
+data->la->num = 96 et la moyenne est de 39
+data->la->num = 48 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
+little = 23
+salut je passe par la
+rra
+ma liste ressemble a ca
+27
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+je passe le premier if de swap manager
+mon nb est de 23 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 23
+et ma len est de 12
+rb
+pb
+23
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+27
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+data->la->num = 53 et la moyenne est de 39
+data->la->num = 98 et la moyenne est de 39
+data->la->num = 49 et la moyenne est de 39
+data->la->num = 72 et la moyenne est de 39
+data->la->num = 55 et la moyenne est de 39
+data->la->num = 96 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
+little = 21
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+23
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+27
+je passe le premier if de swap manager
+mon nb est de 21 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 21
+et ma len est de 13
+rb
+pb
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+27
+23
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+data->la->num = 53 et la moyenne est de 39
+data->la->num = 98 et la moyenne est de 39
+data->la->num = 49 et la moyenne est de 39
+data->la->num = 72 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
+little = 36
+salut je passe par la
+rra
+ma liste ressemble a ca
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+34
+31
+30
+27
+23
+je passe le premier if de swap manager
+mon nb est de 36 dans le found best place
+mon cpt est de 22 
+dans ma fonction take best place mon cpt est de 22 et mon nb est de 36
+et ma len est de 13
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+36
+34
+31
+30
+27
+23
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+data->la->num = 53 et la moyenne est de 39
+data->la->num = 98 et la moyenne est de 39
+data->la->num = 49 et la moyenne est de 39
+data->la->num = 72 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
+little = 25
+salut je passe par la
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+36
+34
+31
+30
+27
+23
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+je passe le premier if de swap manager
+mon nb est de 25 dans le found best place
+mon cpt est de 5 
+dans ma fonction take best place mon cpt est de 5 et mon nb est de 25
+et ma len est de 14
+rb
+rb
+rb
+rb
+rb
+pb
+25
+23
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+31
+30
+27
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+data->la->num = 53 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 20
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+25
+23
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+31
+30
+27
+je passe le premier if de swap manager
+mon nb est de 20 dans le found best place
+mon cpt est de 3 
+dans ma fonction take best place mon cpt est de 3 et mon nb est de 20
+et ma len est de 14
+rb
+rb
+rb
+pb
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+31
+30
+27
+25
+23
+21
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 71 et la moyenne est de 39
+data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+data->la->num = 89 et la moyenne est de 39
+data->la->num = 62 et la moyenne est de 39
+data->la->num = 61 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 3 et compare = 1
+little = 32
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+31
+30
+27
+25
+23
+21
+je passe le premier if de swap manager
+mon nb est de 32 dans le found best place
+mon cpt est de 24 
+dans ma fonction take best place mon cpt est de 24 et mon nb est de 32
+et ma len est de 15
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+32
+31
+30
+27
+25
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 65 et la moyenne est de 39
+data->la->num = 83 et la moyenne est de 39
+data->la->num = 71 et la moyenne est de 39
+data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+data->la->num = 50 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 24
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+32
+31
+30
+27
+25
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+je passe le premier if de swap manager
+mon nb est de 24 dans le found best place
+mon cpt est de 5 
+dans ma fonction take best place mon cpt est de 5 et mon nb est de 24
+et ma len est de 15
+rb
+rb
+rb
+rb
+rb
+pb
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+32
+31
+30
+27
+25
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 54 et la moyenne est de 39
+data->la->num = 65 et la moyenne est de 39
+data->la->num = 83 et la moyenne est de 39
+data->la->num = 71 et la moyenne est de 39
+data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+data->la->num = 60 et la moyenne est de 39
+data->la->num = 75 et la moyenne est de 39
+data->la->num = 52 et la moyenne est de 39
+data->la->num = 69 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
+little = 35
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+34
+32
+31
+30
+27
+25
+je passe le premier if de swap manager
+mon nb est de 35 dans le found best place
+mon cpt est de 26 
+dans ma fonction take best place mon cpt est de 26 et mon nb est de 35
+et ma len est de 16
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+35
+34
+32
+31
+30
+27
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 87 et la moyenne est de 39
+data->la->num = 93 et la moyenne est de 39
+data->la->num = 76 et la moyenne est de 39
+data->la->num = 94 et la moyenne est de 39
+data->la->num = 54 et la moyenne est de 39
+data->la->num = 65 et la moyenne est de 39
+data->la->num = 83 et la moyenne est de 39
+data->la->num = 71 et la moyenne est de 39
+data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+data->la->num = 67 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 33
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+35
+34
+32
+31
+30
+27
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+je passe le premier if de swap manager
+mon nb est de 33 dans le found best place
+mon cpt est de 2 
+dans ma fonction take best place mon cpt est de 2 et mon nb est de 33
+et ma len est de 16
+rb
+rb
+pb
+33
+32
+31
+30
+27
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+35
+34
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 46 et la moyenne est de 39
+data->la->num = 87 et la moyenne est de 39
+data->la->num = 93 et la moyenne est de 39
+data->la->num = 76 et la moyenne est de 39
+data->la->num = 94 et la moyenne est de 39
+data->la->num = 54 et la moyenne est de 39
+data->la->num = 65 et la moyenne est de 39
+data->la->num = 83 et la moyenne est de 39
+data->la->num = 71 et la moyenne est de 39
+data->la->num = 47 et la moyenne est de 39
+data->la->num = 42 et la moyenne est de 39
+data->la->num = 86 et la moyenne est de 39
+data->la->num = 80 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
+little = 26
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+33
+32
+31
+30
+27
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+35
+34
+je passe le premier if de swap manager
+mon nb est de 26 dans le found best place
+mon cpt est de 5 
+dans ma fonction take best place mon cpt est de 5 et mon nb est de 26
+et ma len est de 17
+rb
+rb
+rb
+rb
+rb
+pb
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+35
+34
+33
+32
+31
+30
+27
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 63 et la moyenne est de 39
+data->la->num = 59 et la moyenne est de 39
+data->la->num = 95 et la moyenne est de 39
+data->la->num = 82 et la moyenne est de 39
+data->la->num = 91 et la moyenne est de 39
+data->la->num = 46 et la moyenne est de 39
+data->la->num = 87 et la moyenne est de 39
+data->la->num = 93 et la moyenne est de 39
+data->la->num = 76 et la moyenne est de 39
+data->la->num = 94 et la moyenne est de 39
+data->la->num = 54 et la moyenne est de 39
+data->la->num = 65 et la moyenne est de 39
+data->la->num = 83 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 11 et compare = 1
+little = 38
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+37
+36
+35
+34
+33
+32
+31
+30
+27
+je passe le premier if de swap manager
+mon nb est de 38 dans le found best place
+mon cpt est de 26 
+dans ma fonction take best place mon cpt est de 26 et mon nb est de 38
+et ma len est de 17
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+38
+37
+36
+35
+34
+33
+32
+31
+30
+27
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 73 et la moyenne est de 39
+data->la->num = 78 et la moyenne est de 39
+data->la->num = 43 et la moyenne est de 39
+data->la->num = 100 et la moyenne est de 39
+data->la->num = 74 et la moyenne est de 39
+data->la->num = 70 et la moyenne est de 39
+data->la->num = 79 et la moyenne est de 39
+data->la->num = 99 et la moyenne est de 39
+data->la->num = 51 et la moyenne est de 39
+data->la->num = 84 et la moyenne est de 39
+data->la->num = 63 et la moyenne est de 39
+data->la->num = 59 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 29
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+38
+37
+36
+35
+34
+33
+32
+31
+30
+27
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+je passe le premier if de swap manager
+mon nb est de 29 dans le found best place
+mon cpt est de 9 
+dans ma fonction take best place mon cpt est de 9 et mon nb est de 29
+et ma len est de 18
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+29
+27
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 90 et la moyenne est de 39
+data->la->num = 73 et la moyenne est de 39
+data->la->num = 78 et la moyenne est de 39
+data->la->num = 43 et la moyenne est de 39
+data->la->num = 100 et la moyenne est de 39
+data->la->num = 74 et la moyenne est de 39
+data->la->num = 70 et la moyenne est de 39
+data->la->num = 79 et la moyenne est de 39
+data->la->num = 99 et la moyenne est de 39
+data->la->num = 51 et la moyenne est de 39
+data->la->num = 84 et la moyenne est de 39
+data->la->num = 63 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
+little = 22
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+29
+27
+26
+25
+24
+23
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+je passe le premier if de swap manager
+mon nb est de 22 dans le found best place
+mon cpt est de 6 
+dans ma fonction take best place mon cpt est de 6 et mon nb est de 22
+et ma len est de 18
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+27
+26
+25
+24
+23
+================NOUVELLE BOUCLE================ avec un chunk de 39
+=========
+ les deux fonction found
+=========
+mon chunk est de 39data->la->num = 40 et la moyenne est de 39
+data->la->num = 97 et la moyenne est de 39
+data->la->num = 56 et la moyenne est de 39
+data->la->num = 81 et la moyenne est de 39
+data->la->num = 68 et la moyenne est de 39
+data->la->num = 90 et la moyenne est de 39
+data->la->num = 73 et la moyenne est de 39
+data->la->num = 78 et la moyenne est de 39
+data->la->num = 43 et la moyenne est de 39
+data->la->num = 100 et la moyenne est de 39
+data->la->num = 74 et la moyenne est de 39
+data->la->num = 70 et la moyenne est de 39
+=========
+littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
+little = 28
+salut je passe par la
+rra
+ma liste ressemble a ca
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+27
+26
+25
+24
+23
+je passe le premier if de swap manager
+mon nb est de 28 dans le found best place
+mon cpt est de 33 
+dans ma fonction take best place mon cpt est de 33 et mon nb est de 28
+et ma len est de 19
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+la len est de 61
+le chunk1 est de 59
+
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 40 et la moyenne est de 59
+nb est inferieur car nb est egal a 40
+=========
+littlech1 est egale a 1 et l'autre littlech2 2 et compare = 1
+little = 45
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+je passe par le lit2 == -1
+mon nb vaut 39
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+45
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 77 et la moyenne est de 59
+data->la->num = 40 et la moyenne est de 59
+nb est inferieur car nb est egal a 40
+=========
+littlech1 est egale a 2 et l'autre littlech2 3 et compare = 1
+little = 44
+salut je passe par la
+rra
+rra
+rra
+ma liste ressemble a ca
+45
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+je passe le premier if de swap manager
+mon nb est de 44 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 44
+et ma len est de 20
+rb
+pb
+44
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+45
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 40 et la moyenne est de 59
+nb est inferieur car nb est egal a 40
+=========
+littlech1 est egale a 4 et l'autre littlech2 2 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 40
+little = 40
+salut je passe par la
+ra
+ra
+ra
+ma liste ressemble a ca
+44
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+45
+je passe le premier if de swap manager
+mon nb est de 40 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 40
+et ma len est de 20
+rb
+pb
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+45
+44
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 97 et la moyenne est de 59
+data->la->num = 56 et la moyenne est de 59
+nb est inferieur car nb est egal a 56
+=========
+littlech1 est egale a 2 et l'autre littlech2 5 et compare = 1
+little = 57
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+45
+44
+je passe par le lit2 == -1
+mon nb vaut 45
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+57
+45
+44
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 56 et la moyenne est de 59
+nb est inferieur car nb est egal a 56
+=========
+littlech1 est egale a 6 et l'autre littlech2 1 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 56
+little = 56
+salut je passe par la
+ra
+ra
+ra
+ra
+ra
+ma liste ressemble a ca
+57
+45
+44
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+je passe le premier if de swap manager
+mon nb est de 56 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 56
+et ma len est de 21
+rb
+pb
+56
+45
+44
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+57
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 81 et la moyenne est de 59
+data->la->num = 68 et la moyenne est de 59
+data->la->num = 90 et la moyenne est de 59
+data->la->num = 73 et la moyenne est de 59
+data->la->num = 78 et la moyenne est de 59
+data->la->num = 43 et la moyenne est de 59
+nb est inferieur car nb est egal a 43
+=========
+littlech1 est egale a 6 et l'autre littlech2 6 et compare = 0
+SAAAAAAAAAAAAAAAAAAAAAAAAAdu coup mon premier chiffre est de 43
+little = 43
+salut je passe par la
+ra
+ra
+ra
+ra
+ra
+ma liste ressemble a ca
+56
+45
+44
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+57
+je passe le premier if de swap manager
+mon nb est de 43 dans le found best place
+mon cpt est de 3 
+dans ma fonction take best place mon cpt est de 3 et mon nb est de 43
+et ma len est de 22
+rb
+rb
+rb
+pb
+43
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+57
+56
+45
+44
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 100 et la moyenne est de 59
+data->la->num = 74 et la moyenne est de 59
+data->la->num = 70 et la moyenne est de 59
+data->la->num = 79 et la moyenne est de 59
+data->la->num = 99 et la moyenne est de 59
+data->la->num = 51 et la moyenne est de 59
+nb est inferieur car nb est egal a 51
+=========
+littlech1 est egale a 6 et l'autre littlech2 11 et compare = 1
+little = 58
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+43
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+57
+56
+45
+44
+je passe par le lit2 == -1
+mon nb vaut 57
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+58
+57
+56
+45
+44
+43
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 81 et la moyenne est de 59
+data->la->num = 68 et la moyenne est de 59
+data->la->num = 90 et la moyenne est de 59
+data->la->num = 73 et la moyenne est de 59
+data->la->num = 78 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 41
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+58
+57
+56
+45
+44
+43
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+je passe le premier if de swap manager
+mon nb est de 41 dans le found best place
+mon cpt est de 6 
+dans ma fonction take best place mon cpt est de 6 et mon nb est de 41
+et ma len est de 23
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+45
+44
+43
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 81 et la moyenne est de 59
+data->la->num = 68 et la moyenne est de 59
+data->la->num = 90 et la moyenne est de 59
+data->la->num = 73 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 48
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+45
+44
+43
+je passe le premier if de swap manager
+mon nb est de 48 dans le found best place
+mon cpt est de 44 
+dans ma fonction take best place mon cpt est de 44 et mon nb est de 48
+et ma len est de 23
+rrb
+rrb
+rrb
+pb
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 81 et la moyenne est de 59
+data->la->num = 68 et la moyenne est de 59
+data->la->num = 90 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 55
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+je passe le premier if de swap manager
+mon nb est de 55 dans le found best place
+mon cpt dans best place est de 48 
+mon cpt est de -1 
+dans ma fonction take best place mon cpt est de -1 et mon nb est de 55
+et ma len est de 24
+pb
+55
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 96 et la moyenne est de 59
+data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 81 et la moyenne est de 59
+data->la->num = 68 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 49
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+55
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+je passe le premier if de swap manager
+mon nb est de 49 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 49
+et ma len est de 24
+rb
+pb
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 72 et la moyenne est de 59
+data->la->num = 96 et la moyenne est de 59
+data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+data->la->num = 97 et la moyenne est de 59
+data->la->num = 81 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 53
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+je passe le premier if de swap manager
+mon nb est de 53 dans le found best place
+mon cpt dans best place est de 50 
+mon cpt est de -1 
+dans ma fonction take best place mon cpt est de -1 et mon nb est de 53
+et ma len est de 25
+pb
+53
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 98 et la moyenne est de 59
+data->la->num = 72 et la moyenne est de 59
+data->la->num = 96 et la moyenne est de 59
+data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+data->la->num = 92 et la moyenne est de 59
+data->la->num = 88 et la moyenne est de 59
+data->la->num = 77 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
+little = 50
+salut je passe par la
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+53
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+je passe le premier if de swap manager
+mon nb est de 50 dans le found best place
+mon cpt est de 1 
+dans ma fonction take best place mon cpt est de 1 et mon nb est de 50
+et ma len est de 25
+rb
+pb
+50
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 89 et la moyenne est de 59
+data->la->num = 62 et la moyenne est de 59
+data->la->num = 61 et la moyenne est de 59
+data->la->num = 98 et la moyenne est de 59
+data->la->num = 72 et la moyenne est de 59
+data->la->num = 96 et la moyenne est de 59
+data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+data->la->num = 64 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 2 et compare = 1
+little = 52
+salut je passe par la
+rra
+rra
+ma liste ressemble a ca
+50
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+je passe le premier if de swap manager
+mon nb est de 52 dans le found best place
+mon cpt dans best place est de 52 
+mon cpt est de -1 
+dans ma fonction take best place mon cpt est de -1 et mon nb est de 52
+et ma len est de 26
+pb
+52
+50
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 69 et la moyenne est de 59
+data->la->num = 89 et la moyenne est de 59
+data->la->num = 62 et la moyenne est de 59
+data->la->num = 61 et la moyenne est de 59
+data->la->num = 98 et la moyenne est de 59
+data->la->num = 72 et la moyenne est de 59
+data->la->num = 96 et la moyenne est de 59
+data->la->num = 66 et la moyenne est de 59
+data->la->num = 85 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 6 et compare = 1
+little = 42
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+52
+50
+49
+48
+45
+44
+43
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+je passe le premier if de swap manager
+mon nb est de 42 dans le found best place
+mon cpt est de 7 
+dans ma fonction take best place mon cpt est de 7 et mon nb est de 42
+et ma len est de 26
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+52
+50
+49
+48
+45
+44
+43
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 86 et la moyenne est de 59
+data->la->num = 80 et la moyenne est de 59
+data->la->num = 67 et la moyenne est de 59
+data->la->num = 60 et la moyenne est de 59
+data->la->num = 75 et la moyenne est de 59
+data->la->num = 69 et la moyenne est de 59
+data->la->num = 89 et la moyenne est de 59
+data->la->num = 62 et la moyenne est de 59
+data->la->num = 61 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 1 et compare = 1
+little = 47
+salut je passe par la
+rra
+ma liste ressemble a ca
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+52
+50
+49
+48
+45
+44
+43
+je passe le premier if de swap manager
+mon nb est de 47 dans le found best place
+mon cpt est de 51 
+dans ma fonction take best place mon cpt est de 51 et mon nb est de 47
+et ma len est de 27
+rrb
+rrb
+rrb
+pb
+47
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+52
+50
+49
+48
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 86 et la moyenne est de 59
+data->la->num = 80 et la moyenne est de 59
+data->la->num = 67 et la moyenne est de 59
+data->la->num = 60 et la moyenne est de 59
+data->la->num = 75 et la moyenne est de 59
+data->la->num = 69 et la moyenne est de 59
+data->la->num = 89 et la moyenne est de 59
+data->la->num = 62 et la moyenne est de 59
+data->la->num = 61 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 4 et compare = 1
+little = 54
+salut je passe par la
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+47
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+53
+52
+50
+49
+48
+je passe le premier if de swap manager
+mon nb est de 54 dans le found best place
+mon cpt est de 50 
+dans ma fonction take best place mon cpt est de 50 et mon nb est de 54
+et ma len est de 27
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+54
+53
+52
+50
+49
+48
+47
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 65 et la moyenne est de 59
+data->la->num = 83 et la moyenne est de 59
+data->la->num = 71 et la moyenne est de 59
+data->la->num = 86 et la moyenne est de 59
+data->la->num = 80 et la moyenne est de 59
+data->la->num = 67 et la moyenne est de 59
+data->la->num = 60 et la moyenne est de 59
+data->la->num = 75 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 5 et compare = 1
+little = 46
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+54
+53
+52
+50
+49
+48
+47
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+je passe le premier if de swap manager
+mon nb est de 46 dans le found best place
+mon cpt est de 7 
+dans ma fonction take best place mon cpt est de 7 et mon nb est de 46
+et ma len est de 28
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+54
+53
+52
+50
+49
+48
+47
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 87 et la moyenne est de 59
+data->la->num = 93 et la moyenne est de 59
+data->la->num = 76 et la moyenne est de 59
+data->la->num = 94 et la moyenne est de 59
+data->la->num = 65 et la moyenne est de 59
+data->la->num = 83 et la moyenne est de 59
+data->la->num = 71 et la moyenne est de 59
+data->la->num = 86 et la moyenne est de 59
+=========
+littlech1 est egale a -1 et l'autre littlech2 7 et compare = 1
+little = 51
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+54
+53
+52
+50
+49
+48
+47
+je passe le premier if de swap manager
+mon nb est de 51 dans le found best place
+mon cpt est de 53 
+dans ma fonction take best place mon cpt est de 53 et mon nb est de 51
+et ma len est de 28
+rrb
+rrb
+rrb
+rrb
+pb
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+54
+53
+52
+================NOUVELLE BOUCLE================ avec un chunk de 59
+=========
+ les deux fonction found
+=========
+mon chunk est de 59data->la->num = 84 et la moyenne est de 59
+data->la->num = 63 et la moyenne est de 59
+data->la->num = 59 et la moyenne est de 59
+nb est inferieur car nb est egal a 59
+=========
+littlech1 est egale a 3 et l'autre littlech2 17 et compare = 1
+little = 66
+salut je passe par la
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ma liste ressemble a ca
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+58
+57
+56
+55
+54
+53
+52
+je passe par le lit2 == -1
+mon nb vaut 58
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+66
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+
+
+
+ voici la liste a
+85
+64
+92
+88
+77
+97
+81
+68
+90
+73
+78
+100
+74
+70
+79
+99
+84
+63
+59
+95
+82
+91
+87
+93
+76
+94
+65
+83
+71
+86
+80
+67
+60
+75
+69
+89
+62
+61
+98
+72
+96
+
+liste b =
+66
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+mon token est de 0 et mon last 0.400000 
+ mon i a la sortie de last part est egale a 7 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 9 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 13 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 11 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 23 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 5 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 6 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 14 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 22 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 7 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 19
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 19
+mon token est de 1 et mon last 0.850000 
+ mon i a la sortie de last part est egale a 10 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 7 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 15 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 9 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 5 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 6 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 11 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 6 et mon chunk est de 39
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 39
+mon token est de 2 et mon last 1.450000 
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 3 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 5 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 6 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 11 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 2 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 6 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 1 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 4 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 5 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 7 et mon chunk est de 59
+ mon i a la sortie de last part est egale a 17 et mon chunk est de 59

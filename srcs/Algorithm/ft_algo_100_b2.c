@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 18:16:54 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/15 08:32:38 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 			lb = lb->next;
 		ft_printf("je passe par le lit1 == -1\n");
 		cpt = ft_found_lower_b(data);
+		ft_printf("mon cpt = %d et mon lb->num %d\n", cpt, lb->num);
 		if (cpt == lb->num)
 		{
 			data->la = pb(data);
@@ -58,6 +59,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2)
 		}
 		ft_take_best_place102(data, cpt);
 		data->la = pb(data);
+		return ;
 	}
 	lb = data->lb->next;
 	if (len > 4)

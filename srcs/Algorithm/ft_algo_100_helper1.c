@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 17:18:08 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/15 10:45:37 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,19 +131,36 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la, int t
 }
 */
 
-int	ft_found_little_100_25(t_struct *data, int pos)
+int	ft_found_little_100_25(t_struct *data, int pos, int chunk)
 {
 	t_list_a	*tab;
 	int			nb;
+	int			len;
+	int			nb2;
 
+	len = ft_len_lista(data);
 	tab = data->la->next;
 	nb = ft_found_little(data);
-	while (pos != 0)
+	ft_printf("SAAAAAAAAAAAAAAAAAAAAAAAAA");
+	if (nb > chunk)
 	{
-		nb = tab->num;
-		tab = tab->next;
-		pos--;
+		ft_printf("LUUUUUUUUUUUUUUUUTTTTTTTTT");
+		nb2 = ft_found_little(data);
+		while (len > 0)
+		{
+			if (data->la->next->num == nb2)
+				return (nb2);
+			data->la = ra(data);
+			len--;
+		}
 	}
+	else
+		while (pos != 0)
+		{
+			nb = tab->num;
+			tab = tab->next;
+			pos--;
+		}
 	ft_printf("du coup mon premier chiffre est de %d\n", nb);
 	return (nb);
 }

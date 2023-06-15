@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 23:28:59 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/15 10:38:37 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,23 +34,23 @@
 //Insérer cet élément dans la nouvelle liste triée, en cherchant sa position fait 
 //dans la liste triée et en déplaçant les éléments existants pour faire de la place si nécessaire.
 //Répéter les étapes 2 et 3 pour chaque élément de la liste d'origine.
-aa
+
 void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyennech1;
 	t_list_a	*la;
 	int			token;
-	int			len;
+	//int			len;
 	int			i;
 	int			first;
 	int			nb;
 
-	nb = 20;
+	nb = 19;
 	la = data->la->next;
 	i = 0;
 	token = 0;
 	first  = 0;
-	while (token != 5)
+	while (token != 3)
 	{
 		moyennech1 = ft_somme_algo_100(data, argc, token);
 		while (i < nb)
@@ -67,7 +67,8 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		i = 0;
 		token++;
 	}
-	ft_printf("=============PROCHAINE ETAPE=============\n");
+	/*ft_printf("=============PROCHAINE ETAPE=============\nvoici la liste a\n");
+	ft_print_lista(data);
 	len = ft_len_listb(data);
 	ft_printf("avant le make list right\n");
 	ft_make_list_right100(data);
@@ -76,9 +77,9 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	{
 		len--;
 		data->lb = pa(data);
-	}
+	}*/
 }
-// potentiel opti faire en sorte que les nb max rentre dans la liste car il manque des nb
+// potentiel opti faire en sorte que les nb max rentre dans la liste car il manque des nb a la fin de ma liste a
 //a faire : l'insersion trier dans la liste b
 //et la limite a prendre
 
@@ -92,8 +93,6 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	int			compare;
 	int			little;
 
-	littlech1 = 0;
-	littlech2 = 0;
 	ft_printf("=========\n les deux fonction found\n=========\nmon chunk est de %d", moyenne);
 	littlech1 = ft_found_pos_little_first_part(data, moyenne, la);
 	littlech2 = ft_found_pos_little_last_part(data, moyenne, la);
@@ -109,7 +108,7 @@ int		ft_take_first_chunk(t_struct *data, int moyenne, t_list_a *la, int token)
 	if (compare == 1)
 		little = ft_found_little_100_75(data, littlech2, la);
 	else if (compare == 0)
-		little = ft_found_little_100_25(data, littlech1);
+		little = ft_found_little_100_25(data, littlech1, moyenne);
 	ft_printf("little = %d\n", little);
 	if (token < 2)
 	{

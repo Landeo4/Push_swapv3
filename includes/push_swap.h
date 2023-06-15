@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/14 18:57:42 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/15 10:38:27 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -212,7 +212,7 @@ bool		ft_verif_25(t_struct *data, int len);
 void		ft_algo_100_helper(t_struct *data);
 int			ft_trie_100(t_struct *data, int little);
 int			ft_found_pos_little_100(t_struct *data);
-int			ft_found_little_100_25(t_struct *data, int pos);
+int			ft_found_little_100_25(t_struct *data, int pos, int chunk);
 int			ft_found_little_100_75(t_struct *data, int pos, t_list_a *la);
 bool		ft_tri_100_done(t_struct *data);
 int			ft_scan_chunk1_100(t_struct *data);

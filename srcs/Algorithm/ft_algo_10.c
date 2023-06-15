@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_10.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 12:16:43 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/07 15:09:32 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/15 10:39:11 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,7 +122,7 @@ int	ft_found_little(t_struct *data)
 	int			nb;
 	t_list_a	*tab;
 
-	i = 1;
+	i = 0;
 	tab = data->la->next;
 	nb = data->la->next->num;
 	while (tab)
@@ -131,8 +131,6 @@ int	ft_found_little(t_struct *data)
 			nb = tab->num;
 		tab = tab->next;
 		i++;
-		if (i > 10)
-			break ;
 	}
 	return (nb);
 }
