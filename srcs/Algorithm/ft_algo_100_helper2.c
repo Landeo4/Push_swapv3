@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 14:09:14 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 14:47:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,41 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	return (chiffre);
 }*/
 
+
+int	ft_somme_algo_100(t_struct *data, int argc, int token)
+{
+	int			chiffre;
+	int			len;
+	t_list_a	*la;
+	double		last;
+
+	if (token == 5)
+	{
+		chiffre = 2147483647;
+		return (chiffre);
+	}
+	last = token * 0.20;
+	printf("mon operation est donc token = %d * 0.20 donc mon last = %f\n", token, last);
+	printf("mon last est de %f et mon token de %d\n", last, token);
+	la = data->la->next;
+	chiffre = 0;
+	len = ft_len_lista(data);
+	ft_printf("la len est de %d\n", len);
+	while (len > 0)
+	{
+		chiffre = chiffre + la->num;
+		la = la->next;
+		len--;
+	}
+	chiffre = chiffre / argc;
+	chiffre = chiffre * 2;
+	ft_printf("du coup chunk = chiffre %d et last %f", chiffre, last);
+	chiffre = chiffre * last;
+	ft_printf("%d\n\n",chiffre);
+	return (chiffre);
+}
+
+/*
 int	ft_somme_algo_100(t_struct *data, int argc, int token)
 {
 	int			chiffre;
@@ -71,6 +106,7 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	ft_printf("le chunk1 est de %d\n\n", chiffre);
 	return (chiffre);
 }
+*/
 
 void	ft_take_25_algo100(t_struct *data, int compare, int little)
 {
