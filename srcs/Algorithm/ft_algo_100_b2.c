@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/15 08:32:38 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 12:51:51 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -187,7 +187,9 @@ int		ft_make_best_place_alg100(t_struct *data, t_list_b *lb)
 {
 	int			nb;
 	int			len;
+	int			i;
 
+	i = 0;
 	len = ft_len_listb(data);
 	nb = data->lb->next->num;
 	while (lb)
@@ -195,14 +197,30 @@ int		ft_make_best_place_alg100(t_struct *data, t_list_b *lb)
 		if (nb < lb->num)
 			nb = lb->num;
 		lb = lb->next;
+		i++;
 	}
 	ft_printf("mon nb vaut %d\n", nb);
-	while (len > 0)
+	len = len / 2;
+	if (i > len)
 	{
-		if (data->lb->next->num == nb)
-			return (0);
-		data->lb = rb(data);
-		len--;
+		len = len * 2;
+		while (len > 0)
+		{
+			if (data->lb->next->num == nb)
+				return (0);
+			data->lb = rrb(data);
+			i++;
+		}
+	}
+	else
+	{
+		while (len > 0)
+		{
+			if (data->lb->next->num == nb)
+				return (0);
+			data->lb = rb(data);
+			len--;
+		}
 	}
 	return (-1);
 }

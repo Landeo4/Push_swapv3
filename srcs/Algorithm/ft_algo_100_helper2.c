@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/15 09:45:34 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 14:09:14 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,13 +45,16 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	if (token == 0)
 		last = 0.40;
 	else if (token == 1)
-		last = 0.85;
+		last = 0.80;
 	else if (token == 2)
-		last = 1.45;
+		last = 1.22;
 	else if (token == 3)
-		last = 1.66;
+		last = 1.62;
 	else if (token == 4)
-		last =  2.07;
+	{
+		chiffre = 2147483647;
+		return (chiffre);
+	}
 	printf("mon token est de %d et mon last %lf \n", token, last);
 	la = data->la->next;
 	chiffre = 0;
@@ -74,7 +77,9 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little)
 	int		lit1;
 	int		lit2;
 
-	if (compare == 1)
+	if (ft_len_lista(data) == 1)
+		lit1 = 0;
+	else if (compare == 1)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/15 10:38:37 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 14:19:06 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	i = 0;
 	token = 0;
 	first  = 0;
-	while (token != 3)
+	while (token != 2)
 	{
 		moyennech1 = ft_somme_algo_100(data, argc, token);
 		while (i < nb)
@@ -67,6 +67,8 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		i = 0;
 		token++;
 	}
+	ft_printf("ma liste a ressemble a\n");
+	ft_print_lista(data);
 	/*ft_printf("=============PROCHAINE ETAPE=============\nvoici la liste a\n");
 	ft_print_lista(data);
 	len = ft_len_listb(data);

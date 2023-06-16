@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/15 11:13:24 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 13:16:29 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -176,7 +176,7 @@ int	ft_found_little_100_75(t_struct *data, int pos, t_list_a *la)
 	ch = ch - pos;
 	len = 0;
 	tab = la;
-	while (len != ch)
+	while (len != ch && tab->next)
 	{
 		tab = tab->next;
 		nb = tab->num;
