@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 14:50:30 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 20:24:52 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	int			moyennech1;
 	t_list_a	*la;
 	int			token;
-	//int			len;
+	int			len;
 	int			i;
 	int			first;
 	int			nb;
@@ -50,16 +50,18 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	i = 0;
 	token = 1;
 	first  = 0;
-	while (token != 6)
+	len = ft_len_lista(data);
+	while (token != 3)
 	{
-		moyennech1 = ft_somme_algo_100(data, argc, token);
+		moyennech1 = ft_somme_algo_100(data, argc, token, len);
+		ft_printf("NOUVEAU CHUNK QUI EST DE %d\n", moyennech1);
 		while (i < nb)
 		{
 			la = data->la->next;
 			(void)la;
 			ft_printf("================NOUVELLE BOUCLE================ avec un chunk de %d\n", moyennech1);
 			i++;
-			ft_take_first_chunk(data, moyennech1, la, first);
+			//ft_take_first_chunk(data, moyennech1, la, first);
 			first++;
 			//ft_printf("mon i est de %i\n", i);
 		}
@@ -67,8 +69,6 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		i = 0;
 		token++;
 	}
-	ft_printf("ma liste a ressemble a\n");
-	ft_print_lista(data);
 	/*ft_printf("=============PROCHAINE ETAPE=============\nvoici la liste a\n");
 	ft_print_lista(data);
 	len = ft_len_listb(data);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 13:16:29 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/16 20:15:10 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -141,10 +141,8 @@ int	ft_found_little_100_25(t_struct *data, int pos, int chunk)
 	len = ft_len_lista(data);
 	tab = data->la->next;
 	nb = ft_found_little(data);
-	ft_printf("SAAAAAAAAAAAAAAAAAAAAAAAAA");
 	if (nb > chunk)
 	{
-		ft_printf("LUUUUUUUUUUUUUUUUTTTTTTTTT");
 		nb2 = ft_found_little(data);
 		while (len > 0)
 		{
