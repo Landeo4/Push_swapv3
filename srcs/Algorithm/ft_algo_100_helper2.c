@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:23:00 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/16 20:51:23 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,12 +60,12 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
 	}
 	chiffre = chiffre / argc;
 	chiffre = chiffre * 2;
-	ft_printf("du coup chunk = chiffre %d et last %f, et mon argc est de %d", chiffre, last, argc);
+	ft_printf("du coup chunk = chiffre %d et last %f, et mon argc est de %d\n", chiffre, last, argc);
 	chiffre = chiffre * last;
 	ft_printf("%d\n\n",chiffre);
 	return (chiffre);
 }
-
+gerer le probleme de argc et la chunk
 /*
 int	ft_somme_algo_100(t_struct *data, int argc, int token)
 {

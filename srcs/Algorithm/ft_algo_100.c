@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:24:52 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/16 20:46:44 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,16 +44,19 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	int			i;
 	int			first;
 	int			nb;
+	int			tmp;
 
 	nb = 20;
 	la = data->la->next;
 	i = 0;
 	token = 1;
 	first  = 0;
+	tmp = argc;
 	len = ft_len_lista(data);
 	while (token != 3)
 	{
-		moyennech1 = ft_somme_algo_100(data, argc, token, len);
+		ft_printf("mon argc est de %d", tmp);
+		moyennech1 = ft_somme_algo_100(data, tmp, token, len);
 		ft_printf("NOUVEAU CHUNK QUI EST DE %d\n", moyennech1);
 		while (i < nb)
 		{
