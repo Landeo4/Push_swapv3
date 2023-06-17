@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:51:23 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/17 14:14:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
 		chiffre = 2147483647;
 		return (chiffre);
 	}
-	last = token * 0.20;
+	last = token * 0.2;
 	printf("mon operation est donc token = %d * 0.20 donc mon last = %f\n", token, last);
 	printf("mon last est de %f et mon token de %d\n", last, token);
 	la = data->la->next;
@@ -65,7 +65,7 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
 	ft_printf("%d\n\n",chiffre);
 	return (chiffre);
 }
-gerer le probleme de argc et la chunk
+//gerer le probleme de argc et la chunk
 /*
 int	ft_somme_algo_100(t_struct *data, int argc, int token)
 {

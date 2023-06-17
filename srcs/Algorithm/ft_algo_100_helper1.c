@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:15:10 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/17 14:25:59 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la)
 	int			len;
 
 	len = ft_len_lista(data);
-	len = len / 5;
+	len = len / 2;
 	i = 1;
 	tab = la;
 	nb = la->num;
@@ -40,7 +40,7 @@ int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la)
 		tab = tab->next;
 		nb = tab->num;
 	}
-	return (-1);
+	return (0);
 }
 
 int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
@@ -52,7 +52,7 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 
 	len2 = 1;
 	len = ft_len_lista(data);
-	len = len * 0.75;
+	len = len * 0.5;
 	i = len / 5;
 	tab = la->next;
 	while (len2 < len)

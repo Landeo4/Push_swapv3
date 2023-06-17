@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:46:44 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/17 14:29:19 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,18 +45,20 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	int			first;
 	int			nb;
 	int			tmp;
+	int			range;
 
-	nb = 20;
+	nb = 19;
 	la = data->la->next;
 	i = 0;
 	token = 1;
 	first  = 0;
 	tmp = argc;
 	len = ft_len_lista(data);
-	while (token != 3)
+	while (token != 5)
 	{
+		range = token * 0.2;
 		ft_printf("mon argc est de %d", tmp);
-		moyennech1 = ft_somme_algo_100(data, tmp, token, len);
+		moyennech1 = ft_somme_algo_100(data, tmp, range, len);
 		ft_printf("NOUVEAU CHUNK QUI EST DE %d\n", moyennech1);
 		while (i < nb)
 		{
@@ -68,7 +70,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			first++;
 			//ft_printf("mon i est de %i\n", i);
 		}
-		nb = 20;
+		nb = 19;
 		i = 0;
 		token++;
 	}
