@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 14:14:56 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/17 16:00:14 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,9 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token)
 	return (chiffre);
 }*/
 
-int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
+int	ft_somme_algo_100(t_list_a *la, int argc, int token, int len)
 {
 	int			chiffre;
-	t_list_a	*la;
 	double		last;
 
 	if (token == 5)
@@ -49,10 +48,9 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
 	last = token * 0.2;
 	printf("mon operation est donc token = %d * 0.20 donc mon last = %f\n", token, last);
 	printf("mon last est de %f et mon token de %d\n", last, token);
-	la = data->la->next;
 	chiffre = 0;
 	ft_printf("la len est de %d\n", len);
-	while (len > 0 && la->next)
+	while (len > 0 && la)
 	{
 		chiffre = chiffre + la->num;
 		la = la->next;
@@ -60,6 +58,7 @@ int	ft_somme_algo_100(t_struct *data, int argc, int token, int len)
 	}
 	chiffre = chiffre / argc;
 	chiffre = chiffre * 2;
+	//chiffre = chiffre * token;
 	ft_printf("du coup chunk = chiffre %d et last %f, et mon argc est de %d\n", chiffre, last, argc);
 	chiffre = chiffre * last;
 	ft_printf("%d\n\n",chiffre);

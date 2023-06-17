@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/16 20:04:01 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/17 15:53:27 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -206,7 +206,7 @@ bool		ft_100_check(t_struct *data, int len);
 void		ft_trie_50_algo_100(t_struct *data, t_list_a *la);
 int			ft_search_min25_100(t_struct *data, t_list_b *lb);
 int			ft_get_min_100_25(t_struct *data, int len);
-int 		ft_somme_algo_100(t_struct *data, int argc, int token, int len);
+int 		ft_somme_algo_100(t_list_a *la, int argc, int token, int len);
 void		ft_tri_25_algo100(t_struct *data);
 bool		ft_verif_25(t_struct *data, int len);
 void		ft_algo_100_helper(t_struct *data);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 14:29:19 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/17 16:04:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,16 +39,17 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 {
 	int			moyennech1;
 	t_list_a	*la;
+	t_list_a	*la2;
 	int			token;
 	int			len;
 	int			i;
 	int			first;
 	int			nb;
 	int			tmp;
-	int			range;
 
-	nb = 19;
+	nb = 20;
 	la = data->la->next;
+	la2 = data->la->next;
 	i = 0;
 	token = 1;
 	first  = 0;
@@ -56,9 +57,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	len = ft_len_lista(data);
 	while (token != 5)
 	{
-		range = token * 0.2;
-		ft_printf("mon argc est de %d", tmp);
-		moyennech1 = ft_somme_algo_100(data, tmp, range, len);
+		moyennech1 = ft_somme_algo_100(la2, tmp, token, len);
 		ft_printf("NOUVEAU CHUNK QUI EST DE %d\n", moyennech1);
 		while (i < nb)
 		{
@@ -66,11 +65,11 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			(void)la;
 			ft_printf("================NOUVELLE BOUCLE================ avec un chunk de %d\n", moyennech1);
 			i++;
-			//ft_take_first_chunk(data, moyennech1, la, first);
+			ft_take_first_chunk(data, moyennech1, la, first);
 			first++;
-			//ft_printf("mon i est de %i\n", i);
+			ft_printf("mon i est de %i\n", i);
 		}
-		nb = 19;
+		nb = 20;
 		i = 0;
 		token++;
 	}
