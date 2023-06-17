@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 16:04:49 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/17 19:09:29 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 	first  = 0;
 	tmp = argc;
 	len = ft_len_lista(data);
-	while (token != 5)
+	while (token != 6)
 	{
 		moyennech1 = ft_somme_algo_100(la2, tmp, token, len);
 		ft_printf("NOUVEAU CHUNK QUI EST DE %d\n", moyennech1);
@@ -73,17 +73,16 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		i = 0;
 		token++;
 	}
-	/*ft_printf("=============PROCHAINE ETAPE=============\nvoici la liste a\n");
+	ft_printf("=============PROCHAINE ETAPE=============\nvoici la liste a\n");
 	ft_print_lista(data);
 	len = ft_len_listb(data);
 	ft_printf("avant le make list right\n");
-	ft_make_list_right100(data);
-	ft_printf("avant le dernier while\n");
+	ft_make_list_right100(data, len);
 	while (len > 0)
 	{
-		len--;
 		data->lb = pa(data);
-	}*/
+		len--;
+	}
 }
 // potentiel opti faire en sorte que les nb max rentre dans la liste car il manque des nb a la fin de ma liste a
 //a faire : l'insersion trier dans la liste b
@@ -146,40 +145,30 @@ void	ft_take_first_second_algo100(t_struct *data, int compare, int little)
 	}
 }
 
-void	ft_make_list_right100(t_struct *data)
+void	ft_make_list_right100(t_struct *data, int len)
 {
-	t_list_b	*lb;
-	int			nb;
-	int			i;
-	int			len;
+	int		big;
+	int		i;
 
-	lb = data->lb->next;
-	nb = lb->num;
-	while (lb)
-	{
-		if (nb > lb->num)
-		{
-			nb = lb->num;
-			i = 0;
-		}
-		lb = lb->next;
-		i++;
-	}
-	lb = data->lb->next;
+	big = ft_found_big_lb_100(data);
+	i = ft_trie_100_b_biggest(data, big);
 	len = ft_len_listb(data);
-	if (i < 50)
+	len = len / 2;
+	ft_printf("ma len %d, i %d big %d\n", len, i , big);
+	if (i > len)
 	{
-		while (i > 0)
-		{
-			data->lb = rb(data);
-			i--;
-		}
-	}
-	else if (i > 50)
-	{
+		len = ft_len_listb(data);
 		while (i < len)
 		{
 			data->lb = rrb(data);
+			i++;
+		}
+	}
+	else if (i < len)
+	{
+		while (i < len)
+		{
+			data->lb = rb(data);
 			i++;
 		}
 	}

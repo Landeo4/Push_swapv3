@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 15:53:27 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/17 18:59:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -235,8 +235,8 @@ int			ft_verif_lb(t_struct *data);
 void		ft_helper_100(t_struct *data, int nb, int i);
 int			ft_found_lower_b(t_struct *data);
 int			ft_take_best_place102(t_struct *data, int nb);
-int			 ft_make_best_place_alg100(t_struct *data, t_list_b *lb);
-void		ft_make_list_right100(t_struct *data);
-
+int			ft_make_best_place_alg100(t_struct *data, t_list_b *lb);
+void		ft_make_list_right100(t_struct *data, int len);
+int			ft_somme_100helper(int len, int argc, t_list_a *la, int token);
 
 #endif
