@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
+/*   ft_algo_500_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 22:54:28 by tpotilli         ###   ########.fr       */
+/*   Created: 2023/06/18 13:28:28 by tpotilli          #+#    #+#             */
+/*   Updated: 2023/06/18 17:49:49 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_found_best_place100(t_struct *data, t_list_b *lb)
+int	ft_found_best_place500(t_struct *data, t_list_b *lb)
 {
 	int			nb;
 	int			cpt;
@@ -30,23 +30,26 @@ int	ft_found_best_place100(t_struct *data, t_list_b *lb)
 	return (-1);
 }
 
-int	ft_take_best_place100(t_struct *data, int cpt, int chunk)
+int	ft_take_best_place500(t_struct *data, int cpt)
 {
-	int		len;
-	int		nb;
+	int			len;
 
-	nb = ft_reduce_managera(data, chunk);
-	//ft_printf("nb = %d", nb);
 	len = ft_len_listb(data);
 	len = len / 2;
-	if (nb > 0)
-		ft_trie_lb_1(cpt, len, data, nb);
-	else
-		ft_trie_lb_0(cpt, len, data, nb);
+	if (cpt == len)
+	{
+		while (len > 0)
+		{
+			len--;
+			data->lb = rb(data);
+		}
+		return (0);
+	}
+	ft_best_place_helper500(cpt, len, data);
 	return (0);
 }
 
-void	ft_best_place_helper(int cpt, int len, t_struct *data)
+void	ft_best_place_helper500(int cpt, int len, t_struct *data)
 {
 	if (cpt > len)
 	{
@@ -67,7 +70,7 @@ void	ft_best_place_helper(int cpt, int len, t_struct *data)
 	}
 }
 
-void	ft_take_best_place102(t_struct *data, int nb)
+void	ft_take_best_place502(t_struct *data, int nb)
 {
 	int			len;
 	t_list_b	*lb;
@@ -90,10 +93,10 @@ void	ft_take_best_place102(t_struct *data, int nb)
 	if (i == 0)
 		data->lb = rb(data);
 	else
-		ft_best_place_102_helper(i, len, data);
+		ft_best_place_502_helper(i, len, data);
 }
 
-void	ft_best_place_102_helper(int i, int len, t_struct *data)
+void	ft_best_place_502_helper(int i, int len, t_struct *data)
 {
 	if (i == len)
 	{

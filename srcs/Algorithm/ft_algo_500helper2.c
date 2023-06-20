@@ -1,35 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100_helper2.c                              :+:      :+:    :+:   */
+/*   ft_algo_500helper2.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 21:58:05 by tpotilli         ###   ########.fr       */
+/*   Created: 2023/06/18 13:28:09 by tpotilli          #+#    #+#             */
+/*   Updated: 2023/06/20 22:01:31 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_somme_algo_100(t_list_a *la, int argc, int token, int len)
+int	ft_somme_algo_500(t_list_a *la, int argc, int token, int len)
 {
 	int			chiffre;
 	double		last;
 
-	if (token == 5)
+	if (token == 12)
 	{
 		chiffre = 2147483647;
 		return (chiffre);
 	}
-	last = token * 0.2;
+	last = token * 0.09;
 	chiffre = 0;
-	chiffre = ft_somme_100helper(len, argc, la, token);
+	chiffre = ft_somme_500helper(len, argc, la, token);
 	chiffre = chiffre * last;
 	return (chiffre);
 }
 
-int	ft_somme_100helper(int len, int argc, t_list_a *la, int token)
+int	ft_somme_500helper(int len, int argc, t_list_a *la, int token)
 {
 	static int	chiffre;
 
@@ -49,7 +49,7 @@ int	ft_somme_100helper(int len, int argc, t_list_a *la, int token)
 	return (chiffre);
 }
 
-void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
+void	ft_take_25_algo500(t_struct *data, int compare, int little)
 {
 	int		lit1;
 	int		lit2;
@@ -60,20 +60,20 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	{
 		while (data->la->next->num != little)
 			data->la = rra(data);
-		//ft_print_listb(data);
+		ft_print_listb(data);
 	}
 	else if (compare == 0)
 	{
 		while (data->la->next->num != little)
 			data->la = ra(data);
-		//ft_print_listb(data);
+		ft_print_listb(data);
 	}
-	lit1 = ft_trie_100_b_little(data, little);
-	lit2 = ft_trie_100_b_biggest(data, little);
-	ft_100_swap_manager(data, lit1, lit2, chunk);
+	lit1 = ft_trie_500_b_little(data, little);
+	lit2 = ft_trie_500_b_biggest(data, little);
+	ft_500_swap_manager(data, lit1, lit2);
 }
 
-int	ft_verif_lb(t_struct *data)
+int	ft_verif_lb500(t_struct *data)
 {
 	t_list_b	*lb;
 	int			nb;
@@ -94,7 +94,7 @@ int	ft_verif_lb(t_struct *data)
 	return (-1);
 }
 
-int	ft_found_big_lb_100(t_struct *data)
+int	ft_found_big_lb_500(t_struct *data)
 {
 	int			nb;
 	t_list_b	*lb;
