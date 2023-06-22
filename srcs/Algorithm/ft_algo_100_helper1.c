@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 22:50:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/22 20:36:32 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la)
 	return (0);
 }
 
-int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
+int	ft_found_pos_little_last_part(t_struct *data, int chunk)
 {
 	int			i;
 	t_list_a	*tab;
@@ -47,7 +47,7 @@ int	ft_found_pos_little_last_part(t_struct *data, int chunk, t_list_a *la)
 	len = ft_len_lista(data);
 	len = len * 0.5;
 	i = len / 5;
-	tab = la->next;
+	tab = data->la->next;
 	while (len2 < len)
 	{
 		tab = tab->next;

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/22 15:47:25 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/22 20:04:31 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 	while (lb->next)
 		lb = lb->next;
 	cpt = ft_found_lower_b(data);
+	ft_printf("cpt %d\n", cpt);
 	if (cpt == lb->num)
 	{
 		data->la = pb(data);

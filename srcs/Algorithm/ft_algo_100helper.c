@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/18 01:47:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/22 18:05:09 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ int	ft_trie_100_b_biggest(t_struct *data, int little)
 
 	i = 0;
 	lb = data->lb->next;
-	while (lb)
+	while (lb->next)
 	{
 		if (little <= lb->num)
 			return (i);
