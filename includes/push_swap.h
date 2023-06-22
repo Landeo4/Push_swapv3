@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 22:07:06 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/21 17:10:51 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -250,6 +250,13 @@ void		ft_trie_lb_1(int i, int len, t_struct *data, int nb);
 void		ft_trie_lb_1helper(int i, int len, t_struct *data, int nb);
 void		ft_trie_lb_0(int i, int len, t_struct *data, int nb);
 void		ft_trie_lb_0helper(int i, int len, t_struct *data, int nb);
+void		ft_trie_lb_manager(t_struct *data, int nb);
+void		ft_trie_la_1(int i, int len, t_struct *data, int nb);
+void		ft_trie_la_1helper(int i, int len, t_struct *data, int nb);
+void		ft_trie_la_0(int i, int len, t_struct *data, int nb);
+void		ft_trie_la_0helper(int i, int len, t_struct *data, int nb);
+void		ft_trie_100_manager(t_struct *data, int chunk);
+
 
 // =======================================================================
 //								algo 500

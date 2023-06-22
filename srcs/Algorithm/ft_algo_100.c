@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 22:54:21 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/22 15:48:04 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 	la = data->la->next;
 	littlech1 = ft_found_pos_little_first_part(data, moyenne, la);
 	littlech2 = ft_found_pos_little_last_part(data, moyenne, la);
-	if (littlech1 >= littlech2)
+	if (littlech1 <= littlech2)
 		compare = 0;
 	else
 		compare = 1;
@@ -98,6 +98,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		ft_chunk_helper(data, compare, little);
 		return (0);
 	}
+	//ft_printf("littlecj1 %d, littlech2 %d, lit %d compare %d\n", littlech1, littlech2, little, compare);
 	ft_take_25_algo100(data, compare, little, moyenne);
 	return (0);
 }
