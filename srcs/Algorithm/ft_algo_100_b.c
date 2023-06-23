@@ -6,18 +6,16 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/22 15:46:22 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 16:24:29 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_found_best_place100(t_struct *data, t_list_b *lb)
+int	ft_found_best_place100(t_struct *data, t_list_b *lb, int nb)
 {
-	int			nb;
 	int			cpt;
 
-	nb = data->la->next->num;
 	cpt = 1;
 	lb = data->lb->next;
 	while (lb && lb->next)
@@ -38,7 +36,7 @@ int	ft_take_best_place100(t_struct *data, int cpt, int chunk)
 	//ft_printf("nb = %d", nb);
 	len = ft_len_listb(data);
 	len = len / 2;
-	ft_trie_100_manager(data, chunk);
+	ft_trie_100_manager(data, chunk, 1);
 	return (0);
 }
 
@@ -109,11 +107,17 @@ void	ft_best_place_102_helper(int i, int len, t_struct *data)
 			return ;
 		}
 		while (i++ < len)
+		{
 			data->lb = rrb(data);
+			i++;
+		}
 	}
 	else if (i < len)
 	{
-		while (i++ < len)
+		while (i > 0)
+		{
 			data->lb = rb(data);
+			i--;
+		}
 	}
 }
