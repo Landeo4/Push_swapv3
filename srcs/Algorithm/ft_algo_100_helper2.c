@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 17:02:43 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 23:32:45 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,16 +54,21 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	int		lit1;
 	int		lit2;
 	int		nb;
+	int		len;
+	int		nb2;
 
+	len = ft_len_listb(data);
+	len = len / 2;
 	nb = best_place_manager(data, little);
-	//ft_printf("nb %d, little %d\n", nb, little);
+	nb2 = nb;
+	ft_printf("nb %d, little %d, len %d\n", nb, little, len);
 	if (ft_len_lista(data) == 1)
 		lit1 = 0;
 	else if (compare == 1)
 	{
 		while (data->la->next->num != little)
 		{
-			if (nb > 0)
+			if (nb > 0 && nb2 > len)
 				data = rrr(data);
 			else
 				data->la = rra(data);
@@ -74,7 +79,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	{
 		while (data->la->next->num != little)
 		{
-			if (nb > 0)
+			if (nb > 0 && nb2 < len)
 				data = rr(data);
 			else
 				data->la = ra(data);
@@ -83,7 +88,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	}
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
-	//ft_printf("checkpoint la placer\n");
+	ft_printf("checkpoint la placer\n");
 	ft_100_swap_manager(data, lit1, lit2, chunk);
 }
 
@@ -102,6 +107,7 @@ int	best_place_manager(t_struct *data, int little)
 		lb = lb->next;
 	}
 	lb = data->lb->next;
+	//ft_printf("token %d\n", token);
 	if (token == 1)
 		nb = ft_found_best_place100(data, data->lb->next, little);
 	else

@@ -4,6 +4,8 @@ ra
 ra
 pb
 rrb
+littlecj1 18, littlech2 12, lit 7 compare 1 et moyenne 19
+nb -1, little 7, len 1
 rra
 rra
 rra
@@ -16,186 +18,106 @@ rra
 rra
 rra
 rra
+checkpoint la placer
 pb
+littlecj1 29, littlech2 5, lit 12 compare 1 et moyenne 19
+nb 2, little 12, len 1
 rrr
 rrr
 rra
 rra
 rra
+checkpoint la placer
 rb
 pb
+littlecj1 33, littlech2 3, lit 2 compare 1 et moyenne 19
+nb -1, little 2, len 2
 rra
 rra
 rra
+checkpoint la placer
 rrb
 pb
+littlecj1 35, littlech2 2, lit 8 compare 1 et moyenne 19
+nb 4, little 8, len 2
 rrr
 rrr
+checkpoint la placer
 rb
 pb
+littlecj1 36, littlech2 2, lit 16 compare 1 et moyenne 19
+nb 4, little 16, len 3
 rrr
 rrr
+checkpoint la placer
 pb
-rrr
-rrr
-rrr
-rra
-rra
-rra
-rrb
-pb
-rrr
-rrr
-rrr
-rrb
-rrb
-pb
-rrr
+littlecj1 37, littlech2 6, lit 10 compare 1 et moyenne 19
+nb 3, little 10, len 3
 rra
 rra
 rra
 rra
+rra
+rra
+checkpoint la placer
+rb
 rb
 rb
 pb
-rrr
-rrr
-rrr
-rrr
-rrb
-rrb
+littlecj1 5, littlech2 3, lit 4 compare 1 et moyenne 19
+nb 3, little 4, len 4
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
 pb
+littlecj1 7, littlech2 5, lit 3 compare 1 et moyenne 19
+nb 1, little 3, len 4
 rra
 rra
 rra
 rra
 rra
-rra
-rra
+checkpoint la placer
+rb
 pb
+littlecj1 11, littlech2 4, lit 13 compare 1 et moyenne 19
+nb 4, little 13, len 5
+rra
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 14, littlech2 7, lit 14 compare 1 et moyenne 19
+nb -1, little 14, len 5
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
+pb
+littlecj1 6, littlech2 10, lit 15 compare 0 et moyenne 19
+nb -1, little 15, len 6
 ra
 ra
 ra
 ra
 ra
+checkpoint la placer
 pb
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rrb
-rrb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rb
-rb
-rb
-rb
-pb
-rr
-rr
-rb
-rb
-rb
-rb
-pb
-rra
-rra
-rra
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-pb
-rrr
-rrr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rr
-ra
-ra
-pb
-rr
+littlecj1 14, littlech2 15, lit 18 compare 0 et moyenne 19
+nb 17, little 18, len 6
 ra
 ra
 ra
@@ -203,393 +125,57 @@ ra
 ra
 ra
 ra
-pb
-rrb
-rrb
-pb
-rb
-pb
-rr
-rb
-pb
-pb
-rrb
-rrb
-rrb
-pb
-rr
-rb
-rb
-rb
-pb
-ra
-pb
-rr
-rr
-ra
-pb
-rr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rr
-rr
-rr
-rr
 ra
 ra
 ra
 ra
-pb
-rb
-rb
-rb
-rb
-pb
-rr
-rb
-rb
-rb
-rb
-pb
-rr
-rr
-rr
-rr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rb
-rb
-rb
-rb
-rb
-pb
-rr
-rr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+ra
+ra
+checkpoint la placer
 rrb
 rrb
 pb
-rr
-rr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rr
-rr
-rr
-rr
-rr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rrr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
+littlecj1 37, littlech2 28, lit 9 compare 1 et moyenne 19
+nb 9, little 9, len 7
 rrr
 rrr
 rrr
 rrr
 rrr
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rb
-rb
-pb
-rb
-pb
-rrr
-rrr
-rra
-rra
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rb
-rb
-rb
-pb
 rrr
 rrr
 rrr
 rrr
 rra
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rrb
-pb
-rrr
-rrr
-rra
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
 rra
 rra
 rra
-pb
-rrr
-rrr
-rrb
-rrb
-rrb
-rrb
-pb
-rrr
-rrr
-rrr
-rb
-pb
-rr
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rb
-rb
-rb
-rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
 rb
 rb
 rb
 rb
 pb
-rb
-pb
-rr
-pb
-rrb
-pb
-rb
-rb
-pb
-rrb
-rrb
-pb
-rr
-rb
-rb
-rb
-rb
-pb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rr
-rr
-rb
-rb
-pb
-rb
-rb
-rb
-pb
+littlecj1 3, littlech2 13, lit 19 compare 0 et moyenne 19
+nb 18, little 19, len 7
 ra
 ra
-pb
-rrb
-rrb
-rrb
-rrb
-pb
-rr
-rr
+checkpoint la placer
 rb
 rb
 rb
@@ -597,34 +183,28 @@ rb
 rb
 rb
 pb
-rr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlecj1 -1, littlech2 3, lit 0 compare 1 et moyenne 19
+nb -1, little 0, len 8
+rra
+rra
+rra
+checkpoint la placer
 pb
-pb
-rr
-rr
-rb
-rb
-rb
-rb
-rb
-pb
-rr
-rr
-rr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlecj1 -1, littlech2 12, lit 5 compare 1 et moyenne 19
+nb 14, little 5, len 8
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+checkpoint la placer
 rrb
 rrb
 rrb
@@ -634,157 +214,159 @@ rrb
 rrb
 rrb
 pb
-rr
-rr
-rb
-rb
-rb
-rb
+littlecj1 -1, littlech2 7, lit 6 compare 1 et moyenne 19
+nb -1, little 6, len 9
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
 pb
-rrb
-rrb
-pb
-rr
-rr
-rr
-rb
-rb
-rb
-rb
-rb
+littlecj1 -1, littlech2 2, lit 1 compare 1 et moyenne 19
+nb 5, little 1, len 9
+rra
+rra
+checkpoint la placer
 rb
 rb
 rb
 rb
 rb
 pb
+littlecj1 9, littlech2 5, lit 33 compare 1 et moyenne 39
+nb 19, little 33, len 10
+rrr
+rrr
+rrr
+rrr
+rrr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 4, littlech2 14, lit 22 compare 0 et moyenne 39
+nb 1, little 22, len 10
+rr
 ra
+ra
+checkpoint la placer
 pb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlecj1 9, littlech2 17, lit 21 compare 0 et moyenne 39
+nb 1, little 21, len 11
+rr
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+checkpoint la placer
 pb
-pb
-rb
-pb
+littlecj1 1, littlech2 25, lit 35 compare 0 et moyenne 39
+nb 33, little 35, len 11
+checkpoint la placer
 rrb
 rrb
 pb
-rb
-rb
-rb
-rb
-rb
-pb
-rrb
-rrb
-rrb
-rrb
-pb
-rb
+littlecj1 1, littlech2 25, lit 34 compare 0 et moyenne 39
+nb 1, little 34, len 12
+checkpoint la placer
 rb
 pb
-rb
+littlecj1 2, littlech2 25, lit 24 compare 0 et moyenne 39
+nb 2, little 24, len 12
+rr
+checkpoint la placer
 rb
 pb
-rb
-rb
-rb
+littlecj1 1, littlech2 26, lit 26 compare 0 et moyenne 39
+nb -1, little 26, len 13
+checkpoint la placer
 pb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlecj1 1, littlech2 26, lit 38 compare 0 et moyenne 39
+nb 35, little 38, len 13
+checkpoint la placer
 rrb
 rrb
 rrb
 pb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+littlecj1 2, littlech2 26, lit 29 compare 0 et moyenne 39
+nb 4, little 29, len 14
+rr
+checkpoint la placer
 rb
 rb
 rb
 pb
-rb
+littlecj1 2, littlech2 27, lit 30 compare 0 et moyenne 39
+nb -1, little 30, len 14
+ra
+checkpoint la placer
 pb
-rrb
-rrb
-rrb
+littlecj1 4, littlech2 28, lit 28 compare 0 et moyenne 39
+nb 2, little 28, len 15
+rr
+rr
+ra
+checkpoint la placer
+pb
+littlecj1 2, littlech2 31, lit 36 compare 0 et moyenne 39
+nb 26, little 36, len 15
+ra
+checkpoint la placer
 rrb
 rrb
 rrb
 rrb
 rrb
 pb
-rb
-rb
-rb
-rb
-rb
-rb
+littlecj1 9, littlech2 32, lit 31 compare 0 et moyenne 39
+nb 4, little 31, len 16
+rr
+rr
+rr
+rr
+ra
+ra
+ra
+ra
+checkpoint la placer
+pb
+littlecj1 1, littlech2 40, lit 27 compare 0 et moyenne 39
+nb 4, little 27, len 16
+checkpoint la placer
 rb
 rb
 rb
 rb
 pb
-rrb
-rrb
-rrb
-rrb
-pb
+littlecj1 2, littlech2 39, lit 20 compare 0 et moyenne 39
+nb 5, little 20, len 17
+rr
+checkpoint la placer
 rb
 rb
 rb
 rb
 pb
-pb
+littlecj1 5, littlech2 39, lit 39 compare 0 et moyenne 39
+nb 38, little 39, len 17
+ra
+ra
+ra
+ra
+checkpoint la placer
 rrb
 rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
 rrb
 rrb
 rrb
@@ -798,6 +380,719 @@ rrb
 rrb
 rrb
 pb
+littlecj1 8, littlech2 38, lit 25 compare 0 et moyenne 39
+nb 12, little 25, len 18
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 3, littlech2 38, lit 32 compare 0 et moyenne 39
+nb 31, little 32, len 18
+ra
+ra
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 3, littlech2 37, lit 37 compare 0 et moyenne 39
+nb 34, little 37, len 19
+ra
+ra
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 6, littlech2 37, lit 23 compare 0 et moyenne 39
+nb 14, little 23, len 19
+rr
+rr
+rr
+rr
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 4, littlech2 3, lit 44 compare 1 et moyenne 58
+nb 39, little 44, len 20
+rrr
+rrr
+rrr
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 6, littlech2 5, lit 46 compare 1 et moyenne 58
+nb 44, little 46, len 20
+rrr
+rrr
+rrr
+rrr
+rrr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 10, littlech2 2, lit 55 compare 1 et moyenne 58
+nb 46, little 55, len 21
+rrr
+rrr
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 1, littlech2 4, lit 51 compare 0 et moyenne 58
+nb 1, little 51, len 21
+checkpoint la placer
+rb
+pb
+littlecj1 10, littlech2 4, lit 45 compare 1 et moyenne 58
+nb 2, little 45, len 22
+rra
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 13, littlech2 2, lit 50 compare 1 et moyenne 58
+nb 44, little 50, len 22
+rrr
+rrr
+checkpoint la placer
+rb
+pb
+littlecj1 14, littlech2 5, lit 57 compare 1 et moyenne 58
+nb 55, little 57, len 23
+rrr
+rrr
+rrr
+rrr
+rrr
+checkpoint la placer
+rb
+rb
+rb
+pb
+littlecj1 18, littlech2 5, lit 48 compare 1 et moyenne 58
+nb 4, little 48, len 23
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 22, littlech2 2, lit 56 compare 1 et moyenne 58
+nb 45, little 56, len 24
+rrr
+rrr
+checkpoint la placer
+rrb
+pb
+littlecj1 23, littlech2 3, lit 54 compare 1 et moyenne 58
+nb 2, little 54, len 24
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 25, littlech2 2, lit 47 compare 1 et moyenne 58
+nb 4, little 47, len 25
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 8, lit 58 compare 0 et moyenne 58
+nb 57, little 58, len 25
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 -1, littlech2 8, lit 43 compare 1 et moyenne 58
+nb 12, little 43, len 26
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 -1, littlech2 2, lit 53 compare 1 et moyenne 58
+nb 46, little 53, len 26
+rrr
+rrr
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 -1, littlech2 6, lit 40 compare 1 et moyenne 58
+nb 9, little 40, len 27
+rra
+rra
+rra
+rra
+rra
+rra
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 -1, littlech2 3, lit 42 compare 1 et moyenne 58
+nb -1, little 42, len 27
+rra
+rra
+rra
+checkpoint la placer
+pb
+littlecj1 -1, littlech2 2, lit 49 compare 1 et moyenne 58
+nb 50, little 49, len 28
+rrr
+rrr
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 -1, littlech2 3, lit 52 compare 1 et moyenne 58
+nb 55, little 52, len 28
+rrr
+rrr
+rrr
+checkpoint la placer
+rb
+pb
+littlecj1 2, littlech2 25, lit 41 compare 0 et moyenne 58
+nb 11, little 41, len 29
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 -1, littlech2 25, lit 95 compare 1 et moyenne 58
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+nb 84, little 95, len 30
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 3, lit 69 compare 0 et moyenne 78
+nb 2, little 69, len 30
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 2, littlech2 3, lit 66 compare 0 et moyenne 78
+nb 1, little 66, len 31
+rr
+checkpoint la placer
+pb
+littlecj1 1, littlech2 2, lit 75 compare 0 et moyenne 78
+nb 62, little 75, len 31
+checkpoint la placer
+rrb
+pb
+littlecj1 1, littlech2 2, lit 67 compare 0 et moyenne 78
+nb 2, little 67, len 32
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 76 compare 0 et moyenne 78
+nb 63, little 76, len 32
+checkpoint la placer
+rrb
+rrb
+pb
+littlecj1 2, littlech2 2, lit 62 compare 0 et moyenne 78
+nb 5, little 62, len 33
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 3, lit 77 compare 0 et moyenne 78
+nb 62, little 77, len 33
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 3, littlech2 3, lit 68 compare 0 et moyenne 78
+nb 4, little 68, len 34
+rr
+rr
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 1, littlech2 5, lit 63 compare 0 et moyenne 78
+nb 3, little 63, len 34
+checkpoint la placer
+rb
+rb
+rb
+pb
+littlecj1 3, littlech2 5, lit 65 compare 0 et moyenne 78
+nb -1, little 65, len 35
+ra
+ra
+checkpoint la placer
+pb
+littlecj1 1, littlech2 7, lit 73 compare 0 et moyenne 78
+nb 67, little 73, len 35
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 3, littlech2 7, lit 59 compare 0 et moyenne 78
+nb 8, little 59, len 36
+rr
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 2, littlech2 9, lit 70 compare 0 et moyenne 78
+nb 66, little 70, len 36
+ra
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 10, lit 72 compare 0 et moyenne 78
+nb -1, little 72, len 37
+checkpoint la placer
+pb
+littlecj1 2, littlech2 10, lit 64 compare 0 et moyenne 78
+nb 7, little 64, len 37
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 4, littlech2 11, lit 78 compare 0 et moyenne 78
+nb 65, little 78, len 38
+ra
+ra
+ra
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 3, littlech2 14, lit 71 compare 0 et moyenne 78
+nb 6, little 71, len 38
+rr
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 13, lit 74 compare 0 et moyenne 78
+nb 76, little 74, len 39
+checkpoint la placer
+rrb
+rrb
+pb
+littlecj1 4, littlech2 13, lit 60 compare 0 et moyenne 78
+nb 13, little 60, len 39
+rr
+rr
+rr
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 2, littlech2 12, lit 61 compare 0 et moyenne 78
+nb -1, little 61, len 40
+ra
+checkpoint la placer
+pb
+littlecj1 1, littlech2 2, lit 89 compare 0 et moyenne 2147483647
+nb 63, little 89, len 40
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 92 compare 0 et moyenne 2147483647
+nb -1, little 92, len 41
+checkpoint la placer
+pb
+littlecj1 1, littlech2 2, lit 90 compare 0 et moyenne 2147483647
+nb 1, little 90, len 41
+checkpoint la placer
+rb
+pb
+littlecj1 1, littlech2 2, lit 99 compare 0 et moyenne 2147483647
+nb 95, little 99, len 42
+checkpoint la placer
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 85 compare 0 et moyenne 2147483647
+nb 5, little 85, len 42
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 98 compare 0 et moyenne 2147483647
+nb 82, little 98, len 43
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 93 compare 0 et moyenne 2147483647
+nb 2, little 93, len 43
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 91 compare 0 et moyenne 2147483647
+nb 2, little 91, len 44
+checkpoint la placer
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 86 compare 0 et moyenne 2147483647
+nb 3, little 86, len 44
+checkpoint la placer
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 100 compare 0 et moyenne 2147483647
+nb 99, little 100, len 45
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 80 compare 0 et moyenne 2147483647
+nb 12, little 80, len 45
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 94 compare 0 et moyenne 2147483647
+nb 84, little 94, len 46
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 79 compare 0 et moyenne 2147483647
+nb 10, little 79, len 46
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 87 compare 0 et moyenne 2147483647
+nb 90, little 87, len 47
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 81 compare 0 et moyenne 2147483647
+nb 4, little 81, len 47
+checkpoint la placer
+rb
+rb
+rb
+rb
+pb
+littlecj1 1, littlech2 2, lit 83 compare 0 et moyenne 2147483647
+nb -1, little 83, len 48
+checkpoint la placer
+pb
+littlecj1 1, littlech2 2, lit 97 compare 0 et moyenne 2147483647
+nb 86, little 97, len 48
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlecj1 1, littlech2 2, lit 82 compare 0 et moyenne 2147483647
+nb 13, little 82, len 49
+checkpoint la placer
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+littlecj1 -1, littlech2 0, lit 96 compare 1 et moyenne 2147483647
+nb 87, little 96, len 49
+checkpoint la placer
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
 rrb
 rrb
 rrb
@@ -902,3 +1197,103 @@ pa
 pa
 pa
 pa
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
