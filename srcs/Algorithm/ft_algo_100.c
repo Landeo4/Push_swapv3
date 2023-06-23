@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/22 20:37:39 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 15:54:18 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			i++;
 			ft_chunk(data, moyennech1, first);
 			first++;
-			ft_print_listb(data);
+			//ft_print_listb(data);
 		}
 		i = 0;
 		token++;
@@ -85,7 +85,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 	la = data->la->next;
 	littlech1 = ft_found_pos_little_first_part(data, moyenne);
 	littlech2 = ft_found_pos_little_last_part(data, moyenne);
-	if (littlech1 <= littlech2 && littlech1 != 0)
+	if (littlech1 <= littlech2 && littlech1 != -1)
 		compare = 0;
 	else
 		compare = 1;
@@ -93,15 +93,16 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		little = ft_found_little_100_75(data, littlech2, la);
 	else if (compare == 0)
 		little = ft_found_little_100_25(data, littlech1, moyenne);
+	//ft_printf("littlech2 %d\n", littlech2);
 	if (token < 2)
 	{
 		ft_chunk_helper(data, compare, little);
 		return (0);
 	}
-	ft_printf("littlecj1 %d, littlech2 %d, lit %d compare %d\n", littlech1, littlech2, little, compare);
-	ft_printf("======");
+	//ft_printf("littlecj1 %d, littlech2 %d, lit %d compare %d et moyenne %d\n", littlech1, littlech2, little, compare, moyenne);
+	/*ft_printf("======");
 	ft_print_lista(data);
-	ft_printf("======");
+	ft_printf("======");*/
 	ft_take_25_algo100(data, compare, little, moyenne);
 	return (0);
 }

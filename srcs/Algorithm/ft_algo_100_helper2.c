@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/22 17:58:42 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 15:13:29 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	int		lit1;
 	int		lit2;
 
-	ft_printf("little %d\n", little);
+	//ft_printf("little %d\n", little);
 	if (ft_len_lista(data) == 1)
 		lit1 = 0;
 	else if (compare == 1)

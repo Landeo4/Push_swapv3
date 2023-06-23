@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/22 20:37:24 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 13:59:50 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -214,7 +214,7 @@ int			ft_found_little_100_25(t_struct *data, int pos, int chunk);
 int			ft_found_little_100_75(t_struct *data, int pos, t_list_a *la);
 bool		ft_tri_100_done(t_struct *data);
 int			ft_scan_chunk1_100(t_struct *data);
-int			ft_found_pos_little_first_part(t_struct *data, int chunk, t_list_a *la);
+int			ft_found_pos_little_first_part(t_struct *data, int chunk);
 int			ft_found_pos_little_last_part(t_struct *data, int chunk);
 bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 int			ft_chunk(t_struct *data, int moyenne, int token);
