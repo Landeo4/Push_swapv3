@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 16:24:29 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 23:54:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_found_best_place100(t_struct *data, t_list_b *lb, int nb)
 {
 	int			cpt;
 
-	cpt = 1;
+	cpt = 0;
 	lb = data->lb->next;
 	while (lb && lb->next)
 	{
@@ -106,10 +106,12 @@ void	ft_best_place_102_helper(int i, int len, t_struct *data)
 			data->lb = rrb(data);
 			return ;
 		}
-		while (i++ < len)
+		i = len - i;
+		ft_printf("i %d\n", i);
+		while (i > 0)
 		{
 			data->lb = rrb(data);
-			i++;
+			i--;
 		}
 	}
 	else if (i < len)

@@ -1,10 +1,13 @@
 ra
 pb
+17
 ra
 ra
 pb
 rrb
-littlecj1 18, littlech2 12, lit 7 compare 1 et moyenne 19
+17
+11
+littlech1 18, littlech2 12, lit 7 compare 1 et moyenne 19
 nb -1, little 7, len 1
 rra
 rra
@@ -18,40 +21,81 @@ rra
 rra
 rra
 rra
+little 7
 checkpoint la placer
+lit1 -1 lit2 0 
+cpt 11
 pb
-littlecj1 29, littlech2 5, lit 12 compare 1 et moyenne 19
-nb 2, little 12, len 1
-rrr
-rrr
+7
+17
+11
+littlech1 29, littlech2 5, lit 12 compare 1 et moyenne 19
+nb 1, little 12, len 1
 rra
 rra
 rra
+rra
+rra
+little 12
 checkpoint la placer
+lit1 0 lit2 1 
+TRIE MANAGER mon lbnum 1, mon lanum 12
 rb
 pb
-littlecj1 33, littlech2 3, lit 2 compare 1 et moyenne 19
+sb
+17
+12
+11
+7
+littlech1 33, littlech2 3, lit 2 compare 1 et moyenne 19
 nb -1, little 2, len 2
 rra
 rra
 rra
+little 2
 checkpoint la placer
-rrb
+lit1 -1 lit2 0 
+cpt 7
 pb
-littlecj1 35, littlech2 2, lit 8 compare 1 et moyenne 19
-nb 4, little 8, len 2
+2
+17
+12
+11
+7
+littlech1 35, littlech2 2, lit 8 compare 1 et moyenne 19
+nb 3, little 8, len 2
 rrr
 rrr
+little 8
 checkpoint la placer
-rb
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 8
 pb
-littlecj1 36, littlech2 2, lit 16 compare 1 et moyenne 19
+sb
+11
+8
+7
+2
+17
+12
+littlech1 36, littlech2 2, lit 16 compare 1 et moyenne 19
 nb 4, little 16, len 3
 rrr
 rrr
+little 16
 checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 16
 pb
-littlecj1 37, littlech2 6, lit 10 compare 1 et moyenne 19
+sb
+17
+16
+12
+11
+8
+7
+2
+littlech1 37, littlech2 6, lit 10 compare 1 et moyenne 19
 nb 3, little 10, len 3
 rra
 rra
@@ -59,45 +103,99 @@ rra
 rra
 rra
 rra
+little 10
 checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 10
 rb
 rb
 rb
 pb
-littlecj1 5, littlech2 3, lit 4 compare 1 et moyenne 19
+sb
+11
+10
+8
+7
+2
+17
+16
+12
+littlech1 5, littlech2 3, lit 4 compare 1 et moyenne 19
 nb 3, little 4, len 4
 rra
 rra
 rra
+little 4
 checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 4
 rb
 rb
 rb
 pb
-littlecj1 7, littlech2 5, lit 3 compare 1 et moyenne 19
+sb
+7
+4
+2
+17
+16
+12
+11
+10
+8
+littlech1 7, littlech2 5, lit 3 compare 1 et moyenne 19
 nb 1, little 3, len 4
 rra
 rra
 rra
 rra
 rra
+little 3
 checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 3
 rb
 pb
-littlecj1 11, littlech2 4, lit 13 compare 1 et moyenne 19
+sb
+4
+3
+2
+17
+16
+12
+11
+10
+8
+7
+littlech1 11, littlech2 4, lit 13 compare 1 et moyenne 19
 nb 4, little 13, len 5
 rra
 rra
 rra
 rra
+little 13
 checkpoint la placer
+lit1 0 lit2 3 
+TRIE MANAGER mon lbnum 4, mon lanum 13
 rb
 rb
 rb
 rb
 pb
-littlecj1 14, littlech2 7, lit 14 compare 1 et moyenne 19
-nb -1, little 14, len 5
+sb
+16
+13
+12
+11
+10
+8
+7
+4
+3
+2
+17
+littlech1 14, littlech2 7, lit 14 compare 1 et moyenne 19
+nb 0, little 14, len 5
 rra
 rra
 rra
@@ -105,18 +203,51 @@ rra
 rra
 rra
 rra
+little 14
 checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 14
 pb
-littlecj1 6, littlech2 10, lit 15 compare 0 et moyenne 19
-nb -1, little 15, len 6
+sb
+16
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+17
+littlech1 6, littlech2 10, lit 15 compare 0 et moyenne 19
+nb 0, little 15, len 6
 ra
 ra
 ra
 ra
 ra
+little 15
 checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 15
 pb
-littlecj1 14, littlech2 15, lit 18 compare 0 et moyenne 19
+sb
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+17
+littlech1 14, littlech2 15, lit 18 compare 0 et moyenne 19
 nb 17, little 18, len 6
 ra
 ra
@@ -131,925 +262,372 @@ ra
 ra
 ra
 ra
+little 18
 checkpoint la placer
-rrb
-rrb
-pb
-littlecj1 37, littlech2 28, lit 9 compare 1 et moyenne 19
-nb 9, little 9, len 7
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 3, littlech2 13, lit 19 compare 0 et moyenne 19
-nb 18, little 19, len 7
-ra
-ra
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 -1, littlech2 3, lit 0 compare 1 et moyenne 19
-nb -1, little 0, len 8
-rra
-rra
-rra
-checkpoint la placer
-pb
-littlecj1 -1, littlech2 12, lit 5 compare 1 et moyenne 19
-nb 14, little 5, len 8
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+lit1 0 lit2 -1 
 rrb
 pb
-littlecj1 -1, littlech2 7, lit 6 compare 1 et moyenne 19
-nb -1, little 6, len 9
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 37, littlech2 28, lit 9 compare 1 et moyenne 19
+coucou
+la 45
+little 45
+lit1 0 lit2 -1 
 pb
-littlecj1 -1, littlech2 2, lit 1 compare 1 et moyenne 19
-nb 5, little 1, len 9
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 36, littlech2 28, lit 9 compare 1 et moyenne 19
+coucou
+la 68
+little 68
+lit1 0 lit2 -1 
 pb
-littlecj1 9, littlech2 5, lit 33 compare 1 et moyenne 39
-nb 19, little 33, len 10
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+68
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 35, littlech2 28, lit 9 compare 1 et moyenne 19
+coucou
+la 63
+little 63
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 9
 pb
-littlecj1 4, littlech2 14, lit 22 compare 0 et moyenne 39
-nb 1, little 22, len 10
-rr
-ra
-ra
-checkpoint la placer
+sb
+68
+63
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 34, littlech2 28, lit 9 compare 1 et moyenne 19
+coucou
+la 85
+little 85
+lit1 0 lit2 -1 
 pb
-littlecj1 9, littlech2 17, lit 21 compare 0 et moyenne 39
-nb 1, little 21, len 11
-rr
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-pb
-littlecj1 1, littlech2 25, lit 35 compare 0 et moyenne 39
-nb 33, little 35, len 11
-checkpoint la placer
-rrb
-rrb
-pb
-littlecj1 1, littlech2 25, lit 34 compare 0 et moyenne 39
-nb 1, little 34, len 12
-checkpoint la placer
-rb
-pb
-littlecj1 2, littlech2 25, lit 24 compare 0 et moyenne 39
-nb 2, little 24, len 12
-rr
-checkpoint la placer
-rb
-pb
-littlecj1 1, littlech2 26, lit 26 compare 0 et moyenne 39
-nb -1, little 26, len 13
-checkpoint la placer
-pb
-littlecj1 1, littlech2 26, lit 38 compare 0 et moyenne 39
-nb 35, little 38, len 13
-checkpoint la placer
-rrb
-rrb
-rrb
-pb
-littlecj1 2, littlech2 26, lit 29 compare 0 et moyenne 39
-nb 4, little 29, len 14
-rr
-checkpoint la placer
-rb
-rb
-rb
-pb
-littlecj1 2, littlech2 27, lit 30 compare 0 et moyenne 39
-nb -1, little 30, len 14
-ra
-checkpoint la placer
-pb
-littlecj1 4, littlech2 28, lit 28 compare 0 et moyenne 39
-nb 2, little 28, len 15
+85
+68
+63
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 33, littlech2 28, lit 9 compare 1 et moyenne 19
+coucou
+la 55
+little 55
+lit1 3 lit2 0 
+TRIE MANAGER mon lbnum 2, mon lanum 9
 rr
 rr
-ra
-checkpoint la placer
 pb
-littlecj1 2, littlech2 31, lit 36 compare 0 et moyenne 39
-nb 26, little 36, len 15
-ra
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
+sb
+63
+51
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+littlech1 30, littlech2 30, lit 1 compare 0 et moyenne 19
+coucou
+la 46
+little 46
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 1
+rr
 pb
-littlecj1 9, littlech2 32, lit 31 compare 0 et moyenne 39
-nb 4, little 31, len 16
-rr
-rr
-rr
-rr
-ra
-ra
-ra
-ra
+sb
+51
+32
+45
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+littlech1 3, littlech2 2, lit 25 compare 1 et moyenne 39
+nb 2, little 25, len 10
+rra
+rra
+little 25
 checkpoint la placer
-pb
-littlecj1 1, littlech2 40, lit 27 compare 0 et moyenne 39
-nb 4, little 27, len 16
-checkpoint la placer
-rb
-rb
+lit1 3 lit2 0 
+TRIE MANAGER mon lbnum 2, mon lanum 25
 rb
 rb
 pb
-littlecj1 2, littlech2 39, lit 20 compare 0 et moyenne 39
-nb 5, little 20, len 17
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 5, littlech2 39, lit 39 compare 0 et moyenne 39
-nb 38, little 39, len 17
+sb
+45
+25
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+51
+32
+littlech1 4, littlech2 9, lit 37 compare 0 et moyenne 39
+nb 0, little 37, len 10
 ra
 ra
 ra
-ra
+little 37
 checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 37
 pb
-littlecj1 8, littlech2 38, lit 25 compare 0 et moyenne 39
-nb 12, little 25, len 18
+sb
+45
+37
+25
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+51
+32
+littlech1 6, littlech2 12, lit 23 compare 0 et moyenne 39
+nb 2, little 23, len 11
 rr
 rr
-rr
-rr
-rr
-rr
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 3, littlech2 38, lit 32 compare 0 et moyenne 39
-nb 31, little 32, len 18
-ra
-ra
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 3, littlech2 37, lit 37 compare 0 et moyenne 39
-nb 34, little 37, len 19
-ra
-ra
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 6, littlech2 37, lit 23 compare 0 et moyenne 39
-nb 14, little 23, len 19
-rr
-rr
-rr
-rr
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 4, littlech2 3, lit 44 compare 1 et moyenne 58
-nb 39, little 44, len 20
-rrr
-rrr
-rrr
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 6, littlech2 5, lit 46 compare 1 et moyenne 58
-nb 44, little 46, len 20
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 10, littlech2 2, lit 55 compare 1 et moyenne 58
-nb 46, little 55, len 21
-rrr
-rrr
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 1, littlech2 4, lit 51 compare 0 et moyenne 58
-nb 1, little 51, len 21
-checkpoint la placer
-rb
-pb
-littlecj1 10, littlech2 4, lit 45 compare 1 et moyenne 58
-nb 2, little 45, len 22
-rra
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 13, littlech2 2, lit 50 compare 1 et moyenne 58
-nb 44, little 50, len 22
-rrr
-rrr
-checkpoint la placer
-rb
-pb
-littlecj1 14, littlech2 5, lit 57 compare 1 et moyenne 58
-nb 55, little 57, len 23
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-rb
-rb
-rb
-pb
-littlecj1 18, littlech2 5, lit 48 compare 1 et moyenne 58
-nb 4, little 48, len 23
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 22, littlech2 2, lit 56 compare 1 et moyenne 58
-nb 45, little 56, len 24
-rrr
-rrr
-checkpoint la placer
-rrb
-pb
-littlecj1 23, littlech2 3, lit 54 compare 1 et moyenne 58
-nb 2, little 54, len 24
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 25, littlech2 2, lit 47 compare 1 et moyenne 58
-nb 4, little 47, len 25
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 8, lit 58 compare 0 et moyenne 58
-nb 57, little 58, len 25
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 -1, littlech2 8, lit 43 compare 1 et moyenne 58
-nb 12, little 43, len 26
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 -1, littlech2 2, lit 53 compare 1 et moyenne 58
-nb 46, little 53, len 26
-rrr
-rrr
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 -1, littlech2 6, lit 40 compare 1 et moyenne 58
-nb 9, little 40, len 27
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 -1, littlech2 3, lit 42 compare 1 et moyenne 58
-nb -1, little 42, len 27
-rra
-rra
-rra
-checkpoint la placer
-pb
-littlecj1 -1, littlech2 2, lit 49 compare 1 et moyenne 58
-nb 50, little 49, len 28
-rrr
-rrr
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 -1, littlech2 3, lit 52 compare 1 et moyenne 58
-nb 55, little 52, len 28
-rrr
-rrr
-rrr
-checkpoint la placer
-rb
-pb
-littlecj1 2, littlech2 25, lit 41 compare 0 et moyenne 58
-nb 11, little 41, len 29
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 -1, littlech2 25, lit 95 compare 1 et moyenne 58
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-nb 84, little 95, len 30
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 3, lit 69 compare 0 et moyenne 78
-nb 2, little 69, len 30
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 2, littlech2 3, lit 66 compare 0 et moyenne 78
-nb 1, little 66, len 31
-rr
-checkpoint la placer
-pb
-littlecj1 1, littlech2 2, lit 75 compare 0 et moyenne 78
-nb 62, little 75, len 31
-checkpoint la placer
-rrb
-pb
-littlecj1 1, littlech2 2, lit 67 compare 0 et moyenne 78
-nb 2, little 67, len 32
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 76 compare 0 et moyenne 78
-nb 63, little 76, len 32
-checkpoint la placer
-rrb
-rrb
-pb
-littlecj1 2, littlech2 2, lit 62 compare 0 et moyenne 78
-nb 5, little 62, len 33
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 3, lit 77 compare 0 et moyenne 78
-nb 62, little 77, len 33
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 3, littlech2 3, lit 68 compare 0 et moyenne 78
-nb 4, little 68, len 34
-rr
-rr
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 1, littlech2 5, lit 63 compare 0 et moyenne 78
-nb 3, little 63, len 34
-checkpoint la placer
-rb
-rb
-rb
-pb
-littlecj1 3, littlech2 5, lit 65 compare 0 et moyenne 78
-nb -1, little 65, len 35
-ra
-ra
-checkpoint la placer
-pb
-littlecj1 1, littlech2 7, lit 73 compare 0 et moyenne 78
-nb 67, little 73, len 35
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 3, littlech2 7, lit 59 compare 0 et moyenne 78
-nb 8, little 59, len 36
-rr
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 2, littlech2 9, lit 70 compare 0 et moyenne 78
-nb 66, little 70, len 36
-ra
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 1, littlech2 10, lit 72 compare 0 et moyenne 78
-nb -1, little 72, len 37
-checkpoint la placer
-pb
-littlecj1 2, littlech2 10, lit 64 compare 0 et moyenne 78
-nb 7, little 64, len 37
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 4, littlech2 11, lit 78 compare 0 et moyenne 78
-nb 65, little 78, len 38
 ra
 ra
 ra
+little 23
 checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 23
 pb
-littlecj1 3, littlech2 14, lit 71 compare 0 et moyenne 78
-nb 6, little 71, len 38
-rr
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 13, lit 74 compare 0 et moyenne 78
-nb 76, little 74, len 39
-checkpoint la placer
-rrb
-rrb
-pb
-littlecj1 4, littlech2 13, lit 60 compare 0 et moyenne 78
-nb 13, little 60, len 39
-rr
-rr
-rr
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 2, littlech2 12, lit 61 compare 0 et moyenne 78
-nb -1, little 61, len 40
+sb
+25
+23
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+51
+32
+45
+37
+littlech1 14, littlech2 17, lit 33 compare 0 et moyenne 39
+nb 19, little 33, len 11
 ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+little 33
 checkpoint la placer
-pb
-littlecj1 1, littlech2 2, lit 89 compare 0 et moyenne 2147483647
-nb 63, little 89, len 40
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+lit1 0 lit2 16 
+TRIE MANAGER mon lbnum 19, mon lanum 33
 rrb
 rrb
 rrb
 rrb
 pb
-littlecj1 1, littlech2 2, lit 92 compare 0 et moyenne 2147483647
-nb -1, little 92, len 41
+sb
+51
+33
+32
+45
+37
+25
+23
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+littlech1 4, littlech2 30, lit 22 compare 0 et moyenne 39
+nb 6, little 22, len 12
+rr
+rr
+rr
+little 22
 checkpoint la placer
-pb
-littlecj1 1, littlech2 2, lit 90 compare 0 et moyenne 2147483647
-nb 1, little 90, len 41
-checkpoint la placer
-rb
-pb
-littlecj1 1, littlech2 2, lit 99 compare 0 et moyenne 2147483647
-nb 95, little 99, len 42
-checkpoint la placer
-rrb
-rrb
-pb
-littlecj1 1, littlech2 2, lit 85 compare 0 et moyenne 2147483647
-nb 5, little 85, len 42
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 98 compare 0 et moyenne 2147483647
-nb 82, little 98, len 43
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 1, littlech2 2, lit 93 compare 0 et moyenne 2147483647
-nb 2, little 93, len 43
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 91 compare 0 et moyenne 2147483647
-nb 2, little 91, len 44
-checkpoint la placer
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 86 compare 0 et moyenne 2147483647
-nb 3, little 86, len 44
-checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 22
 rb
 rb
 rb
 pb
-littlecj1 1, littlech2 2, lit 100 compare 0 et moyenne 2147483647
-nb 99, little 100, len 45
+sb
+23
+22
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+85
+68
+63
+51
+33
+32
+45
+37
+25
+littlech1 1, littlech2 33, lit 1 compare 0 et moyenne 39
+nb -1, little 1, len 12
+little 1
 checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 1, littlech2 2, lit 80 compare 0 et moyenne 2147483647
-nb 12, little 80, len 45
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 94 compare 0 et moyenne 2147483647
-nb 84, little 94, len 46
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 1, littlech2 2, lit 79 compare 0 et moyenne 2147483647
-nb 10, little 79, len 46
-checkpoint la placer
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 87 compare 0 et moyenne 2147483647
-nb 90, little 87, len 47
-checkpoint la placer
-rrb
-rrb
-rrb
-rrb
-pb
-littlecj1 1, littlech2 2, lit 81 compare 0 et moyenne 2147483647
-nb 4, little 81, len 47
-checkpoint la placer
-rb
-rb
-rb
-rb
-pb
-littlecj1 1, littlech2 2, lit 83 compare 0 et moyenne 2147483647
-nb -1, little 83, len 48
-checkpoint la placer
-pb
-littlecj1 1, littlech2 2, lit 97 compare 0 et moyenne 2147483647
-nb 86, little 97, len 48
-checkpoint la placer
-rrb
-rrb
+lit1 -1 lit2 0 
+cpt 2
+i 9
 rrb
 rrb
 rrb
@@ -1060,9 +638,3367 @@ rrb
 rrb
 rrb
 pb
-littlecj1 1, littlech2 2, lit 82 compare 0 et moyenne 2147483647
-nb 13, little 82, len 49
+1
+85
+68
+63
+51
+33
+32
+45
+37
+25
+23
+22
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+4
+3
+2
+littlech1 2, littlech2 33, lit 6 compare 0 et moyenne 39
+nb 22, little 6, len 13
+ra
+little 6
 checkpoint la placer
+lit1 0 lit2 1 
+TRIE MANAGER mon lbnum 22, mon lanum 6
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+7
+6
+4
+3
+2
+1
+85
+68
+63
+51
+33
+32
+45
+37
+25
+23
+22
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+littlech1 7, littlech2 34, lit 5 compare 0 et moyenne 39
+nb 1, little 5, len 13
+rr
+ra
+ra
+ra
+ra
+ra
+little 5
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 5
+pb
+sb
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+33
+32
+45
+37
+25
+23
+22
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+littlech1 2, littlech2 43, lit 21 compare 0 et moyenne 39
+nb 16, little 21, len 14
+ra
+little 21
+checkpoint la placer
+lit1 0 lit2 6 
+TRIE MANAGER mon lbnum 16, mon lanum 21
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+33
+32
+45
+37
+25
+23
+littlech1 1, littlech2 43, lit 35 compare 0 et moyenne 39
+nb 22, little 35, len 14
+little 35
+checkpoint la placer
+lit1 0 lit2 19 
+TRIE MANAGER mon lbnum 22, mon lanum 35
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+51
+35
+33
+32
+45
+37
+25
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+littlech1 1, littlech2 42, lit 34 compare 0 et moyenne 39
+nb 1, little 34, len 15
+little 34
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 34
+rb
+pb
+sb
+35
+34
+33
+32
+45
+37
+25
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+littlech1 2, littlech2 41, lit 24 compare 0 et moyenne 39
+nb 6, little 24, len 15
+rr
+little 24
+checkpoint la placer
+lit1 6 lit2 0 
+TRIE MANAGER mon lbnum 5, mon lanum 24
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+35
+34
+33
+32
+45
+37
+littlech1 1, littlech2 40, lit 26 compare 0 et moyenne 39
+nb -1, little 26, len 16
+little 26
+checkpoint la placer
+lit1 0 lit2 22 
+TRIE MANAGER mon lbnum -1, mon lanum 26
+pb
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+35
+34
+33
+32
+45
+37
+littlech1 1, littlech2 40, lit 38 compare 0 et moyenne 39
+nb 26, little 38, len 16
+little 38
+checkpoint la placer
+lit1 0 lit2 23 
+TRIE MANAGER mon lbnum 26, mon lanum 38
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+51
+38
+35
+34
+33
+32
+45
+37
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+littlech1 2, littlech2 39, lit 29 compare 0 et moyenne 39
+nb 7, little 29, len 17
+rr
+little 29
+checkpoint la placer
+lit1 7 lit2 0 
+TRIE MANAGER mon lbnum 6, mon lanum 29
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+37
+29
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+littlech1 2, littlech2 39, lit 0 compare 0 et moyenne 39
+nb -1, little 0, len 17
+ra
+little 0
+checkpoint la placer
+lit1 -1 lit2 0 
+cpt 1
+i 10
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+0
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+37
+29
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+8
+7
+6
+5
+4
+3
+2
+1
+littlech1 1, littlech2 38, lit 9 compare 0 et moyenne 39
+nb 27, little 9, len 18
+little 9
+checkpoint la placer
+lit1 0 lit2 1 
+TRIE MANAGER mon lbnum 27, mon lanum 9
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+37
+29
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+littlech1 1, littlech2 38, lit 30 compare 0 et moyenne 39
+nb 21, little 30, len 18
+little 30
+checkpoint la placer
+lit1 0 lit2 11 
+TRIE MANAGER mon lbnum 21, mon lanum 30
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+37
+30
+29
+26
+25
+24
+23
+22
+21
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+littlech1 2, littlech2 37, lit 19 compare 0 et moyenne 39
+nb 8, little 19, len 19
+rr
+little 19
+checkpoint la placer
+lit1 8 lit2 0 
+TRIE MANAGER mon lbnum 7, mon lanum 19
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+37
+30
+29
+26
+25
+24
+23
+22
+littlech1 3, littlech2 37, lit 28 compare 0 et moyenne 39
+nb 33, little 28, len 19
+ra
+ra
+little 28
+checkpoint la placer
+lit1 0 lit2 21 
+TRIE MANAGER mon lbnum 33, mon lanum 28
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+51
+38
+35
+34
+33
+32
+45
+37
+30
+littlech1 2, littlech2 3, lit 36 compare 0 et moyenne 58
+nb 32, little 36, len 20
+ra
+little 36
+checkpoint la placer
+lit1 0 lit2 28 
+TRIE MANAGER mon lbnum 32, mon lanum 36
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+51
+littlech1 2, littlech2 2, lit 56 compare 0 et moyenne 58
+nb 39, little 56, len 20
+ra
+little 56
+checkpoint la placer
+lit1 0 lit2 37 
+TRIE MANAGER mon lbnum 39, mon lanum 56
+rrb
+rrb
+pb
+sb
+63
+56
+51
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+littlech1 2, littlech2 3, lit 48 compare 0 et moyenne 58
+nb 2, little 48, len 21
+rr
+little 48
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 48
+rb
+pb
+sb
+51
+48
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+56
+littlech1 5, littlech2 4, lit 54 compare 1 et moyenne 58
+nb -1, little 54, len 21
+rra
+rra
+rra
+rra
+little 54
+checkpoint la placer
+lit1 0 lit2 39 
+TRIE MANAGER mon lbnum -1, mon lanum 54
+pb
+54
+51
+48
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+56
+littlech1 8, littlech2 2, lit 47 compare 1 et moyenne 58
+nb 2, little 47, len 22
+rra
+rra
+little 47
+checkpoint la placer
+lit1 3 lit2 0 
+TRIE MANAGER mon lbnum 2, mon lanum 47
+rb
+rb
+pb
+sb
+48
+47
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+56
+54
+51
+littlech1 1, littlech2 8, lit 58 compare 0 et moyenne 58
+nb 41, little 58, len 22
+little 58
+checkpoint la placer
+lit1 0 lit2 39 
+TRIE MANAGER mon lbnum 41, mon lanum 58
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+63
+58
+56
+54
+51
+48
+47
+38
+36
+35
+34
+33
+32
+45
+37
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+littlech1 8, littlech2 8, lit 31 compare 0 et moyenne 58
+nb 14, little 31, len 23
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+little 31
+checkpoint la placer
+lit1 8 lit2 0 
+TRIE MANAGER mon lbnum 7, mon lanum 31
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+37
+31
+30
+29
+28
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+56
+54
+51
+48
+47
+38
+36
+35
+34
+33
+32
+45
+littlech1 1, littlech2 15, lit 27 compare 0 et moyenne 58
+nb 4, little 27, len 23
+little 27
+checkpoint la placer
+lit1 5 lit2 0 
+TRIE MANAGER mon lbnum 4, mon lanum 27
+rb
+rb
+rb
+rb
+pb
+sb
+28
+27
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+56
+54
+51
+48
+47
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+littlech1 1, littlech2 15, lit 57 compare 0 et moyenne 58
+nb 31, little 57, len 24
+little 57
+checkpoint la placer
+lit1 0 lit2 28 
+TRIE MANAGER mon lbnum 31, mon lanum 57
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+58
+57
+56
+54
+51
+48
+47
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+littlech1 1, littlech2 15, lit 20 compare 0 et moyenne 58
+nb 25, little 20, len 24
+little 20
+checkpoint la placer
+lit1 26 lit2 0 
+TRIE MANAGER mon lbnum 25, mon lanum 20
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+54
+51
+48
+47
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+littlech1 5, littlech2 15, lit 39 compare 0 et moyenne 58
+nb 31, little 39, len 25
+ra
+ra
+ra
+ra
+little 39
+checkpoint la placer
+lit1 0 lit2 22 
+TRIE MANAGER mon lbnum 31, mon lanum 39
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+47
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+54
+51
+48
+littlech1 1, littlech2 19, lit 50 compare 0 et moyenne 58
+nb 49, little 50, len 25
+little 50
+checkpoint la placer
+lit1 0 lit2 42 
+TRIE MANAGER mon lbnum 49, mon lanum 50
+rrb
+rrb
+pb
+sb
+51
+50
+48
+47
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+54
+littlech1 2, littlech2 19, lit 55 compare 0 et moyenne 58
+nb 50, little 55, len 26
+ra
+little 55
+checkpoint la placer
+lit1 0 lit2 45 
+TRIE MANAGER mon lbnum 50, mon lanum 55
+rrb
+rrb
+pb
+sb
+56
+55
+54
+51
+50
+48
+47
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+littlech1 1, littlech2 20, lit 46 compare 0 et moyenne 58
+nb 6, little 46, len 26
+little 46
+checkpoint la placer
+lit1 7 lit2 0 
+TRIE MANAGER mon lbnum 6, mon lanum 46
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+47
+46
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+51
+50
+48
+littlech1 5, littlech2 20, lit 44 compare 0 et moyenne 58
+nb 1, little 44, len 27
+rr
+ra
+ra
+ra
+little 44
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 44
+pb
+sb
+46
+44
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+51
+50
+48
+47
+littlech1 6, littlech2 24, lit 52 compare 0 et moyenne 58
+nb 50, little 52, len 27
+ra
+ra
+ra
+ra
+ra
+little 52
+checkpoint la placer
+lit1 0 lit2 43 
+TRIE MANAGER mon lbnum 50, mon lanum 52
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+54
+52
+51
+50
+48
+47
+46
+44
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+littlech1 2, littlech2 26, lit 41 compare 0 et moyenne 58
+nb 7, little 41, len 28
+rr
+little 41
+checkpoint la placer
+lit1 7 lit2 0 
+TRIE MANAGER mon lbnum 6, mon lanum 41
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+44
+41
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+52
+51
+50
+48
+47
+46
+littlech1 1, littlech2 26, lit 49 compare 0 et moyenne 58
+nb 53, little 49, len 28
+little 49
+checkpoint la placer
+lit1 0 lit2 43 
+TRIE MANAGER mon lbnum 53, mon lanum 49
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+50
+49
+48
+47
+46
+44
+41
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+52
+51
+littlech1 2, littlech2 25, lit 42 compare 0 et moyenne 58
+nb 5, little 42, len 29
+rr
+little 42
+checkpoint la placer
+lit1 5 lit2 0 
+TRIE MANAGER mon lbnum 4, mon lanum 42
+rb
+rb
+rb
+rb
+pb
+sb
+44
+42
+41
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+littlech1 3, littlech2 25, lit 40 compare 0 et moyenne 58
+nb 2, little 40, len 29
+rr
+rr
+little 40
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 40
+pb
+sb
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+68
+63
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+littlech1 3, littlech2 2, lit 64 compare 1 et moyenne 78
+nb 44, little 64, len 30
+rrr
+rrr
+little 64
+checkpoint la placer
+lit1 0 lit2 45 
+TRIE MANAGER mon lbnum 46, mon lanum 64
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+68
+64
+63
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 4, littlech2 3, lit 72 compare 1 et moyenne 78
+nb -1, little 72, len 30
+rra
+rra
+rra
+little 72
+checkpoint la placer
+lit1 0 lit2 60 
+TRIE MANAGER mon lbnum -1, mon lanum 72
+pb
+72
+68
+64
+63
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 6, littlech2 3, lit 59 compare 1 et moyenne 78
+nb 3, little 59, len 31
+rra
+rra
+rra
+little 59
+checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 59
+rb
+rb
+rb
+pb
+sb
+63
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+72
+68
+64
+littlech1 2, littlech2 3, lit 70 compare 0 et moyenne 78
+nb 60, little 70, len 31
+ra
+little 70
+checkpoint la placer
+lit1 0 lit2 59 
+TRIE MANAGER mon lbnum 60, mon lanum 70
+rrb
+rrb
+rrb
+pb
+sb
+72
+70
+68
+64
+63
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 6, littlech2 4, lit 73 compare 1 et moyenne 78
+nb -1, little 73, len 32
+rra
+rra
+rra
+rra
+little 73
+checkpoint la placer
+lit1 0 lit2 63 
+TRIE MANAGER mon lbnum -1, mon lanum 73
+pb
+73
+72
+70
+68
+64
+63
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 9, littlech2 5, lit 77 compare 1 et moyenne 78
+nb -1, little 77, len 32
+rra
+rra
+rra
+rra
+rra
+little 77
+checkpoint la placer
+lit1 0 lit2 64 
+TRIE MANAGER mon lbnum -1, mon lanum 77
+pb
+77
+73
+72
+70
+68
+64
+63
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 4, littlech2 3, lit 76 compare 1 et moyenne 78
+nb 0, little 76, len 33
+rra
+rra
+rra
+little 76
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 76
+pb
+sb
+77
+76
+73
+72
+70
+68
+64
+63
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+littlech1 2, littlech2 2, lit 62 compare 0 et moyenne 78
+nb 7, little 62, len 33
+rr
+little 62
+checkpoint la placer
+lit1 7 lit2 0 
+TRIE MANAGER mon lbnum 6, mon lanum 62
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+63
+62
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+73
+72
+70
+68
+64
+littlech1 4, littlech2 2, lit 67 compare 1 et moyenne 78
+nb 66, little 67, len 34
+rrr
+rrr
+little 67
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 67
+pb
+sb
+68
+67
+64
+63
+62
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+73
+72
+70
+littlech1 5, littlech2 2, lit 66 compare 1 et moyenne 78
+nb 1, little 66, len 34
+rra
+rra
+little 66
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 66
+rb
+pb
+sb
+67
+66
+64
+63
+62
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+73
+72
+70
+68
+littlech1 1, littlech2 2, lit 75 compare 0 et moyenne 78
+nb 65, little 75, len 35
+little 75
+checkpoint la placer
+lit1 0 lit2 63 
+TRIE MANAGER mon lbnum 65, mon lanum 75
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+76
+75
+73
+72
+70
+68
+67
+66
+64
+63
+62
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+littlech1 5, littlech2 2, lit 69 compare 1 et moyenne 78
+nb 4, little 69, len 35
+rra
+rra
+little 69
+checkpoint la placer
+lit1 5 lit2 0 
+TRIE MANAGER mon lbnum 4, mon lanum 69
+rb
+rb
+rb
+rb
+pb
+sb
+70
+69
+68
+67
+66
+64
+63
+62
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+73
+72
+littlech1 6, littlech2 2, lit 61 compare 1 et moyenne 78
+nb 7, little 61, len 36
+rra
+rra
+little 61
+checkpoint la placer
+lit1 8 lit2 0 
+TRIE MANAGER mon lbnum 7, mon lanum 61
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+62
+61
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+73
+72
+70
+69
+68
+67
+66
+64
+63
+littlech1 7, littlech2 2, lit 60 compare 1 et moyenne 78
+nb 1, little 60, len 36
+rra
+rra
+little 60
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 60
+rb
+pb
+sb
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+73
+72
+70
+69
+68
+67
+66
+64
+63
+62
+littlech1 8, littlech2 4, lit 74 compare 1 et moyenne 78
+nb 63, little 74, len 37
+rrr
+rrr
+rrr
+rrr
+little 74
+checkpoint la placer
+lit1 0 lit2 64 
+TRIE MANAGER mon lbnum 67, mon lanum 74
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+75
+74
+73
+72
+70
+69
+68
+67
+66
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+littlech1 11, littlech2 2, lit 71 compare 1 et moyenne 78
+nb 3, little 71, len 37
+rra
+rra
+little 71
+checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 71
+rb
+rb
+rb
+pb
+sb
+72
+71
+70
+69
+68
+67
+66
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+74
+73
+littlech1 1, littlech2 13, lit 43 compare 0 et moyenne 78
+nb 25, little 43, len 38
+little 43
+checkpoint la placer
+lit1 26 lit2 0 
+TRIE MANAGER mon lbnum 25, mon lanum 43
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
 rb
 rb
 rb
@@ -1077,9 +4013,107 @@ rb
 rb
 rb
 pb
-littlecj1 -1, littlech2 0, lit 96 compare 1 et moyenne 2147483647
-nb 87, little 96, len 49
+sb
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+littlech1 11, littlech2 13, lit 65 compare 0 et moyenne 78
+nb 58, little 65, len 38
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+little 65
 checkpoint la placer
+lit1 0 lit2 46 
+TRIE MANAGER mon lbnum 58, mon lanum 65
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
 rrb
 rrb
 rrb
@@ -1093,6 +4127,2285 @@ rrb
 rrb
 rrb
 pb
+sb
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+littlech1 9, littlech2 11, lit 78 compare 0 et moyenne 78
+nb 66, little 78, len 39
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+little 78
+checkpoint la placer
+lit1 0 lit2 66 
+TRIE MANAGER mon lbnum 66, mon lanum 78
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+85
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 3, littlech2 13, lit 53 compare 0 et moyenne 78
+nb 25, little 53, len 39
+rr
+rr
+little 53
+checkpoint la placer
+lit1 24 lit2 0 
+TRIE MANAGER mon lbnum 23, mon lanum 53
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+85
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+littlech1 1, littlech2 2, lit 83 compare 0 et moyenne 2147483647
+nb 55, little 83, len 40
+little 83
+checkpoint la placer
+lit1 0 lit2 55 
+TRIE MANAGER mon lbnum 55, mon lanum 83
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+85
+83
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 97 compare 0 et moyenne 2147483647
+nb 85, little 97, len 40
+little 97
+checkpoint la placer
+lit1 0 lit2 -1 
+pb
+97
+85
+83
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 82 compare 0 et moyenne 2147483647
+nb 2, little 82, len 41
+little 82
+checkpoint la placer
+lit1 3 lit2 0 
+TRIE MANAGER mon lbnum 2, mon lanum 82
+rb
+rb
+pb
+sb
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+97
+85
+littlech1 1, littlech2 2, lit 96 compare 0 et moyenne 2147483647
+nb 81, little 96, len 41
+little 96
+checkpoint la placer
+lit1 0 lit2 81 
+TRIE MANAGER mon lbnum 81, mon lanum 96
+rrb
+rrb
+pb
+sb
+97
+96
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 95 compare 0 et moyenne 2147483647
+nb 1, little 95, len 42
+little 95
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 95
+rb
+pb
+sb
+96
+95
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+97
+littlech1 1, littlech2 2, lit 89 compare 0 et moyenne 2147483647
+nb 1, little 89, len 42
+little 89
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 89
+rb
+pb
+sb
+95
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+97
+96
+littlech1 1, littlech2 2, lit 92 compare 0 et moyenne 2147483647
+nb 0, little 92, len 43
+little 92
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 92
+pb
+sb
+95
+92
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+97
+96
+littlech1 1, littlech2 2, lit 90 compare 0 et moyenne 2147483647
+nb 1, little 90, len 43
+little 90
+checkpoint la placer
+lit1 2 lit2 0 
+TRIE MANAGER mon lbnum 1, mon lanum 90
+rb
+pb
+sb
+92
+90
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+97
+96
+95
+littlech1 1, littlech2 2, lit 99 compare 0 et moyenne 2147483647
+nb 97, little 99, len 44
+little 99
+checkpoint la placer
+lit1 0 lit2 -1 
+rrb
+rrb
+rrb
+pb
+99
+97
+96
+95
+92
+90
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 98 compare 0 et moyenne 2147483647
+nb 0, little 98, len 44
+little 98
+checkpoint la placer
+lit1 1 lit2 0 
+TRIE MANAGER mon lbnum 0, mon lanum 98
+pb
+sb
+99
+98
+97
+96
+95
+92
+90
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 93 compare 0 et moyenne 2147483647
+nb 4, little 93, len 45
+little 93
+checkpoint la placer
+lit1 5 lit2 0 
+TRIE MANAGER mon lbnum 4, mon lanum 93
+rb
+rb
+rb
+rb
+pb
+sb
+95
+93
+92
+90
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+99
+98
+97
+96
+littlech1 1, littlech2 2, lit 91 compare 0 et moyenne 2147483647
+nb 2, little 91, len 45
+little 91
+checkpoint la placer
+lit1 3 lit2 0 
+TRIE MANAGER mon lbnum 2, mon lanum 91
+rb
+rb
+pb
+sb
+92
+91
+90
+89
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+99
+98
+97
+96
+95
+93
+littlech1 1, littlech2 2, lit 86 compare 0 et moyenne 2147483647
+nb 3, little 86, len 46
+little 86
+checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 86
+rb
+rb
+rb
+pb
+sb
+89
+86
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+99
+98
+97
+96
+95
+93
+92
+91
+90
+littlech1 1, littlech2 2, lit 100 compare 0 et moyenne 2147483647
+nb 99, little 100, len 46
+little 100
+checkpoint la placer
+lit1 0 lit2 -1 
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+100
+99
+98
+97
+96
+95
+93
+92
+91
+90
+89
+86
+85
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+littlech1 1, littlech2 2, lit 84 compare 0 et moyenne 2147483647
+nb 12, little 84, len 47
+little 84
+checkpoint la placer
+lit1 13 lit2 0 
+TRIE MANAGER mon lbnum 12, mon lanum 84
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+85
+84
+83
+82
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+100
+99
+98
+97
+96
+95
+93
+92
+91
+90
+89
+86
+littlech1 1, littlech2 2, lit 80 compare 0 et moyenne 2147483647
+nb 3, little 80, len 47
+little 80
+checkpoint la placer
+lit1 4 lit2 0 
+TRIE MANAGER mon lbnum 3, mon lanum 80
+rb
+rb
+rb
+pb
+sb
+82
+80
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+100
+99
+98
+97
+96
+95
+93
+92
+91
+90
+89
+86
+85
+84
+83
+littlech1 1, littlech2 2, lit 94 compare 0 et moyenne 2147483647
+nb 86, little 94, len 48
+little 94
+checkpoint la placer
+lit1 0 lit2 81 
+TRIE MANAGER mon lbnum 86, mon lanum 94
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+95
+94
+93
+92
+91
+90
+89
+86
+85
+84
+83
+82
+80
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+100
+99
+98
+97
+96
+littlech1 1, littlech2 2, lit 79 compare 0 et moyenne 2147483647
+nb 12, little 79, len 48
+little 79
+checkpoint la placer
+lit1 13 lit2 0 
+TRIE MANAGER mon lbnum 12, mon lanum 79
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+80
+79
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+100
+99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+89
+86
+85
+84
+83
+82
+littlech1 1, littlech2 2, lit 87 compare 0 et moyenne 2147483647
+nb 92, little 87, len 49
+little 87
+checkpoint la placer
+lit1 0 lit2 81 
+TRIE MANAGER mon lbnum 92, mon lanum 87
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+89
+87
+86
+85
+84
+83
+82
+80
+79
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+44
+43
+42
+41
+40
+39
+38
+36
+35
+34
+33
+32
+45
+37
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+100
+99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+littlech1 -1, littlech2 0, lit 81 compare 1 et moyenne 2147483647
+nb 6, little 81, len 49
+little 81
+checkpoint la placer
+lit1 7 lit2 0 
+TRIE MANAGER mon lbnum 6, mon lanum 81
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+little 100
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
 rrb
 rrb
 rrb
@@ -1229,12 +6542,13 @@ pa
 29
 30
 31
+37
+45
 32
 33
 34
 35
 36
-37
 38
 39
 40
@@ -1242,7 +6556,6 @@ pa
 42
 43
 44
-45
 46
 47
 48

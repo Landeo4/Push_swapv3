@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 23:32:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 23:54:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	len = len / 2;
 	nb = best_place_manager(data, little);
 	nb2 = nb;
-	ft_printf("nb %d, little %d, len %d\n", nb, little, len);
+	//ft_printf("nb %d, little %d, len %d\n", nb, little, len);
 	if (ft_len_lista(data) == 1)
 		lit1 = 0;
 	else if (compare == 1)
@@ -88,7 +88,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	}
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
-	ft_printf("checkpoint la placer\n");
+	//ft_printf("checkpoint la placer\n");
 	ft_100_swap_manager(data, lit1, lit2, chunk);
 }
 
