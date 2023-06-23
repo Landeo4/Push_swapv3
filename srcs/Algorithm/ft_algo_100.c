@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 16:42:28 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 17:02:45 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			i++;
 			ft_chunk(data, moyennech1, first);
 			first++;
-			ft_print_listb(data);
+			//ft_print_listb(data);
 		}
 		i = 0;
 		token++;

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 16:38:49 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 17:01:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -228,7 +228,6 @@ void		ft_take_first_second_algo100(t_struct *data, int compare, int little);
 void		ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk);
 int			ft_found_big_lb_100(t_struct *data);
 void		ft_make_list_right(t_struct *data, int i);
-int			ft_found_pos_lb_big(t_struct *data);
 int			ft_verif_lb(t_struct *data);
 void		ft_helper_100(t_struct *data, int nb, int i);
 int			ft_found_lower_b(t_struct *data);

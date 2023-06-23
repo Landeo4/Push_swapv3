@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 16:42:41 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/23 17:02:43 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	int		nb;
 
 	nb = best_place_manager(data, little);
-	ft_printf("nb %d, little %d\n", nb, little);
+	//ft_printf("nb %d, little %d\n", nb, little);
 	if (ft_len_lista(data) == 1)
 		lit1 = 0;
 	else if (compare == 1)
