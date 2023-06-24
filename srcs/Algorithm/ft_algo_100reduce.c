@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 23:55:02 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/25 00:00:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,8 +78,8 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 	lb = data->lb->next;
 	lbnum = ft_found_best_place100(data, lb, data->la->next->num);
 	lanum = ft_reduce_managera(data, chunk);
-	//ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d\n", lbnum, lanum);
 	len = ft_len_listb(data);
+	ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
 	if (token == 1)
 		ft_trie_lb_1(lbnum, len ,data, lanum);
 	else
