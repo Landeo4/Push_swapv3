@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/24 23:57:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/25 23:48:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	}
 	lit1 = ft_trie_100_b_little(data, little);
 	lit2 = ft_trie_100_b_biggest(data, little);
-	ft_printf("checkpoint la placer\n");
+	//ft_printf("checkpoint la placer\n");
 	ft_100_swap_manager(data, lit1, lit2, chunk);
 }
 

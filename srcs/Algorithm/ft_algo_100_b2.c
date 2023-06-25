@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/24 23:58:01 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/25 23:49:00 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 	cpt = 0;
 	len = ft_len_listb(data);
 	lb = data->lb->next;
-	ft_printf("lit1 %d lit2 %d \n", lit1, lit2);
+	//ft_printf("lit1 %d lit2 %d \n", lit1, lit2);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		cpt = ft_found_best_place100(data, lb, data->la->next->num);
