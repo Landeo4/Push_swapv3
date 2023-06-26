@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/25 23:49:25 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/26 01:02:32 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,7 @@ int main(int argc, char **argv)
 		i--;
 	}
 	ft_algo_manager(&data, argc - 1);
-	//ft_print_lista(&data);
+	ft_print_lista(&data);
 	ft_free_lista(&data);
 	ft_free_listb(&data);
 }
-555
