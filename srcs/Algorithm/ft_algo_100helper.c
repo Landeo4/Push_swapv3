@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100helper.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/26 01:41:55 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/27 07:04:58 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,9 @@ void	ft_make_list_right100(t_struct *data, int len)
 	i = ft_trie_100_b_biggest(data, big);
 	len = ft_len_listb(data);
 	len = len / 2;
+	//ft_printf("len = %d i = %d big = %d\n", len, i , big);
+	if (i == 0)
+		return ;
 	if (i > len)
 	{
 		len = ft_len_listb(data);

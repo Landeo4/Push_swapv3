@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/26 01:54:19 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/27 08:03:35 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			i++;
 			ft_chunk(data, moyennech1, first);
 			first++;
+			//ft_print_listb(data);
 			if (ft_len_lista(data) == 0)
 				break ;
-			//ft_print_listb(data);
 		}
 		i = 0;
 		token++;
@@ -102,7 +102,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		return (0);
 	}
 	//ft_printf("littlech1 %d, littlech2 %d, lit %d compare %d et moyenne %d\n", littlech1, littlech2, little, compare, moyenne);
-	ft_printf("======");
+	//ft_printf("======");
 	/*ft_print_lista(data);
 	ft_printf("======");*/
 	if (compare == 1 && littlech2 > 25)

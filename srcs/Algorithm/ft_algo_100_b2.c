@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/26 01:05:15 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/27 08:03:25 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 	cpt = 0;
 	len = ft_len_listb(data);
 	lb = data->lb->next;
-	ft_printf("lit1 %d lit2 %d \n", lit1, lit2);
+	//ft_printf("lit1 %d lit2 %d \n", lit1, lit2);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		cpt = ft_found_best_place100(data, lb, data->la->next->num);
@@ -60,7 +60,7 @@ void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 	return ;
 }
 
-void	ft_100_swap_help( t_struct *data, int len, t_list_b *lb)
+void	ft_100_swap_help(t_struct *data, int len, t_list_b *lb)
 {
 	(void)len;
 	ft_make_best_place_alg100(data, lb);

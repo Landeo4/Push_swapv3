@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100reduce.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/26 01:05:21 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/27 08:03:28 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 	lbnum = ft_found_best_place100(data, lb, data->la->next->num);
 	lanum = ft_reduce_managera(data, chunk);
 	len = ft_len_listb(data);
-	ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
+	//ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
 	if (token == 1)
 		ft_trie_lb_1(lbnum, len ,data, lanum);
 	else

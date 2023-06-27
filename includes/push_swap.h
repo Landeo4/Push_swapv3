@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/23 17:01:02 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/27 07:44:33 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -257,6 +257,8 @@ void		ft_trie_la_0helper(int i, int len, t_struct *data, int nb);
 void		ft_trie_100_manager(t_struct *data, int chunk, int token);
 int 		ft_la_manager(int little, t_struct *data);
 int			best_place_manager(t_struct *data, int little);
+int			ft_best_place_b_mang(t_struct *data, int little);
+int 		ft_found_pos_big_lb(t_struct *data, int little);
 
 // =======================================================================
 //								algo 500

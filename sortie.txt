@@ -1,5 +1,11 @@
 rra
 rra
+rra
+rra
+rra
+rra
+rra
+rra
 pb
 rra
 rra
@@ -8,143 +14,105 @@ rra
 rra
 rra
 rra
+rra
 pb
-======rrr
+rra
+rra
+rra
+rra
+pb
+sb
+rra
+rra
+rra
+rra
+rra
+rra
+pb
+rra
+rra
+rra
+rra
+rra
+pb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pb
+sb
+rra
+rra
+rb
+rb
+pb
+sb
+rrr
+rrr
+rra
+pb
+rra
+rra
+rb
+rb
+pb
+sb
+rra
+rra
+rra
+rra
+rra
+rra
+rb
+rb
+pb
+sb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pb
+sb
+rra
+rra
+rra
+rra
+rb
+pb
+sb
+rra
+rra
+rra
+pb
+sb
 rrr
 rrr
 rrr
-checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======ra
-ra
-checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 158, len 4
-rb
+rrr
 rb
 pb
 sb
-======rra
-rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-rb
-rb
-rb
-pb
-======ra
-checkpoint la placer
-lit1 -1 lit2 0 
-pb
-sb
-======rra
-rra
-checkpoint la placer
-lit1 0 lit2 2 
-TRIE MANAGER mon lbnum 3, mon lanum 168, len 7
-rb
-rb
-rb
-pb
-sb
-======rra
 rra
 rra
 rra
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-rrb
-pb
-======rra
-rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-pb
-sb
-======rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-rb
-rb
-pb
-======rra
-rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-pb
-sb
-======rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-lit1 0 lit2 2 
-TRIE MANAGER mon lbnum 2, mon lanum 178, len 12
-rb
-rb
-pb
-sb
-======rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-pb
-======rra
-rra
-checkpoint la placer
-lit1 0 lit2 1 
-TRIE MANAGER mon lbnum -1, mon lanum 37, len 14
-pb
-======rra
-rra
-checkpoint la placer
-lit1 -1 lit2 0 
-rb
-rb
-pb
-======checkpoint la placer
-lit1 0 lit2 1 
-TRIE MANAGER mon lbnum 6, mon lanum 157, len 16
 rb
 rb
 rb
@@ -153,452 +121,71 @@ rb
 rb
 pb
 sb
-======rrr
-rrr
-checkpoint la placer
-lit1 13 lit2 0 
-TRIE MANAGER mon lbnum 12, mon lanum 14, len 17
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-lit1 0 lit2 3 
-TRIE MANAGER mon lbnum 15, mon lanum 89, len 18
-rrb
-rrb
-rrb
-pb
-sb
-======rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-checkpoint la placer
-lit1 11 lit2 0 
-TRIE MANAGER mon lbnum 10, mon lanum 126, len 19
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 -1 
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-======rrr
-rrr
-rrr
-checkpoint la placer
-lit1 0 lit2 -1 
-rb
-rb
-rb
-pb
-======rrr
-rrr
-checkpoint la placer
-lit1 0 lit2 -1 
-rb
-rb
-pb
-======rra
 rra
 rra
-checkpoint la placer
-lit1 2 lit2 0 
-TRIE MANAGER mon lbnum 1, mon lanum 274, len 23
-rb
+rra
+rra
+rra
+rra
+pb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
 pb
 sb
-======ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 321, len 24
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
 pb
 sb
-======ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 324, len 25
 pb
 sb
-======rr
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 322, len 26
-pb
-sb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 288, len 27
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 221, len 28
-rb
-rb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 23 
-TRIE MANAGER mon lbnum 23, mon lanum 357, len 29
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======rr
 rr
-checkpoint la placer
-lit1 4 lit2 0 
-TRIE MANAGER mon lbnum 3, mon lanum 317, len 30
-rb
-rb
-rb
 pb
 sb
-======ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 318, len 31
-pb
-sb
-======checkpoint la placer
-lit1 5 lit2 0 
-TRIE MANAGER mon lbnum 4, mon lanum 269, len 32
-rb
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 24 
-TRIE MANAGER mon lbnum 26, mon lanum 345, len 33
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======ra
 ra
-ra
-ra
-checkpoint la placer
-lit1 0 lit2 32 
-TRIE MANAGER mon lbnum 32, mon lanum 372, len 34
-rrb
-rrb
 pb
 sb
-======rr
-ra
-ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 371, len 35
 pb
 sb
-======checkpoint la placer
-lit1 13 lit2 0 
-TRIE MANAGER mon lbnum 12, mon lanum 224, len 36
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
 rb
 rb
 pb
 sb
-======ra
-checkpoint la placer
-lit1 0 lit2 24 
-TRIE MANAGER mon lbnum 29, mon lanum 338, len 37
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======checkpoint la placer
-lit1 12 lit2 0 
-TRIE MANAGER mon lbnum 11, mon lanum 213, len 38
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 23 
-TRIE MANAGER mon lbnum 37, mon lanum 245, len 39
-rrb
-rrb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-======checkpoint la placer
-lit1 21 lit2 0 
-TRIE MANAGER mon lbnum 20, mon lanum 191, len 41
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 22 
-TRIE MANAGER mon lbnum 22, mon lanum 445, len 42
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======checkpoint la placer
-lit1 9 lit2 0 
-TRIE MANAGER mon lbnum 8, mon lanum 344, len 44
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-======ra
-ra
-ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 506, len 46
-pb
-sb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 454, len 47
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 24 lit2 0 
-TRIE MANAGER mon lbnum 23, mon lanum 212, len 48
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======ra
-ra
-ra
-checkpoint la placer
-lit1 0 lit2 24 
-TRIE MANAGER mon lbnum 26, mon lanum 462, len 49
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======rr
 rr
-checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 412, len 50
-rb
-rb
 pb
 sb
-======ra
-checkpoint la placer
-lit1 41 lit2 0 
-TRIE MANAGER mon lbnum 40, mon lanum 49, len 51
-rrb
-rrb
-rrb
-rrb
-rrb
+ra
+ra
 rrb
 rrb
 rrb
@@ -607,173 +194,38 @@ rrb
 rrb
 pb
 sb
-======rr
-checkpoint la placer
-lit1 0 lit2 5 
-TRIE MANAGER mon lbnum 11, mon lanum 435, len 52
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 385, len 53
-rb
-rb
-pb
-sb
-======ra
-ra
-ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-lit1 0 lit2 46 
-TRIE MANAGER mon lbnum 48, mon lanum 473, len 54
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======rr
 rr
-checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 447, len 55
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 50 
-TRIE MANAGER mon lbnum 52, mon lanum 485, len 56
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======rr
-checkpoint la placer
-lit1 9 lit2 0 
-TRIE MANAGER mon lbnum 8, mon lanum 398, len 57
-rb
-rb
-rb
-rb
+rr
+rr
 rb
 rb
 rb
 rb
 pb
 sb
-======ra
-ra
-checkpoint la placer
-lit1 0 lit2 47 
-TRIE MANAGER mon lbnum -1, mon lanum 431, len 58
-pb
-======ra
 ra
 ra
-checkpoint la placer
-lit1 0 lit2 48 
-TRIE MANAGER mon lbnum 50, mon lanum 491, len 59
-rrb
-rrb
-rrb
-rrb
-rrb
 rrb
 rrb
 rrb
 rrb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-pb
-======checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 658, len 62
-pb
-sb
-======rr
-checkpoint la placer
-lit1 4 lit2 0 
-TRIE MANAGER mon lbnum 3, mon lanum 503, len 63
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
-pb
-======rr
+rr
+rr
+rr
+rr
+rr
 rr
 ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 653, len 65
+ra
+ra
+ra
+ra
 pb
 sb
-======checkpoint la placer
-lit1 15 lit2 0 
-TRIE MANAGER mon lbnum 14, mon lanum 441, len 66
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 51 
-TRIE MANAGER mon lbnum 51, mon lanum 712, len 67
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+ra
+ra
 rrb
 rrb
 rrb
@@ -783,98 +235,52 @@ rrb
 rrb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======rr
 rr
-checkpoint la placer
-lit1 5 lit2 0 
-TRIE MANAGER mon lbnum 4, mon lanum 585, len 69
-rb
-rb
-rb
-rb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 0 lit2 64 
-TRIE MANAGER mon lbnum -1, mon lanum 629, len 70
-pb
-======ra
-ra
-ra
-ra
-ra
-ra
-ra
-checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-======checkpoint la placer
-lit1 9 lit2 0 
-TRIE MANAGER mon lbnum 8, mon lanum 592, len 72
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======ra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 594, len 73
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 66 
-TRIE MANAGER mon lbnum 70, mon lanum 677, len 74
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 654, len 75
-rb
-rb
-pb
-sb
-======rr
 rr
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 637, len 76
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
 pb
 sb
-======ra
-checkpoint la placer
-lit1 0 lit2 69 
-TRIE MANAGER mon lbnum 69, mon lanum 747, len 77
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
 pb
 sb
-======rrr
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+sb
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+sb
 rrr
 rrr
 rrr
@@ -887,100 +293,192 @@ rrr
 rrr
 rrr
 rrr
-checkpoint la placer
-lit1 0 lit2 -1 
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
+rrr
+rrr
+rrr
 pb
-======rra
+sb
+rr
+rr
+pb
+sb
 rra
 rra
+pb
+sb
+pb
+sb
+rr
+ra
+ra
+pb
+sb
+ra
+ra
+ra
+pb
+sb
+rr
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+pb
+sb
+rr
+rb
+rb
+pb
+sb
+rb
+pb
+sb
+ra
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+rr
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+ra
+ra
+pb
+sb
+rr
+rr
+rb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+rr
+rr
+rr
+rr
+rr
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+ra
+ra
+ra
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+rr
+rr
+rb
+rb
+pb
+sb
+pb
+pb
+ra
+ra
+ra
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+pb
+sb
+ra
+pb
+sb
 rra
 rra
+pb
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-checkpoint la placer
-lit1 1 lit2 0 
-TRIE MANAGER mon lbnum 0, mon lanum 926, len 79
-pb
-sb
-======checkpoint la placer
-lit1 2 lit2 0 
-TRIE MANAGER mon lbnum 1, mon lanum 849, len 80
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-pb
-======checkpoint la placer
-lit1 2 lit2 0 
-TRIE MANAGER mon lbnum 1, mon lanum 858, len 82
-rb
-pb
-sb
-======checkpoint la placer
-lit1 4 lit2 0 
-TRIE MANAGER mon lbnum 3, mon lanum 810, len 83
 rb
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 2 lit2 0 
-TRIE MANAGER mon lbnum 1, mon lanum 794, len 84
 rb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 80 
-TRIE MANAGER mon lbnum 81, mon lanum 923, len 85
-rrb
+ra
+ra
+ra
 rrb
 rrb
 rrb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-pb
-======checkpoint la placer
-lit1 3 lit2 0 
-TRIE MANAGER mon lbnum 2, mon lanum 926, len 87
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 86 
-TRIE MANAGER mon lbnum 86, mon lanum 970, len 88
-rrb
-rrb
+rr
+rb
+rb
+rb
 pb
 sb
-======checkpoint la placer
-lit1 10 lit2 0 
-TRIE MANAGER mon lbnum 9, mon lanum 797, len 89
+rb
+rb
 rb
 rb
 rb
@@ -992,91 +490,37 @@ rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 0 lit2 81 
-TRIE MANAGER mon lbnum 86, mon lanum 919, len 90
+ra
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
 rrb
 rrb
 rrb
 rrb
 pb
 sb
-======checkpoint la placer
-lit1 6 lit2 0 
-TRIE MANAGER mon lbnum 5, mon lanum 803, len 91
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 82 
-TRIE MANAGER mon lbnum -1, mon lanum 824, len 92
-pb
-======checkpoint la placer
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-======checkpoint la placer
-lit1 0 lit2 -1 
-pb
-======checkpoint la placer
-lit1 9 lit2 0 
-TRIE MANAGER mon lbnum 8, mon lanum 909, len 95
-rb
-rb
-rb
-rb
 rb
 rb
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 2 lit2 0 
-TRIE MANAGER mon lbnum 1, mon lanum 880, len 96
-rb
+rr
 pb
 sb
-======checkpoint la placer
-lit1 5 lit2 0 
-TRIE MANAGER mon lbnum 4, mon lanum 847, len 97
-rb
-rb
 rb
 rb
 pb
 sb
-======checkpoint la placer
-lit1 7 lit2 0 
-TRIE MANAGER mon lbnum 6, mon lanum 769, len 98
-rb
-rb
-rb
-rb
-rb
-rb
-pb
-sb
-======checkpoint la placer
-lit1 0 lit2 80 
-TRIE MANAGER mon lbnum 95, mon lanum 817, len 99
-rrb
-rrb
-rrb
-rrb
 pb
 sb
 rrb
@@ -1090,10 +534,204 @@ rrb
 rrb
 rrb
 rrb
+pb
+sb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+ra
+rrb
+rrb
+pb
+sb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+ra
 rrb
 rrb
 rrb
 rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+pb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+pb
+pb
+rb
+rb
+pb
+sb
+rb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+rb
+rb
+rb
+pb
+sb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+pb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+rb
+rb
+rb
+pb
+sb
+rb
+rb
+rb
+pb
+sb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
 pa
 pa
 pa
@@ -1194,103 +832,3 @@ pa
 pa
 pa
 pa
-13
-14
-21
-37
-49
-58
-89
-91
-95
-126
-144
-150
-152
-153
-157
-158
-159
-168
-170
-178
-179
-191
-198
-212
-213
-221
-224
-245
-269
-274
-288
-317
-318
-321
-322
-324
-338
-344
-345
-356
-357
-371
-372
-378
-385
-398
-412
-431
-435
-441
-445
-447
-452
-454
-462
-473
-485
-491
-499
-503
-506
-527
-585
-592
-594
-606
-629
-637
-653
-654
-658
-677
-681
-712
-718
-746
-747
-756
-769
-794
-797
-803
-810
-817
-824
-847
-849
-850
-858
-880
-909
-919
-923
-926
-928
-946
-970
-984
-994
-998
