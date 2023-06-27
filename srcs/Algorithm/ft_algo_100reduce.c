@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/27 08:03:28 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/27 08:47:06 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ int		ft_reduce_managera(t_struct *data, int chunk)
 		compare = 0;
 	else
 		compare = 1;
+	ft_printf("compare %d lita1 %d, lita2 %d, chunk %d\n", compare, lita1, lita2, chunk);
 	if (compare == 1)
 		lit = ft_found_little_100_75(data, lita2, la);
 	else if (compare == 0)
@@ -79,7 +80,7 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 	lbnum = ft_found_best_place100(data, lb, data->la->next->num);
 	lanum = ft_reduce_managera(data, chunk);
 	len = ft_len_listb(data);
-	//ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
+	ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
 	if (token == 1)
 		ft_trie_lb_1(lbnum, len ,data, lanum);
 	else
@@ -110,8 +111,10 @@ void	ft_trie_lb_1helper(int i, int len, t_struct *data, int nb)
 {
 	if (i < len)
 	{
+		ft_printf("la %d\n", nb);
 		while (i > 0)
 		{
+			ft_printf("la %d\n", data->la->next->num);
 			if (nb != data->la->next->num)
 				data = rr(data);
 			else
