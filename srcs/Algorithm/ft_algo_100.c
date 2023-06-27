@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/27 08:03:35 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/27 08:22:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			ft_chunk(data, moyennech1, first);
 			first++;
 			//ft_print_listb(data);
-			if (ft_len_lista(data) == 0)
+			if (ft_len_lista(data) == 1)
 				break ;
 		}
 		i = 0;
@@ -54,11 +54,21 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 int	ft_algo100manager_helper2(t_struct *data)
 {
 	int	len;
+	int nb;
+	int	i;
 
+	i = 0;
+	nb = data->la->next->num;
 	len = ft_len_listb(data);
 	ft_make_list_right100(data, len);
+	//ft_print_lista(data);
 	while (len > 0)
 	{
+		if (nb < data->lb->next->num && i == 0 && nb > data->lb->next->next->num)
+		{
+			data->lb = rb(data);
+			i++;
+		}
 		data->lb = pa(data);
 		len--;
 	}
