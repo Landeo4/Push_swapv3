@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 14:24:32 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 15:37:38 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int	ft_trie_100_b_biggest(t_struct *data, int little)
 
 	i = 0;
 	lb = data->lb->next;
-	ft_printf("little %d\n", little);
+	//ft_printf(" je suis dans trie b biggest little %d\n", little);
 	while (lb->next)
 	{
 		if (little <= lb->num)

@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 15:18:16 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 18:05:30 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 			i++;
 			ft_chunk(data, moyennech1, first);
 			first++;
-			ft_print_listb(data);
+			//ft_print_listb(data);
 			if (ft_len_lista(data) == 0)
 				break ;
 		}
@@ -102,11 +102,11 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		ft_chunk_helper(data, compare, little);
 		return (0);
 	}
-	ft_printf("littlech1 %d, littlech2 %d, lit %d compare %d et moyenne %d\n", littlech1, littlech2, little, compare, moyenne);
+	//ft_printf("littlech1 %d, littlech2 %d, lit %d compare %d et moyenne %d\n", littlech1, littlech2, little, compare, moyenne);
 	//ft_printf("======");
 	/*ft_print_lista(data);
 	ft_printf("======");*/
-	if (compare == 1 && littlech2 >= 25)
+	if (compare == 1 && littlech2 >= 20)
 	{
 		//ft_printf("coucou\n");
 		little = data->la->next->num;
@@ -116,7 +116,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		ft_100_swap_manager(data, littlech1, littlech2, moyenne);
 		return (0);
 	}
-	else if (compare == 0 && littlech1 >= 25)
+	else if (compare == 0 && littlech1 >= 20)
 	{
 		//ft_printf("coucou\n");
 		little = data->la->next->num;

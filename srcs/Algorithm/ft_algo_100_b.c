@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 15:03:20 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 16:15:41 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,9 +89,18 @@ void	ft_take_best_place102(t_struct *data, int nb)
 
 void	ft_best_place_102_helper(int i, int len, t_struct *data)
 {
+	//ft_printf("i %d, len %d\n", i, len);
 	if (i == len)
 	{
 		len = ft_len_listb(data);
+		while (i > 0)
+		{
+			data->lb = rb(data);
+			i--;
+		}
+	}
+	else if (i < len)
+	{
 		while (i > 0)
 		{
 			data->lb = rb(data);
@@ -106,20 +115,11 @@ void	ft_best_place_102_helper(int i, int len, t_struct *data)
 			data->lb = rrb(data);
 			return ;
 		}
-		i = len - i;
-		//ft_printf("i %d\n", i);
-		while (i > 0)
+		//ft_printf("i %d, len %d\n", i, len);
+		while (i < len)
 		{
 			data->lb = rrb(data);
-			i--;
-		}
-	}
-	else if (i < len)
-	{
-		while (i > 0)
-		{
-			data->lb = rb(data);
-			i--;
+			i++;
 		}
 	}
 }

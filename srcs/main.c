@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/29 14:01:02 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 18:05:35 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		i--;
 	}
 	ft_algo_manager(&data, argc - 1);
-	ft_print_lista(&data);
+	//ft_print_lista(&data);
 	ft_free_lista(&data);
 	ft_free_listb(&data);
 }

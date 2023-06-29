@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 14:18:41 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 18:05:45 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 	cpt = 0;
 	len = ft_len_listb(data);
 	lb = data->lb->next;
-	ft_printf("lit1 %d lit2 %d , little %d\n", lit1, lit2, data->la->next->num);
+	//ft_printf("lit1 %d lit2 %d , little %d\n", lit1, lit2, data->la->next->num);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		cpt = ft_found_best_place100(data, lb, data->la->next->num);
@@ -90,11 +90,11 @@ void	ft_make_best_place_alg100(t_struct *data, t_list_b *lb)
 void	ft_bp_alg100help(int len, int i, t_struct *data, int nb)
 {
 	(void)nb;
-	//ft_printf("len %d %i", len, i);
 	len = len / 2;
+	//ft_printf("len %d i %i\n", len, i);
 	if (i > len)
 	{
-		len = len * 2;
+		len = ft_len_listb(data);
 		while (len > 0)
 		{
 			if (data->lb->next->num == nb)

@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 15:17:57 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 18:06:11 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,17 +61,17 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	len = len / 2;
 	nb = best_place_manager(data, little);
 	nb2 = ft_best_place_b_mang(data, little);
-	ft_printf("nb %d, little %d, len %d, nb2 %d\n", nb, little, len, nb2);
+	//ft_printf("nb %d, little %d, len %d, nb2 %d\n", nb, little, len, nb2);
 	if (ft_len_lista(data) == 1)
 		lit1 = 0;
 	else if (compare == 1)
 	{
 		while (data->la->next->num != little)
 		{
-			if (nb > 0 && nb2 > len)
+			if (nb > 0 && nb2 < ft_len_listb(data) && nb2 > len)
 			{
 				data = rrr(data);
-				nb2--;
+				nb2++;
 			}
 			else
 				data->la = rra(data);
@@ -82,10 +82,10 @@ void	ft_take_25_algo100(t_struct *data, int compare, int little, int chunk)
 	{
 		while (data->la->next->num != little)
 		{
-			if (nb > 0 && nb2 <= len)
+			if (nb > 0 && nb2 < ft_len_listb(data))
 			{
 				data = rr(data);
-				nb2--;
+				nb2++;
 			}
 			else
 				data->la = ra(data);
@@ -108,11 +108,12 @@ int ft_best_place_b_mang(t_struct *data, int little)
 	len = len / 2;*/
 	j = ft_trie_100_b_biggest(data, little);
 	nb = 0;
+	//ft_printf("j = %d\n", j);
 	if (j == -1)
 		nb = ft_found_pos_big_lb(data, little);
 	else
 		nb = ft_found_best_place100(data, data->lb->next, little);
-	ft_printf("nb = %d\n", nb);
+	//ft_printf("nb = %d\n", nb);
 	/*if (nb > len)
 		nb = nb - len;*/
 	return (nb);
