@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/29 15:03:04 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/29 18:31:11 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -265,36 +265,9 @@ int 		ft_found_pos_big_lb(t_struct *data, int little);
 // =======================================================================
 
 void	ft_algo_500_manager(t_struct *data, int argc);
-int		ft_algo500manager_helper2(t_struct *data);
 int		ft_helper500man(int token, int moyennech1, t_struct *data, int argc);
-int		ft_chunk_500(t_struct *data, int moyenne, int token);
-int		ft_chunk_helper500(t_struct *data, int compare, int little);
-int		ft_found_best_place500(t_struct *data, t_list_b *lb);
-int		ft_take_best_place500(t_struct *data, int cpt);
-void	ft_best_place_helper500(int cpt, int len, t_struct *data);
-void	ft_take_best_place502(t_struct *data, int nb);
-void	ft_best_place_502_helper(int i, int len, t_struct *data);
-void	ft_500_swap_manager(t_struct *data, int lit1, int lit2);
-void	ft_500_lit1(t_list_b *lb, t_struct *data, int cpt);
-void	ft_500_swap_help( t_struct *data, int len, t_list_b *lb);
-void	ft_make_best_place_alg500(t_struct *data, t_list_b *lb);
-void	ft_bp_alg500help(int len, int i, t_struct *data, int nb);
-void	ft_take_first_second_algo500(t_struct *data, int compare, int little);
-void	ft_make_list_right500(t_struct *data, int len);
-int		ft_trie_500_b_biggest(t_struct *data, int little);
-int		ft_trie_500_b_little(t_struct *data, int little);
-int		ft_found_lower_b500(t_struct *data);
-int		ft_found_pos_little_first_part500(t_struct *data, int chunk, t_list_a *la);
-int		ft_found_pos_little_last_part500(t_struct *data, int chunk, t_list_a *la);
-int		ft_found_little_500_25(t_struct *data, int pos, int chunk);
-int		ft_500else(int pos, int nb, t_list_a *tab);
-int		ft_found_little_500_75(t_struct *data, int pos, t_list_a *la);
 int		ft_somme_algo_500(t_list_a *la, int argc, int token, int len);
 int		ft_somme_500helper(int len, int argc, t_list_a *la, int token);
-void	ft_take_25_algo500(t_struct *data, int compare, int little);
-int		ft_verif_lb500(t_struct *data);
-int		ft_found_big_lb_500(t_struct *data);
-void	ft_alg500_last(t_struct *data, int moyennech1, int first);
 
 
 #endif
