@@ -1,11 +1,5 @@
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
 pb
 rra
 rra
@@ -14,87 +8,24 @@ rra
 rra
 rra
 rra
-rra
 pb
-littlech1 7, littlech2 4, lit 3 compare 1 et moyenne 213
-rra
-rra
-rra
-rra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 6, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 3, len 2
-la 3
-pb
-sb
-littlech1 10, littlech2 6, lit 162 compare 1 et moyenne 213
-rra
-rra
+littlech1 14, littlech2 4, lit 170 compare 1 et moyenne 189
 rra
 rra
 rra
 rra
 lit1 0 lit2 -1 
 pb
-littlech1 15, littlech2 5, lit 202 compare 1 et moyenne 213
-rra
-rra
-rra
-rra
-rra
+littlech1 3, littlech2 7, lit 179 compare 0 et moyenne 189
+rr
+rr
 lit1 0 lit2 -1 
-pb
-littlech1 19, littlech2 11, lit 197 compare 1 et moyenne 213
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 197, len 5
-la 197
-pb
-sb
-littlech1 29, littlech2 2, lit 13 compare 1 et moyenne 213
-rra
-rra
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 3, chunk 213
-TRIE MANAGER mon lbnum 2, mon lanum 13, len 6
-la 13
-la 13
-rb
-la 13
 rb
 pb
-sb
-littlech1 30, littlech2 3, lit 210 compare 1 et moyenne 213
-rrr
-rrr
-rra
-lit1 0 lit2 -1 
-pb
-littlech1 32, littlech2 2, lit 168 compare 1 et moyenne 213
+littlech1 14, littlech2 9, lit 158 compare 1 et moyenne 189
 rra
 rra
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 6, chunk 213
-TRIE MANAGER mon lbnum 2, mon lanum 168, len 8
-la 168
-la 168
-rb
-la 168
-rb
-pb
-sb
-littlech1 33, littlech2 6, lit 19 compare 1 et moyenne 213
+rra
 rra
 rra
 rra
@@ -102,133 +33,564 @@ rra
 rra
 rra
 lit1 3 lit2 0 
-compare 0 lita1 1, lita2 13, chunk 213
-TRIE MANAGER mon lbnum 2, mon lanum 19, len 9
-la 19
-la 19
+compare 0 lita1 1, lita2 3, chunk 189
+TRIE MANAGER mon lbnum 2, mon lanum 158, len 4
 rb
-la 19
 rb
 pb
 sb
-littlech1 38, littlech2 13, lit 108 compare 1 et moyenne 213
+littlech1 22, littlech2 3, lit 152 compare 1 et moyenne 189
 rra
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 108, len 10
-la 108
+lit1 -1 lit2 0 
+rb
+rb
+rb
+pb
+littlech1 2, littlech2 14, lit 150 compare 0 et moyenne 189
+ra
+lit1 -1 lit2 0 
 pb
 sb
-littlech1 -1, littlech2 4, lit 49 compare 1 et moyenne 213
+littlech1 22, littlech2 2, lit 168 compare 1 et moyenne 189
 rra
 rra
-rra
-rra
-lit1 2 lit2 0 
-compare 0 lita1 1, lita2 3, chunk 213
-TRIE MANAGER mon lbnum 1, mon lanum 49, len 11
-la 49
-la 49
+lit1 0 lit2 2 
+compare 0 lita1 1, lita2 13, chunk 189
+TRIE MANAGER mon lbnum 3, mon lanum 168, len 7
+rb
+rb
 rb
 pb
 sb
-littlech1 -1, littlech2 3, lit 87 compare 1 et moyenne 213
+littlech1 23, littlech2 13, lit 144 compare 1 et moyenne 189
 rra
 rra
 rra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 87, len 12
-la 87
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+lit1 -1 lit2 0 
+rrb
+pb
+littlech1 35, littlech2 3, lit 95 compare 1 et moyenne 189
+rra
+rra
+rra
+lit1 -1 lit2 0 
 pb
 sb
-littlech1 -1, littlech2 4, lit 187 compare 1 et moyenne 213
+littlech1 37, littlech2 2, lit 91 compare 1 et moyenne 189
+rra
+rra
+lit1 -1 lit2 0 
+rb
+rb
+pb
+littlech1 38, littlech2 3, lit 58 compare 1 et moyenne 189
+rra
+rra
+rra
+lit1 -1 lit2 0 
+pb
+sb
+littlech1 40, littlech2 15, lit 178 compare 1 et moyenne 189
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+lit1 0 lit2 2 
+compare 0 lita1 1, lita2 5, chunk 189
+TRIE MANAGER mon lbnum 2, mon lanum 178, len 12
+la 178
+la 178
+rb
+la 178
+rb
+pb
+sb
+littlech1 -1, littlech2 5, lit 21 compare 1 et moyenne 189
+rra
+rra
+rra
+rra
+rra
+lit1 -1 lit2 0 
+pb
+littlech1 4, littlech2 2, lit 37 compare 1 et moyenne 189
+rra
+rra
+lit1 0 lit2 1 
+compare 0 lita1 1, lita2 2, chunk 189
+TRIE MANAGER mon lbnum -1, mon lanum 37, len 14
+la 37
+pb
+littlech1 5, littlech2 2, lit 13 compare 1 et moyenne 189
+rra
+rra
+lit1 -1 lit2 0 
+rb
+rb
+pb
+littlech1 1, littlech2 2, lit 157 compare 0 et moyenne 189
+lit1 0 lit2 1 
+compare 0 lita1 1, lita2 2, chunk 189
+TRIE MANAGER mon lbnum 6, mon lanum 157, len 16
+la 157
+la 157
+rb
+la 157
+rb
+la 157
+rb
+la 157
+rb
+la 157
+rb
+la 157
+rb
+pb
+sb
+littlech1 5, littlech2 2, lit 14 compare 1 et moyenne 189
+rrr
+rrr
+lit1 13 lit2 0 
+compare 0 lita1 1, lita2 7, chunk 189
+TRIE MANAGER mon lbnum 12, mon lanum 14, len 17
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 6, littlech2 7, lit 89 compare 0 et moyenne 189
+ra
+ra
+ra
+ra
+ra
+lit1 0 lit2 3 
+compare 0 lita1 1, lita2 12, chunk 189
+TRIE MANAGER mon lbnum 15, mon lanum 89, len 18
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 -1, littlech2 12, lit 126 compare 1 et moyenne 189
 rrr
 rrr
 rrr
 rrr
-lit1 2 lit2 0 
-compare 0 lita1 1, lita2 5, chunk 213
-TRIE MANAGER mon lbnum 1, mon lanum 187, len 13
-la 187
-la 187
-rb
-pb
-sb
-littlech1 -1, littlech2 5, lit 39 compare 1 et moyenne 213
-rra
+rrr
+rrr
+rrr
+rrr
 rra
 rra
 rra
 rra
 lit1 7 lit2 0 
-compare 0 lita1 1, lita2 6, chunk 213
-TRIE MANAGER mon lbnum 6, mon lanum 39, len 14
-la 39
-la 39
+compare 0 lita1 1, lita2 16, chunk 189
+TRIE MANAGER mon lbnum 6, mon lanum 126, len 19
+la 126
+la 126
 rb
-la 39
+la 126
 rb
-la 39
+la 126
 rb
-la 39
+la 126
 rb
-la 39
+la 126
 rb
-la 39
+la 126
 rb
 pb
 sb
-littlech1 -1, littlech2 6, lit 59 compare 1 et moyenne 213
-rra
-rra
-rra
-rra
-rra
-rra
-lit1 0 lit2 7 
-compare 0 lita1 1, lita2 18, chunk 213
-TRIE MANAGER mon lbnum -1, mon lanum 59, len 15
-la 59
+littlech1 2, littlech2 2, lit 198 compare 0 et moyenne 379
+rr
+lit1 0 lit2 -1 
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
 pb
-littlech1 -1, littlech2 18, lit 56 compare 1 et moyenne 213
+littlech1 6, littlech2 3, lit 356 compare 1 et moyenne 379
 rra
 rra
 rra
+lit1 0 lit2 -1 
+pb
+littlech1 8, littlech2 2, lit 378 compare 1 et moyenne 379
+rra
+rra
+lit1 0 lit2 -1 
+pb
+littlech1 9, littlech2 3, lit 274 compare 1 et moyenne 379
 rra
 rra
 rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
+lit1 2 lit2 0 
+compare 0 lita1 1, lita2 9, chunk 379
+TRIE MANAGER mon lbnum 1, mon lanum 274, len 23
+la 274
+la 274
+rb
+pb
+sb
+littlech1 2, littlech2 9, lit 321 compare 0 et moyenne 379
+ra
 lit1 1 lit2 0 
-compare 0 lita1 1, lita2 50, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 56, len 16
-la 56
+compare 0 lita1 1, lita2 10, chunk 379
+TRIE MANAGER mon lbnum 0, mon lanum 321, len 24
+la 321
 pb
 sb
-littlech1 -1, littlech2 50, lit 829 compare 1 et moyenne 213
+littlech1 9, littlech2 10, lit 324 compare 0 et moyenne 379
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 18, chunk 379
+TRIE MANAGER mon lbnum 0, mon lanum 324, len 25
+la 324
+pb
+sb
+littlech1 9, littlech2 18, lit 322 compare 0 et moyenne 379
+rr
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 26, chunk 379
+TRIE MANAGER mon lbnum 0, mon lanum 322, len 26
+la 322
+pb
+sb
+littlech1 1, littlech2 26, lit 288 compare 0 et moyenne 379
+lit1 3 lit2 0 
+compare 0 lita1 1, lita2 26, chunk 379
+TRIE MANAGER mon lbnum 2, mon lanum 288, len 27
+la 288
+la 288
+rb
+la 288
+rb
+pb
+sb
+littlech1 1, littlech2 26, lit 221 compare 0 et moyenne 379
+lit1 3 lit2 0 
+compare 0 lita1 1, lita2 26, chunk 379
+TRIE MANAGER mon lbnum 2, mon lanum 221, len 28
+la 221
+la 221
+rb
+la 221
+rb
+pb
+sb
+littlech1 2, littlech2 26, lit 357 compare 0 et moyenne 379
+ra
+lit1 0 lit2 23 
+compare 0 lita1 1, lita2 27, chunk 379
+TRIE MANAGER mon lbnum 23, mon lanum 357, len 29
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 3, littlech2 27, lit 317 compare 0 et moyenne 379
+rr
+rr
+lit1 4 lit2 0 
+compare 0 lita1 1, lita2 29, chunk 379
+TRIE MANAGER mon lbnum 3, mon lanum 317, len 30
+la 317
+la 317
+rb
+la 317
+rb
+la 317
+rb
+pb
+sb
+littlech1 2, littlech2 29, lit 318 compare 0 et moyenne 379
+ra
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 30, chunk 379
+TRIE MANAGER mon lbnum 0, mon lanum 318, len 31
+la 318
+pb
+sb
+littlech1 1, littlech2 30, lit 269 compare 0 et moyenne 379
+lit1 5 lit2 0 
+compare 0 lita1 1, lita2 30, chunk 379
+TRIE MANAGER mon lbnum 4, mon lanum 269, len 32
+la 269
+la 269
+rb
+la 269
+rb
+la 269
+rb
+la 269
+rb
+pb
+sb
+littlech1 1, littlech2 30, lit 345 compare 0 et moyenne 379
+lit1 0 lit2 24 
+compare 0 lita1 1, lita2 30, chunk 379
+TRIE MANAGER mon lbnum 26, mon lanum 345, len 33
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 5, littlech2 30, lit 372 compare 0 et moyenne 379
+ra
+ra
+ra
+ra
+lit1 0 lit2 32 
+compare 0 lita1 1, lita2 34, chunk 379
+TRIE MANAGER mon lbnum 32, mon lanum 372, len 34
+rrb
+rrb
+pb
+sb
+littlech1 4, littlech2 34, lit 371 compare 0 et moyenne 379
+rr
+ra
+ra
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 39, chunk 379
+TRIE MANAGER mon lbnum 0, mon lanum 371, len 35
+la 371
+pb
+sb
+littlech1 1, littlech2 38, lit 224 compare 0 et moyenne 379
+lit1 13 lit2 0 
+compare 0 lita1 1, lita2 38, chunk 379
+TRIE MANAGER mon lbnum 12, mon lanum 224, len 36
+la 224
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+la 224
+rb
+pb
+sb
+littlech1 2, littlech2 38, lit 338 compare 0 et moyenne 379
+ra
+lit1 0 lit2 24 
+compare 0 lita1 1, lita2 38, chunk 379
+TRIE MANAGER mon lbnum 29, mon lanum 338, len 37
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 1, littlech2 37, lit 213 compare 0 et moyenne 379
+lit1 12 lit2 0 
+compare 0 lita1 1, lita2 37, chunk 379
+TRIE MANAGER mon lbnum 11, mon lanum 213, len 38
+la 213
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+la 213
+rb
+pb
+sb
+littlech1 1, littlech2 37, lit 245 compare 0 et moyenne 379
+lit1 0 lit2 23 
+compare 0 lita1 1, lita2 37, chunk 379
+TRIE MANAGER mon lbnum 37, mon lanum 245, len 39
+rrb
+rrb
+pb
+sb
+littlech1 2, littlech2 2, lit 452 compare 0 et moyenne 568
+ra
+lit1 0 lit2 -1 
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlech1 1, littlech2 3, lit 191 compare 0 et moyenne 568
+lit1 21 lit2 0 
+compare 0 lita1 1, lita2 3, chunk 568
+TRIE MANAGER mon lbnum 20, mon lanum 191, len 41
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+sb
+littlech1 1, littlech2 3, lit 445 compare 0 et moyenne 568
+lit1 0 lit2 22 
+compare 0 lita1 1, lita2 3, chunk 568
+TRIE MANAGER mon lbnum 22, mon lanum 445, len 42
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 1, littlech2 3, lit 499 compare 0 et moyenne 568
+lit1 0 lit2 -1 
+pb
+littlech1 1, littlech2 3, lit 344 compare 0 et moyenne 568
+lit1 9 lit2 0 
+compare 0 lita1 1, lita2 3, chunk 568
+TRIE MANAGER mon lbnum 8, mon lanum 344, len 44
+la 344
+la 344
+rb
+la 344
+rb
+la 344
+rb
+la 344
+rb
+la 344
+rb
+la 344
+rb
+la 344
+rb
+la 344
+rb
+pb
+sb
+littlech1 2, littlech2 3, lit 527 compare 0 et moyenne 568
+ra
 lit1 0 lit2 -1 
 rrb
 rrb
@@ -239,363 +601,135 @@ rrb
 rrb
 rrb
 pb
-littlech1 -1, littlech2 49, lit 280 compare 1 et moyenne 213
+littlech1 4, littlech2 4, lit 506 compare 0 et moyenne 568
+ra
+ra
+ra
 lit1 1 lit2 0 
-compare 1 lita1 -1, lita2 49, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 280, len 18
-la 280
+compare 0 lita1 1, lita2 7, chunk 568
+TRIE MANAGER mon lbnum 0, mon lanum 506, len 46
+la 506
 pb
 sb
-littlech1 -1, littlech2 49, lit 280 compare 1 et moyenne 213
-lit1 1 lit2 0 
-compare 1 lita1 -1, lita2 49, chunk 213
-TRIE MANAGER mon lbnum 0, mon lanum 280, len 19
-la 280
-pb
-sb
-littlech1 1, littlech2 13, lit 400 compare 0 et moyenne 427
+littlech1 1, littlech2 7, lit 454 compare 0 et moyenne 568
 lit1 3 lit2 0 
-compare 0 lita1 1, lita2 13, chunk 427
-TRIE MANAGER mon lbnum 2, mon lanum 400, len 20
-la 400
-la 400
+compare 0 lita1 1, lita2 7, chunk 568
+TRIE MANAGER mon lbnum 2, mon lanum 454, len 47
+la 454
+la 454
 rb
-la 400
+la 454
 rb
 pb
 sb
-littlech1 2, littlech2 13, lit 303 compare 0 et moyenne 427
+littlech1 1, littlech2 7, lit 212 compare 0 et moyenne 568
+lit1 24 lit2 0 
+compare 0 lita1 1, lita2 7, chunk 568
+TRIE MANAGER mon lbnum 23, mon lanum 212, len 48
+la 212
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+la 212
+rb
+pb
+sb
+littlech1 4, littlech2 7, lit 462 compare 0 et moyenne 568
+ra
+ra
+ra
+lit1 0 lit2 24 
+compare 0 lita1 1, lita2 10, chunk 568
+TRIE MANAGER mon lbnum 26, mon lanum 462, len 49
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 3, littlech2 10, lit 412 compare 0 et moyenne 568
 rr
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 14, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 303, len 21
-la 303
-pb
-sb
-littlech1 2, littlech2 14, lit 308 compare 0 et moyenne 427
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 15, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 308, len 22
-la 308
-pb
-sb
-littlech1 1, littlech2 15, lit 387 compare 0 et moyenne 427
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 15, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 387, len 23
-la 387
-pb
-sb
-littlech1 1, littlech2 15, lit 306 compare 0 et moyenne 427
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 15, chunk 427
-TRIE MANAGER mon lbnum 2, mon lanum 306, len 24
-la 306
-la 306
-rb
-la 306
-rb
-pb
-sb
-littlech1 1, littlech2 15, lit 301 compare 0 et moyenne 427
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 15, chunk 427
-TRIE MANAGER mon lbnum 2, mon lanum 301, len 25
-la 301
-la 301
-rb
-la 301
-rb
-pb
-sb
-littlech1 2, littlech2 15, lit 223 compare 0 et moyenne 427
-rr
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 16, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 223, len 26
-la 223
-pb
-sb
-littlech1 3, littlech2 16, lit 418 compare 0 et moyenne 427
-ra
-ra
-lit1 0 lit2 19 
-compare 0 lita1 1, lita2 18, chunk 427
-TRIE MANAGER mon lbnum 21, mon lanum 418, len 27
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 4, littlech2 18, lit 289 compare 0 et moyenne 427
-rr
-rr
-rr
-lit1 5 lit2 0 
-compare 0 lita1 1, lita2 21, chunk 427
-TRIE MANAGER mon lbnum 4, mon lanum 289, len 28
-la 289
-la 289
-rb
-la 289
-rb
-la 289
-rb
-la 289
-rb
-pb
-sb
-littlech1 3, littlech2 21, lit 341 compare 0 et moyenne 427
-ra
-ra
-lit1 0 lit2 20 
-compare 0 lita1 1, lita2 23, chunk 427
-TRIE MANAGER mon lbnum 25, mon lanum 341, len 29
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 12, littlech2 23, lit 280 compare 0 et moyenne 427
-rr
-rr
-rr
-rr
-rr
-rr
-ra
-ra
-ra
-ra
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 34, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 280, len 30
-la 280
-pb
-sb
-littlech1 3, littlech2 34, lit 391 compare 0 et moyenne 427
-ra
-ra
-lit1 0 lit2 20 
-compare 0 lita1 1, lita2 36, chunk 427
-TRIE MANAGER mon lbnum 24, mon lanum 391, len 31
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 13, littlech2 40, lit 343 compare 0 et moyenne 427
-rr
-rr
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 40, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 343, len 32
-la 343
-pb
-sb
-littlech1 1, littlech2 40, lit 220 compare 0 et moyenne 427
-lit1 10 lit2 0 
-compare 0 lita1 1, lita2 40, chunk 427
-TRIE MANAGER mon lbnum 9, mon lanum 220, len 33
-la 220
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-la 220
-rb
-pb
-sb
-littlech1 6, littlech2 39, lit 240 compare 0 et moyenne 427
-ra
-ra
-ra
-ra
-ra
-lit1 0 lit2 19 
-compare 0 lita1 1, lita2 39, chunk 427
-TRIE MANAGER mon lbnum -1, mon lanum 240, len 34
-la 240
-pb
-littlech1 2, littlech2 39, lit 239 compare 0 et moyenne 427
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 39, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 239, len 35
-la 239
-pb
-sb
-littlech1 1, littlech2 38, lit 269 compare 0 et moyenne 427
-lit1 0 lit2 21 
-compare 0 lita1 1, lita2 38, chunk 427
-TRIE MANAGER mon lbnum -1, mon lanum 269, len 36
-la 269
-pb
-littlech1 10, littlech2 38, lit 263 compare 0 et moyenne 427
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 38, chunk 427
-TRIE MANAGER mon lbnum 0, mon lanum 263, len 37
-la 263
-pb
-sb
-littlech1 -1, littlech2 37, lit 928 compare 1 et moyenne 427
-lit1 0 lit2 23 
-compare 1 lita1 -1, lita2 37, chunk 427
-TRIE MANAGER mon lbnum 23, mon lanum 928, len 38
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-pb
-sb
-littlech1 -1, littlech2 37, lit 594 compare 1 et moyenne 427
-lit1 3 lit2 0 
-compare 1 lita1 -1, lita2 37, chunk 427
-TRIE MANAGER mon lbnum 2, mon lanum 594, len 39
-la 594
-la 525
-rr
-la 573
-rr
-pb
-sb
-littlech1 4, littlech2 2, lit 525 compare 1 et moyenne 640
-rra
-rra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 640
-TRIE MANAGER mon lbnum 0, mon lanum 525, len 40
-la 525
-pb
-sb
-littlech1 1, littlech2 4, lit 573 compare 0 et moyenne 640
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 640
-TRIE MANAGER mon lbnum 0, mon lanum 573, len 41
-la 573
-pb
-sb
-littlech1 4, littlech2 4, lit 560 compare 0 et moyenne 640
-rr
-ra
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 7, chunk 640
-TRIE MANAGER mon lbnum 0, mon lanum 560, len 42
-la 560
-pb
-sb
-littlech1 4, littlech2 7, lit 572 compare 0 et moyenne 640
-ra
-ra
-ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 10, chunk 640
-TRIE MANAGER mon lbnum 0, mon lanum 572, len 43
-la 572
-pb
-sb
-littlech1 2, littlech2 10, lit 445 compare 0 et moyenne 640
-rr
-lit1 4 lit2 0 
-compare 0 lita1 1, lita2 11, chunk 640
-TRIE MANAGER mon lbnum 3, mon lanum 445, len 44
-la 445
-la 445
-rb
-la 445
-rb
-la 445
-rb
-pb
-sb
-littlech1 1, littlech2 11, lit 568 compare 0 et moyenne 640
-lit1 0 lit2 38 
-compare 0 lita1 1, lita2 11, chunk 640
-TRIE MANAGER mon lbnum 42, mon lanum 568, len 45
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 2, littlech2 11, lit 495 compare 0 et moyenne 640
 rr
 lit1 3 lit2 0 
-compare 0 lita1 1, lita2 12, chunk 640
-TRIE MANAGER mon lbnum 2, mon lanum 495, len 46
-la 495
-la 495
+compare 0 lita1 1, lita2 12, chunk 568
+TRIE MANAGER mon lbnum 2, mon lanum 412, len 50
+la 412
+la 412
 rb
-la 495
-rb
-pb
-sb
-littlech1 1, littlech2 12, lit 485 compare 0 et moyenne 640
-lit1 2 lit2 0 
-compare 0 lita1 1, lita2 12, chunk 640
-TRIE MANAGER mon lbnum 1, mon lanum 485, len 47
-la 485
-la 485
+la 412
 rb
 pb
 sb
-littlech1 2, littlech2 12, lit 598 compare 0 et moyenne 640
+littlech1 2, littlech2 12, lit 49 compare 0 et moyenne 568
 ra
-lit1 0 lit2 40 
-compare 0 lita1 1, lita2 13, chunk 640
-TRIE MANAGER mon lbnum 42, mon lanum 598, len 48
+lit1 41 lit2 0 
+compare 0 lita1 1, lita2 13, chunk 568
+TRIE MANAGER mon lbnum 40, mon lanum 49, len 51
+rrb
+rrb
+rrb
+rrb
+rrb
 rrb
 rrb
 rrb
@@ -604,77 +738,59 @@ rrb
 rrb
 pb
 sb
-littlech1 2, littlech2 13, lit 442 compare 0 et moyenne 640
+littlech1 2, littlech2 13, lit 435 compare 0 et moyenne 568
 rr
-lit1 10 lit2 0 
-compare 0 lita1 1, lita2 14, chunk 640
-TRIE MANAGER mon lbnum 9, mon lanum 442, len 49
-la 442
-la 442
+lit1 0 lit2 5 
+compare 0 lita1 1, lita2 14, chunk 568
+TRIE MANAGER mon lbnum 11, mon lanum 435, len 52
+la 435
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
 rb
-la 442
+la 435
+rb
+la 435
+rb
+la 435
 rb
 pb
 sb
-littlech1 1, littlech2 14, lit 578 compare 0 et moyenne 640
-lit1 0 lit2 38 
-compare 0 lita1 1, lita2 14, chunk 640
-TRIE MANAGER mon lbnum 41, mon lanum 578, len 50
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlech1 1, littlech2 14, lit 385 compare 0 et moyenne 568
+lit1 3 lit2 0 
+compare 0 lita1 1, lita2 14, chunk 568
+TRIE MANAGER mon lbnum 2, mon lanum 385, len 53
+la 385
+la 385
+rb
+la 385
+rb
 pb
 sb
-littlech1 3, littlech2 14, lit 594 compare 0 et moyenne 640
+littlech1 8, littlech2 14, lit 473 compare 0 et moyenne 568
 ra
 ra
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 16, chunk 640
-TRIE MANAGER mon lbnum 0, mon lanum 594, len 51
-la 594
-pb
-sb
-littlech1 3, littlech2 16, lit 533 compare 0 et moyenne 640
-rr
-rr
-lit1 5 lit2 0 
-compare 0 lita1 1, lita2 18, chunk 640
-TRIE MANAGER mon lbnum 4, mon lanum 533, len 52
-la 533
-la 533
-rb
-la 533
-rb
-la 533
-rb
-la 533
-rb
-pb
-sb
-littlech1 1, littlech2 18, lit 585 compare 0 et moyenne 640
-lit1 0 lit2 44 
-compare 0 lita1 1, lita2 18, chunk 640
-TRIE MANAGER mon lbnum 48, mon lanum 585, len 53
+ra
+ra
+ra
+ra
+ra
+lit1 0 lit2 46 
+compare 0 lita1 1, lita2 21, chunk 568
+TRIE MANAGER mon lbnum 48, mon lanum 473, len 54
+rrb
 rrb
 rrb
 rrb
@@ -682,86 +798,68 @@ rrb
 rrb
 pb
 sb
-littlech1 6, littlech2 18, lit 430 compare 0 et moyenne 640
+littlech1 3, littlech2 21, lit 447 compare 0 et moyenne 568
 rr
 rr
-rr
-rr
+lit1 3 lit2 0 
+compare 0 lita1 1, lita2 23, chunk 568
+TRIE MANAGER mon lbnum 2, mon lanum 447, len 55
+la 447
+la 447
+rb
+la 447
+rb
+pb
+sb
+littlech1 1, littlech2 23, lit 485 compare 0 et moyenne 568
+lit1 0 lit2 50 
+compare 0 lita1 1, lita2 23, chunk 568
+TRIE MANAGER mon lbnum 52, mon lanum 485, len 56
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 2, littlech2 23, lit 398 compare 0 et moyenne 568
 rr
 lit1 9 lit2 0 
-compare 0 lita1 1, lita2 23, chunk 640
-TRIE MANAGER mon lbnum 8, mon lanum 430, len 54
-la 430
-la 430
+compare 0 lita1 1, lita2 26, chunk 568
+TRIE MANAGER mon lbnum 8, mon lanum 398, len 57
+la 398
+la 398
 rb
-la 430
+la 398
 rb
-la 430
+la 398
 rb
-la 430
+la 398
 rb
-la 430
+la 398
 rb
-la 430
+la 398
 rb
-la 430
+la 398
 rb
-la 430
-rb
-pb
-sb
-littlech1 4, littlech2 23, lit 524 compare 0 et moyenne 640
-ra
-ra
-ra
-lit1 0 lit2 38 
-compare 0 lita1 1, lita2 27, chunk 640
-TRIE MANAGER mon lbnum 50, mon lanum 524, len 55
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 3, littlech2 26, lit 449 compare 0 et moyenne 640
-rr
-rr
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 26, chunk 640
-TRIE MANAGER mon lbnum 2, mon lanum 449, len 56
-la 449
-la 449
-rb
-la 449
+la 398
 rb
 pb
 sb
-littlech1 1, littlech2 26, lit 478 compare 0 et moyenne 640
-lit1 0 lit2 41 
-compare 0 lita1 1, lita2 26, chunk 640
-TRIE MANAGER mon lbnum -1, mon lanum 478, len 57
-la 478
+littlech1 3, littlech2 25, lit 431 compare 0 et moyenne 568
+ra
+ra
+lit1 0 lit2 47 
+compare 0 lita1 1, lita2 25, chunk 568
+TRIE MANAGER mon lbnum -1, mon lanum 431, len 58
+la 431
 pb
-littlech1 1, littlech2 25, lit 484 compare 0 et moyenne 640
-lit1 0 lit2 42 
-compare 0 lita1 1, lita2 25, chunk 640
-TRIE MANAGER mon lbnum -1, mon lanum 484, len 58
-la 484
-pb
-littlech1 4, littlech2 25, lit 609 compare 0 et moyenne 640
+littlech1 4, littlech2 25, lit 491 compare 0 et moyenne 568
 ra
 ra
 ra
-lit1 0 lit2 43 
-compare 0 lita1 1, lita2 25, chunk 640
-TRIE MANAGER mon lbnum 44, mon lanum 609, len 59
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+lit1 0 lit2 48 
+compare 0 lita1 1, lita2 25, chunk 568
+TRIE MANAGER mon lbnum 50, mon lanum 491, len 59
 rrb
 rrb
 rrb
@@ -773,124 +871,94 @@ rrb
 rrb
 pb
 sb
-littlech1 1, littlech2 2, lit 746 compare 0 et moyenne 854
-lit1 1 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 854
-TRIE MANAGER mon lbnum 0, mon lanum 746, len 60
-la 746
+littlech1 1, littlech2 3, lit 606 compare 0 et moyenne 758
+lit1 0 lit2 -1 
+rrb
+rrb
 pb
-sb
-littlech1 2, littlech2 2, lit 806 compare 0 et moyenne 854
+littlech1 1, littlech2 3, lit 681 compare 0 et moyenne 758
+lit1 0 lit2 -1 
+pb
+littlech1 2, littlech2 3, lit 658 compare 0 et moyenne 758
 ra
 lit1 1 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 854
-TRIE MANAGER mon lbnum 0, mon lanum 806, len 61
-la 806
+compare 0 lita1 1, lita2 4, chunk 758
+TRIE MANAGER mon lbnum 0, mon lanum 658, len 62
+la 658
 pb
 sb
-littlech1 3, littlech2 2, lit 829 compare 1 et moyenne 854
-rra
-rra
-lit1 0 lit2 61 
-compare 0 lita1 1, lita2 2, chunk 854
-TRIE MANAGER mon lbnum -1, mon lanum 829, len 62
-la 829
-pb
-littlech1 4, littlech2 2, lit 729 compare 1 et moyenne 854
-rra
-rra
-lit1 4 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 854
-TRIE MANAGER mon lbnum 3, mon lanum 729, len 63
-la 729
-la 729
-rb
-la 729
-rb
-la 729
-rb
-pb
-sb
-littlech1 1, littlech2 4, lit 699 compare 0 et moyenne 854
-lit1 2 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 854
-TRIE MANAGER mon lbnum 1, mon lanum 699, len 64
-la 699
-la 699
-rb
-pb
-sb
-littlech1 4, littlech2 4, lit 820 compare 0 et moyenne 854
-ra
-ra
-ra
-lit1 0 lit2 60 
-compare 0 lita1 1, lita2 4, chunk 854
-TRIE MANAGER mon lbnum 62, mon lanum 820, len 65
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 1, littlech2 4, lit 769 compare 0 et moyenne 854
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 4, chunk 854
-TRIE MANAGER mon lbnum 2, mon lanum 769, len 66
-la 769
-la 769
-rb
-la 769
-rb
-pb
-sb
-littlech1 2, littlech2 4, lit 675 compare 0 et moyenne 854
+littlech1 2, littlech2 4, lit 503 compare 0 et moyenne 758
 rr
 lit1 4 lit2 0 
-compare 0 lita1 1, lita2 5, chunk 854
-TRIE MANAGER mon lbnum 3, mon lanum 675, len 67
-la 675
-la 675
+compare 0 lita1 1, lita2 5, chunk 758
+TRIE MANAGER mon lbnum 3, mon lanum 503, len 63
+la 503
+la 503
 rb
-la 675
+la 503
 rb
-la 675
-rb
-pb
-sb
-littlech1 1, littlech2 5, lit 545 compare 0 et moyenne 854
-lit1 12 lit2 0 
-compare 0 lita1 1, lita2 5, chunk 854
-TRIE MANAGER mon lbnum 11, mon lanum 545, len 68
-la 545
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
-rb
-la 545
+la 503
 rb
 pb
 sb
-littlech1 2, littlech2 5, lit 788 compare 0 et moyenne 854
+littlech1 1, littlech2 5, lit 718 compare 0 et moyenne 758
+lit1 0 lit2 -1 
+rrb
+rrb
+rrb
+rrb
+pb
+littlech1 4, littlech2 5, lit 653 compare 0 et moyenne 758
+rr
+rr
 ra
-lit1 0 lit2 50 
-compare 0 lita1 1, lita2 6, chunk 854
-TRIE MANAGER mon lbnum 54, mon lanum 788, len 69
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 8, chunk 758
+TRIE MANAGER mon lbnum 0, mon lanum 653, len 65
+la 653
+pb
+sb
+littlech1 1, littlech2 8, lit 441 compare 0 et moyenne 758
+lit1 15 lit2 0 
+compare 0 lita1 1, lita2 8, chunk 758
+TRIE MANAGER mon lbnum 14, mon lanum 441, len 66
+la 441
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+la 441
+rb
+pb
+sb
+littlech1 2, littlech2 8, lit 712 compare 0 et moyenne 758
+ra
+lit1 0 lit2 51 
+compare 0 lita1 1, lita2 9, chunk 758
+TRIE MANAGER mon lbnum 51, mon lanum 712, len 67
+rrb
 rrb
 rrb
 rrb
@@ -908,366 +976,297 @@ rrb
 rrb
 pb
 sb
-littlech1 1, littlech2 6, lit 717 compare 0 et moyenne 854
+littlech1 1, littlech2 9, lit 746 compare 0 et moyenne 758
+lit1 0 lit2 -1 
+pb
+littlech1 3, littlech2 9, lit 585 compare 0 et moyenne 758
+rr
+rr
 lit1 5 lit2 0 
-compare 0 lita1 1, lita2 6, chunk 854
-TRIE MANAGER mon lbnum 4, mon lanum 717, len 70
-la 717
-la 717
+compare 0 lita1 1, lita2 11, chunk 758
+TRIE MANAGER mon lbnum 4, mon lanum 585, len 69
+la 585
+la 585
 rb
-la 717
+la 585
 rb
-la 717
+la 585
 rb
-la 717
+la 585
 rb
 pb
 sb
-littlech1 2, littlech2 6, lit 713 compare 0 et moyenne 854
+littlech1 2, littlech2 11, lit 629 compare 0 et moyenne 758
+ra
+lit1 0 lit2 64 
+compare 0 lita1 1, lita2 12, chunk 758
+TRIE MANAGER mon lbnum -1, mon lanum 629, len 70
+la 629
+pb
+littlech1 8, littlech2 12, lit 756 compare 0 et moyenne 758
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+lit1 0 lit2 -1 
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+littlech1 1, littlech2 16, lit 592 compare 0 et moyenne 758
+lit1 9 lit2 0 
+compare 0 lita1 1, lita2 16, chunk 758
+TRIE MANAGER mon lbnum 8, mon lanum 592, len 72
+la 592
+la 592
+rb
+la 592
+rb
+la 592
+rb
+la 592
+rb
+la 592
+rb
+la 592
+rb
+la 592
+rb
+la 592
+rb
+pb
+sb
+littlech1 2, littlech2 16, lit 594 compare 0 et moyenne 758
+ra
+lit1 1 lit2 0 
+compare 0 lita1 1, lita2 16, chunk 758
+TRIE MANAGER mon lbnum 0, mon lanum 594, len 73
+la 594
+pb
+sb
+littlech1 1, littlech2 15, lit 677 compare 0 et moyenne 758
+lit1 0 lit2 66 
+compare 0 lita1 1, lita2 15, chunk 758
+TRIE MANAGER mon lbnum 70, mon lanum 677, len 74
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 1, littlech2 15, lit 654 compare 0 et moyenne 758
+lit1 3 lit2 0 
+compare 0 lita1 1, lita2 15, chunk 758
+TRIE MANAGER mon lbnum 2, mon lanum 654, len 75
+la 654
+la 654
+rb
+la 654
+rb
+pb
+sb
+littlech1 3, littlech2 14, lit 637 compare 0 et moyenne 758
+rr
 rr
 lit1 1 lit2 0 
-compare 0 lita1 1, lita2 7, chunk 854
-TRIE MANAGER mon lbnum 0, mon lanum 713, len 71
-la 713
+compare 0 lita1 1, lita2 14, chunk 758
+TRIE MANAGER mon lbnum 0, mon lanum 637, len 76
+la 637
 pb
 sb
-littlech1 1, littlech2 7, lit 680 compare 0 et moyenne 854
-lit1 3 lit2 0 
-compare 0 lita1 1, lita2 7, chunk 854
-TRIE MANAGER mon lbnum 2, mon lanum 680, len 72
-la 680
-la 680
-rb
-la 680
-rb
+littlech1 2, littlech2 14, lit 747 compare 0 et moyenne 758
+ra
+lit1 0 lit2 69 
+compare 0 lita1 1, lita2 14, chunk 758
+TRIE MANAGER mon lbnum 69, mon lanum 747, len 77
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
 pb
 sb
-littlech1 1, littlech2 7, lit 681 compare 0 et moyenne 854
+littlech1 -1, littlech2 13, lit 928 compare 1 et moyenne 758
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+lit1 0 lit2 -1 
+pb
+littlech1 -1, littlech2 13, lit 850 compare 1 et moyenne 758
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
 lit1 1 lit2 0 
-compare 0 lita1 1, lita2 7, chunk 854
-TRIE MANAGER mon lbnum 0, mon lanum 681, len 73
-la 681
+compare 1 lita1 -1, lita2 13, chunk 758
+TRIE MANAGER mon lbnum 0, mon lanum 926, len 79
+la 926
 pb
 sb
-littlech1 1, littlech2 7, lit 851 compare 0 et moyenne 854
-lit1 0 lit2 63 
-compare 0 lita1 1, lita2 7, chunk 854
-TRIE MANAGER mon lbnum 63, mon lanum 851, len 74
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 1, littlech2 7, lit 726 compare 0 et moyenne 854
-lit1 10 lit2 0 
-compare 0 lita1 1, lita2 7, chunk 854
-TRIE MANAGER mon lbnum 9, mon lanum 726, len 75
-la 726
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
-rb
-la 726
+littlech1 1, littlech2 2, lit 849 compare 0 et moyenne 2147483647
+lit1 2 lit2 0 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 1, mon lanum 849, len 80
+la 849
+la 849
 rb
 pb
 sb
-littlech1 2, littlech2 7, lit 764 compare 0 et moyenne 854
-ra
-lit1 0 lit2 67 
-compare 0 lita1 1, lita2 8, chunk 854
-TRIE MANAGER mon lbnum 74, mon lanum 764, len 76
-rrb
+littlech1 1, littlech2 2, lit 946 compare 0 et moyenne 2147483647
+lit1 0 lit2 -1 
 rrb
 pb
-sb
-littlech1 1, littlech2 8, lit 662 compare 0 et moyenne 854
-lit1 11 lit2 0 
-compare 0 lita1 1, lita2 8, chunk 854
-TRIE MANAGER mon lbnum 10, mon lanum 662, len 77
-la 662
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
-rb
-la 662
+littlech1 1, littlech2 2, lit 858 compare 0 et moyenne 2147483647
+lit1 2 lit2 0 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 1, mon lanum 858, len 82
+la 858
+la 858
 rb
 pb
 sb
-littlech1 2, littlech2 8, lit 784 compare 0 et moyenne 854
-ra
-lit1 0 lit2 61 
-compare 0 lita1 1, lita2 9, chunk 854
-TRIE MANAGER mon lbnum 67, mon lanum 784, len 78
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
+littlech1 1, littlech2 2, lit 810 compare 0 et moyenne 2147483647
+lit1 4 lit2 0 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 3, mon lanum 810, len 83
+la 810
+la 810
+rb
+la 810
+rb
+la 810
+rb
 pb
 sb
-littlech1 1, littlech2 9, lit 794 compare 0 et moyenne 854
-lit1 0 lit2 73 
-compare 0 lita1 1, lita2 9, chunk 854
-TRIE MANAGER mon lbnum -1, mon lanum 794, len 79
+littlech1 1, littlech2 2, lit 794 compare 0 et moyenne 2147483647
+lit1 2 lit2 0 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 1, mon lanum 794, len 84
 la 794
+la 794
+rb
 pb
-littlech1 1, littlech2 2, lit 931 compare 0 et moyenne 2147483647
+sb
+littlech1 1, littlech2 2, lit 923 compare 0 et moyenne 2147483647
+lit1 0 lit2 80 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 81, mon lanum 923, len 85
+rrb
+rrb
+rrb
+rrb
+pb
+sb
+littlech1 1, littlech2 2, lit 984 compare 0 et moyenne 2147483647
 lit1 0 lit2 -1 
 rrb
-rrb
-rrb
-rrb
-rrb
-rrb
 pb
-littlech1 1, littlech2 2, lit 679 compare 0 et moyenne 2147483647
-lit1 20 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 19, mon lanum 679, len 81
-la 679
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-la 679
-rb
-pb
-sb
-littlech1 1, littlech2 2, lit 772 compare 0 et moyenne 2147483647
-lit1 0 lit2 63 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 72, mon lanum 772, len 82
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 1, littlech2 2, lit 770 compare 0 et moyenne 2147483647
-lit1 2 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 1, mon lanum 770, len 83
-la 770
-la 770
-rb
-pb
-sb
-littlech1 1, littlech2 2, lit 906 compare 0 et moyenne 2147483647
-lit1 0 lit2 74 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 74, mon lanum 906, len 84
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 1, littlech2 2, lit 943 compare 0 et moyenne 2147483647
-lit1 0 lit2 -1 
-pb
-littlech1 1, littlech2 2, lit 950 compare 0 et moyenne 2147483647
-lit1 0 lit2 -1 
-pb
-littlech1 1, littlech2 2, lit 927 compare 0 et moyenne 2147483647
+littlech1 1, littlech2 2, lit 926 compare 0 et moyenne 2147483647
 lit1 3 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 2, mon lanum 927, len 87
-la 927
-la 927
+TRIE MANAGER mon lbnum 2, mon lanum 926, len 87
+la 926
+la 926
 rb
-la 927
-rb
-pb
-sb
-littlech1 1, littlech2 2, lit 836 compare 0 et moyenne 2147483647
-lit1 5 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 4, mon lanum 836, len 88
-la 836
-la 836
-rb
-la 836
-rb
-la 836
-rb
-la 836
+la 926
 rb
 pb
 sb
-littlech1 1, littlech2 2, lit 975 compare 0 et moyenne 2147483647
-lit1 0 lit2 -1 
-rrb
-rrb
-rrb
-rrb
+littlech1 1, littlech2 2, lit 970 compare 0 et moyenne 2147483647
+lit1 0 lit2 86 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 86, mon lanum 970, len 88
 rrb
 rrb
 pb
-littlech1 1, littlech2 2, lit 928 compare 0 et moyenne 2147483647
-lit1 4 lit2 0 
+sb
+littlech1 1, littlech2 2, lit 797 compare 0 et moyenne 2147483647
+lit1 10 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 3, mon lanum 928, len 90
-la 928
-la 928
+TRIE MANAGER mon lbnum 9, mon lanum 797, len 89
+la 797
+la 797
 rb
-la 928
+la 797
 rb
-la 928
+la 797
 rb
+la 797
+rb
+la 797
+rb
+la 797
+rb
+la 797
+rb
+la 797
+rb
+la 797
+rb
+pb
+sb
+littlech1 1, littlech2 2, lit 919 compare 0 et moyenne 2147483647
+lit1 0 lit2 81 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 86, mon lanum 919, len 90
+rrb
+rrb
+rrb
+rrb
 pb
 sb
 littlech1 1, littlech2 2, lit 803 compare 0 et moyenne 2147483647
-lit1 11 lit2 0 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 10, mon lanum 803, len 91
-la 803
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-la 803
-rb
-pb
-sb
-littlech1 1, littlech2 2, lit 937 compare 0 et moyenne 2147483647
-lit1 0 lit2 79 
-compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 81, mon lanum 937, len 92
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-pb
-sb
-littlech1 1, littlech2 2, lit 882 compare 0 et moyenne 2147483647
 lit1 6 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 5, mon lanum 882, len 93
-la 882
-la 882
+TRIE MANAGER mon lbnum 5, mon lanum 803, len 91
+la 803
+la 803
 rb
-la 882
+la 803
 rb
-la 882
+la 803
 rb
-la 882
+la 803
 rb
-la 882
+la 803
 rb
 pb
 sb
-littlech1 1, littlech2 2, lit 914 compare 0 et moyenne 2147483647
-lit1 0 lit2 87 
+littlech1 1, littlech2 2, lit 824 compare 0 et moyenne 2147483647
+lit1 0 lit2 82 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum -1, mon lanum 914, len 94
-la 914
+TRIE MANAGER mon lbnum -1, mon lanum 824, len 92
+la 824
 pb
-littlech1 1, littlech2 2, lit 988 compare 0 et moyenne 2147483647
+littlech1 1, littlech2 2, lit 994 compare 0 et moyenne 2147483647
 lit1 0 lit2 -1 
 rrb
 rrb
@@ -1276,52 +1275,87 @@ rrb
 rrb
 rrb
 rrb
+rrb
+rrb
+rrb
 pb
-littlech1 1, littlech2 2, lit 925 compare 0 et moyenne 2147483647
-lit1 8 lit2 0 
+littlech1 1, littlech2 2, lit 998 compare 0 et moyenne 2147483647
+lit1 0 lit2 -1 
+pb
+littlech1 1, littlech2 2, lit 909 compare 0 et moyenne 2147483647
+lit1 9 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 7, mon lanum 925, len 96
-la 925
-la 925
+TRIE MANAGER mon lbnum 8, mon lanum 909, len 95
+la 909
+la 909
 rb
-la 925
+la 909
 rb
-la 925
+la 909
 rb
-la 925
+la 909
 rb
-la 925
+la 909
 rb
-la 925
+la 909
 rb
-la 925
+la 909
+rb
+la 909
 rb
 pb
 sb
-littlech1 1, littlech2 2, lit 886 compare 0 et moyenne 2147483647
-lit1 4 lit2 0 
+littlech1 1, littlech2 2, lit 880 compare 0 et moyenne 2147483647
+lit1 2 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 3, mon lanum 886, len 97
-la 886
-la 886
-rb
-la 886
-rb
-la 886
+TRIE MANAGER mon lbnum 1, mon lanum 880, len 96
+la 880
+la 880
 rb
 pb
 sb
-littlech1 1, littlech2 2, lit 858 compare 0 et moyenne 2147483647
-lit1 4 lit2 0 
+littlech1 1, littlech2 2, lit 847 compare 0 et moyenne 2147483647
+lit1 5 lit2 0 
 compare 0 lita1 1, lita2 2, chunk 2147483647
-TRIE MANAGER mon lbnum 3, mon lanum 858, len 98
-la 858
-la 858
+TRIE MANAGER mon lbnum 4, mon lanum 847, len 97
+la 847
+la 847
 rb
-la 858
+la 847
 rb
-la 858
+la 847
 rb
+la 847
+rb
+pb
+sb
+littlech1 1, littlech2 2, lit 769 compare 0 et moyenne 2147483647
+lit1 7 lit2 0 
+compare 0 lita1 1, lita2 2, chunk 2147483647
+TRIE MANAGER mon lbnum 6, mon lanum 769, len 98
+la 769
+la 769
+rb
+la 769
+rb
+la 769
+rb
+la 769
+rb
+la 769
+rb
+la 769
+rb
+pb
+sb
+littlech1 -1, littlech2 0, lit 817 compare 1 et moyenne 2147483647
+lit1 0 lit2 80 
+compare 1 lita1 -1, lita2 0, chunk 2147483647
+TRIE MANAGER mon lbnum 95, mon lanum 817, len 99
+rrb
+rrb
+rrb
+rrb
 pb
 sb
 rrb
@@ -1337,6 +1371,8 @@ rrb
 rrb
 rrb
 rrb
+rrb
+rrb
 pa
 pa
 pa
@@ -1436,3 +1472,104 @@ pa
 pa
 pa
 pa
+pa
+13
+14
+21
+37
+49
+58
+89
+91
+95
+126
+144
+150
+152
+153
+157
+158
+159
+168
+170
+178
+179
+191
+198
+212
+213
+221
+224
+245
+269
+274
+288
+317
+318
+321
+322
+324
+338
+344
+345
+356
+357
+371
+372
+378
+385
+398
+412
+431
+435
+441
+445
+447
+452
+454
+462
+473
+485
+491
+499
+503
+506
+527
+585
+592
+594
+606
+629
+637
+653
+654
+658
+677
+681
+712
+718
+746
+747
+756
+769
+794
+797
+803
+810
+817
+824
+847
+849
+850
+858
+880
+909
+919
+923
+926
+928
+946
+970
+984
+994
+998
