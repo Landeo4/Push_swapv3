@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_500_helper3 .c                             :+:      :+:    :+:   */
+/*   ft_algo_500_helper3.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 06:09:33 by landeo            #+#    #+#             */
-/*   Updated: 2023/06/30 07:17:01 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/01 14:47:33 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,7 +106,7 @@ int	ft_found_big_lb_500(t_struct *data)
 
 	lb = data->lb->next->next;
 	nb = data->lb->next->num;
-	while (lb)
+	while (lb->next)
 	{
 		if (nb < lb->num)
 			nb = lb->num;

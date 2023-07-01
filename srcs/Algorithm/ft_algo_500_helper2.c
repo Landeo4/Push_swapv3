@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500_helper2.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 11:33:21 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/01 14:08:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_somme_algo_500(t_list_a *la, int argc, int token, int len)
 {
-	static	int	chiffre;
+	int			chiffre;
 	double		last;
 
 	if (token == 12)
@@ -22,7 +22,7 @@ int	ft_somme_algo_500(t_list_a *la, int argc, int token, int len)
 		chiffre = 2147483647;
 		return (chiffre);
 	}
-	last = token * 0.2;
+	last = token * 2;
 	chiffre = 0;
 	chiffre = ft_somme_500helper(len, argc, la, token);
 	chiffre = chiffre * last;

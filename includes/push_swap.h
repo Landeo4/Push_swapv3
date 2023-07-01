@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 11:21:42 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/01 14:35:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -308,5 +308,8 @@ void			ft_bp_alg500help(int len, int i, t_struct *data, int nb);
 int				ft_algo500manager_helper2(t_struct *data);
 void			ft_wronglittle(t_struct *data, int lit1, int moyenne, int compare);
 int				ft_chunk_helper500(t_struct *data, int compare, int little);
+int				ft_opti_manager(t_struct *data, int little);
+int				ft_checker(t_struct *data, int nb, int nb2, int little);
+int				ft_found_place_lower(t_struct *data);
 
 #endif
