@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100_b.c                                    :+:      :+:    :+:   */
+/*   ft_algo_500_b.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 06:16:26 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/30 08:29:06 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_found_best_place100(t_struct *data, t_list_b *lb, int nb)
+int	ft_found_best_place500(t_struct *data, t_list_b *lb, int nb)
 {
 	int			cpt;
 
@@ -28,7 +28,7 @@ int	ft_found_best_place100(t_struct *data, t_list_b *lb, int nb)
 	return (-1);
 }
 
-void	ft_best_place_helper(int cpt, int len, t_struct *data)
+void	ft_best_place_helper500(int cpt, int len, t_struct *data)
 {
 	if (cpt > len)
 	{
@@ -49,7 +49,7 @@ void	ft_best_place_helper(int cpt, int len, t_struct *data)
 	}
 }
 
-void	ft_take_best_place102(t_struct *data, int nb)
+void	ft_take_best_place502(t_struct *data, int nb)
 {
 	int			len;
 	t_list_b	*lb;
@@ -72,10 +72,10 @@ void	ft_take_best_place102(t_struct *data, int nb)
 	if (i == 0)
 		data->lb = rb(data);
 	else
-		ft_best_place_102_helper(i++, len, data);
+		ft_best_place_502_helper(i++, len, data);
 }
 
-void	ft_best_place_102_helper(int i, int len, t_struct *data)
+void	ft_best_place_502_helper(int i, int len, t_struct *data)
 {
 	if (i == len)
 	{

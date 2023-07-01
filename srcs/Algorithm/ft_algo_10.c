@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_10.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 12:16:43 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 19:17:42 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/01 11:12:17 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,13 @@ void	ft_algo_10(t_struct *data)
 
 void	ft_tri_10(t_list_a *la, t_struct *data)
 {
-	while (la)
+	while (ft_len_lista(data) > 2)
 	{
+		if (ft_len_lista(data) == 3)
+		{
+			ft_algo_3(data);
+			break ;
+		}
 		ft_10_action(la, data);
 		la = data->la->next;
 	}

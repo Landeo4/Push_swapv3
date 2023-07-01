@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100helper.c                                :+:      :+:    :+:   */
+/*   ft_algo_500helper.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 06:11:17 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/30 12:53:15 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_take_first_second_algo100(t_struct *data, int compare, int little)
+void	ft_take_first_second_algo500(t_struct *data, int compare, int little)
 {
 	if (compare == 1)
 	{
@@ -28,13 +28,13 @@ void	ft_take_first_second_algo100(t_struct *data, int compare, int little)
 	}
 }
 
-void	ft_make_list_right100(t_struct *data, int len)
+void	ft_make_list_right500(t_struct *data, int len)
 {
 	int		big;
 	int		i;
 
-	big = ft_found_big_lb_100(data);
-	i = ft_trie_100_b_biggest(data, big);
+	big = ft_found_big_lb_500(data);
+	i = ft_trie_500_b_biggest(data, big);
 	len = ft_len_listb(data);
 	len = len / 2;
 	//ft_printf("len = %d i = %d big = %d\n", len, i , big);
@@ -57,7 +57,7 @@ void	ft_make_list_right100(t_struct *data, int len)
 	}
 }
 
-int	ft_trie_100_b_biggest(t_struct *data, int little)
+int	ft_trie_500_b_biggest(t_struct *data, int little)
 {
 	t_list_b	*lb;
 	int			i;
@@ -77,7 +77,7 @@ int	ft_trie_100_b_biggest(t_struct *data, int little)
 	return (-1);
 }
 
-int	ft_trie_100_b_little(t_struct *data, int little)
+int	ft_trie_500_b_little(t_struct *data, int little)
 {
 	t_list_b	*lb;
 	int			i;
@@ -94,7 +94,7 @@ int	ft_trie_100_b_little(t_struct *data, int little)
 	return (-1);
 }
 
-int	ft_found_lower_b(t_struct *data)
+int	ft_found_lower_b500(t_struct *data)
 {
 	t_list_b	*lb;
 	int			nb;

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100reduce.c                                :+:      :+:    :+:   */
+/*   ft_algo_500reduce.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 15:14:46 by landeo           ###   ########.fr       */
+/*   Updated: 2023/06/30 09:25:03 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,14 @@
 ** little a to able the use of rr or rrr
 */
 
-int	ft_reduce_managera(t_struct *data, int chunk)
+int	ft_reduce_managera500(t_struct *data, int chunk)
 {
 	int			lita1;
 	int			lita2;
 	int			compare;
 
-	lita1 = ft_found_pos_little_first_part(data, chunk);
-	lita2 = ft_found_pos_little_last_part(data, chunk);
+	lita1 = ft_found_pos_little_first_part500(data, chunk);
+	lita2 = ft_found_pos_little_last_part500(data, chunk);
 	if (lita1 <= lita2 && lita1 != -1)
 		compare = 0;
 	else
@@ -47,7 +47,7 @@ int	ft_reduce_managera(t_struct *data, int chunk)
 		return (lita1);
 }
 
-void	ft_trie_100_manager(t_struct *data, int chunk, int token)
+void	ft_trie_500_manager(t_struct *data, int chunk, int token)
 {
 	int			len;
 	int			lbnum;
@@ -55,8 +55,8 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 	t_list_b	*lb;
 
 	lb = data->lb->next;
-	lbnum = ft_found_best_place100(data, lb, data->la->next->num);
-	lanum = ft_reduce_managera(data, chunk);
+	lbnum = ft_found_best_place500(data, lb, data->la->next->num);
+	lanum = ft_reduce_managera500(data, chunk);
 	len = ft_len_listb(data);
 	//ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
 	if (token == 1)
@@ -65,7 +65,7 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 		ft_trie_la_1(lanum, len, data, lbnum);
 }
 
-void	ft_trie_lb_1(int i, int len, t_struct *data, int nb)
+void	ft_trie_lb_1500(int i, int len, t_struct *data, int nb)
 {
 	(void)nb;
 	len = len / 2;
@@ -79,10 +79,10 @@ void	ft_trie_lb_1(int i, int len, t_struct *data, int nb)
 		}
 	}
 	else if (i < len || i == len)
-		ft_trie_lb_1helper(i, len, data, nb);
+		ft_trie_lb_1helper500(i, len, data, nb);
 }
 
-void	ft_trie_lb_1helper(int i, int len, t_struct *data, int nb)
+void	ft_trie_lb_1helper500(int i, int len, t_struct *data, int nb)
 {
 	(void)nb;
 	if (i < len)
@@ -103,7 +103,7 @@ void	ft_trie_lb_1helper(int i, int len, t_struct *data, int nb)
 	}
 }
 
-void	ft_trie_la_1(int i, int len, t_struct *data, int nb)
+void	ft_trie_la_1500(int i, int len, t_struct *data, int nb)
 {
 	(void)nb;
 	len = len / 2;
@@ -117,10 +117,10 @@ void	ft_trie_la_1(int i, int len, t_struct *data, int nb)
 		}
 	}
 	else if (i < len || i == len)
-		ft_trie_lb_1helper(i, len, data, nb);
+		ft_trie_lb_1helper500(i, len, data, nb);
 }
 
-void	ft_trie_la_1helper(int i, int len, t_struct *data, int nb)
+void	ft_trie_la_1helper500(int i, int len, t_struct *data, int nb)
 {
 	(void)nb;
 	if (i < len)
