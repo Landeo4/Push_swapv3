@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 13:27:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 11:48:29 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/01 11:51:32 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_algo_500_manager(t_struct *data, int argc)
 	while (token != 13)
 	{
 		moyennech1 = ft_helper500man(token, moyennech1, data, argc);
-		while (i < 50)
+		while (i < 500)
 		{
 			//ft_printf("%d\n", );
 			i++;
