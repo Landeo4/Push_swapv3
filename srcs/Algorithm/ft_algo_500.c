@@ -6,11 +6,13 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 13:27:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 14:46:07 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/05 18:20:18 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+// if i loose it all sleep and fall
 
 void	ft_algo_500_manager(t_struct *data, int argc)
 {

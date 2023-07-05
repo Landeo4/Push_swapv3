@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500helper.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 12:53:15 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/03 19:15:37 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,6 @@ int	ft_trie_500_b_biggest(t_struct *data, int little)
 
 	i = 0;
 	lb = data->lb->next;
-	//ft_printf(" je suis dans trie b biggest little %d\n", little);
 	while (lb->next)
 	{
 		if (little <= lb->num)

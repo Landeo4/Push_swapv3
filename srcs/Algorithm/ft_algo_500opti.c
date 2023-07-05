@@ -6,11 +6,26 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/01 14:44:46 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/03 19:01:57 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+
+/*
+**	This function takes as parameter: 
+**
+**	data
+**	little
+**
+** =====================================================
+** =====================================================
+**
+** ft_opti_manager will help to sort by
+** calculate the numbers of actions requiered
+** to achieved the sort by using the less possible
+*/
 
 int	ft_opti_manager(t_struct *data, int little)
 {
