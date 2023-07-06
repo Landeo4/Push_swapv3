@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500opti.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/03 19:01:57 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/06 11:43:23 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,18 +35,20 @@ int	ft_opti_manager(t_struct *data, int little)
 	t_list_b *lb;
 
 	lb = data->lb->next;
+	ft_printf("%d\n", little);
 	nb = ft_trie_500_b_little(data, little);
 	nb2 = ft_trie_500_b_biggest(data, little);
 	result = ft_checker(data, nb, nb2, little);
-	if (result > 250)
+	if (result > 150)
 		return (-1);
 	nb = ft_found_best_place500(data, lb, data->la->next->num);
 	ft_printf("le nb est de %d\n", nb);
-	if (nb > 250)
+	if (nb > 150)
 		return (-1);
 	return (0);
 }
-
+// cette fonction sert a savoir le nb d'action que la pos a besoin
+// et donc si c'est worth
 int ft_checker(t_struct *data, int nb, int nb2, int little)
 {
 	int 		i;

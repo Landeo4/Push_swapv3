@@ -6,7 +6,7 @@
 /*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 08:29:06 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/06 11:42:49 by landeo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ int	ft_found_best_place500(t_struct *data, t_list_b *lb, int nb)
 
 	cpt = 1;
 	lb = data->lb->next;
+	ft_printf("%d\n", nb);
 	while (lb && lb->next)
 	{
 		if (lb->num > nb && nb > lb->next->num)
