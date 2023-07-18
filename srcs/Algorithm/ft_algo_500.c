@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 13:27:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/06 13:28:16 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/07 14:25:40 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,9 @@ int	ft_chunk500(t_struct *data, int moyenne, int token)
 	int			compare;
 	int			little;
 	t_list_a	*la;
+	int			i;
 
+	i = 0;
 	la = data->la->next;
 	littlech1 = ft_found_pos_little_first_part500(data, moyenne);
 	littlech2 = ft_found_pos_little_last_part500(data, moyenne);
@@ -97,6 +99,9 @@ int	ft_chunk500(t_struct *data, int moyenne, int token)
 	{
 		little = la->num;
 		la = la->next;
+		i++;
+		if (i == 5)
+			break ;
 	}
 	if ((compare == 1 && littlech2 >= 15) || (compare == 0 && littlech1 >= 15))
 		return (-1);

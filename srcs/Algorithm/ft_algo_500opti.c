@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500opti.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/06 11:43:23 by landeo           ###   ########.fr       */
+/*   Updated: 2023/07/07 15:22:16 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
 
 /*
 **	This function takes as parameter: 
@@ -39,11 +38,11 @@ int	ft_opti_manager(t_struct *data, int little)
 	nb = ft_trie_500_b_little(data, little);
 	nb2 = ft_trie_500_b_biggest(data, little);
 	result = ft_checker(data, nb, nb2, little);
-	if (result > 150)
+	if (result > 100)
 		return (-1);
 	nb = ft_found_best_place500(data, lb, data->la->next->num);
 	ft_printf("le nb est de %d\n", nb);
-	if (nb > 150)
+	if (nb > 100)
 		return (-1);
 	return (0);
 }
