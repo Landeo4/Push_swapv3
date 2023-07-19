@@ -6,11 +6,30 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/07 15:22:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/18 15:25:03 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+//je fais un test avec le un nouveau opti manager
+
+// cette fonctio nrenvois la pos du nombre du little interessant
+int	ft_opti_manager(t_struct *data, int little)
+{
+	int		nb1;
+	int		nb2;
+	int		result;
+
+	nb1 = ft_trie_500_b_little(data, little);
+	nb2 = ft_trie_500_b_biggest(data, little);
+	result = ft_checker(data, nb1, nb2, little);
+	if (result > 250)
+		return (-1);
+	
+}
+
+
 
 /*
 **	This function takes as parameter: 
@@ -26,19 +45,20 @@
 ** to achieved the sort by using the less possible
 */
 
+/*
 int	ft_opti_manager(t_struct *data, int little)
 {
-	int result;
-	int	nb;
-	int	nb2;
-	t_list_b *lb;
+	int 		result;
+	int			nb;
+	int			nb2;
+	t_list_b	*lb;
 
 	lb = data->lb->next;
 	ft_printf("%d\n", little);
 	nb = ft_trie_500_b_little(data, little);
 	nb2 = ft_trie_500_b_biggest(data, little);
 	result = ft_checker(data, nb, nb2, little);
-	if (result > 100)
+	if (result > 250)
 		return (-1);
 	nb = ft_found_best_place500(data, lb, data->la->next->num);
 	ft_printf("le nb est de %d\n", nb);
@@ -84,3 +104,4 @@ int	ft_found_place_lower(t_struct *data)
 	}
 	return (-1);
 }
+*/
