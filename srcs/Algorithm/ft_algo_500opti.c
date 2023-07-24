@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/18 15:25:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/24 13:51:56 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,44 @@ int	ft_opti_manager(t_struct *data, int little)
 
 	nb1 = ft_trie_500_b_little(data, little);
 	nb2 = ft_trie_500_b_biggest(data, little);
+	ft_printf("nb = %d, nb2 = %d\n", nb1, nb2);
 	result = ft_checker(data, nb1, nb2, little);
 	if (result > 250)
 		return (-1);
-	
+	return (result);
 }
 
+int ft_checker(t_struct *data, int nb, int nb2, int little)
+{
+	int 		i;
+	t_list_b 	*lb;
 
+	lb = data->lb->next;
+	i = 0;
+	if (nb != -1 && nb2 != -1)
+		i = ft_found_best_place500(data, lb, little);
+	else if (nb == -1)
+		i = ft_found_place_lower(data);
+	else if (nb2 == -1)
+		i = ft_found_big_lb_500(data);
+	return (i);
+}
+
+int	ft_found_place_lower(t_struct *data)
+{
+	int			nb;
+	t_list_b	*lb;
+
+	lb = data->lb->next->next;
+	nb = data->lb->next->num;
+	while (lb->next)
+	{
+		if (nb > lb->num)
+			nb = lb->num;
+		lb = lb->next;
+	}
+	return (nb);
+}
 
 /*
 **	This function takes as parameter: 
