@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/18 13:27:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/18 15:15:32 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/24 17:51:41 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,9 +77,9 @@ int	ft_chunk500(t_struct *data, int moyenne, int token)
 	int			compare;
 	int			little;
 	t_list_a	*la;
-	/*int			i;
+	int			i;
 
-	i = 0;*/
+	i = 0;
 	la = data->la->next;
 	littlech1 = ft_found_pos_little_first_part500(data, moyenne);
 	littlech2 = ft_found_pos_little_last_part500(data, moyenne);
@@ -92,17 +92,17 @@ int	ft_chunk500(t_struct *data, int moyenne, int token)
 	else if (compare == 0)
 		little = ft_found_little_500_25(data, littlech1, moyenne);
 	//ft_printf("little %d, compare %d, littlech1 %d, littlech2 %d, moyenne %d\n", little, compare, littlech1, littlech2, moyenne);
-	ft_printf("%d\n", little);
+	//ft_printf("%d\n", little);
 	if (token < 3)
 		return (ft_chunk_helper500(data, compare, little), 0);
-	/*while (ft_opti_manager(data, little) == -1)
+	while (ft_opti_manager(data, little) == -1 && la->next)
 	{
 		little = la->num;
 		la = la->next;
 		i++;
 		if (i == 5)
 			break ;
-	}*/
+	}
 	if ((compare == 1 && littlech2 >= 15) || (compare == 0 && littlech1 >= 15))
 		return (-1);
 	ft_take_25_algo500(data, compare, little, moyenne);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 11:48:04 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/24 13:51:56 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/07/24 17:44:03 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,12 @@ int	ft_opti_manager(t_struct *data, int little)
 	int		nb2;
 	int		result;
 
+	//ft_printf("je passe par la\n");
 	nb1 = ft_trie_500_b_little(data, little);
 	nb2 = ft_trie_500_b_biggest(data, little);
-	ft_printf("nb = %d, nb2 = %d\n", nb1, nb2);
+	//ft_printf("nb = %d, nb2 = %d\n", nb1, nb2);
 	result = ft_checker(data, nb1, nb2, little);
-	if (result > 250)
+	if (result > 150)
 		return (-1);
 	return (result);
 }
@@ -43,6 +44,7 @@ int ft_checker(t_struct *data, int nb, int nb2, int little)
 		i = ft_found_place_lower(data);
 	else if (nb2 == -1)
 		i = ft_found_big_lb_500(data);
+	//ft_printf("i = %d\n", i);
 	return (i);
 }
 
