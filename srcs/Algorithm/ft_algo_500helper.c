@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:18:57 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/03 19:15:37 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/08/31 10:53:13 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ int	ft_trie_500_b_biggest(t_struct *data, int little)
 		lb = lb->next;
 		i++;
 	}
-	if (lb->num >= little)
+	if (little <= lb->num)
 		return (i);
 	return (-1);
 }
@@ -108,5 +108,6 @@ int	ft_found_lower_b500(t_struct *data)
 	}
 	if (lb->num < nb)
 		nb = lb->num;
+	//ft_printf("le nb est%d\n", nb);
 	return (nb);
 }

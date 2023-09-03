@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 00:45:48 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/01 12:06:03 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,10 @@ int	ft_found_pos_little_first_part500(t_struct *data, int chunk)
 	while (tab && len > 0)
 	{
 		if (nb <= chunk)
+		{
+			ft_printf("nb lit1 = %d\n", nb);
 			return (i);
+		}
 		i++;
 		len--;
 		tab = tab->next;
@@ -58,6 +61,7 @@ int	ft_found_pos_little_last_part500(t_struct *data, int chunk)
 		len2++;
 		i++;
 	}
+	ft_printf("nb lit2 = %d\n", tab->num);
 	return (i);
 }
 
@@ -98,22 +102,28 @@ int	ft_500else(int pos, int nb, t_list_a *tab)
 	return (nb);
 }
 
-int	ft_found_little_500_75(t_struct *data, int pos, t_list_a *la)
+int	ft_found_little_500_75(t_struct *data, int pos)
 {
 	t_list_a	*tab;
 	int			nb;
 	int			ch;
 	int			len;
+	t_list_a 	*la;
 
+	la = data->la->next;
 	ch = ft_len_lista(data);
 	ch = ch - pos;
 	len = 0;
 	tab = la;
-	while (len != ch && tab->next && tab)
+	while (len != ch && tab->next)
 	{
 		tab = tab->next;
 		len++;
 	}
 	nb = tab->num;
+	ft_printf("tab->num %d\n", tab->num);
 	return (nb);
 }
+
+//ici probleme de moyenne et nombre recup
+//voir a la ligne 2285 environ

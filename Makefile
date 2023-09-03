@@ -64,10 +64,11 @@ SRCS	=	srcs/main.c\
 			srcs/Algorithm/ft_algo_500helper.c\
 			srcs/Algorithm/ft_algo_500reduce.c\
 			srcs/Algorithm/ft_algo_500opti.c\
+			srcs/Algorithm/ft_trie500_test.c\
 
 
 
-OBJS= $(SRCS:.c=.o)
+OBJS = $(SRCS:.c=.o)
 
 CC		=	gcc
 

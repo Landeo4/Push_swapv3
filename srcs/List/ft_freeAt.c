@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 18:09:21 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/17 19:05:51 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/09/01 15:13:38 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ t_list_a	*ft_freeata(t_struct *data, int pos)
 		return (NULL);
 	if (pos == 0)
 	{
-		data->la = data->la->next;
+		prec = data->la->next;
 		free(cur);
 		return (data->la);
 	}
@@ -37,7 +37,7 @@ t_list_a	*ft_freeata(t_struct *data, int pos)
 	}
 	prec->next = cur->next;
 	free(cur);
-	return (data->la);
+	return (prec);
 }
 
 t_list_b	*ft_freeatb(t_struct *data, int pos)

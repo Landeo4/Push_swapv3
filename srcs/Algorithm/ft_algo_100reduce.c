@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100reduce.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 15:14:46 by landeo           ###   ########.fr       */
+/*   Updated: 2023/08/31 02:42:29 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,7 +117,7 @@ void	ft_trie_la_1(int i, int len, t_struct *data, int nb)
 		}
 	}
 	else if (i < len || i == len)
-		ft_trie_lb_1helper(i, len, data, nb);
+		ft_trie_la_1helper(i, len, data, nb);
 }
 
 void	ft_trie_la_1helper(int i, int len, t_struct *data, int nb)

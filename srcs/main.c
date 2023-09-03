@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/07/24 17:44:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/09/02 07:31:49 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,7 @@ int main(int argc, char **argv)
 	ft_free_listb(&data);
 }
 
+
+// REPARER SA!!!!!!!
 // courage beau gosse tu va le faire
 // COME ON!

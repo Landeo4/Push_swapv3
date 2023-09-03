@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100_helper3.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 06:09:33 by landeo            #+#    #+#             */
-/*   Updated: 2023/06/30 06:28:18 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/02 07:42:46 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,10 +68,10 @@ int	best_place_manager(t_struct *data, int little)
 	lb = data->lb->next;
 	//ft_printf("token %d\n", token);
 	if (token == 1)
-		nb = ft_found_best_place100(data, data->lb->next, little);
+		nb = ft_found_best_place500(data, data->lb->next, little);
 	else
 	{
-		nb = ft_found_big_lb_100(data);
+		nb = ft_found_big_lb_500(data);
 		while (lb->num != nb)
 			lb = lb->next;
 	}

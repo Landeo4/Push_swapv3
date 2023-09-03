@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500reduce.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/30 09:25:03 by landeo           ###   ########.fr       */
+/*   Updated: 2023/08/31 02:47:00 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,9 +60,9 @@ void	ft_trie_500_manager(t_struct *data, int chunk, int token)
 	len = ft_len_listb(data);
 	//ft_printf("TRIE MANAGER mon lbnum %d, mon lanum %d, len %d\n", lbnum, lanum, len);
 	if (token == 1)
-		ft_trie_lb_1(lbnum, len, data, lanum);
+		ft_trie_lb_1500(lbnum, len, data, lanum);
 	else
-		ft_trie_la_1(lanum, len, data, lbnum);
+		ft_trie_la_1500(lanum, len, data, lbnum);
 }
 
 void	ft_trie_lb_1500(int i, int len, t_struct *data, int nb)
@@ -117,7 +117,7 @@ void	ft_trie_la_1500(int i, int len, t_struct *data, int nb)
 		}
 	}
 	else if (i < len || i == len)
-		ft_trie_lb_1helper500(i, len, data, nb);
+		ft_trie_la_1helper500(i, len, data, nb);
 }
 
 void	ft_trie_la_1helper500(int i, int len, t_struct *data, int nb)

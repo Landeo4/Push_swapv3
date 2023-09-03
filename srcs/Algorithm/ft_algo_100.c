@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 11:32:58 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/01 01:24:47 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void	ft_algo_100_manager(t_struct *data, int argc)
 		{
 			i++;
 			ft_chunk(data, moyennech1, first);
+			ft_printf("moyenne %d\n", moyennech1);
 			first++;
 			//ft_print_listb(data);
 			if (ft_len_lista(data) == 0)
@@ -102,7 +103,6 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 	ft_take_100alg(data, compare, little, moyenne);
 	return (0);
 }
-
 
 void	ft_wrong_little(t_struct *data, int lit1, int moyenne, int compare)
 {

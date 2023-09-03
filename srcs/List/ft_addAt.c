@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_addAt.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 18:20:00 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/07 14:51:03 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/01 15:04:57 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ t_list_a	*ft_addata(t_struct *data, int nb, int pos)
 	}
 	prec->next = cell;
 	cell->next = cur;
-	return (data->la);
+	return (prec);
 }
 
 t_list_b	*ft_addatb(t_struct *data, int nb, int pos)

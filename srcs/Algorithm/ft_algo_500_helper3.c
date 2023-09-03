@@ -3,23 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500_helper3.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/30 06:09:33 by landeo            #+#    #+#             */
-/*   Updated: 2023/07/01 14:47:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/09/01 01:46:25 by tpotillion       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
+/*
 int	ft_best_place_b_mang500(t_struct *data, int little)
 {
 	int	nb;
 	int	j;
-	/*int	len;
+	int	len;
 
 	len = ft_len_listb(data);
-	len = len / 2;*/
+	len = len / 2;
 	j = ft_trie_500_b_biggest(data, little);
 	nb = 1;
 	//ft_printf("j = %d\n", j);
@@ -28,9 +29,40 @@ int	ft_best_place_b_mang500(t_struct *data, int little)
 	else
 		nb = ft_found_best_place500(data, data->lb->next, little);
 	//ft_printf("nb = %d\n", nb);
-	/*if (nb > len)
-		nb = nb - len;*/
+	if (nb > len)
+		nb = nb - len;
 	return (nb);
+}
+*/
+
+int	ft_best_place_b_mang500(t_struct *data, int little)
+{
+	int			lit1;
+	int			lit2;
+	int			i;
+	t_list_b 	*lb;
+
+	lb = data->lb->next;
+	lit1 = ft_trie_500_b_little(data, little);
+	lit2 = ft_trie_500_b_biggest(data, little);
+	//ft_printf("mon lit1 %d mon lit2 %d\n", lit1, lit2);
+	if (lit1 != -1 && lit2 != -1)
+		lit2 = ft_found_best_place500(data, lb, little);
+	else if (lit1 == -1 )
+		lit2 = ft_found_lower_b500(data);
+	else if (lit2 == -1)
+	{
+		i = 0;
+		lit1 = ft_len_listb(data);
+		lit2 = ft_found_big_lb_500(data);
+		while (lb->num != lit2)
+		{
+			lb = lb->next;
+			i++;
+		}
+	}
+	//ft_printf("mon resultat est %d\n", lit2);
+	return (lit2);
 }
 
 int	ft_found_pos_big_lb500(t_struct *data)
@@ -111,6 +143,10 @@ int	ft_found_big_lb_500(t_struct *data)
 		if (nb < lb->num)
 			nb = lb->num;
 		lb = lb->next;
+		//ft_printf("mon nombre a %d\n", nb);
 	}
+	if (lb->num > nb)
+		nb = lb->num;
+	//ft_printf("mon nombre a %d\n", nb);
 	return (nb);
 }

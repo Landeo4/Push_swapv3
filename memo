@@ -1,4 +1,4 @@
-aide pour Push_swap
+/*aide pour Push_swap
 la j'ai 20 000k actions
 
 Pour opti mon code je pourrai faire une systheme
@@ -7,3 +7,7 @@ pour choisir celui qui pose le moins de probleme
 
 
 
+donc la le soucis est que mon ps oublie certain chiffre car sois ils ne rentrent pas dans le
+chunk sois car leurs position demande trop d'action
+
+*/
