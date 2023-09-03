@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_10helper.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/17 19:12:18 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 11:10:32 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/03 10:40:17 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_10_action(t_list_a *tmp, t_struct *data)
 	pos = ft_found_pos_little(data);
 	num = ft_found_little(data);
 	len = ft_len_lista(data);
-	if ( (pos * 2) < len)
+	if ((pos * 2) < len)
 	{
 		while (tmp)
 		{

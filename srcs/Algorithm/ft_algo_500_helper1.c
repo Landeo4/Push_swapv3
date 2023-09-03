@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_500_helper1.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:59:10 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/09/01 12:06:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/09/03 11:15:28 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,7 @@ int	ft_found_little_500_75(t_struct *data, int pos)
 	int			nb;
 	int			ch;
 	int			len;
-	t_list_a 	*la;
+	t_list_a	*la;
 
 	la = data->la->next;
 	ch = ft_len_lista(data);

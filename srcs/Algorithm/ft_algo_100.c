@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_100.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/09/01 01:24:47 by tpotillion       ###   ########.fr       */
+/*   Updated: 2023/09/03 10:52:47 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,33 +77,6 @@ int	ft_helper100man(int token, int moyennech1, t_struct *data, int argc)
 	return (moyennech1);
 }
 
-int	ft_chunk(t_struct *data, int moyenne, int token)
-{
-	int			littlech1;
-	int			littlech2;
-	int			compare;
-	int			little;
-	t_list_a	*la;
-
-	la = data->la->next;
-	littlech1 = ft_found_pos_little_first_part(data, moyenne);
-	littlech2 = ft_found_pos_little_last_part(data, moyenne);
-	if (littlech1 <= littlech2 && littlech1 != -1)
-		compare = 0;
-	else
-		compare = 1;
-	if (compare == 1)
-		little = ft_found_little_100_75(data, littlech2, la);
-	else if (compare == 0)
-		little = ft_found_little_100_25(data, littlech1, moyenne);
-	if (token < 2)
-		return (ft_chunk_helper(data, compare, little), 0);
-	if ((compare == 1 && littlech2 >= 15) || (compare == 0 && littlech1 >= 15))
-		return (ft_wrong_little(data, littlech1, moyenne, compare), 0);
-	ft_take_100alg(data, compare, little, moyenne);
-	return (0);
-}
-
 void	ft_wrong_little(t_struct *data, int lit1, int moyenne, int compare)
 {
 	int	little;
@@ -126,13 +99,4 @@ void	ft_wrong_little(t_struct *data, int lit1, int moyenne, int compare)
 		ft_100_swap_manager(data, lit1, lit2, moyenne);
 		return ;
 	}
-}
-
-int	ft_chunk_helper(t_struct *data, int compare, int little)
-{
-	ft_take_first_second_algo100(data, compare, little);
-	if (ft_len_listb(data) == 2)
-		if (data->lb->next->num < data->lb->next->next->num)
-			data->lb = rrb(data);
-	return (0);
 }

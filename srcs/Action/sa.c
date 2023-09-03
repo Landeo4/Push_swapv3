@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sa.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotillion <tpotillion@student.42.fr>      +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 19:26:04 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/09/02 07:23:09 by tpotillion       ###   ########.fr       */
+/*   Updated: 2023/09/03 10:23:56 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,13 @@
 ** It will swap the first and the second number in the list a
 */
 
-t_list_a	*sa(t_list_a *la,  t_struct *data)
+t_list_a	*sa(t_list_a *la, t_struct *data)
 {
 	int			tmp1;
 	t_list_a	*first;
 	int			tmp2;
 	//(void)tmp1;
 	//(void)tmp2;
-
 	la = data->la->next;
 	first = la->next;
 	tmp1 = first->num;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ss.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 18:29:56 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/20 22:08:19 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/09/03 10:23:03 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,7 @@ t_struct	*ss(t_struct *data)
 
 t_list_a	*sa_ss(t_struct *data)
 {
-	t_list_a *la;
-
+	t_list_a	*la;
 	int			tmp1;
 	t_list_a	*first;
 	int			tmp2;
@@ -58,7 +57,7 @@ t_list_a	*sa_ss(t_struct *data)
 
 t_list_b	*sb_ss(t_struct *data)
 {
-	t_list_b *lb;
+	t_list_b	*lb;
 	int			tmp1;
 	t_list_b	*first;
 	int			tmp2;

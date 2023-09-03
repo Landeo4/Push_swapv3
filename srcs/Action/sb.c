@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sb.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:29:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/07 15:08:40 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/03 10:24:18 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 ** It will swap the first and the second number in the list b
 */
 
-t_list_b	*sb(t_list_b *lb,  t_struct *data)
+t_list_b	*sb(t_list_b *lb, t_struct *data)
 {
 	int			tmp1;
 	t_list_b	*first;

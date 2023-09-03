@@ -3,18 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_algo_3.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: landeo <landeo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: ceatgie <ceatgie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 17:22:38 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/07/01 01:01:37 by landeo           ###   ########.fr       */
+/*   Updated: 2023/09/03 10:24:56 by ceatgie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-/*
-3 1 4
-*/
 
 void	ft_algo_3(t_struct *data)
 {
