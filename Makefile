@@ -15,7 +15,14 @@ SRCS	=	srcs/main.c\
 			srcs/Libft/ft_itoa.c\
 			srcs/Libft/ft_swap.c\
 			srcs/Libft/ft_putstr_fd.c\
+			srcs/Libft/ft_error_writer.c\
+			srcs/Libft/ft_split.c\
+			srcs/Libft/ft_split_free.c\
+			srcs/Libft/ft_isminus.c\
+			srcs/Libft/ft_is_whitespace.c\
+			srcs/Libft/ft_int_overflow_checker.c\
 			srcs/List/ft_addAt.c\
+			srcs/List/ft_add_at.c\
 			srcs/List/ft_create_cell.c\
 			srcs/List/ft_first_list.c\
 			srcs/List/ft_free_both.c\
@@ -25,13 +32,20 @@ SRCS	=	srcs/main.c\
 			srcs/List/ft_len_lista.c\
 			srcs/List/ft_print_list.c\
 			srcs/List/ft_init_struct.c\
-			srcs/Parsing/ft_verif_input.c\
-			srcs/Parsing/ft_verif_existing.c\
-			srcs/Parsing/ft_verif_duplicate.c\
-			srcs/Parsing/ft_verif_int.c\
-			srcs/Parsing/ft_parsing_manager.c\
-			srcs/Parsing/ft_check_var.c\
-			srcs/Parsing/ft_guillemet.c\
+			srcs/Parsing/args_handler.c \
+	   		srcs/Parsing/multi_args_handler.c \
+	   		srcs/Parsing/single_args_handler.c \
+	   		srcs/Parsing/init_stacks.c \
+	   		srcs/Parsing/single_args_utils/s_checker_utils.c \
+	   		srcs/Parsing/single_args_utils/s_str_checker.c \
+	   		srcs/Parsing/single_args_utils/s_charset_checker.c \
+	   		srcs/Parsing/single_args_utils/s_digits_checker.c \
+	   		srcs/Parsing/single_args_utils/s_duplicate_checker.c \
+	   		srcs/Parsing/single_args_utils/s_put_to_lst.c \
+	   		srcs/Parsing/multi_args_utils/m_str_checker.c \
+	   		srcs/Parsing/multi_args_utils/m_digits_checker.c \
+	   		srcs/Parsing/multi_args_utils/m_duplicate_checker.c \
+	   		srcs/Parsing/multi_args_utils/m_put_to_lst.c \
 			srcs/Action/sa.c\
 			srcs/Action/sb.c\
 			srcs/Action/ss.c\
@@ -65,6 +79,10 @@ SRCS	=	srcs/main.c\
 			srcs/Algorithm/ft_algo_500reduce.c\
 			srcs/Algorithm/ft_algo_500opti.c\
 			srcs/Algorithm/ft_trie500_test.c\
+			srcs/Algorithm/ft_chunk.c\
+			srcs/Algorithm/ft_take_25_algo500.c\
+			srcs/Algorithm/ft_trie_la_1.c\
+			srcs/Algorithm/ft_trie_lb_1.c\
 
 
 
